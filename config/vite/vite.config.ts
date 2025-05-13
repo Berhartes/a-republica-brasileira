@@ -16,8 +16,13 @@ export default defineConfig({
       '@domains': path.resolve(projectRoot, 'src/domains'),
       '@services': path.resolve(projectRoot, 'src/services'),
       '@config': path.resolve(projectRoot, 'src/config'),
+      '@constants': path.resolve(projectRoot, 'src/constants'),
       '@utils': path.resolve(projectRoot, 'src/shared/utils')
     }
+  },
+  server: {
+    port: 5174,
+    open: true
   },
   build: {
     outDir: path.resolve(projectRoot, 'dist'),
@@ -39,3 +44,4 @@ export default defineConfig({
     }
   }
 });
+
