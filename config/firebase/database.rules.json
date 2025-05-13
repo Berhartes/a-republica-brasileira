@@ -1,0 +1,24 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "congresso": {
+      "senado": {
+        ".read": true,
+        ".write": "auth != null && auth.token.admin === true",
+        "metadados": {
+          ".read": true,
+          ".write": "auth != null && auth.token.admin === true"
+        },
+        "legislaturas": {
+          ".read": true,
+          ".write": "auth != null && auth.token.admin === true"
+        },
+        "senadores": {
+          ".read": true,
+          ".write": "auth != null && auth.token.admin === true"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "version": "2.0.0",
+  "description": "Regras e restrições tecnológicas para o projeto A República Brasileira",
+  "lastUpdated": "2025-03-22",
+  
+  "approvedTechnologies": {
+    "core": {
+      "react": "^18.2.0",
+      "typescript": "^5.8.0",
+      "vite": "^6.2.0",
+      "vitest": "^3.0.0",
+      "tailwindcss": "^3.4.0"
+    },
+    "ui": {
+      "radix-ui": "^1.0.0",
+      "radix-ui-themes": "^3.2.0",
+      "tailwind-merge": "^3.0.0",
+      "tailwindcss-animate": "^1.0.0",
+      "loadable-component": "^5.16.0"
+    },
+    "formManagement": {
+      "react-hook-form": "^7.54.0",
+      "zod": "^3.24.0",
+      "hookform-resolvers": "^4.1.0",
+      "hookform-devtools": "^4.3.0"
+    },
+    "stateManagement": {
+      "tanstack-query": "^5.69.0",
+      "tanstack-virtual": "^3.13.0",
+      "zustand": "^5.0.0",
+      "jotai": "^2.12.0"
+    },
+    "realtime": {
+      "socket-io": "^4.8.0",
+      "firebase": "^11.4.0",
+      "firebase-messaging": "^0.12.0",
+      "upstash-redis": "^1.34.0",
+      "upstash-ratelimit": "^2.0.0"
+    },
+    "monitoring": {
+      "sentry": "^9.8.0",
+      "sentry-tracing": "^7.120.0",
+      "datadog-rum": "^6.6.0",
+      "amplitude": "^2.12.0",
+      "mixpanel": "^2.61.0",
+      "posthog": "^1.232.0",
+      "pino": "^9.6.0"
+    },
+    "testing": {
+      "testing-library-react": "^14.2.0",
+      "testing-library-user-event": "^14.6.0",
+      "playwright": "^1.51.0",
+      "vitest-coverage-istanbul": "^3.0.0"
+    }
+  },
+
+  "transitionTechnologies": {
+    "deprecating": [
+      "react-router-dom",
+      "redis",
+      "elastic-apm",
+      "newrelic-browser-agent",
+      "workbox-webpack-plugin"
+    ],
+    "migrateTo": {
+      "react-router-dom": "@tanstack/react-router",
+      "redis": "@upstash/redis",
+      "elastic-apm": "@sentry/tracing",
+      "newrelic-browser-agent": "@datadog/browser-rum",
+      "workbox-webpack-plugin": "vite-plugin-compression"
+    }
+  },
+
+  "implementedTechnologies2025": {
+    "documentation": "storybook@8.6.7",
+    "e2eTests": "playwright@1.51.1",
+    "packageManager": "pnpm",
+    "buildOptimization": [
+      "vite-plugin-compression",
+      "@vitejs/plugin-legacy",
+      "sharp"
+    ],
+    "analytics": [
+      "@amplitude/analytics-browser",
+      "mixpanel-browser",
+      "posthog-js",
+      "@vercel/analytics"
+    ]
+  },
+
+  "prohibitedTechnologies": {
+    "stateManagement": [
+      "redux",
+      "mobx",
+      "recoil"
+    ],
+    "styling": [
+      "styled-components",
+      "emotion",
+      "css-modules"
+    ],
+    "utilities": [
+      "moment.js",
+      "jquery"
+    ],
+    "react": [
+      "class-components",
+      "react-query-v3"
+    ],
+    "routing": [
+      "react-router-dom",
+      "react-router-v5"
+    ],
+    "http": [
+      "direct-axios-usage"
+    ],
+    "monitoring": [
+      "elastic-apm-rum",
+      "newrelic-browser-agent"
+    ],
+    "caching": [
+      "redis-direct"
+    ],
+    "bundling": [
+      "webpack",
+      "rollup",
+      "parcel"
+    ]
+  },
+
+  "codingStandards": {
+    "components": {
+      "required": [
+        "functional-components",
+        "explicit-prop-types",
+        "react-memo-for-lists",
+        "useMemo-for-object-props",
+        "useCallback-for-function-props"
+      ],
+      "prohibited": [
+        "class-components",
+        "inline-styles",
+        "prop-drilling"
+      ]
+    },
+    "typescript": {
+      "required": [
+        "strict-mode",
+        "explicit-types",
+        "interfaces-over-types",
+        "const-assertions"
+      ],
+      "prohibited": [
+        "any-type",
+        "implicit-any",
+        "type-assertions"
+      ]
+    },
+    "imports": {
+      "required": [
+        "absolute-imports",
+        "barrel-exports",
+        "dynamic-imports-for-large-modules"
+      ],
+      "prohibited": [
+        "relative-imports-across-modules",
+        "direct-library-imports"
+      ]
+    },
+    "async": {
+      "required": [
+        "async-await",
+        "error-boundaries",
+        "loading-states"
+      ],
+      "prohibited": [
+        "then-chains",
+        "callback-patterns"
+      ]
+    }
+  },
+
+  "architectureRules": {
+    "folderStructure": {
+      "required": "domain-driven",
+      "patterns": {
+        "components": "src/components/{domain}/{ComponentName}/index.tsx",
+        "hooks": "src/hooks/{domain}/use{HookName}.ts",
+        "services": "src/services/{domain}/{serviceName}.service.ts",
+        "types": "src/types/{domain}/index.d.ts",
+        "utils": "src/utils/{domain}/{utilName}.ts"
+      }
+    },
+    "testing": {
+      "required": [
+        "unit-tests-for-hooks",
+        "integration-tests-for-services",
+        "e2e-tests-for-critical-flows"
+      ],
+      "coverage": {
+        "statements": 80,
+        "branches": 75,
+        "functions": 80,
+        "lines": 80
+      }
+    },
+    "documentation": {
+      "required": [
+        "jsdoc-for-public-apis",
+        "readme-for-components",
+        "changelog-updates"
+      ]
+    }
+  },
+
+  "exceptions": {
+    "cssModules": {
+      "allowedFor": ["complex-animations"],
+      "requiresApproval": true
+    },
+    "anyType": {
+      "allowedIn": ["test-files", "mock-data"],
+      "requiresComment": true
+    },
+    "relativeImports": {
+      "allowedWithin": "same-module",
+      "maxDepth": 2
+    }
+  },
+
+  "performanceRules": {
+    "required": [
+      "react-memo-for-list-items",
+      "virtualization-for-long-lists",
+      "lazy-loading-for-routes",
+      "image-optimization"
+    ],
+    "metrics": {
+      "firstContentfulPaint": "< 2s",
+      "timeToInteractive": "< 3s",
+      "lighthouseScore": ">= 90"
+    }
+  }
+}

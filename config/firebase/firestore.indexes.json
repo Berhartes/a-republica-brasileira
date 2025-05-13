@@ -1,0 +1,107 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "votacoes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idSenador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dataVotacao",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "votacoes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ano",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dataVotacao",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "votacoes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idMateria",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dataVotacao",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "despesas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idSenador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "data",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "despesas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ano",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mes",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "data",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "despesas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tipo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "data",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "despesas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fornecedor",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "data",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
