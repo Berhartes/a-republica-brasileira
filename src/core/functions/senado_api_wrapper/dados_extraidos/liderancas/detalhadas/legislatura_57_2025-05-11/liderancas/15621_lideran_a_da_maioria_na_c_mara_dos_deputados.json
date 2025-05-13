@@ -1,0 +1,126 @@
+{
+  "codigo": 15621,
+  "nome": "Liderança da Maioria na Câmara dos Deputados",
+  "sigla": "A",
+  "tipoUnidade": {
+    "codigo": 12,
+    "nome": "Liderança da Maioria na Câmara dos Deputados"
+  },
+  "tipoLideranca": {
+    "codigo": "1",
+    "nome": "Primeiro vice-líder da Câmara dos Deputados"
+  },
+  "dataInicio": "2023-04-26",
+  "membros": [
+    {
+      "codigo": 6089,
+      "nome": "Acácio Favacho",
+      "partido": "MDB",
+      "uf": "",
+      "cargo": {
+        "codigo": "1",
+        "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+        "dataInicio": "2023-04-26"
+      }
+    },
+    {
+      "codigo": 6115,
+      "nome": "Gustinho Ribeiro",
+      "partido": "REPUBLICANOS",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2023-04-26"
+      }
+    },
+    {
+      "codigo": 6250,
+      "nome": "AJ Albuquerque",
+      "partido": "PP",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2023-09-13"
+      }
+    },
+    {
+      "codigo": 5851,
+      "nome": "Flávio Nogueira",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2024-07-09"
+      }
+    },
+    {
+      "codigo": 5238,
+      "nome": "Erika Kokay",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2024-09-10"
+      }
+    },
+    {
+      "codigo": 5313,
+      "nome": "Pedro Paulo",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2024-12-19"
+      }
+    },
+    {
+      "codigo": 853,
+      "nome": "Arlindo Chinaglia",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-08"
+      }
+    },
+    {
+      "codigo": 4320,
+      "nome": "André Figueiredo",
+      "partido": "PDT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 6103,
+      "nome": "Gervásio Maia",
+      "partido": "PSB",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-06"
+      }
+    },
+    {
+      "codigo": 3727,
+      "nome": "Maria do Rosário",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    }
+  ]
+}

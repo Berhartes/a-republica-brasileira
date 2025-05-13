@@ -1,0 +1,181 @@
+{
+  "codigo": 16527,
+  "nome": "Liderança da Minoria na Câmara dos Deputados",
+  "sigla": "M",
+  "tipoUnidade": {
+    "codigo": 13,
+    "nome": "Liderança da Minoria na Câmara dos Deputados"
+  },
+  "tipoLideranca": {
+    "codigo": "V",
+    "nome": "Vice-líder da Câmara dos Deputados"
+  },
+  "dataInicio": "2024-02-20",
+  "membros": [
+    {
+      "codigo": 6229,
+      "nome": "Adriana Ventura",
+      "partido": "NOVO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2024-02-20"
+      }
+    },
+    {
+      "codigo": 6079,
+      "nome": "Caroline de Toni",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-05"
+      }
+    },
+    {
+      "codigo": 6163,
+      "nome": "Carlos Jordy",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "1",
+        "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-11"
+      }
+    },
+    {
+      "codigo": 6165,
+      "nome": "Chris Tonietto",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-12"
+      }
+    },
+    {
+      "codigo": 6084,
+      "nome": "Bia Kicis",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-02"
+      }
+    },
+    {
+      "codigo": 6449,
+      "nome": "Zé Trovão",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 5745,
+      "nome": "Joaquim Passarinho",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 6413,
+      "nome": "Rodrigo Valadares",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 6227,
+      "nome": "Luiz Philippe de Orleans e Bragança",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 5339,
+      "nome": "Marcon",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-30"
+      }
+    },
+    {
+      "codigo": 6464,
+      "nome": "Cabo Gilberto Silva",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-06"
+      }
+    },
+    {
+      "codigo": 6208,
+      "nome": "Carla Zambelli",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6074,
+      "nome": "Eli Borges",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6441,
+      "nome": "Mauricio Marcon",
+      "partido": "PODEMOS",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6237,
+      "nome": "Kim Kataguiri",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-08"
+      }
+    }
+  ]
+}

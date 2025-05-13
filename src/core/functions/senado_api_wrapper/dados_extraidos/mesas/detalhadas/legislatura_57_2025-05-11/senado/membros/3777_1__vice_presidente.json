@@ -1,0 +1,12 @@
+{
+  "codigo": "3777",
+  "nome": "Eduardo Gomes",
+  "partido": "PL",
+  "uf": "TO",
+  "cargo": {
+    "codigo": "0",
+    "descricao": "1º VICE-PRESIDENTE",
+    "dataInicio": "",
+    "dataFim": ""
+  }
+}

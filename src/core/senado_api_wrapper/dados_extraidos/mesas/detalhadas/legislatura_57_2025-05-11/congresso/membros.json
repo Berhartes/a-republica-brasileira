@@ -1,0 +1,86 @@
+[
+  {
+    "codigo": "3830",
+    "nome": "Davi Alcolumbre",
+    "partido": "UNIÃO",
+    "uf": "AP",
+    "cargo": {
+      "codigo": "1",
+      "descricao": "PRESIDENTE",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  },
+  {
+    "codigo": "5771",
+    "nome": "Altineu Côrtes",
+    "partido": "PL",
+    "uf": "RJ",
+    "cargo": {
+      "codigo": "143",
+      "descricao": "1ª VICE-PRESIDENTE",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  },
+  {
+    "codigo": "5008",
+    "nome": "Humberto Costa",
+    "partido": "PT",
+    "uf": "PE",
+    "cargo": {
+      "codigo": "5",
+      "descricao": "2ª VICE-PRESIDENTE",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  },
+  {
+    "codigo": "6131",
+    "nome": "Carlos Veras",
+    "partido": "PT",
+    "uf": "PE",
+    "cargo": {
+      "codigo": "6",
+      "descricao": "1º SECRETÁRIO",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  },
+  {
+    "codigo": "475",
+    "nome": "Confúcio Moura",
+    "partido": "MDB",
+    "uf": "RO",
+    "cargo": {
+      "codigo": "7",
+      "descricao": "2º SECRETÁRIO",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  },
+  {
+    "codigo": "6452",
+    "nome": "Delegada Katarina",
+    "partido": "PSD",
+    "uf": "SE",
+    "cargo": {
+      "codigo": "8",
+      "descricao": "3º SECRETÁRIO",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  },
+  {
+    "codigo": "4811",
+    "nome": "Laércio Oliveira",
+    "partido": "PP",
+    "uf": "SE",
+    "cargo": {
+      "codigo": "144",
+      "descricao": "4º SECRETÁRIO",
+      "dataInicio": "",
+      "dataFim": ""
+    }
+  }
+]

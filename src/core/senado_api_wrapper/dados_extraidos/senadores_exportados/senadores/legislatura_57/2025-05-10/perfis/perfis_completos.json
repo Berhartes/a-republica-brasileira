@@ -1,0 +1,6627 @@
+[
+  {
+    "codigo": "5672",
+    "codigoPublico": "800",
+    "nome": "Alan Rick",
+    "nomeCompleto": "Alan Rick Miranda",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5672",
+    "paginaParticular": null,
+    "email": "sen.alanrick@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "AC",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036333",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3028",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "596",
+      "uf": "AC",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6343",
+          "nome": "Gemil Junior"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6344",
+          "nome": "Coronel Casagrande"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.278Z"
+  },
+  {
+    "codigo": "5982",
+    "codigoPublico": "829",
+    "nome": "Alessandro Vieira",
+    "nomeCompleto": "Alessandro Vieira",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5982.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5982",
+    "paginaParticular": null,
+    "email": "sen.alessandrovieira@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "SE",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33039011",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33039014",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33039019",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2888",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "559",
+      "uf": "SE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5980",
+          "nome": "Fernando Carvalho"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5981",
+          "nome": "Major Ildomario"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.278Z"
+  },
+  {
+    "codigo": "6358",
+    "codigoPublico": "920",
+    "nome": "Ana Paula Lobato",
+    "nomeCompleto": "Ana Paula Dias Lobato Nova Alves",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6358",
+    "paginaParticular": null,
+    "email": "sen.anapaulalobato@senado.leg.br",
+    "partido": {
+      "sigla": "PDT",
+      "nome": null
+    },
+    "uf": "MA",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032967",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3057",
+          "dataInicio": "2024-02-21",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3038",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2024-01-31",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "602",
+      "uf": "MA",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6359",
+          "nome": "Lourdinha"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "4605",
+        "nome": "Flávio Dino"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "5967",
+    "codigoPublico": "832",
+    "nome": "Angelo Coronel",
+    "nomeCompleto": "Angelo Mario Coronel de Azevedo Martins",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5967.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5967",
+    "paginaParticular": null,
+    "email": "sen.angelocoronel@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "BA",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036103",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036105",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2889",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "554",
+      "uf": "BA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5837",
+          "nome": "Davidson Magalhães"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5056",
+          "nome": "Silvia Nascimento Cardoso dos Santos Cerqueira"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "6009",
+    "codigoPublico": "902",
+    "nome": "Astronauta Marcos Pontes",
+    "nomeCompleto": "Marcos Cesar Pontes",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6009.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6009",
+    "paginaParticular": null,
+    "email": "sen.astronautamarcospontes@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "SP",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33031177",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33031797",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3017",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "617",
+      "uf": "SP",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6385",
+          "nome": "Professor Alberto"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6386",
+          "nome": "Sirlange Manga"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "6350",
+    "codigoPublico": "930",
+    "nome": "Augusta Brito",
+    "nomeCompleto": "Augusta Brito de Paula",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6350.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6350",
+    "paginaParticular": null,
+    "email": "sen.augustabrito@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "CE",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33035940",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3087",
+          "dataInicio": "2025-02-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3066",
+          "dataInicio": "2024-07-31",
+          "dataFim": "2025-02-01",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3052",
+          "dataInicio": "2023-12-14",
+          "dataFim": "2024-03-31",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "3039",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "598",
+      "uf": "CE",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6351",
+          "nome": "Janaína Farias"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "6336",
+        "nome": "Camilo Santana"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "4639",
+    "codigoPublico": "877",
+    "nome": "Beto Faro",
+    "nomeCompleto": "José Roberto Oliveira Faro",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4639.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4639",
+    "paginaParticular": null,
+    "email": "sen.betofaro@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "PA",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33035220",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3020",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "604",
+      "uf": "PA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6364",
+          "nome": "Josenir"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6365",
+          "nome": "Leny Campêlo"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "5936",
+    "codigoPublico": "949",
+    "nome": "Carlos Portinho",
+    "nomeCompleto": "Carlos Francisco Portinho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5936.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5936",
+    "paginaParticular": "https://carlosportinho.com.br/",
+    "email": "sen.carlosportinho@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "RJ",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036640",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036613",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2959",
+          "dataInicio": "2020-11-03",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "545",
+      "uf": "RJ",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5934",
+          "nome": "Renata Guerra"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "751",
+        "nome": "Arolde de Oliveira"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "5990",
+    "codigoPublico": "843",
+    "nome": "Carlos Viana",
+    "nomeCompleto": "Carlos Alberto Dias Viana",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5990.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5990",
+    "paginaParticular": null,
+    "email": "sen.carlosviana@senado.leg.br",
+    "partido": {
+      "sigla": "PODEMOS",
+      "nome": null
+    },
+    "uf": "MG",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33033100",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33033116",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3073",
+          "dataInicio": "2024-11-16",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2892",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2024-07-17",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "563",
+      "uf": "MG",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5991",
+          "nome": "Castellar Neto"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5992",
+          "nome": "Danilo Martins de Oliveira"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "470",
+    "codigoPublico": "815",
+    "nome": "Chico Rodrigues",
+    "nomeCompleto": "Francisco de Assis Rodrigues",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador470.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/470",
+    "paginaParticular": null,
+    "email": "sen.chicorodrigues@senado.leg.br",
+    "partido": {
+      "sigla": "PSB",
+      "nome": null
+    },
+    "uf": "RR",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33032281",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2965",
+          "dataInicio": "2021-02-18",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2905",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2020-10-20",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "577",
+      "uf": "RR",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6023",
+          "nome": "Pedro Arthur"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6024",
+          "nome": "Onésimo Cruz"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5973",
+    "codigoPublico": "825",
+    "nome": "Cid Gomes",
+    "nomeCompleto": "Cid Ferreira Gomes",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5973.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5973",
+    "paginaParticular": "https://cidgomes.com.br/",
+    "email": "sen.cidgomes@senado.leg.br",
+    "partido": {
+      "sigla": "PSB",
+      "nome": null
+    },
+    "uf": "CE",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036460",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036399",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3006",
+          "dataInicio": "2023-01-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2953",
+          "dataInicio": "2020-04-11",
+          "dataFim": "2022-09-05",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "2895",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2019-12-11",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "556",
+      "uf": "CE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5971",
+          "nome": "Prisco Bezerra"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5972",
+          "nome": "Julio Ventura"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "739",
+    "codigoPublico": "811",
+    "nome": "Ciro Nogueira",
+    "nomeCompleto": "Ciro Nogueira Lima Filho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador739.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/739",
+    "paginaParticular": "http://cironogueira.com.br",
+    "email": "sen.cironogueira@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "PI",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33036187",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036188",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33036183",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3004",
+          "dataInicio": "2022-12-30",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2896",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2021-07-27",
+          "causaAfastamento": "AFO",
+          "descricaoCausaAfastamento": "Afastamento do exercício"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "524",
+      "uf": "PI",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5898",
+          "nome": "Eliane Nogueira"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5900",
+          "nome": "Gil Paraibano"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6337",
+    "codigoPublico": "873",
+    "nome": "Cleitinho",
+    "nomeCompleto": "Cleiton Gontijo de Azevedo",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6337.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6337",
+    "paginaParticular": null,
+    "email": "sen.cleitinho@senado.leg.br",
+    "partido": {
+      "sigla": "REPUBLICANOS",
+      "nome": null
+    },
+    "uf": "MG",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33033811",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3034",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "603",
+      "uf": "MG",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6360",
+          "nome": "Alex Diniz"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6361",
+          "nome": "Wander de Souza"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "475",
+    "codigoPublico": "867",
+    "nome": "Confúcio Moura",
+    "nomeCompleto": "Confúcio Aires Moura",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador475.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+    "paginaParticular": "https://senadorconfucio.com.br/",
+    "email": "sen.confuciomoura@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "RO",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032470",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032163",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2974",
+          "dataInicio": "2022-01-25",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2897",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2021-09-24",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "575",
+      "uf": "RO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6019",
+          "nome": "Maria Eliza"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6020",
+          "nome": "Carlos Milton Morais"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6335",
+    "codigoPublico": "866",
+    "nome": "Damares Alves",
+    "nomeCompleto": "Damares Regina Alves",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6335.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6335",
+    "paginaParticular": null,
+    "email": "sen.damaresalves@senado.leg.br",
+    "partido": {
+      "sigla": "REPUBLICANOS",
+      "nome": null
+    },
+    "uf": "DF",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33033265",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3018",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "599",
+      "uf": "DF",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6352",
+          "nome": "Manoel Arruda"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6353",
+          "nome": "Pastor Egmar"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5998",
+    "codigoPublico": "820",
+    "nome": "Daniella Ribeiro",
+    "nomeCompleto": "Daniella Velloso Borges Ribeiro",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5998.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5998",
+    "paginaParticular": null,
+    "email": "sen.daniellaribeiro@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "PB",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33036788",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036790",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2964",
+          "dataInicio": "2021-01-22",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2898",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2020-09-23",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "565",
+      "uf": "PB",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5996",
+          "nome": "Diego Tavares"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5997",
+          "nome": "Nailde Panta"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "3830",
+    "codigoPublico": "834",
+    "nome": "Davi Alcolumbre",
+    "nomeCompleto": "David Samuel Alcolumbre Tobelem",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3830.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3830",
+    "paginaParticular": null,
+    "email": "sen.davialcolumbre@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "AP",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036717",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036720",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3021",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "618",
+      "uf": "AP",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5569",
+          "nome": "Josiel"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6347",
+          "nome": "Breno"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5793",
+    "codigoPublico": "893",
+    "nome": "Dr. Hiran",
+    "nomeCompleto": "Hiran Manuel Gonçalves da Silva",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5793.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5793",
+    "paginaParticular": null,
+    "email": "sen.drhiran@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "RR",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33036251",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3027",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "611",
+      "uf": "RR",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6378",
+          "nome": "Jr Rodrigues"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6379",
+          "nome": "Aline Rezende"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5906",
+    "codigoPublico": "907",
+    "nome": "Dra. Eudócia",
+    "nomeCompleto": "Eudocia Maria Holanda de Araujo Caldas",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5906.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5906",
+    "paginaParticular": null,
+    "email": "sen.draeudocia@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "AL",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036083",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3081",
+          "dataInicio": "2024-12-29",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2978",
+          "dataInicio": "2022-05-24",
+          "dataFim": "2022-09-21",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "537",
+      "uf": "AL",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5907",
+          "nome": "Henrique Arruda"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "5905",
+        "nome": "Rodrigo Cunha"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4994",
+    "codigoPublico": "802",
+    "nome": "Eduardo Braga",
+    "nomeCompleto": "Carlos Eduardo de Souza Braga",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4994.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4994",
+    "paginaParticular": null,
+    "email": "sen.eduardobraga@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "AM",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036230",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2893",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "521",
+      "uf": "AM",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5038",
+          "nome": "Sandra Braga"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5935",
+          "nome": "Miguel Biango"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5976",
+    "codigoPublico": "826",
+    "nome": "Eduardo Girão",
+    "nomeCompleto": "Luis Eduardo Grangeiro Girão",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5976.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5976",
+    "paginaParticular": "https://www.eduardogirao.com.br/destino",
+    "email": "sen.eduardogirao@senado.leg.br",
+    "partido": {
+      "sigla": "NOVO",
+      "nome": null
+    },
+    "uf": "CE",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036677",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036678",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33036679",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2920",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "557",
+      "uf": "CE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5974",
+          "nome": "Sargento Reginaldo"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5975",
+          "nome": "Dr. Guimarães"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "3777",
+    "codigoPublico": "872",
+    "nome": "Eduardo Gomes",
+    "nomeCompleto": "Carlos Eduardo Torres Gomes",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3777.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3777",
+    "paginaParticular": null,
+    "email": "sen.eduardogomes@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "TO",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036349",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036352",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2998",
+          "dataInicio": "2022-11-11",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2947",
+          "dataInicio": "2019-08-15",
+          "dataFim": "2022-07-18",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "2894",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2019-07-12",
+          "causaAfastamento": "AFO",
+          "descricaoCausaAfastamento": "Afastamento do exercício"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "568",
+      "uf": "TO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6005",
+          "nome": "Siqueira Campos"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6006",
+          "nome": "Ogari Pacheco"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4642",
+    "codigoPublico": "878",
+    "nome": "Efraim Filho",
+    "nomeCompleto": "Efraim de Araújo Morais Filho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4642.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4642",
+    "paginaParticular": null,
+    "email": "sen.efraimfilho@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "PB",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33035934",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33035931",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3071",
+          "dataInicio": "2024-10-18",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3009",
+          "dataInicio": "2023-02-01",
+          "dataFim": "2024-06-19",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "605",
+      "uf": "PB",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6366",
+          "nome": "André Amaral"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6367",
+          "nome": "Erik Marinho"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5718",
+    "codigoPublico": "806",
+    "nome": "Eliziane Gama",
+    "nomeCompleto": "Eliziane Pereira Gama Melo",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5718.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5718",
+    "paginaParticular": null,
+    "email": "sen.elizianegama@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "MA",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036741",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3069",
+          "dataInicio": "2024-10-17",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2900",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2024-07-16",
+          "causaAfastamento": "AFO",
+          "descricaoCausaAfastamento": "Afastamento do exercício"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "542",
+      "uf": "MA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "674",
+          "nome": "Pedro Fernandes"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "4979",
+          "nome": "Bene Camacho"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "22",
+    "codigoPublico": "882",
+    "nome": "Esperidião Amin",
+    "nomeCompleto": "Esperidião Amin Helou Filho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador22.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/22",
+    "paginaParticular": null,
+    "email": "sen.esperidiaoamin@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "SC",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33036446",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036447",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33036454",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2901",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "572",
+      "uf": "SC",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "196",
+          "nome": "Geraldo Althoff"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6012",
+          "nome": "Denise dos Santos"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5953",
+    "codigoPublico": "835",
+    "nome": "Fabiano Contarato",
+    "nomeCompleto": "Fabiano Contarato",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5953.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5953",
+    "paginaParticular": null,
+    "email": "sen.fabianocontarato@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "ES",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33039054",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036743",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2902",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "548",
+      "uf": "ES",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5950",
+          "nome": "Ana Paula Tongo"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5952",
+          "nome": "Bento"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5917",
+    "codigoPublico": "923",
+    "nome": "Fernando Dueire",
+    "nomeCompleto": "Fernando Antonio Caminha Dueire",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5917.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5917",
+    "paginaParticular": null,
+    "email": "sen.fernandodueire@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "PE",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33033522",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3058",
+          "dataInicio": "2023-09-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3000",
+          "dataInicio": "2022-12-07",
+          "dataFim": "2023-09-04",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "526",
+      "uf": "PE",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5918",
+          "nome": "Adilson Gomes"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "4545",
+        "nome": "Jarbas Vasconcelos"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6345",
+    "codigoPublico": "929",
+    "nome": "Fernando Farias",
+    "nomeCompleto": "Fernando Lopes de Farias",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6345.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6345",
+    "paginaParticular": null,
+    "email": "sen.fernandofarias@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "AL",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036266",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036273",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3054",
+          "dataInicio": "2023-12-21",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3040",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "597",
+      "uf": "AL",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6346",
+          "nome": "Adélia Maria"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "5207",
+        "nome": "Renan Filho"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "345",
+    "codigoPublico": "856",
+    "nome": "Flávio Arns",
+    "nomeCompleto": "Flávio José Arns",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador345.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/345",
+    "paginaParticular": "http://www.flavioarns.com.br",
+    "email": "sen.flavioarns@senado.leg.br",
+    "partido": {
+      "sigla": "PSB",
+      "nome": null
+    },
+    "uf": "PR",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036301",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2903",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "540",
+      "uf": "PR",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5919",
+          "nome": "Vilson Basso"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5920",
+          "nome": "Flavio Vicente"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5894",
+    "codigoPublico": "841",
+    "nome": "Flávio Bolsonaro",
+    "nomeCompleto": "Flávio Nantes Bolsonaro",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5894.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+    "paginaParticular": null,
+    "email": "sen.flaviobolsonaro@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "RJ",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33031717",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33031718",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2904",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "532",
+      "uf": "RJ",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5901",
+          "nome": "Paulo Marinho"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5903",
+          "nome": "Leonardo Rodrigues"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6008",
+    "codigoPublico": "935",
+    "nome": "Giordano",
+    "nomeCompleto": "Alexandre Luiz Giordano",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6008.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6008",
+    "paginaParticular": null,
+    "email": "sen.giordano@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "SP",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33034177",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2966",
+          "dataInicio": "2021-03-31",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "570",
+      "uf": "SP",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "5666",
+        "nome": "Major Olimpio"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6341",
+    "codigoPublico": "894",
+    "nome": "Hamilton Mourão",
+    "nomeCompleto": "Antonio Hamilton Martins Mourão",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6341.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6341",
+    "paginaParticular": null,
+    "email": "sen.hamiltonmourao@senado.leg.br",
+    "partido": {
+      "sigla": "REPUBLICANOS",
+      "nome": null
+    },
+    "uf": "RS",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33031837",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3033",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "612",
+      "uf": "RS",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6112",
+          "nome": "Liziane Bayer"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6380",
+          "nome": "Coronel Andreuzza"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5008",
+    "codigoPublico": "824",
+    "nome": "Humberto Costa",
+    "nomeCompleto": "Humberto Sérgio Costa Lima",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5008.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5008",
+    "paginaParticular": "http://www.senadorhumberto.com.br/",
+    "email": "sen.humbertocosta@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "PE",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036285",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036286",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2907",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "525",
+      "uf": "PE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5914",
+          "nome": "Waldemar Oliveira"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5915",
+          "nome": "Marcia do Angico"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5385",
+    "codigoPublico": "883",
+    "nome": "Irajá",
+    "nomeCompleto": "Irajá Silvestre Filho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5385.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5385",
+    "paginaParticular": null,
+    "email": "sen.iraja@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "TO",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036469",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33036474",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2908",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "567",
+      "uf": "TO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6287",
+          "nome": "Marcos de Souza Costa"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6004",
+          "nome": "Terciliano Gomes"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6010",
+    "codigoPublico": "914",
+    "nome": "Ivete da Silveira",
+    "nomeCompleto": "Ivete Marli Appel da Silveira",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6010.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6010",
+    "paginaParticular": null,
+    "email": "sen.ivetedasilveira@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "SC",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032200",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3074",
+          "dataInicio": "2024-11-30",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3003",
+          "dataInicio": "2022-12-30",
+          "dataFim": "2024-08-01",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "2989",
+          "dataInicio": "2022-08-24",
+          "dataFim": "2022-12-20",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "571",
+      "uf": "SC",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6011",
+          "nome": "Beto Martins"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "5350",
+        "nome": "Jorginho Mello"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4770",
+    "codigoPublico": "851",
+    "nome": "Izalci Lucas",
+    "nomeCompleto": "Izalci Lucas Ferreira",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4770.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4770",
+    "paginaParticular": null,
+    "email": "sen.izalcilucas@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "DF",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036049",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036050",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2909",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "552",
+      "uf": "DF",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5968",
+          "nome": "Luis Felipe Belmonte"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5969",
+          "nome": "Andre Filipe"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "35",
+    "codigoPublico": "932",
+    "nome": "Jader Barbalho",
+    "nomeCompleto": "Jader Fontenelle Barbalho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador35.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/35",
+    "paginaParticular": "http://jaderbarbalho.com.br/",
+    "email": "sen.jaderbarbalho@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "PA",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33039831",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33039827",
+        "tipo": "Telefone",
+        "ordem": 3
+      },
+      {
+        "numero": "33039832",
+        "tipo": "Telefone",
+        "ordem": 4
+      },
+      {
+        "numero": "33039828",
+        "tipo": "Fax",
+        "ordem": 5
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2910",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "528",
+      "uf": "PA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5999",
+          "nome": "Helenilson Pontes"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6000",
+          "nome": "Chamon"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6340",
+    "codigoPublico": "891",
+    "nome": "Jaime Bagattoli",
+    "nomeCompleto": "Jaime Maximino Bagattoli",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6340.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6340",
+    "paginaParticular": null,
+    "email": "sen.jaimebagattoli@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "RO",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33032714",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3026",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "610",
+      "uf": "RO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5617",
+          "nome": "Pastor Valadares"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6377",
+          "nome": "Dheep Rover"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "581",
+    "codigoPublico": "833",
+    "nome": "Jaques Wagner",
+    "nomeCompleto": "Jaques Wagner",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador581.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/581",
+    "paginaParticular": "https://pt-br.facebook.com/jaqueswagneroficial/",
+    "email": "sen.jaqueswagner@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "BA",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036390",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036391",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2911",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "555",
+      "uf": "BA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5554",
+          "nome": "Bebeto"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6014",
+          "nome": "Luciana Leão Muniz"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4531",
+    "codigoPublico": "837",
+    "nome": "Jayme Campos",
+    "nomeCompleto": "Jayme Veríssimo de Campos",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4531.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4531",
+    "paginaParticular": null,
+    "email": "sen.jaymecampos@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "MT",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032390",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032384",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33032394",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2987",
+          "dataInicio": "2022-07-30",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2913",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-04-06",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "553",
+      "uf": "MT",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5740",
+          "nome": "Fabio Garcia"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5960",
+          "nome": "Cândida Farias"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5895",
+    "codigoPublico": "863",
+    "nome": "Jorge Kajuru",
+    "nomeCompleto": "Jorge Kajuru Reis da Costa Nasser",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5895.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5895",
+    "paginaParticular": null,
+    "email": "sen.jorgekajuru@senado.leg.br",
+    "partido": {
+      "sigla": "PSB",
+      "nome": null
+    },
+    "uf": "GO",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33032844",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032031",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2914",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "533",
+      "uf": "GO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5896",
+          "nome": "Benjamin Beze Junior"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5897",
+          "nome": "Milton Mercêz"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6342",
+    "codigoPublico": "897",
+    "nome": "Jorge Seif",
+    "nomeCompleto": "Jorge Seif Júnior",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6342.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6342",
+    "paginaParticular": null,
+    "email": "sen.jorgeseif@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "SC",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33033784",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33033756",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3024",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "613",
+      "uf": "SC",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6381",
+          "nome": "Hermes Klann"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6382",
+          "nome": "Adrian da Blukit"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6369",
+    "codigoPublico": "931",
+    "nome": "Jussara Lima",
+    "nomeCompleto": "Antônia Jussara Gomes Alves Sousa Lima",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6369.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6369",
+    "paginaParticular": null,
+    "email": "sen.jussaralima@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "PI",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33035800",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3086",
+          "dataInicio": "2025-02-03",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3053",
+          "dataInicio": "2023-12-14",
+          "dataFim": "2025-02-01",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3041",
+          "dataInicio": "2023-02-06",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "607",
+      "uf": "PI",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5849",
+          "nome": "José Amauri"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "5016",
+        "nome": "Wellington Dias"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4811",
+    "codigoPublico": "900",
+    "nome": "Laércio Oliveira",
+    "nomeCompleto": "Laércio José de Oliveira",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4811.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4811",
+    "paginaParticular": "https://www.laerciooliveira.com.br/",
+    "email": "sen.laerciooliveira@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "SE",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33031763",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33031764",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3025",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "614",
+      "uf": "SE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6383",
+          "nome": "Janier"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6384",
+          "nome": "Fernando Carvalho"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5979",
+    "codigoPublico": "853",
+    "nome": "Leila Barros",
+    "nomeCompleto": "Leila Gomes de Barros Rêgo",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5979.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5979",
+    "paginaParticular": "http://www.leiladovolei.com/",
+    "email": "sen.leilabarros@senado.leg.br",
+    "partido": {
+      "sigla": "PDT",
+      "nome": null
+    },
+    "uf": "DF",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036427",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2918",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "558",
+      "uf": "DF",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5977",
+          "nome": "Leany Lemos"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5978",
+          "nome": "Ivonete Nascimento"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5926",
+    "codigoPublico": "905",
+    "nome": "Lucas Barreto",
+    "nomeCompleto": "Luiz Cantuária Barreto",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5926.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5926",
+    "paginaParticular": null,
+    "email": "sen.lucasbarreto@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "AP",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33034851",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2955",
+          "dataInicio": "2020-04-20",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2921",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2019-12-16",
+          "causaAfastamento": "LS ",
+          "descricaoCausaAfastamento": "Licença saúde"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "543",
+      "uf": "AP",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5927",
+          "nome": "Paulo Albuquerque"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5928",
+          "nome": "Patricia Costa"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "1186",
+    "codigoPublico": "860",
+    "nome": "Luis Carlos Heinze",
+    "nomeCompleto": "Luis Carlos Heinze",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1186.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1186",
+    "paginaParticular": null,
+    "email": "sen.luiscarlosheinze@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "RS",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33034124",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33034127",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33034129",
+        "tipo": "Telefone",
+        "ordem": 4
+      },
+      {
+        "numero": "33034132",
+        "tipo": "Telefone",
+        "ordem": 6
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3068",
+          "dataInicio": "2024-08-07",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2919",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2024-04-08",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "574",
+      "uf": "RS",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6015",
+          "nome": "Ireneu Orth"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6016",
+          "nome": "Drica de Lucena"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "631",
+    "codigoPublico": "869",
+    "nome": "Magno Malta",
+    "nomeCompleto": "Magno Pereira Malta",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador631.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/631",
+    "paginaParticular": null,
+    "email": "sen.magnomalta@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "ES",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036370",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3011",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "600",
+      "uf": "ES",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6354",
+          "nome": "Marcinha Macedo"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6355",
+          "nome": "Tenente Emerson"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5376",
+    "codigoPublico": "847",
+    "nome": "Mara Gabrilli",
+    "nomeCompleto": "Mara Cristina Gabrilli",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5376.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5376",
+    "paginaParticular": null,
+    "email": "sen.maragabrilli@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "SP",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33032191",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032775",
+        "tipo": "Fax",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2922",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "569",
+      "uf": "SP",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "3651",
+          "nome": "Alfredo Cotait Neto"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6007",
+          "nome": "Ivani Boscolo"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "742",
+    "codigoPublico": "813",
+    "nome": "Marcelo Castro",
+    "nomeCompleto": "Marcelo Costa e Castro",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador742.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/742",
+    "paginaParticular": null,
+    "email": "sen.marcelocastro@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "PI",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33034078",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036130",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2923",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "539",
+      "uf": "PI",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5910",
+          "nome": "José Hamilton"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5911",
+          "nome": "Rosário Bezerra"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "285",
+    "codigoPublico": "849",
+    "nome": "Marcio Bittar",
+    "nomeCompleto": "Marcio Miguel Bittar",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador285.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/285",
+    "paginaParticular": null,
+    "email": "sen.marciobittar@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "AC",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032115",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032119",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33031652",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2994",
+          "dataInicio": "2022-10-15",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2924",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-05-31",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "536",
+      "uf": "AC",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5902",
+          "nome": "Eduardo Velloso"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5904",
+          "nome": "Macapá"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5422",
+    "codigoPublico": "868",
+    "nome": "Marcos Rogério",
+    "nomeCompleto": "Marcos Rogério da Silva Brito",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5422.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5422",
+    "paginaParticular": null,
+    "email": "sen.marcosrogerio@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "RO",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036148",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3042",
+          "dataInicio": "2023-06-12",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2926",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-12-14",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "576",
+      "uf": "RO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6021",
+          "nome": "Dr. Samuel Araújo"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6022",
+          "nome": "Pastor Severino"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5942",
+    "codigoPublico": "862",
+    "nome": "Marcos do Val",
+    "nomeCompleto": "Marcos Ribeiro do Val",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5942.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5942",
+    "paginaParticular": null,
+    "email": "sen.marcosdoval@senado.leg.br",
+    "partido": {
+      "sigla": "PODEMOS",
+      "nome": null
+    },
+    "uf": "ES",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036747",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036753",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2925",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "547",
+      "uf": "ES",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5944",
+          "nome": "Rosana Foerst"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5945",
+          "nome": "Ronaldo Libardi"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6304",
+    "codigoPublico": "910",
+    "nome": "Margareth Buzetti",
+    "nomeCompleto": "Margareth Gettert Busetti",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6304.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6304",
+    "paginaParticular": null,
+    "email": "sen.margarethbuzetti@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "MT",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036408",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3085",
+          "dataInicio": "2025-02-03",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3080",
+          "dataInicio": "2024-12-23",
+          "dataFim": "2025-02-01",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3078",
+          "dataInicio": "2024-12-04",
+          "dataFim": "2024-12-18",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3055",
+          "dataInicio": "2023-12-21",
+          "dataFim": "2024-12-02",
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3047",
+          "dataInicio": "2023-11-24",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3036",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2023-11-21",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3007",
+          "dataInicio": "2023-01-02",
+          "dataFim": "2023-01-31",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "2982",
+          "dataInicio": "2022-06-07",
+          "dataFim": "2022-10-05",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "592",
+      "uf": "MT",
+      "participacao": "1º Suplente",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6305",
+          "nome": "José Esteves de Lacerda Filho"
+        }
+      ],
+      "titular": {
+        "participacao": "Titular",
+        "codigo": "6295",
+        "nome": "Carlos Fávaro"
+      }
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6027",
+    "codigoPublico": "881",
+    "nome": "Mecias de Jesus",
+    "nomeCompleto": "Antônio Mecias Pereira de Jesus",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6027.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6027",
+    "paginaParticular": null,
+    "email": "sen.meciasdejesus@senado.leg.br",
+    "partido": {
+      "sigla": "REPUBLICANOS",
+      "nome": null
+    },
+    "uf": "RR",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33035291",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33035292",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2890",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "578",
+      "uf": "RR",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6025",
+          "nome": "Enfermeira Roberta"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6026",
+          "nome": "Afonso Parente"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5985",
+    "codigoPublico": "858",
+    "nome": "Nelsinho Trad",
+    "nomeCompleto": "Nelson Trad Filho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5985.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5985",
+    "paginaParticular": "https://www.nelsinhotrad.com.br/",
+    "email": "sen.nelsinhotrad@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "MS",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036767",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036768",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2927",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "560",
+      "uf": "MS",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5983",
+          "nome": "José Chagas"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5984",
+          "nome": "Professora Bazé"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5525",
+    "codigoPublico": "803",
+    "nome": "Omar Aziz",
+    "nomeCompleto": "Omar José Abdel Aziz",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5525.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5525",
+    "paginaParticular": null,
+    "email": "sen.omaraziz@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "AM",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33036579",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036581",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3031",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "619",
+      "uf": "AM",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6334",
+          "nome": "Cheila Moreira"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "4774",
+          "nome": "João Pedro"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5924",
+    "codigoPublico": "857",
+    "nome": "Oriovisto Guimarães",
+    "nomeCompleto": "Oriovisto Guimaraes",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5924.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5924",
+    "paginaParticular": "http://www.oriovistoguimaraes.com.br/",
+    "email": "sen.oriovistoguimaraes@senado.leg.br",
+    "partido": {
+      "sigla": "PSDB",
+      "nome": null
+    },
+    "uf": "PR",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33031635",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2928",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "541",
+      "uf": "PR",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5921",
+          "nome": "Paulo Salamuni"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5922",
+          "nome": "Plinio Destro"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5523",
+    "codigoPublico": "831",
+    "nome": "Otto Alencar",
+    "nomeCompleto": "Otto Roberto Mendonça de Alencar",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5523.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5523",
+    "paginaParticular": null,
+    "email": "sen.ottoalencar@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "BA",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33033172",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33031464",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33031467",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3030",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "622",
+      "uf": "BA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6348",
+          "nome": "Terence Lessa"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6349",
+          "nome": "Hildinha Menezes"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "825",
+    "codigoPublico": "859",
+    "nome": "Paulo Paim",
+    "nomeCompleto": "Paulo Renato Paim",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador825.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/825",
+    "paginaParticular": "http://www.senadorpaim.com.br/",
+    "email": "sen.paulopaim@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "RS",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33035232",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33035231",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33035230",
+        "tipo": "Telefone",
+        "ordem": 3
+      },
+      {
+        "numero": "33035235",
+        "tipo": "Telefone",
+        "ordem": 4
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2929",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "523",
+      "uf": "RS",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6017",
+          "nome": "Cleonice Back"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6018",
+          "nome": "Reginete Bispo"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5502",
+    "codigoPublico": "801",
+    "nome": "Plínio Valério",
+    "nomeCompleto": "Francisco Plínio Valério Tomaz",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5502.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5502",
+    "paginaParticular": null,
+    "email": "sen.pliniovalerio@senado.leg.br",
+    "partido": {
+      "sigla": "PSDB",
+      "nome": null
+    },
+    "uf": "AM",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032898",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032800",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2906",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "573",
+      "uf": "AM",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6013",
+          "nome": "Carlos Alberto"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5931",
+          "nome": "Jacira Souza"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5386",
+    "codigoPublico": "917",
+    "nome": "Professora Dorinha Seabra",
+    "nomeCompleto": "Maria Auxiliadora Seabra Rezende",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5386.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5386",
+    "paginaParticular": null,
+    "email": "sen.professoradorinhaseabra@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "TO",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33035990",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33035995",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33035900",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3022",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "615",
+      "uf": "TO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6387",
+          "nome": "Professora Lu"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6388",
+          "nome": "Mauricio Buffon"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5012",
+    "codigoPublico": "827",
+    "nome": "Randolfe Rodrigues",
+    "nomeCompleto": "Randolph Frederich Rodrigues Alves",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5012.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5012",
+    "paginaParticular": "https://www.facebook.com/randolferodrigues",
+    "email": "sen.randolferodrigues@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "AP",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036777",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036568",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2930",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "522",
+      "uf": "AP",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5923",
+          "nome": "Alberto David"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5925",
+          "nome": "Pastor Gaia"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "70",
+    "codigoPublico": "875",
+    "nome": "Renan Calheiros",
+    "nomeCompleto": "José Renan Vasconcelos Calheiros",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador70.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/70",
+    "paginaParticular": "https://www.renancalheiros.com.br/",
+    "email": "sen.renancalheiros@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "AL",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032261",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032262",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33032265",
+        "tipo": "Telefone",
+        "ordem": 3
+      },
+      {
+        "numero": "33032268",
+        "tipo": "Telefone",
+        "ordem": 4
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2992",
+          "dataInicio": "2022-10-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2917",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-06-02",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "527",
+      "uf": "AL",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5913",
+          "nome": "Rafael Tenório"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5916",
+          "nome": "Silvania Barbosa"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5732",
+    "codigoPublico": "844",
+    "nome": "Rodrigo Pacheco",
+    "nomeCompleto": "Rodrigo Otavio Soares Pacheco",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5732.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5732",
+    "paginaParticular": null,
+    "email": "sen.rodrigopacheco@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "MG",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33032794",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032795",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2931",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "562",
+      "uf": "MG",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5257",
+          "nome": "Renzo Braz"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5989",
+          "nome": "Ana Maria"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4694",
+    "codigoPublico": "887",
+    "nome": "Rogerio Marinho",
+    "nomeCompleto": "Rogério Simonetti Marinho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4694.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4694",
+    "paginaParticular": null,
+    "email": "sen.rogeriomarinho@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "RN",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33031826",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3070",
+          "dataInicio": "2024-10-18",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3016",
+          "dataInicio": "2023-02-01",
+          "dataFim": "2024-06-19",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "616",
+      "uf": "RN",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6374",
+          "nome": "Flavio Azevedo"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6375",
+          "nome": "Igor Targino"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5352",
+    "codigoPublico": "830",
+    "nome": "Rogério Carvalho",
+    "nomeCompleto": "Rogério Carvalho Santos",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5352.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5352",
+    "paginaParticular": null,
+    "email": "sen.rogeriocarvalho@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "SE",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032201",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032203",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2933",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "579",
+      "uf": "SE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5993",
+          "nome": "Jorge Mitidieri"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5994",
+          "nome": "Maria da Taiçoca"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5322",
+    "codigoPublico": "840",
+    "nome": "Romário",
+    "nomeCompleto": "Romario de Souza Faria",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5322.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5322",
+    "paginaParticular": "http://romario.org/",
+    "email": "sen.romario@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "RJ",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036519",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036517",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33036520",
+        "tipo": "Fax",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3029",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "620",
+      "uf": "RJ",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6372",
+          "nome": "Bruno Bonetti"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6373",
+          "nome": "Andrea Fontes"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6331",
+    "codigoPublico": "886",
+    "nome": "Sergio Moro",
+    "nomeCompleto": "Sergio Fernando Moro",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6331.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6331",
+    "paginaParticular": null,
+    "email": "sen.sergiomoro@senado.leg.br",
+    "partido": {
+      "sigla": "UNIÃO",
+      "nome": null
+    },
+    "uf": "PR",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036202",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3015",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "608",
+      "uf": "PR",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6370",
+          "nome": "Luis Felipe Cunha"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6371",
+          "nome": "Ricardo Guerra"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5988",
+    "codigoPublico": "854",
+    "nome": "Soraya Thronicke",
+    "nomeCompleto": "Soraya Vieira Thronicke",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5988.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5988",
+    "paginaParticular": null,
+    "email": "sen.sorayathronicke@senado.leg.br",
+    "partido": {
+      "sigla": "PODEMOS",
+      "nome": null
+    },
+    "uf": "MS",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33031775",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2937",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "561",
+      "uf": "MS",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5986",
+          "nome": "Rodolfo Nogueira"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5987",
+          "nome": "Danny Fabricio"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5959",
+    "codigoPublico": "817",
+    "nome": "Styvenson Valentim",
+    "nomeCompleto": "Eann Styvenson Valentim Mendes",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5959.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5959",
+    "paginaParticular": null,
+    "email": "sen.styvensonvalentim@senado.leg.br",
+    "partido": {
+      "sigla": "PSDB",
+      "nome": null
+    },
+    "uf": "RN",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33031148",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2899",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "550",
+      "uf": "RN",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5962",
+          "nome": "Alisson Taveira"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5963",
+          "nome": "Coronel Margarida"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4560",
+    "codigoPublico": "850",
+    "nome": "Sérgio Petecão",
+    "nomeCompleto": "Sérgio de Oliveira Cunha",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4560.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4560",
+    "paginaParticular": "http://www.petecao.com.br/",
+    "email": "sen.sergiopetecao@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "AC",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33034086",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036708",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33036709",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2997",
+          "dataInicio": "2022-11-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2935",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-07-06",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "520",
+      "uf": "AC",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5908",
+          "nome": "Maria das Vitórias"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5909",
+          "nome": "Maria Alice"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6338",
+    "codigoPublico": "879",
+    "nome": "Teresa Leitão",
+    "nomeCompleto": "Maria Teresa Leitão de Melo",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6338.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6338",
+    "paginaParticular": null,
+    "email": "sen.teresaleitao@senado.leg.br",
+    "partido": {
+      "sigla": "PT",
+      "nome": null
+    },
+    "uf": "PE",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032423",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3019",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "606",
+      "uf": "PE",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "4768",
+          "nome": "Silvio Costa"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6368",
+          "nome": "Francisco Alexandre"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5736",
+    "codigoPublico": "876",
+    "nome": "Tereza Cristina",
+    "nomeCompleto": "Tereza Cristina Correa da Costa Dias",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5736.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5736",
+    "paginaParticular": "https://terezacristinams.com.br/",
+    "email": "sen.terezacristina@senado.leg.br",
+    "partido": {
+      "sigla": "PP",
+      "nome": null
+    },
+    "uf": "MS",
+    "bloco": {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "apelido": "BLALIANÇA",
+      "dataCriacao": "2023-03-20"
+    },
+    "telefones": [
+      {
+        "numero": "33032431",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3012",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "595",
+      "uf": "MS",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6332",
+          "nome": "Tenente Portela"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6333",
+          "nome": "Paulo Salomão"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5899",
+    "codigoPublico": "864",
+    "nome": "Vanderlan Cardoso",
+    "nomeCompleto": "Vanderlan Vieira Cardoso",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5899.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5899",
+    "paginaParticular": null,
+    "email": "sen.vanderlancardoso@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "GO",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33032092",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032099",
+        "tipo": "Telefone",
+        "ordem": 4
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2938",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "538",
+      "uf": "GO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "453",
+          "nome": "Pedro Chaves"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5912",
+          "nome": "Jader Melo"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5748",
+    "codigoPublico": "821",
+    "nome": "Veneziano Vital do Rêgo",
+    "nomeCompleto": "Veneziano Vital do Rêgo Segundo Neto",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5748.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5748",
+    "paginaParticular": null,
+    "email": "sen.venezianovitaldorego@senado.leg.br",
+    "partido": {
+      "sigla": "MDB",
+      "nome": null
+    },
+    "uf": "PB",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33032252",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032481",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2963",
+          "dataInicio": "2021-01-22",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2939",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2020-09-23",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "564",
+      "uf": "PB",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "63",
+          "nome": "Ney Suassuna"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5995",
+          "nome": "Suely Santiago"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "1173",
+    "codigoPublico": "842",
+    "nome": "Wellington Fagundes",
+    "nomeCompleto": "Wellington Antonio Fagundes",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1173.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1173",
+    "paginaParticular": null,
+    "email": "sen.wellingtonfagundes@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "MT",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036219",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33033778",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33033772",
+        "tipo": "Telefone",
+        "ordem": 4
+      },
+      {
+        "numero": "33036209",
+        "tipo": "Telefone",
+        "ordem": 5
+      },
+      {
+        "numero": "33036213",
+        "tipo": "Telefone",
+        "ordem": 5
+      },
+      {
+        "numero": "33033775",
+        "tipo": "Telefone",
+        "ordem": 6
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3072",
+          "dataInicio": "2024-10-28",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3045",
+          "dataInicio": "2023-11-03",
+          "dataFim": "2024-06-11",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "3032",
+          "dataInicio": "2023-02-01",
+          "dataFim": "2023-07-05",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "621",
+      "uf": "MT",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6362",
+          "nome": "Mauro Carvalho Junior"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6363",
+          "nome": "Rosana Martinelli"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5411",
+    "codigoPublico": "808",
+    "nome": "Weverton",
+    "nomeCompleto": "Weverton Rocha Marques de Sousa",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5411.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5411",
+    "paginaParticular": null,
+    "email": "sen.wevertonrocha@senado.leg.br",
+    "partido": {
+      "sigla": "PDT",
+      "nome": null
+    },
+    "uf": "MA",
+    "bloco": {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "apelido": "BLPBR",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33034161",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33031655",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2995",
+          "dataInicio": "2022-11-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2940",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-07-06",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "529",
+      "uf": "MA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5892",
+          "nome": "Roberth Bringel"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5893",
+          "nome": "Suely Pereira"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5070",
+    "codigoPublico": "870",
+    "nome": "Wilder Morais",
+    "nomeCompleto": "Wilder Pedro de Morais",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5070.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5070",
+    "paginaParticular": "https://www.wildermorais.com.br/",
+    "email": "sen.wildermorais@senado.leg.br",
+    "partido": {
+      "sigla": "PL",
+      "nome": null
+    },
+    "uf": "GO",
+    "bloco": {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "apelido": "BLVANG",
+      "dataCriacao": "2025-02-03"
+    },
+    "telefones": [
+      {
+        "numero": "33036440",
+        "tipo": "Telefone",
+        "ordem": 2
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3023",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "601",
+      "uf": "GO",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "58",
+        "dataInicio": "2027-02-01",
+        "dataFim": "2031-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6356",
+          "nome": "Izaura Cardoso"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6357",
+          "nome": "Hélio Araújo"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5783",
+    "codigoPublico": "818",
+    "nome": "Zenaide Maia",
+    "nomeCompleto": "Zenaide Maia Calado Pereira dos Santos",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5783.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5783",
+    "paginaParticular": "https://zenaidesenadora.com.br/",
+    "email": "sen.zenaidemaia@senado.leg.br",
+    "partido": {
+      "sigla": "PSD",
+      "nome": null
+    },
+    "uf": "RN",
+    "bloco": {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "apelido": "BLPRD",
+      "dataCriacao": "2023-02-01"
+    },
+    "telefones": [
+      {
+        "numero": "33032371",
+        "tipo": "Telefone",
+        "ordem": 1
+      },
+      {
+        "numero": "33032372",
+        "tipo": "Telefone",
+        "ordem": 2
+      },
+      {
+        "numero": "33032358",
+        "tipo": "Telefone",
+        "ordem": 3
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2941",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    },
+    "mandatoAtual": {
+      "codigo": "551",
+      "uf": "RN",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "5965",
+          "nome": "Júnior Souto"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "5966",
+          "nome": "Pastor Manoel Roberto"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "3806",
+    "codigoPublico": "836",
+    "nome": "Zequinha Marinho",
+    "nomeCompleto": "José da Cruz Marinho",
+    "genero": "Masculino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3806.jpg",
+    "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
+    "paginaParticular": null,
+    "email": "sen.zequinhamarinho@senado.leg.br",
+    "partido": {
+      "sigla": "PODEMOS",
+      "nome": null
+    },
+    "uf": "PA",
+    "bloco": {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "apelido": "BLDEM",
+      "dataCriacao": "2025-02-18"
+    },
+    "telefones": [
+      {
+        "numero": "33036623",
+        "tipo": "Telefone",
+        "ordem": 1
+      }
+    ],
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2916",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    },
+    "mandatoAtual": {
+      "codigo": "566",
+      "uf": "PA",
+      "participacao": "Titular",
+      "primeiraLegislatura": {
+        "numero": "56",
+        "dataInicio": "2019-02-01",
+        "dataFim": "2023-01-31"
+      },
+      "segundaLegislatura": {
+        "numero": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2027-01-31"
+      },
+      "suplentes": [
+        {
+          "participacao": "1º Suplente",
+          "codigo": "6001",
+          "nome": "Arlindo Silva"
+        },
+        {
+          "participacao": "2º Suplente",
+          "codigo": "6002",
+          "nome": "Marinho Cunha"
+        }
+      ],
+      "titular": null
+    },
+    "atualizadoEm": "2025-05-10T23:55:21.280Z"
+  }
+]

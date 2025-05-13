@@ -1,0 +1,1906 @@
+{
+  "timestamp": "2025-05-10T23:59:10.388Z",
+  "total": 78,
+  "comissoes": {
+    "senado": {
+      "permanente": [
+        {
+          "codigo": "38",
+          "sigla": "CAE",
+          "nome": "Comissão de Assuntos Econômicos",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "40",
+          "sigla": "CAS",
+          "nome": "Comissão de Assuntos Sociais",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "2614",
+          "sigla": "CCDD",
+          "nome": "Comissão de Comunicação e Direito Digital",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2023-06-07",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "34",
+          "sigla": "CCJ",
+          "nome": "Comissão de Constituição, Justiça e Cidadania",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "1363",
+          "sigla": "CCT",
+          "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2007-02-07",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2617",
+          "sigla": "CDD",
+          "nome": "Comissão de Defesa da Democracia",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2023-06-07",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "834",
+          "sigla": "CDH",
+          "nome": "Comissão de Direitos Humanos e Legislação Participativa",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2002-12-13",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2726",
+          "sigla": "CDHHAIA",
+          "nome": "Subcomissão Temporária para debater a Convenção sobre os Aspectos Civis do Sequestro Internacional de Crianças",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2025-03-13",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1306",
+          "sigla": "CDR",
+          "nome": "Comissão de Desenvolvimento Regional e Turismo",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2005-02-18",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "47",
+          "sigla": "CE",
+          "nome": "Comissão de Educação e Cultura",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2615",
+          "sigla": "CEsp",
+          "nome": "Comissão de Esporte",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2023-06-07",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "59",
+          "sigla": "CI",
+          "nome": "Comissão de Serviços de Infraestrutura",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2739",
+          "sigla": "CIBR319",
+          "nome": "Subcomissão temporária para examinar a BR-319",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2025-04-08",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "50",
+          "sigla": "CMA",
+          "nome": "Comissão de Meio Ambiente",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "446",
+          "sigla": "CORREG",
+          "nome": "Corregedoria Parlamentar",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1993-03-17",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Corregedoria Parlamentar é o órgão responsável por promover a manutenção do decoro, da ordem e da disciplina no Senado Federal, incluindo questões referentes à segurança interna e externa da Casa.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2703",
+          "sigla": "CPIBETS",
+          "nome": "CPI das BETS",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2024-10-08",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "investigar, no prazo de cento e trinta dias, com limite de despesas de cento e dez mil reais, a crescente influência dos jogos virtuais de apostas online no orçamento das famílias brasileiras, além da possível associação com organizações criminosas envolvidas em práticas de lavagem de dinheiro, bem como o uso de influenciadores digitais na promoção e divulgação dessas atividades.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2658",
+          "sigla": "CPIVD",
+          "nome": "CPI da Violência Doméstica",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2024-03-13",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "apurar, no prazo de 180 (cento e oitenta) dias, com limite de despesas de R$ 150.000,00 (cento e cinquenta mil reais), crimes de violência doméstica e familiar contra a mulher desde 2019 até os dias atuais, com base em diferentes levantamentos e estudos, com a finalidade de investigar a ação ou omissão do poder público com relação à aplicação dos instrumentos instituídos em lei para proteger as mulheres da violência, bem como suas responsabilidades decorrentes do descumprimento da legislação criada para esse fim.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1307",
+          "sigla": "CRA",
+          "nome": "Comissão de Agricultura e Reforma Agrária",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2005-02-22",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "54",
+          "sigla": "CRE",
+          "nome": "Comissão de Relações Exteriores e Defesa Nacional",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2429",
+          "sigla": "CSP",
+          "nome": "Comissão de Segurança Pública",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2021-03-12",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1956",
+          "sigla": "CTFC",
+          "nome": "Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2015-09-02",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1543",
+          "sigla": "OUVIDSF",
+          "nome": "Ouvidoria do Senado Federal",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2005-02-17",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Na busca constante pela transparência e aproximação da sociedade com o Parlamento, a Ouvidoria do Senado Federal foi criada como órgão para fortalecer o exercício da cidadania.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1998",
+          "sigla": "PLEN",
+          "nome": "Plenário do Senado Federal",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2015-12-23",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1659",
+          "sigla": "PROMUL",
+          "nome": "Procuradoria Especial da Mulher",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "2013-02-20",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Procuradoria Especial da Mulher do Senado tem como missão zelar, fiscalizar, controlar e incentivar os direitos da mulher, criando mecanismos de empoderamento, especialmente, em situações de desigualdade de gênero. Temos como valor o respeito à dignidade da pessoa humana e à diversidade em uma busca permanente pela universalização dos direitos humanos.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "448",
+          "sigla": "PROPAR",
+          "nome": "Procuradoria Parlamentar",
+          "ativa": true,
+          "tipo": "permanente",
+          "casa": "SF",
+          "dataCriacao": "1995-08-23",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Procuradoria Parlamentar promove a defesa, perante a sociedade, do Senado, de suas funções institucionais e de seus órgãos e integrantes, quando atingidos em sua honra ou imagem em razão do exercício do mandato.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        }
+      ],
+      "cpi": [],
+      "temporaria": [
+        {
+          "codigo": "2638",
+          "sigla": "CCDDJECC",
+          "nome": "Subcomissão Temporária para viabilizar o surgimento dos Juizados Especiais de Crimes Cibernéticos",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2023-09-20",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "2589",
+          "sigla": "CEHV",
+          "nome": "Comissão Especial para Debate de Políticas Públicas sobre Hidrogênio Verde",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2023-03-14",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "debater, no prazo de dois anos, políticas públicas sobre hidrogênio verde, de modo a fomentar o ganho em escala dessa tecnologia de geração de energia limpa e avaliar políticas públicas que fomentem a tecnologia do hidrogênio verde.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2724",
+          "sigla": "CMACOP30",
+          "nome": "Subcomissão Temporária para acompanhamento dos preparativos para realização da COP 30",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2025-03-11",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2740",
+          "sigla": "CTBOLÍVIA",
+          "nome": "Comissão Temporária Externa para investigar a situação dos brasileiros na Bolívia",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2025-04-08",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Investigar, no prazo de 120 dias, a situação dos brasileiros na Bolívia, principalmente os estudantes, e o caso Jenife Silva, estudante de medicina amapaense recentemente assassinada naquele país.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2648",
+          "sigla": "CTEBOLÍVIA",
+          "nome": "Comissão Temporária Externa para verificar \"in loco\" a situação política e social do Estado Plurinacional da Bolívia",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2023-11-28",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "verificar \"in loco\", no prazo de 180 dias, a situação política e social do Estado Plurinacional da Bolívia, no que diz respeito à cláusula democrática do Mercosul, prevista nos Protocolos de Ushuaia, cujo texto estabelece que a plena vigência das instituições democráticas é indispensável para o desenvolvimento dos processos de integração entre os signatários do referido Bloco.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2641",
+          "sigla": "CTI200CONFEQ",
+          "nome": "Comissão Temporária Interna em Comemoração aos 200 anos da Confederação do Equador",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2023-10-18",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "planejar e coordenar, no prazo de 365 (trezentos e sessenta e cinco) dias, as atividades de comemoração dos 200 (duzentos) anos da Confederação do Equador.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2745",
+          "sigla": "GTMTI",
+          "nome": "Grupo de trabalho sobre regulamentação da mineração em terras indígenas.",
+          "ativa": true,
+          "tipo": "temporaria",
+          "casa": "SF",
+          "dataCriacao": "2025-04-22",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "elaborar, no prazo de 180 (cento e oitenta) dias, projeto de lei para regulamentar a atividade de mineração em terras indígenas.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        }
+      ],
+      "orgaos": [
+        {
+          "codigo": "2715",
+          "sigla": "CCC",
+          "nome": "Comenda Ceci Cunha",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2024-12-13",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda Ceci Cunha é destinada a agraciar personalidades do sexo feminino que tenham se destacado no exercício da atividade legislativa ou executiva nos âmbitos federal, estadual, distrital ou municipal.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "770",
+          "sigla": "CDBL",
+          "nome": "Conselho do Diploma Bertha Lutz",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2001-03-16",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Diploma Bertha Lutz premia pessoas que tenham oferecido contribuição relevante à defesa dos direitos da mulher e questões do gênero no Brasil. O Diploma é entregue em sessão do Senado durante as atividades do Dia Internacional da Mulher, comemorado em 8 de março.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1713",
+          "sigla": "CDGN",
+          "nome": "Conselho da Comenda Dorina de Gouvêa Nowill",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2013-08-07",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda Dorina de Gouvêa Nowill é entregue a personalidades que tenham oferecido contribuição relevante à defesa das pessoas com deficiência no Brasil.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1540",
+          "sigla": "CDHC",
+          "nome": "Conselho da Comenda de Direitos Humanos Dom Hélder Câmara",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2010-05-26",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda de Direitos Humanos Dom Hélder Câmara é entregue anualmente pelo Senado Federal a personalidades que tenham oferecido contribuição relevante à defesa dos direitos humanos no Brasil.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2015",
+          "sigla": "CDIR",
+          "nome": "Comissão Diretora do Senado Federal",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "1900-01-01",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2532",
+          "sigla": "CDPS",
+          "nome": "Conselho do Diploma Paul Singer",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2022-04-21",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "É instituído, no âmbito do Senado Federal, o Diploma Paul Singer, destinado a agraciar iniciativas empreendedoras em atividades de Economia Solidária. Poderão ser indicadas ao Diploma pessoas físicas ou jurídicas empreendedoras em atividades de Economia Solidária e que observem os princípios da autogestão, do comércio justo e solidário, da cooperação e da solidariedade, da gestão democrática e participativa, da distribuição equitativa das riquezas produzidas coletivamente, do desenvolvimento local, regional e territorial integrado e sustentável, do respeito aos ecossistemas, da preservação do meio ambiente e da valorização do ser humano, do trabalho e da cultura.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "445",
+          "sigla": "CEDP",
+          "nome": "Conselho de Ética e Decoro Parlamentar",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "1993-03-17",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Ao Conselho de Ética e Decoro Parlamentar compete zelar pela observância dos preceitos do Código e do Regimento Interno, atuando no sentido da preservação da dignidade do mandato parlamentar no Senado Federal.  É o Conselho de Ética que recebe e analisa previamente representações ou denúncias feitas contra Senador, que podem resultar em medidas disciplinares como advertência, censura verbal ou escrita e perda do mandato.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2392",
+          "sigla": "CICCX",
+          "nome": "Comenda de Incentivo à Caridade Chico Xavier",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2020-11-04",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "É instituída a Comenda de Incentivo à Caridade Chico Xavier, destinada a agraciar pessoas ou instituições que desenvolvam, no Brasil, ações e atividades relacionadas à caridade e à filantropia.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2192",
+          "sigla": "CICLCC",
+          "nome": "Comenda de Incentivo à Cultura Luís da Câmara Cascudo",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2018-05-29",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda de Incentivo à Cultura Luís da Câmara Cascudo é destinada a agraciar personalidades, instituições e grupos que tenham oferecido contribuição relevante ao registro e ao fortalecimento da cultura, do folclore e dos saberes tradicionais no Brasil.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2598",
+          "sigla": "CMDG",
+          "nome": "Comenda Missionários Daniel Berg e Gunnar Vingren",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2023-03-30",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Institui, no âmbito do Senado Federal, a Comenda Missionários Daniel Berg e Gunnar Vingren, destinada a homenagear pessoas físicas ou jurídicas que tenham desempenhado relevantes ações religiosas e sociais, com destaque na área da filantropia.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1944",
+          "sigla": "CME",
+          "nome": "Conselho da Comenda do Mérito Esportivo",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2015-06-30",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda do Mérito Esportivo é entregue pelo Senado Federal em sessão especial destinada a agraciar atletas brasileiros que tenham se destacado em competições esportivas de modalidades olímpicas e paraolímpicas.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2163",
+          "sigla": "CMFC",
+          "nome": "Comenda do Mérito Futebolístico Associação Chapecoense de Futebol",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2017-12-11",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Agraciar pessoas jurídicas e atletas, dirigentes e demais profissionais que tenham se destacado em competições esportivas ou na promoção do futebol.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2090",
+          "sigla": "CNMS",
+          "nome": "Comenda Nise Magalhães da Silveira",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2016-12-20",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda Nise Magalhães da Silveira é conferida a personalidade que tenham oferecido contribuição relevante ao desenvolvimento de técnicas e condições de tratamento humanizado da saúde no Brasil.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2599",
+          "sigla": "CRP",
+          "nome": "Comenda Rei Pelé",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2023-04-13",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda Rei Pelé é destinada a homenagear esportistas e paraesportistas de destaque no País.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1750",
+          "sigla": "CSAN",
+          "nome": "Conselho da Comenda Senador Abdias Nascimento",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2013-11-22",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda Senador Abdias Nascimento é entregue pelo Senado Federal a personalidades que contribuíram para a proteção e a promoção da cultura afro-brasileira.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2427",
+          "sigla": "CSDP",
+          "nome": "Comenda Santa Dulce dos Pobres",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2020-12-21",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "É instituída, no âmbito do Senado Federal, a Comenda Santa Dulce dos Pobres, destinada a homenagear pessoas físicas ou jurídicas que tenham prestado relevantes serviços na área social da saúde.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2708",
+          "sigla": "CSZP",
+          "nome": "Conselho do Selo Zumbi dos Palmares",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2021-11-26",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Selo Zumbi dos Palmares é destinado a agraciar Municípios que se destacarem na execução de políticas públicas de promoção da igualdade racial.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2145",
+          "sigla": "CZA",
+          "nome": "Comenda Zilda Arns",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2017-10-26",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comenda Zilda Arns foi instituída para agraciar pessoas ou instituições que desenvolvam, no Brasil, ações e atividades destinadas à proteção da criança e do adolescente.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1530",
+          "sigla": "DJEM",
+          "nome": "Conselho do Diploma José Ermírio de Moraes",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2009-10-31",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2551",
+          "sigla": "MMEDR",
+          "nome": "Medalha de Mérito Educacional Darcy Ribeiro",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2022-06-30",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O prêmio tem por objetivo valorizar os educadores e promover a divulgação de melhores práticas na educação nacional, destacando anualmente um educador por Estado e Distrito Federal.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2564",
+          "sigla": "MMQ",
+          "nome": "Medalha Maria Quitéria",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2022-11-16",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Medalha destinada a celebrar o Bicentenário da Independência do Brasil e a homenagear mulheres que se destacaram na luta pela equidade de gênero.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2469",
+          "sigla": "PAT",
+          "nome": "Conselho do Prêmio Adoção Tardia - Gesto Redobrado de Cidadania",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2021-06-11",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O “Prêmio Adoção Tardia – Gesto Redobrado de Cidadania”, é destinado a agraciar pessoas ou instituições que desenvolvam, no Brasil, ações, atividades ou iniciativas destinadas a promover a adoção tardia de crianças e adolescentes.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2390",
+          "sigla": "PCMSF",
+          "nome": "Conselho do Prêmio Chico Mendes",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2020-10-07",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "É instituído o Prêmio Chico Mendes do Senado Federal, destinado a agraciar jornalistas que tenham produzido matérias relevantes sobre a preservação do meio ambiente e a promoção do desenvolvimento sustentável.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2552",
+          "sigla": "PEEFF",
+          "nome": "Prêmio de Eficiência Educacional Florestan Fernandes",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2022-06-30",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O prêmio tem por objetivo valorizar os educadores e promover a divulgação de melhores práticas na educação nacional, identificando os educadores ou escolas responsáveis pela prática.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2041",
+          "sigla": "PJE",
+          "nome": "Conselho do Prêmio Jovem Empreendedor",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2016-07-20",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Prêmio Jovem Empreendedor é entregue pelo Senado Federal para agraciar estudantes jovens empreendedores e entidades governamentais ou não governamentais que tenham se destacado no âmbito da iniciativa privada ou por trabalho relacionado ao empreendedorismo, contribuindo significativamente para o desenvolvimento do País.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1940",
+          "sigla": "PJRM",
+          "nome": "Conselho do Prêmio Jornalista Roberto Marinho de Mérito Jornalístico",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2009-05-25",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Prêmio Jornalista Roberto Marinho de Mérito Jornalístico é entregue pelo Senado Federal a jornalistas que contribuíram para o engrandecimento do jornalismo brasileiro.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1546",
+          "sigla": "PJS",
+          "nome": "Conselho do Projeto Jovem Senador",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2010-08-12",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Programa Senado Jovem Brasileiro promove, anualmente, um concurso de redação entre estudantes de escolas públicas de todo o Brasil. Os vencedores de cada estado são trazidos ao Senado Federal, onde vivenciam o processo legislativo por uma semana atuando como Jovens Senadores.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1617",
+          "sigla": "PMA",
+          "nome": "Conselho do Prêmio Mérito Ambiental",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2012-06-14",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Prêmio Mérito Ambiental homenageia pessoas e organizações que desenvolvem iniciativas na defesa do meio ambiente e na promoção do desenvolvimento sustentável.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1943",
+          "sigla": "PSFHB",
+          "nome": "Conselho do Prêmio Senado Federal de História do Brasil",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2008-10-13",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O Prêmio Senado Federal de História do Brasil é entregue a três autores de obras que enfatizam aspectos políticos da História do Brasil.  Os agraciados são escolhidos por um concurso, julgado por historiados e acadêmicos.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2643",
+          "sigla": "PTS",
+          "nome": "Conselho do Prêmio Trânsito Seguro - Gesto Redobrado para o Futuro",
+          "ativa": true,
+          "tipo": "orgaos",
+          "casa": "SF",
+          "dataCriacao": "2023-10-27",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "O \"Prêmio Trânsito Seguro - Gesto Redobrado para o Futuro\" destina-se a agraciar educadores, escolas ou instituições que desenvolvam, no Brasil, ações e atividades destinadas a estimular a educação para o trânsito nas escolas e universidades.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        }
+      ],
+      "subcomissao": [
+        {
+          "codigo": "2636",
+          "sigla": "CAESM",
+          "nome": "Subcomissão Permanente Municipalista",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2023-09-19",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "2624",
+          "sigla": "CASRARAS",
+          "nome": "Subcomissão Permanente de Direitos das Pessoas com Doenças Raras",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2023-07-10",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "2660",
+          "sigla": "CCDDEX",
+          "nome": "Subcomissão Permanente para debater a desigualdade e a exclusão digital no Brasil",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2024-03-20",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.380Z"
+        },
+        {
+          "codigo": "2770",
+          "sigla": "CCTPANT",
+          "nome": "Subcomissão Permanente para o Desenvolvimento Sustentável do Pantanal",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2025-04-29",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2684",
+          "sigla": "CEEJA",
+          "nome": "Subcomissão Permanente para acompanhar as políticas de Educação de Jovens e Adultos",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2024-06-18",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2618",
+          "sigla": "CEIDCERTA",
+          "nome": "Subcomissão Permanente da Alfabetização na Idade Certa",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2023-05-31",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2723",
+          "sigla": "CMABIOCER",
+          "nome": "Subcomissão Permanente do Bioma Cerrado",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2025-03-11",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2591",
+          "sigla": "CMABIOPAN",
+          "nome": "Subcomissão Permanente do Bioma Pantanal.",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2023-03-15",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2621",
+          "sigla": "CREDC",
+          "nome": "Subcomissão Permanente de Defesa Cibernética",
+          "ativa": true,
+          "tipo": "subcomissao",
+          "casa": "SF",
+          "dataCriacao": "2023-06-15",
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": null,
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        }
+      ]
+    },
+    "congresso": {
+      "mista": [
+        {
+          "codigo": "449",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A fiscalização e o controle externos das atividades de inteligência e contrainteligência e de outras a elas relacionadas, no Brasil ou no exterior.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1450",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Acompanhar, monitorar e fiscalizar, de modo contínuo, as ações referentes às mudanças climáticas no Brasil",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1664",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Apreciação das matérias orçamentárias e acompanhamento e fiscalização das respectivas execuções.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1774",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Diagnosticar as lacunas existentes nas ações e serviços da Seguridade Social e na prestação de segurança pública e jurídica às mulheres vítimas de violência; e apresentar propostas para a consolidação da Política Nacional de Enfrentamento à Violência contra as Mulheres.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "1775",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "A Comissão Mista é órgão de ligação entre o Congresso Nacional e a Assembleia Parlamentar da Comunidade dos Países de Língua Portuguesa (AP-CPLP)",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2091",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Destinada a apresentar projetos de lei visando à consolidação da legislação federal, à regulamentação dos dispositivos da Constituição Federal, bem como à modernização e ao fortalecimento econômico e social do País.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        },
+        {
+          "codigo": "2301",
+          "sigla": "",
+          "nome": "",
+          "ativa": true,
+          "tipo": "mista",
+          "casa": "CN",
+          "dataCriacao": null,
+          "dataExtincao": null,
+          "dataInstalacao": null,
+          "finalidade": "Acompanhar, monitorar e fiscalizar, de modo contínuo, as questões afetas aos movimentos migratórios nas fronteiras do Brasil e aos direitos dos refugiados.",
+          "historia": null,
+          "participacao": null,
+          "composicao": {
+            "membros": []
+          },
+          "atualizadoEm": "2025-05-10T23:59:10.381Z"
+        }
+      ],
+      "cpmi": [],
+      "veto": [],
+      "permanente": [],
+      "mpv": [],
+      "especial": []
+    }
+  },
+  "indices": {
+    "porCodigo": {
+      "34": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CCJ",
+        "nome": "Comissão de Constituição, Justiça e Cidadania"
+      },
+      "38": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CAE",
+        "nome": "Comissão de Assuntos Econômicos"
+      },
+      "40": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CAS",
+        "nome": "Comissão de Assuntos Sociais"
+      },
+      "47": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CE",
+        "nome": "Comissão de Educação e Cultura"
+      },
+      "50": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CMA",
+        "nome": "Comissão de Meio Ambiente"
+      },
+      "54": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CRE",
+        "nome": "Comissão de Relações Exteriores e Defesa Nacional"
+      },
+      "59": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CI",
+        "nome": "Comissão de Serviços de Infraestrutura"
+      },
+      "445": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CEDP",
+        "nome": "Conselho de Ética e Decoro Parlamentar"
+      },
+      "446": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CORREG",
+        "nome": "Corregedoria Parlamentar"
+      },
+      "448": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "PROPAR",
+        "nome": "Procuradoria Parlamentar"
+      },
+      "449": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "770": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CDBL",
+        "nome": "Conselho do Diploma Bertha Lutz"
+      },
+      "834": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CDH",
+        "nome": "Comissão de Direitos Humanos e Legislação Participativa"
+      },
+      "1306": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CDR",
+        "nome": "Comissão de Desenvolvimento Regional e Turismo"
+      },
+      "1307": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CRA",
+        "nome": "Comissão de Agricultura e Reforma Agrária"
+      },
+      "1363": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CCT",
+        "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática"
+      },
+      "1450": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "1530": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "DJEM",
+        "nome": "Conselho do Diploma José Ermírio de Moraes"
+      },
+      "1540": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CDHC",
+        "nome": "Conselho da Comenda de Direitos Humanos Dom Hélder Câmara"
+      },
+      "1543": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "OUVIDSF",
+        "nome": "Ouvidoria do Senado Federal"
+      },
+      "1546": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PJS",
+        "nome": "Conselho do Projeto Jovem Senador"
+      },
+      "1617": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PMA",
+        "nome": "Conselho do Prêmio Mérito Ambiental"
+      },
+      "1659": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "PROMUL",
+        "nome": "Procuradoria Especial da Mulher"
+      },
+      "1664": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "1713": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CDGN",
+        "nome": "Conselho da Comenda Dorina de Gouvêa Nowill"
+      },
+      "1750": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CSAN",
+        "nome": "Conselho da Comenda Senador Abdias Nascimento"
+      },
+      "1774": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "1775": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "1940": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PJRM",
+        "nome": "Conselho do Prêmio Jornalista Roberto Marinho de Mérito Jornalístico"
+      },
+      "1943": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PSFHB",
+        "nome": "Conselho do Prêmio Senado Federal de História do Brasil"
+      },
+      "1944": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CME",
+        "nome": "Conselho da Comenda do Mérito Esportivo"
+      },
+      "1956": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CTFC",
+        "nome": "Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor"
+      },
+      "1998": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "PLEN",
+        "nome": "Plenário do Senado Federal"
+      },
+      "2015": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CDIR",
+        "nome": "Comissão Diretora do Senado Federal"
+      },
+      "2041": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PJE",
+        "nome": "Conselho do Prêmio Jovem Empreendedor"
+      },
+      "2090": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CNMS",
+        "nome": "Comenda Nise Magalhães da Silveira"
+      },
+      "2091": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "2145": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CZA",
+        "nome": "Comenda Zilda Arns"
+      },
+      "2163": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CMFC",
+        "nome": "Comenda do Mérito Futebolístico Associação Chapecoense de Futebol"
+      },
+      "2192": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CICLCC",
+        "nome": "Comenda de Incentivo à Cultura Luís da Câmara Cascudo"
+      },
+      "2301": {
+        "tipo": "mista",
+        "casa": "CN",
+        "sigla": "",
+        "nome": ""
+      },
+      "2390": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PCMSF",
+        "nome": "Conselho do Prêmio Chico Mendes"
+      },
+      "2392": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CICCX",
+        "nome": "Comenda de Incentivo à Caridade Chico Xavier"
+      },
+      "2427": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CSDP",
+        "nome": "Comenda Santa Dulce dos Pobres"
+      },
+      "2429": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CSP",
+        "nome": "Comissão de Segurança Pública"
+      },
+      "2469": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PAT",
+        "nome": "Conselho do Prêmio Adoção Tardia - Gesto Redobrado de Cidadania"
+      },
+      "2532": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CDPS",
+        "nome": "Conselho do Diploma Paul Singer"
+      },
+      "2551": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "MMEDR",
+        "nome": "Medalha de Mérito Educacional Darcy Ribeiro"
+      },
+      "2552": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PEEFF",
+        "nome": "Prêmio de Eficiência Educacional Florestan Fernandes"
+      },
+      "2564": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "MMQ",
+        "nome": "Medalha Maria Quitéria"
+      },
+      "2589": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "CEHV",
+        "nome": "Comissão Especial para Debate de Políticas Públicas sobre Hidrogênio Verde"
+      },
+      "2591": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CMABIOPAN",
+        "nome": "Subcomissão Permanente do Bioma Pantanal."
+      },
+      "2598": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CMDG",
+        "nome": "Comenda Missionários Daniel Berg e Gunnar Vingren"
+      },
+      "2599": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CRP",
+        "nome": "Comenda Rei Pelé"
+      },
+      "2614": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CCDD",
+        "nome": "Comissão de Comunicação e Direito Digital"
+      },
+      "2615": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CEsp",
+        "nome": "Comissão de Esporte"
+      },
+      "2617": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CDD",
+        "nome": "Comissão de Defesa da Democracia"
+      },
+      "2618": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CEIDCERTA",
+        "nome": "Subcomissão Permanente da Alfabetização na Idade Certa"
+      },
+      "2621": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CREDC",
+        "nome": "Subcomissão Permanente de Defesa Cibernética"
+      },
+      "2624": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CASRARAS",
+        "nome": "Subcomissão Permanente de Direitos das Pessoas com Doenças Raras"
+      },
+      "2636": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CAESM",
+        "nome": "Subcomissão Permanente Municipalista"
+      },
+      "2638": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "CCDDJECC",
+        "nome": "Subcomissão Temporária para viabilizar o surgimento dos Juizados Especiais de Crimes Cibernéticos"
+      },
+      "2641": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "CTI200CONFEQ",
+        "nome": "Comissão Temporária Interna em Comemoração aos 200 anos da Confederação do Equador"
+      },
+      "2643": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "PTS",
+        "nome": "Conselho do Prêmio Trânsito Seguro - Gesto Redobrado para o Futuro"
+      },
+      "2648": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "CTEBOLÍVIA",
+        "nome": "Comissão Temporária Externa para verificar \"in loco\" a situação política e social do Estado Plurinacional da Bolívia"
+      },
+      "2658": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CPIVD",
+        "nome": "CPI da Violência Doméstica"
+      },
+      "2660": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CCDDEX",
+        "nome": "Subcomissão Permanente para debater a desigualdade e a exclusão digital no Brasil"
+      },
+      "2684": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CEEJA",
+        "nome": "Subcomissão Permanente para acompanhar as políticas de Educação de Jovens e Adultos"
+      },
+      "2703": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CPIBETS",
+        "nome": "CPI das BETS"
+      },
+      "2708": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CSZP",
+        "nome": "Conselho do Selo Zumbi dos Palmares"
+      },
+      "2715": {
+        "tipo": "orgaos",
+        "casa": "SF",
+        "sigla": "CCC",
+        "nome": "Comenda Ceci Cunha"
+      },
+      "2723": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CMABIOCER",
+        "nome": "Subcomissão Permanente do Bioma Cerrado"
+      },
+      "2724": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "CMACOP30",
+        "nome": "Subcomissão Temporária para acompanhamento dos preparativos para realização da COP 30"
+      },
+      "2726": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CDHHAIA",
+        "nome": "Subcomissão Temporária para debater a Convenção sobre os Aspectos Civis do Sequestro Internacional de Crianças"
+      },
+      "2739": {
+        "tipo": "permanente",
+        "casa": "SF",
+        "sigla": "CIBR319",
+        "nome": "Subcomissão temporária para examinar a BR-319"
+      },
+      "2740": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "CTBOLÍVIA",
+        "nome": "Comissão Temporária Externa para investigar a situação dos brasileiros na Bolívia"
+      },
+      "2745": {
+        "tipo": "temporaria",
+        "casa": "SF",
+        "sigla": "GTMTI",
+        "nome": "Grupo de trabalho sobre regulamentação da mineração em terras indígenas."
+      },
+      "2770": {
+        "tipo": "subcomissao",
+        "casa": "SF",
+        "sigla": "CCTPANT",
+        "nome": "Subcomissão Permanente para o Desenvolvimento Sustentável do Pantanal"
+      }
+    },
+    "porParlamentar": {}
+  },
+  "referencias": {
+    "tipos": {}
+  }
+}

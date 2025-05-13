@@ -1,0 +1,27 @@
+{
+  "codigo": 17518,
+  "nome": "Liderança da Oposição no Senado Federal",
+  "sigla": "S",
+  "tipoUnidade": {
+    "codigo": 17,
+    "nome": "Liderança da Oposição no Senado Federal"
+  },
+  "tipoLideranca": {
+    "codigo": "L",
+    "nome": "Líder do Senado Federal"
+  },
+  "dataInicio": "2025-02-04",
+  "membros": [
+    {
+      "codigo": 4694,
+      "nome": "Rogerio Marinho",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder do Senado Federal",
+        "dataInicio": "2025-02-04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "codigo": 16691,
+  "nome": "Liderança da Maioria no Congresso Nacional",
+  "sigla": "O",
+  "tipoUnidade": {
+    "codigo": 7,
+    "nome": "Liderança da Maioria no Congresso Nacional"
+  },
+  "tipoLideranca": {
+    "codigo": "L",
+    "nome": "Líder do Congresso Nacional"
+  },
+  "dataInicio": "2024-04-16",
+  "membros": [
+    {
+      "codigo": 5280,
+      "nome": "Aguinaldo Ribeiro",
+      "partido": "PP",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder do Congresso Nacional",
+        "dataInicio": "2024-04-16"
+      }
+    },
+    {
+      "codigo": 5998,
+      "nome": "Daniella Ribeiro",
+      "partido": "PP",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2024-04-17"
+      }
+    }
+  ]
+}

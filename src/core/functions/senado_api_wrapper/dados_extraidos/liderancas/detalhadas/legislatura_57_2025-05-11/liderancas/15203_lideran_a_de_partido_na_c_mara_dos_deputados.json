@@ -1,0 +1,181 @@
+{
+  "codigo": 15203,
+  "nome": "Liderança de Partido na Câmara dos Deputados",
+  "sigla": "P",
+  "tipoUnidade": {
+    "codigo": 9,
+    "nome": "Liderança de Partido na Câmara dos Deputados"
+  },
+  "tipoLideranca": {
+    "codigo": "L",
+    "nome": "Líder da Câmara dos Deputados"
+  },
+  "dataInicio": "2023-02-01",
+  "membros": [
+    {
+      "codigo": 5221,
+      "nome": "Antonio Brito",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2023-02-01"
+      }
+    },
+    {
+      "codigo": 6141,
+      "nome": "Isnaldo Bulhões Jr.",
+      "partido": "MDB",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2023-02-01"
+      }
+    },
+    {
+      "codigo": 6153,
+      "nome": "Doutor Luizinho",
+      "partido": "PP",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2023-09-12"
+      }
+    },
+    {
+      "codigo": 6195,
+      "nome": "Fred Costa",
+      "partido": "PRD",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2024-04-16"
+      }
+    },
+    {
+      "codigo": 5321,
+      "nome": "Aureo Ribeiro",
+      "partido": "SOLIDARIEDADE",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2023-02-01"
+      }
+    },
+    {
+      "codigo": 6552,
+      "nome": "Pedro Campos",
+      "partido": "PSB",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-01-31"
+      }
+    },
+    {
+      "codigo": 6049,
+      "nome": "Pedro Lucas Fernandes",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-01"
+      }
+    },
+    {
+      "codigo": 5781,
+      "nome": "Sóstenes Cavalcante",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-01"
+      }
+    },
+    {
+      "codigo": 6526,
+      "nome": "Rodrigo Gambale",
+      "partido": "PODEMOS",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-03"
+      }
+    },
+    {
+      "codigo": 3883,
+      "nome": "Mário Heringer",
+      "partido": "PDT",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-04"
+      }
+    },
+    {
+      "codigo": 6193,
+      "nome": "Gilberto Abramo",
+      "partido": "REPUBLICANOS",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-04"
+      }
+    },
+    {
+      "codigo": 6054,
+      "nome": "Marcel van Hattem",
+      "partido": "NOVO",
+      "uf": "",
+      "cargo": {
+        "codigo": "R",
+        "descricao": "Representante da Câmara dos Deputados",
+        "dataInicio": "2025-04-24"
+      }
+    },
+    {
+      "codigo": 5262,
+      "nome": "Weliton Prado",
+      "partido": "SOLIDARIEDADE",
+      "uf": "",
+      "cargo": {
+        "codigo": "1",
+        "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 5259,
+      "nome": "Zé Silva",
+      "partido": "SOLIDARIEDADE",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6585,
+      "nome": "Neto Carletto",
+      "partido": "AVANTE",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-08"
+      }
+    }
+  ]
+}

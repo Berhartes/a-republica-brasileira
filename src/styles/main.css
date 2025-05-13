@@ -1,0 +1,5 @@
+/* This file is now deprecated - using Tailwind CSS for all styling */
+/* Refer to src/shared/styles/index.css for the Tailwind configuration */
+
+/* Import Tailwind directives */
+@import '../../shared/styles/index.css';

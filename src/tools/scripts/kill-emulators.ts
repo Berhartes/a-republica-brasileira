@@ -1,0 +1,1 @@
+console.log('kill-emulators.ts executado (placeholder)'); 

@@ -1,0 +1,60 @@
+{
+  "tiposValidos": {
+    "codigo": {
+      "validos": 6,
+      "total": 6,
+      "percentual": 100
+    },
+    "nome": {
+      "validos": 6,
+      "total": 6,
+      "percentual": 100
+    },
+    "sigla": {
+      "validos": 6,
+      "total": 6,
+      "percentual": 100
+    },
+    "dataCriacao": {
+      "validos": 6,
+      "total": 6,
+      "percentual": 100
+    },
+    "dataExtincao": {
+      "validos": 0,
+      "total": 6,
+      "percentual": 0
+    },
+    "atualizadoEm": {
+      "validos": 6,
+      "total": 6,
+      "percentual": 100
+    },
+    "partidos": {
+      "validos": 0,
+      "total": 6,
+      "percentual": 0
+    },
+    "detalhesAtualizadosEm": {
+      "validos": 6,
+      "total": 6,
+      "percentual": 100
+    },
+    "composicao": {
+      "validos": 5,
+      "total": 6,
+      "percentual": 83.33333333333334
+    },
+    "liderancas": {
+      "validos": 0,
+      "total": 6,
+      "percentual": 0
+    }
+  },
+  "dataCoerente": true,
+  "totais": {
+    "validos": 41,
+    "total": 60,
+    "percentual": 68.33333333333333
+  }
+}

@@ -1,0 +1,80 @@
+/**
+ * Sistema de logs para o ETL de dados do Senado Federal
+ */
+
+export enum LogLevel {
+  ERROR = 0,
+  WARN = 1,
+  INFO = 2,
+  DEBUG = 3
+}
+
+class Logger {
+  private level: LogLevel;
+  
+  constructor(level: LogLevel = LogLevel.INFO) {
+    this.level = level;
+  }
+  
+  /**
+   * Define o nível de log
+   */
+  setLevel(level: LogLevel): void {
+    this.level = level;
+  }
+  
+  /**
+   * Log de erro
+   */
+  error(message: string, error?: any): void {
+    if (this.level >= LogLevel.ERROR) {
+      console.error(`[ERRO] ${message}`);
+      if (error) {
+        if (error instanceof Error) {
+          console.error(`Stack: ${error.stack}`);
+        } else {
+          console.error(error);
+        }
+      }
+    }
+  }
+  
+  /**
+   * Log de aviso
+   */
+  warn(message: string, data?: any): void {
+    if (this.level >= LogLevel.WARN) {
+      console.warn(`[AVISO] ${message}`);
+      if (data) {
+        console.warn(data);
+      }
+    }
+  }
+  
+  /**
+   * Log informativo
+   */
+  info(message: string, data?: any): void {
+    if (this.level >= LogLevel.INFO) {
+      console.info(`[INFO] ${message}`);
+      if (data) {
+        console.info(data);
+      }
+    }
+  }
+  
+  /**
+   * Log de depuração
+   */
+  debug(message: string, data?: any): void {
+    if (this.level >= LogLevel.DEBUG) {
+      console.debug(`[DEBUG] ${message}`);
+      if (data) {
+        console.debug(data);
+      }
+    }
+  }
+}
+
+// Exporta uma instância única do logger
+export const logger = new Logger(LogLevel.INFO);

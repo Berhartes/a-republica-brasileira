@@ -1,0 +1,974 @@
+[
+  {
+    "codigo": "5672",
+    "nome": "Alan Rick",
+    "siglaPartido": "UNIÃO",
+    "uf": "AC",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.278Z"
+  },
+  {
+    "codigo": "5982",
+    "nome": "Alessandro Vieira",
+    "siglaPartido": "MDB",
+    "uf": "SE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.278Z"
+  },
+  {
+    "codigo": "6358",
+    "nome": "Ana Paula Lobato",
+    "siglaPartido": "PDT",
+    "uf": "MA",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "5967",
+    "nome": "Angelo Coronel",
+    "siglaPartido": "PSD",
+    "uf": "BA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "6009",
+    "nome": "Astronauta Marcos Pontes",
+    "siglaPartido": "PL",
+    "uf": "SP",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "6350",
+    "nome": "Augusta Brito",
+    "siglaPartido": "PT",
+    "uf": "CE",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "4639",
+    "nome": "Beto Faro",
+    "siglaPartido": "PT",
+    "uf": "PA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "5936",
+    "nome": "Carlos Portinho",
+    "siglaPartido": "PL",
+    "uf": "RJ",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "5990",
+    "nome": "Carlos Viana",
+    "siglaPartido": "PODEMOS",
+    "uf": "MG",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.279Z"
+  },
+  {
+    "codigo": "470",
+    "nome": "Chico Rodrigues",
+    "siglaPartido": "PSB",
+    "uf": "RR",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5973",
+    "nome": "Cid Gomes",
+    "siglaPartido": "PSB",
+    "uf": "CE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "739",
+    "nome": "Ciro Nogueira",
+    "siglaPartido": "PP",
+    "uf": "PI",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6337",
+    "nome": "Cleitinho",
+    "siglaPartido": "REPUBLICANOS",
+    "uf": "MG",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "475",
+    "nome": "Confúcio Moura",
+    "siglaPartido": "MDB",
+    "uf": "RO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6335",
+    "nome": "Damares Alves",
+    "siglaPartido": "REPUBLICANOS",
+    "uf": "DF",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5998",
+    "nome": "Daniella Ribeiro",
+    "siglaPartido": "PP",
+    "uf": "PB",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "3830",
+    "nome": "Davi Alcolumbre",
+    "siglaPartido": "UNIÃO",
+    "uf": "AP",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5793",
+    "nome": "Dr. Hiran",
+    "siglaPartido": "PP",
+    "uf": "RR",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5906",
+    "nome": "Dra. Eudócia",
+    "siglaPartido": "PL",
+    "uf": "AL",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4994",
+    "nome": "Eduardo Braga",
+    "siglaPartido": "MDB",
+    "uf": "AM",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5976",
+    "nome": "Eduardo Girão",
+    "siglaPartido": "NOVO",
+    "uf": "CE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "3777",
+    "nome": "Eduardo Gomes",
+    "siglaPartido": "PL",
+    "uf": "TO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4642",
+    "nome": "Efraim Filho",
+    "siglaPartido": "UNIÃO",
+    "uf": "PB",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5718",
+    "nome": "Eliziane Gama",
+    "siglaPartido": "PSD",
+    "uf": "MA",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "22",
+    "nome": "Esperidião Amin",
+    "siglaPartido": "PP",
+    "uf": "SC",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5953",
+    "nome": "Fabiano Contarato",
+    "siglaPartido": "PT",
+    "uf": "ES",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5917",
+    "nome": "Fernando Dueire",
+    "siglaPartido": "MDB",
+    "uf": "PE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6345",
+    "nome": "Fernando Farias",
+    "siglaPartido": "MDB",
+    "uf": "AL",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "345",
+    "nome": "Flávio Arns",
+    "siglaPartido": "PSB",
+    "uf": "PR",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5894",
+    "nome": "Flávio Bolsonaro",
+    "siglaPartido": "PL",
+    "uf": "RJ",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6008",
+    "nome": "Giordano",
+    "siglaPartido": "MDB",
+    "uf": "SP",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6341",
+    "nome": "Hamilton Mourão",
+    "siglaPartido": "REPUBLICANOS",
+    "uf": "RS",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5008",
+    "nome": "Humberto Costa",
+    "siglaPartido": "PT",
+    "uf": "PE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5385",
+    "nome": "Irajá",
+    "siglaPartido": "PSD",
+    "uf": "TO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6010",
+    "nome": "Ivete da Silveira",
+    "siglaPartido": "MDB",
+    "uf": "SC",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4770",
+    "nome": "Izalci Lucas",
+    "siglaPartido": "PL",
+    "uf": "DF",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "35",
+    "nome": "Jader Barbalho",
+    "siglaPartido": "MDB",
+    "uf": "PA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6340",
+    "nome": "Jaime Bagattoli",
+    "siglaPartido": "PL",
+    "uf": "RO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "581",
+    "nome": "Jaques Wagner",
+    "siglaPartido": "PT",
+    "uf": "BA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4531",
+    "nome": "Jayme Campos",
+    "siglaPartido": "UNIÃO",
+    "uf": "MT",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5895",
+    "nome": "Jorge Kajuru",
+    "siglaPartido": "PSB",
+    "uf": "GO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6342",
+    "nome": "Jorge Seif",
+    "siglaPartido": "PL",
+    "uf": "SC",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6369",
+    "nome": "Jussara Lima",
+    "siglaPartido": "PSD",
+    "uf": "PI",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4811",
+    "nome": "Laércio Oliveira",
+    "siglaPartido": "PP",
+    "uf": "SE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5979",
+    "nome": "Leila Barros",
+    "siglaPartido": "PDT",
+    "uf": "DF",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5926",
+    "nome": "Lucas Barreto",
+    "siglaPartido": "PSD",
+    "uf": "AP",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "1186",
+    "nome": "Luis Carlos Heinze",
+    "siglaPartido": "PP",
+    "uf": "RS",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "631",
+    "nome": "Magno Malta",
+    "siglaPartido": "PL",
+    "uf": "ES",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5376",
+    "nome": "Mara Gabrilli",
+    "siglaPartido": "PSD",
+    "uf": "SP",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "742",
+    "nome": "Marcelo Castro",
+    "siglaPartido": "MDB",
+    "uf": "PI",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "285",
+    "nome": "Marcio Bittar",
+    "siglaPartido": "UNIÃO",
+    "uf": "AC",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5422",
+    "nome": "Marcos Rogério",
+    "siglaPartido": "PL",
+    "uf": "RO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5942",
+    "nome": "Marcos do Val",
+    "siglaPartido": "PODEMOS",
+    "uf": "ES",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6304",
+    "nome": "Margareth Buzetti",
+    "siglaPartido": "PSD",
+    "uf": "MT",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6027",
+    "nome": "Mecias de Jesus",
+    "siglaPartido": "REPUBLICANOS",
+    "uf": "RR",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5985",
+    "nome": "Nelsinho Trad",
+    "siglaPartido": "PSD",
+    "uf": "MS",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5525",
+    "nome": "Omar Aziz",
+    "siglaPartido": "PSD",
+    "uf": "AM",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5924",
+    "nome": "Oriovisto Guimarães",
+    "siglaPartido": "PSDB",
+    "uf": "PR",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5523",
+    "nome": "Otto Alencar",
+    "siglaPartido": "PSD",
+    "uf": "BA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "825",
+    "nome": "Paulo Paim",
+    "siglaPartido": "PT",
+    "uf": "RS",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5502",
+    "nome": "Plínio Valério",
+    "siglaPartido": "PSDB",
+    "uf": "AM",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5386",
+    "nome": "Professora Dorinha Seabra",
+    "siglaPartido": "UNIÃO",
+    "uf": "TO",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5012",
+    "nome": "Randolfe Rodrigues",
+    "siglaPartido": "PT",
+    "uf": "AP",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "70",
+    "nome": "Renan Calheiros",
+    "siglaPartido": "MDB",
+    "uf": "AL",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5732",
+    "nome": "Rodrigo Pacheco",
+    "siglaPartido": "PSD",
+    "uf": "MG",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4694",
+    "nome": "Rogerio Marinho",
+    "siglaPartido": "PL",
+    "uf": "RN",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5352",
+    "nome": "Rogério Carvalho",
+    "siglaPartido": "PT",
+    "uf": "SE",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5322",
+    "nome": "Romário",
+    "siglaPartido": "PL",
+    "uf": "RJ",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6331",
+    "nome": "Sergio Moro",
+    "siglaPartido": "UNIÃO",
+    "uf": "PR",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5988",
+    "nome": "Soraya Thronicke",
+    "siglaPartido": "PODEMOS",
+    "uf": "MS",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5959",
+    "nome": "Styvenson Valentim",
+    "siglaPartido": "PSDB",
+    "uf": "RN",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "4560",
+    "nome": "Sérgio Petecão",
+    "siglaPartido": "PSD",
+    "uf": "AC",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "6338",
+    "nome": "Teresa Leitão",
+    "siglaPartido": "PT",
+    "uf": "PE",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5736",
+    "nome": "Tereza Cristina",
+    "siglaPartido": "PP",
+    "uf": "MS",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5899",
+    "nome": "Vanderlan Cardoso",
+    "siglaPartido": "PSD",
+    "uf": "GO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5748",
+    "nome": "Veneziano Vital do Rêgo",
+    "siglaPartido": "MDB",
+    "uf": "PB",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "1173",
+    "nome": "Wellington Fagundes",
+    "siglaPartido": "PL",
+    "uf": "MT",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5411",
+    "nome": "Weverton",
+    "siglaPartido": "PDT",
+    "uf": "MA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5070",
+    "nome": "Wilder Morais",
+    "siglaPartido": "PL",
+    "uf": "GO",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "5783",
+    "nome": "Zenaide Maia",
+    "siglaPartido": "PSD",
+    "uf": "RN",
+    "sexo": "Feminino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  },
+  {
+    "codigo": "3806",
+    "nome": "Zequinha Marinho",
+    "siglaPartido": "PODEMOS",
+    "uf": "PA",
+    "sexo": "Masculino",
+    "situacao": {
+      "afastado": false,
+      "titular": true
+    },
+    "ultimaAtualizacao": "2025-05-10T23:55:21.280Z"
+  }
+]

@@ -1,0 +1,745 @@
+{
+  "timestamp": "2025-05-10T23:56:51.291Z",
+  "total": 6,
+  "blocos": [
+    {
+      "codigo": "335",
+      "nome": "Bloco Parlamentar da Resistência Democrática",
+      "sigla": "BLPRD",
+      "dataCriacao": "2023-02-01",
+      "atualizadoEm": "2025-05-10T23:56:50.332Z",
+      "partidos": [
+        {
+          "codigo": "565",
+          "nome": "Rede Sustentabilidade",
+          "sigla": "REDE",
+          "dataAdesao": "2023-04-25",
+          "dataDesligamento": "2024-01-30"
+        },
+        {
+          "codigo": "63",
+          "nome": "Partido Socialista Brasileiro",
+          "sigla": "PSB",
+          "dataAdesao": "2023-02-01",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "66",
+          "nome": "Partido da Social Democracia Brasileira",
+          "sigla": "PSDB",
+          "dataAdesao": "2023-02-01",
+          "dataDesligamento": "2023-02-01"
+        },
+        {
+          "codigo": "71",
+          "nome": "Partido dos Trabalhadores",
+          "sigla": "PT",
+          "dataAdesao": "2023-02-01",
+          "dataDesligamento": "2025-02-17"
+        },
+        {
+          "codigo": "557",
+          "nome": "Partido Social Democrático",
+          "sigla": "PSD",
+          "dataAdesao": "2023-02-01",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "565",
+          "nome": "Rede Sustentabilidade",
+          "sigla": "REDE",
+          "dataAdesao": "2023-02-01",
+          "dataDesligamento": "2023-02-01"
+        }
+      ],
+      "detalhesAtualizadosEm": "2025-05-10T23:56:51.226Z",
+      "composicao": {
+        "composicao_bloco": [
+          {
+            "id": "799",
+            "idBloco": "335",
+            "idPartido": "63",
+            "partido": {
+              "idPartido": "63",
+              "siglaPartido": "PSB",
+              "nomePartido": "Partido Socialista Brasileiro",
+              "dataCriacao": "01/07/1985",
+              "indicadorPartidoMate": "S",
+              "observacao": "FGV"
+            },
+            "dataAdesao": "01/02/2023",
+            "idComposicaoBloco": "799",
+            "sequenciaOrdemDia": "3"
+          },
+          {
+            "id": "806",
+            "idBloco": "335",
+            "idPartido": "66",
+            "partido": {
+              "idPartido": "66",
+              "siglaPartido": "PSDB",
+              "nomePartido": "Partido da Social Democracia Brasileira",
+              "dataCriacao": "01/06/1988",
+              "indicadorPartidoMate": "S",
+              "observacao": "FGV"
+            },
+            "dataAdesao": "01/02/2023",
+            "dataDesligamento": "01/02/2023",
+            "idComposicaoBloco": "806",
+            "sequenciaOrdemDia": "4"
+          },
+          {
+            "id": "797",
+            "idBloco": "335",
+            "idPartido": "71",
+            "partido": {
+              "idPartido": "71",
+              "siglaPartido": "PT",
+              "nomePartido": "Partido dos Trabalhadores",
+              "dataCriacao": "10/02/1980",
+              "indicadorPartidoMate": "S",
+              "observacao": "FGV"
+            },
+            "dataAdesao": "01/02/2023",
+            "dataDesligamento": "17/02/2025",
+            "idComposicaoBloco": "797",
+            "sequenciaOrdemDia": "2"
+          },
+          {
+            "id": "800",
+            "idBloco": "335",
+            "idPartido": "557",
+            "partido": {
+              "idPartido": "557",
+              "siglaPartido": "PSD",
+              "nomePartido": "Partido Social Democrático",
+              "dataCriacao": "19/10/2011",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "01/02/2023",
+            "idComposicaoBloco": "800",
+            "sequenciaOrdemDia": "1"
+          },
+          {
+            "id": "798",
+            "idBloco": "335",
+            "idPartido": "565",
+            "partido": {
+              "idPartido": "565",
+              "siglaPartido": "REDE",
+              "nomePartido": "Rede Sustentabilidade",
+              "dataCriacao": "22/09/2015",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "01/02/2023",
+            "dataDesligamento": "01/02/2023",
+            "idComposicaoBloco": "798",
+            "sequenciaOrdemDia": "5"
+          },
+          {
+            "id": "821",
+            "idBloco": "335",
+            "idPartido": "565",
+            "partido": {
+              "idPartido": "565",
+              "siglaPartido": "REDE",
+              "nomePartido": "Rede Sustentabilidade",
+              "dataCriacao": "22/09/2015",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "25/04/2023",
+            "dataDesligamento": "30/01/2024",
+            "idComposicaoBloco": "821",
+            "sequenciaOrdemDia": "6"
+          }
+        ]
+      },
+      "liderancas": {
+        "unidadeLideranca": {
+          "id": "873",
+          "idUnidadeLideranca": "873",
+          "idBloco": "335",
+          "sequenciaOrdem": "99",
+          "liderancas": {
+            "lideranca": [
+              {
+                "id": "15254",
+                "idLideranca": "15254",
+                "idUnidadePartidaria": "873",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "335",
+                "tipoLideranca": "L",
+                "idParlamentar": "5718",
+                "parlamentar": {
+                  "idParlamentar": "5718",
+                  "idDeputado": "178883",
+                  "nomeCompleto": "Eliziane Pereira Gama Melo",
+                  "nomeParlamentar": "Eliziane Gama",
+                  "sexoParlamentar": "F",
+                  "dataNascimento": "1977-02-27",
+                  "nomeCidadeNatural": "Monção",
+                  "siglaUfNatural": "MA"
+                },
+                "dataDesignacao": "28/02/2023",
+                "dataTermino": "16/07/2024"
+              },
+              {
+                "id": "17338",
+                "idLideranca": "17338",
+                "idUnidadePartidaria": "873",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "335",
+                "tipoLideranca": "L",
+                "idParlamentar": "5718",
+                "parlamentar": {
+                  "idParlamentar": "5718",
+                  "idDeputado": "178883",
+                  "nomeCompleto": "Eliziane Pereira Gama Melo",
+                  "nomeParlamentar": "Eliziane Gama",
+                  "sexoParlamentar": "F",
+                  "dataNascimento": "1977-02-27",
+                  "nomeCidadeNatural": "Monção",
+                  "siglaUfNatural": "MA"
+                },
+                "dataDesignacao": "11/11/2024"
+              },
+              {
+                "id": "17200",
+                "idLideranca": "17200",
+                "idUnidadePartidaria": "873",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "335",
+                "tipoLideranca": "L",
+                "idParlamentar": "5523",
+                "parlamentar": {
+                  "idParlamentar": "5523",
+                  "nomeCompleto": "Otto Roberto Mendonça de Alencar",
+                  "nomeParlamentar": "Otto Alencar",
+                  "sexoParlamentar": "M",
+                  "dataNascimento": "1947-08-28",
+                  "nomeCidadeNatural": "Ruy Barbosa",
+                  "siglaUfNatural": "BA",
+                  "enderecoOrigem": "Avenida Tancredo Neves, 620 - Bairro Caminho das Árvores, Cond Mundo Plaza Torre Empres, sala 2014",
+                  "nomeCidadeOrigem": "Salvador",
+                  "siglaUfOrigem": "BA"
+                },
+                "dataDesignacao": "17/07/2024",
+                "dataTermino": "08/11/2024"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "codigo": "337",
+      "nome": "Minoria",
+      "sigla": "Minoria",
+      "dataCriacao": "2023-02-03",
+      "atualizadoEm": "2025-05-10T23:56:50.332Z",
+      "partidos": [],
+      "detalhesAtualizadosEm": "2025-05-10T23:56:51.288Z",
+      "liderancas": {
+        "unidadeLideranca": {
+          "id": "875",
+          "idUnidadeLideranca": "875",
+          "idBloco": "337",
+          "sequenciaOrdem": "99"
+        }
+      }
+    },
+    {
+      "codigo": "346",
+      "nome": "Bloco Parlamentar Aliança",
+      "sigla": "BLALIANÇA",
+      "dataCriacao": "2023-03-20",
+      "atualizadoEm": "2025-05-10T23:56:50.332Z",
+      "partidos": [
+        {
+          "codigo": "418",
+          "nome": "Progressistas",
+          "sigla": "PP",
+          "dataAdesao": "2023-03-20",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "521",
+          "nome": "REPUBLICANOS",
+          "sigla": "REPUBLICANOS",
+          "dataAdesao": "2023-03-20",
+          "dataDesligamento": null
+        }
+      ],
+      "detalhesAtualizadosEm": "2025-05-10T23:56:50.927Z",
+      "composicao": {
+        "composicao_bloco": [
+          {
+            "id": "812",
+            "idBloco": "346",
+            "idPartido": "418",
+            "partido": {
+              "idPartido": "418",
+              "siglaPartido": "PP",
+              "nomePartido": "Progressistas",
+              "dataCriacao": "26/02/2003",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "20/03/2023",
+            "idComposicaoBloco": "812",
+            "sequenciaOrdemDia": "1"
+          },
+          {
+            "id": "813",
+            "idBloco": "346",
+            "idPartido": "521",
+            "partido": {
+              "idPartido": "521",
+              "siglaPartido": "REPUBLICANOS",
+              "nomePartido": "REPUBLICANOS",
+              "dataCriacao": "04/04/2006",
+              "indicadorPartidoMate": "S",
+              "observacao": "Nova denominação do Partido Municipalista Renovador (PMR), a patir de 04.04.2006."
+            },
+            "dataAdesao": "20/03/2023",
+            "idComposicaoBloco": "813",
+            "sequenciaOrdemDia": "2"
+          }
+        ]
+      },
+      "liderancas": {
+        "unidadeLideranca": {
+          "id": "884",
+          "idUnidadeLideranca": "884",
+          "idBloco": "346",
+          "sequenciaOrdem": "99",
+          "liderancas": {
+            "lideranca": [
+              {
+                "id": "15336",
+                "idLideranca": "15336",
+                "idUnidadePartidaria": "884",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "346",
+                "tipoLideranca": "L",
+                "idParlamentar": "739",
+                "parlamentar": {
+                  "idParlamentar": "739",
+                  "idDeputado": "3042",
+                  "nomeCompleto": "Ciro Nogueira Lima Filho",
+                  "nomeParlamentar": "Ciro Nogueira",
+                  "sexoParlamentar": "M",
+                  "dataNascimento": "1968-11-21",
+                  "nomeCidadeNatural": "Teresina",
+                  "siglaUfNatural": "PI"
+                },
+                "dataDesignacao": "20/03/2023",
+                "dataTermino": "05/03/2024"
+              },
+              {
+                "id": "16548",
+                "idLideranca": "16548",
+                "idUnidadePartidaria": "884",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "346",
+                "tipoLideranca": "L",
+                "idParlamentar": "4811",
+                "parlamentar": {
+                  "idParlamentar": "4811",
+                  "idDeputado": "151208",
+                  "nomeCompleto": "Laércio José de Oliveira",
+                  "nomeParlamentar": "Laércio Oliveira",
+                  "sexoParlamentar": "M",
+                  "dataNascimento": "1959-04-15"
+                },
+                "dataDesignacao": "06/03/2024",
+                "dataTermino": "16/02/2025"
+              },
+              {
+                "id": "16549",
+                "idLideranca": "16549",
+                "idUnidadePartidaria": "884",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "346",
+                "tipoLideranca": "V",
+                "numeroOrdemViceLider": "1",
+                "idParlamentar": "6335",
+                "parlamentar": {
+                  "idParlamentar": "6335",
+                  "nomeCompleto": "Damares Regina Alves",
+                  "nomeParlamentar": "Damares Alves",
+                  "sexoParlamentar": "F"
+                },
+                "dataDesignacao": "06/03/2024",
+                "dataTermino": "16/02/2025"
+              },
+              {
+                "id": "17546",
+                "idLideranca": "17546",
+                "idUnidadePartidaria": "884",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "346",
+                "tipoLideranca": "L",
+                "idParlamentar": "5793",
+                "parlamentar": {
+                  "idParlamentar": "5793",
+                  "idDeputado": "178959",
+                  "nomeCompleto": "Hiran Manuel Gonçalves da Silva",
+                  "nomeParlamentar": "Dr. Hiran",
+                  "sexoParlamentar": "M",
+                  "dataNascimento": "1957-06-19"
+                },
+                "dataDesignacao": "17/02/2025"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "codigo": "357",
+      "nome": "Bloco Parlamentar Vanguarda",
+      "sigla": "BLVANG",
+      "dataCriacao": "2025-02-03",
+      "atualizadoEm": "2025-05-10T23:56:50.332Z",
+      "partidos": [
+        {
+          "codigo": "523",
+          "nome": "Partido Liberal",
+          "sigla": "PL",
+          "dataAdesao": "2025-02-03",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "566",
+          "nome": "Partido Novo",
+          "sigla": "NOVO",
+          "dataAdesao": "2025-02-03",
+          "dataDesligamento": null
+        }
+      ],
+      "detalhesAtualizadosEm": "2025-05-10T23:56:51.223Z",
+      "composicao": {
+        "composicao_bloco": [
+          {
+            "id": "840",
+            "idBloco": "357",
+            "idPartido": "523",
+            "partido": {
+              "idPartido": "523",
+              "siglaPartido": "PL",
+              "nomePartido": "Partido Liberal",
+              "dataCriacao": "26/12/2006",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "03/02/2025",
+            "idComposicaoBloco": "840",
+            "sequenciaOrdemDia": "1"
+          },
+          {
+            "id": "841",
+            "idBloco": "357",
+            "idPartido": "566",
+            "partido": {
+              "idPartido": "566",
+              "siglaPartido": "NOVO",
+              "nomePartido": "Partido Novo",
+              "dataCriacao": "15/09/2015",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "03/02/2025",
+            "idComposicaoBloco": "841",
+            "sequenciaOrdemDia": "2"
+          }
+        ]
+      },
+      "liderancas": {
+        "unidadeLideranca": {
+          "id": "896",
+          "idUnidadeLideranca": "896",
+          "idBloco": "357",
+          "sequenciaOrdem": "99",
+          "liderancas": {
+            "lideranca": [
+              {
+                "id": "17515",
+                "idLideranca": "17515",
+                "idUnidadePartidaria": "896",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "357",
+                "tipoLideranca": "L",
+                "idParlamentar": "1173",
+                "parlamentar": {
+                  "idParlamentar": "1173",
+                  "idDeputado": "73653",
+                  "nomeCompleto": "Wellington Antonio Fagundes",
+                  "nomeParlamentar": "Wellington Fagundes",
+                  "sexoParlamentar": "M",
+                  "dataNascimento": "1957-06-01",
+                  "nomeCidadeNatural": "Rondonópolis",
+                  "siglaUfNatural": "MT",
+                  "enderecoOrigem": "AV  Rubens Mendonça nº 2368 Ed. Top Tower 5º andar sala 506 bairro jardim Aclimaçao",
+                  "nomeCidadeOrigem": "Cuiabá",
+                  "siglaUfOrigem": "MT"
+                },
+                "dataDesignacao": "03/02/2025"
+              },
+              {
+                "id": "17574",
+                "idLideranca": "17574",
+                "idUnidadePartidaria": "896",
+                "siglaCasa": "SF",
+                "tipoUnidLideranca": "B",
+                "codigoUnidLideranca": "357",
+                "tipoLideranca": "V",
+                "numeroOrdemViceLider": "1",
+                "idParlamentar": "6009",
+                "parlamentar": {
+                  "idParlamentar": "6009",
+                  "nomeCompleto": "Marcos Cesar Pontes",
+                  "nomeParlamentar": "Astronauta Marcos Pontes",
+                  "sexoParlamentar": "M",
+                  "dataNascimento": "1963-03-11",
+                  "nomeCidadeNatural": "Bauru",
+                  "siglaUfNatural": "SP"
+                },
+                "dataDesignacao": "27/02/2025"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "codigo": "358",
+      "nome": "Bloco Parlamentar Democracia",
+      "sigla": "BLDEM",
+      "dataCriacao": "2025-02-18",
+      "atualizadoEm": "2025-05-10T23:56:50.332Z",
+      "partidos": [
+        {
+          "codigo": "582",
+          "nome": "União Brasil",
+          "sigla": "UNIÃO",
+          "dataAdesao": "2025-02-18",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "577",
+          "nome": "Podemos",
+          "sigla": "PODEMOS",
+          "dataAdesao": "2025-02-18",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "33",
+          "nome": "Movimento Democrático Brasileiro",
+          "sigla": "MDB",
+          "dataAdesao": "2025-02-18",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "66",
+          "nome": "Partido da Social Democracia Brasileira",
+          "sigla": "PSDB",
+          "dataAdesao": "2025-02-18",
+          "dataDesligamento": null
+        }
+      ],
+      "detalhesAtualizadosEm": "2025-05-10T23:56:51.224Z",
+      "composicao": {
+        "composicao_bloco": [
+          {
+            "id": "842",
+            "idBloco": "358",
+            "idPartido": "33",
+            "partido": {
+              "idPartido": "33",
+              "siglaPartido": "MDB",
+              "nomePartido": "Movimento Democrático Brasileiro",
+              "dataCriacao": "01/01/1980",
+              "indicadorPartidoMate": "S",
+              "observacao": "FGV"
+            },
+            "dataAdesao": "18/02/2025",
+            "idComposicaoBloco": "842",
+            "sequenciaOrdemDia": "1"
+          },
+          {
+            "id": "847",
+            "idBloco": "358",
+            "idPartido": "66",
+            "partido": {
+              "idPartido": "66",
+              "siglaPartido": "PSDB",
+              "nomePartido": "Partido da Social Democracia Brasileira",
+              "dataCriacao": "01/06/1988",
+              "indicadorPartidoMate": "S",
+              "observacao": "FGV"
+            },
+            "dataAdesao": "18/02/2025",
+            "idComposicaoBloco": "847",
+            "sequenciaOrdemDia": "4"
+          },
+          {
+            "id": "845",
+            "idBloco": "358",
+            "idPartido": "577",
+            "partido": {
+              "idPartido": "577",
+              "siglaPartido": "PODEMOS",
+              "nomePartido": "Podemos",
+              "dataCriacao": "16/05/2017",
+              "indicadorPartidoMate": "S",
+              "observacao": "Conforme Ofício nº 2796 (na origem), do Ministro Luiz Fux, Presidente do TSE, publicado no DSF de 27/6/2018. Antigo Partido Trabalhista Nacional (PTN)."
+            },
+            "dataAdesao": "18/02/2025",
+            "idComposicaoBloco": "845",
+            "sequenciaOrdemDia": "3"
+          },
+          {
+            "id": "843",
+            "idBloco": "358",
+            "idPartido": "582",
+            "partido": {
+              "idPartido": "582",
+              "siglaPartido": "UNIÃO",
+              "nomePartido": "União Brasil",
+              "dataCriacao": "08/02/2022",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "18/02/2025",
+            "idComposicaoBloco": "843",
+            "sequenciaOrdemDia": "2"
+          }
+        ]
+      },
+      "liderancas": {
+        "unidadeLideranca": {
+          "id": "897",
+          "idUnidadeLideranca": "897",
+          "idBloco": "358",
+          "sequenciaOrdem": "99",
+          "liderancas": {
+            "lideranca": {
+              "id": "17552",
+              "idLideranca": "17552",
+              "idUnidadePartidaria": "897",
+              "siglaCasa": "SF",
+              "tipoUnidLideranca": "B",
+              "codigoUnidLideranca": "358",
+              "tipoLideranca": "L",
+              "idParlamentar": "4642",
+              "parlamentar": {
+                "idParlamentar": "4642",
+                "idDeputado": "141422",
+                "nomeCompleto": "Efraim de Araújo Morais Filho",
+                "nomeParlamentar": "Efraim Filho",
+                "sexoParlamentar": "M",
+                "dataNascimento": "1979-03-18"
+              },
+              "dataDesignacao": "18/02/2025"
+            }
+          }
+        }
+      }
+    },
+    {
+      "codigo": "359",
+      "nome": "Bloco Parlamentar Pelo Brasil",
+      "sigla": "BLPBR",
+      "dataCriacao": "2025-02-18",
+      "atualizadoEm": "2025-05-10T23:56:50.332Z",
+      "partidos": [
+        {
+          "codigo": "20",
+          "nome": "Partido Democrático Trabalhista",
+          "sigla": "PDT",
+          "dataAdesao": "2025-02-18",
+          "dataDesligamento": null
+        },
+        {
+          "codigo": "71",
+          "nome": "Partido dos Trabalhadores",
+          "sigla": "PT",
+          "dataAdesao": "2025-02-18",
+          "dataDesligamento": null
+        }
+      ],
+      "detalhesAtualizadosEm": "2025-05-10T23:56:51.225Z",
+      "composicao": {
+        "composicao_bloco": [
+          {
+            "id": "846",
+            "idBloco": "359",
+            "idPartido": "20",
+            "partido": {
+              "idPartido": "20",
+              "siglaPartido": "PDT",
+              "nomePartido": "Partido Democrático Trabalhista",
+              "dataCriacao": "16/09/1980",
+              "indicadorPartidoMate": "S"
+            },
+            "dataAdesao": "18/02/2025",
+            "idComposicaoBloco": "846",
+            "sequenciaOrdemDia": "2"
+          },
+          {
+            "id": "844",
+            "idBloco": "359",
+            "idPartido": "71",
+            "partido": {
+              "idPartido": "71",
+              "siglaPartido": "PT",
+              "nomePartido": "Partido dos Trabalhadores",
+              "dataCriacao": "10/02/1980",
+              "indicadorPartidoMate": "S",
+              "observacao": "FGV"
+            },
+            "dataAdesao": "18/02/2025",
+            "idComposicaoBloco": "844",
+            "sequenciaOrdemDia": "1"
+          }
+        ]
+      },
+      "liderancas": {
+        "unidadeLideranca": {
+          "id": "898",
+          "idUnidadeLideranca": "898",
+          "idBloco": "359",
+          "sequenciaOrdem": "99",
+          "liderancas": {
+            "lideranca": {
+              "id": "17548",
+              "idLideranca": "17548",
+              "idUnidadePartidaria": "898",
+              "siglaCasa": "SF",
+              "tipoUnidLideranca": "B",
+              "codigoUnidLideranca": "359",
+              "tipoLideranca": "L",
+              "idParlamentar": "5411",
+              "parlamentar": {
+                "idParlamentar": "5411",
+                "idDeputado": "167493",
+                "nomeCompleto": "Weverton Rocha Marques de Sousa",
+                "nomeParlamentar": "Weverton",
+                "sexoParlamentar": "M",
+                "dataNascimento": "1979-10-08",
+                "nomeCidadeNatural": "Imperatriz",
+                "siglaUfNatural": "MA"
+              },
+              "dataDesignacao": "18/02/2025"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

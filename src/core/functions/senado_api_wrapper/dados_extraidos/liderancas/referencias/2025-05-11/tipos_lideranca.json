@@ -1,0 +1,42 @@
+[
+  {
+    "codigo": 1,
+    "nome": "Líder do Senado Federal"
+  },
+  {
+    "codigo": 2,
+    "nome": "Vice-líder do Senado Federal"
+  },
+  {
+    "codigo": 3,
+    "nome": "Líder em exercício do Senado Federal"
+  },
+  {
+    "codigo": 4,
+    "nome": "Líder do Congresso Nacional"
+  },
+  {
+    "codigo": 5,
+    "nome": "Vice-líder do Congresso Nacional"
+  },
+  {
+    "codigo": 6,
+    "nome": "Líder da Câmara dos Deputados"
+  },
+  {
+    "codigo": 7,
+    "nome": "Vice-líder da Câmara dos Deputados"
+  },
+  {
+    "codigo": 8,
+    "nome": "Representante da Câmara dos Deputados"
+  },
+  {
+    "codigo": 9,
+    "nome": "Primeiro vice-líder da Câmara dos Deputados"
+  },
+  {
+    "codigo": 10,
+    "nome": "Líder em exercício da Câmara dos Deputados"
+  }
+]

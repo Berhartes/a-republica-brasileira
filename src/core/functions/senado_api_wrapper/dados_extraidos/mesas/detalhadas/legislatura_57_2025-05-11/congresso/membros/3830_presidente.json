@@ -1,0 +1,12 @@
+{
+  "codigo": "3830",
+  "nome": "Davi Alcolumbre",
+  "partido": "UNIÃO",
+  "uf": "AP",
+  "cargo": {
+    "codigo": "1",
+    "descricao": "PRESIDENTE",
+    "dataInicio": "",
+    "dataFim": ""
+  }
+}

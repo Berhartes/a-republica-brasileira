@@ -1,0 +1,2233 @@
+[
+  {
+    "id": "5672",
+    "nome": "Alan Rick",
+    "partido": "UNIÃO",
+    "uf": "AC",
+    "genero": "Masculino",
+    "email": "sen.alanrick@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3028",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5982",
+    "nome": "Alessandro Vieira",
+    "partido": "MDB",
+    "uf": "SE",
+    "genero": "Masculino",
+    "email": "sen.alessandrovieira@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2888",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6358",
+    "nome": "Ana Paula Lobato",
+    "partido": "PDT",
+    "uf": "MA",
+    "genero": "Feminino",
+    "email": "sen.anapaulalobato@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3057",
+          "dataInicio": "2024-02-21",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3038",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2024-01-31",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5967",
+    "nome": "Angelo Coronel",
+    "partido": "PSD",
+    "uf": "BA",
+    "genero": "Masculino",
+    "email": "sen.angelocoronel@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2889",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6009",
+    "nome": "Astronauta Marcos Pontes",
+    "partido": "PL",
+    "uf": "SP",
+    "genero": "Masculino",
+    "email": "sen.astronautamarcospontes@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3017",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6350",
+    "nome": "Augusta Brito",
+    "partido": "PT",
+    "uf": "CE",
+    "genero": "Feminino",
+    "email": "sen.augustabrito@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3087",
+          "dataInicio": "2025-02-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3066",
+          "dataInicio": "2024-07-31",
+          "dataFim": "2025-02-01",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3052",
+          "dataInicio": "2023-12-14",
+          "dataFim": "2024-03-31",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "3039",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "4639",
+    "nome": "Beto Faro",
+    "partido": "PT",
+    "uf": "PA",
+    "genero": "Masculino",
+    "email": "sen.betofaro@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3020",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5936",
+    "nome": "Carlos Portinho",
+    "partido": "PL",
+    "uf": "RJ",
+    "genero": "Masculino",
+    "email": "sen.carlosportinho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2959",
+          "dataInicio": "2020-11-03",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5990",
+    "nome": "Carlos Viana",
+    "partido": "PODEMOS",
+    "uf": "MG",
+    "genero": "Masculino",
+    "email": "sen.carlosviana@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3073",
+          "dataInicio": "2024-11-16",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2892",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2024-07-17",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "470",
+    "nome": "Chico Rodrigues",
+    "partido": "PSB",
+    "uf": "RR",
+    "genero": "Masculino",
+    "email": "sen.chicorodrigues@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2965",
+          "dataInicio": "2021-02-18",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2905",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2020-10-20",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5973",
+    "nome": "Cid Gomes",
+    "partido": "PSB",
+    "uf": "CE",
+    "genero": "Masculino",
+    "email": "sen.cidgomes@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3006",
+          "dataInicio": "2023-01-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2953",
+          "dataInicio": "2020-04-11",
+          "dataFim": "2022-09-05",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "2895",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2019-12-11",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "739",
+    "nome": "Ciro Nogueira",
+    "partido": "PP",
+    "uf": "PI",
+    "genero": "Masculino",
+    "email": "sen.cironogueira@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3004",
+          "dataInicio": "2022-12-30",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2896",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2021-07-27",
+          "causaAfastamento": "AFO",
+          "descricaoCausaAfastamento": "Afastamento do exercício"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6337",
+    "nome": "Cleitinho",
+    "partido": "REPUBLICANOS",
+    "uf": "MG",
+    "genero": "Masculino",
+    "email": "sen.cleitinho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3034",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "475",
+    "nome": "Confúcio Moura",
+    "partido": "MDB",
+    "uf": "RO",
+    "genero": "Masculino",
+    "email": "sen.confuciomoura@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2974",
+          "dataInicio": "2022-01-25",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2897",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2021-09-24",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6335",
+    "nome": "Damares Alves",
+    "partido": "REPUBLICANOS",
+    "uf": "DF",
+    "genero": "Feminino",
+    "email": "sen.damaresalves@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3018",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5998",
+    "nome": "Daniella Ribeiro",
+    "partido": "PP",
+    "uf": "PB",
+    "genero": "Feminino",
+    "email": "sen.daniellaribeiro@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2964",
+          "dataInicio": "2021-01-22",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2898",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2020-09-23",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "3830",
+    "nome": "Davi Alcolumbre",
+    "partido": "UNIÃO",
+    "uf": "AP",
+    "genero": "Masculino",
+    "email": "sen.davialcolumbre@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3021",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5793",
+    "nome": "Dr. Hiran",
+    "partido": "PP",
+    "uf": "RR",
+    "genero": "Masculino",
+    "email": "sen.drhiran@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3027",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5906",
+    "nome": "Dra. Eudócia",
+    "partido": "PL",
+    "uf": "AL",
+    "genero": "Feminino",
+    "email": "sen.draeudocia@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3081",
+          "dataInicio": "2024-12-29",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2978",
+          "dataInicio": "2022-05-24",
+          "dataFim": "2022-09-21",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "4994",
+    "nome": "Eduardo Braga",
+    "partido": "MDB",
+    "uf": "AM",
+    "genero": "Masculino",
+    "email": "sen.eduardobraga@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2893",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5976",
+    "nome": "Eduardo Girão",
+    "partido": "NOVO",
+    "uf": "CE",
+    "genero": "Masculino",
+    "email": "sen.eduardogirao@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2920",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "3777",
+    "nome": "Eduardo Gomes",
+    "partido": "PL",
+    "uf": "TO",
+    "genero": "Masculino",
+    "email": "sen.eduardogomes@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2998",
+          "dataInicio": "2022-11-11",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2947",
+          "dataInicio": "2019-08-15",
+          "dataFim": "2022-07-18",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "2894",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2019-07-12",
+          "causaAfastamento": "AFO",
+          "descricaoCausaAfastamento": "Afastamento do exercício"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "4642",
+    "nome": "Efraim Filho",
+    "partido": "UNIÃO",
+    "uf": "PB",
+    "genero": "Masculino",
+    "email": "sen.efraimfilho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3071",
+          "dataInicio": "2024-10-18",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3009",
+          "dataInicio": "2023-02-01",
+          "dataFim": "2024-06-19",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5718",
+    "nome": "Eliziane Gama",
+    "partido": "PSD",
+    "uf": "MA",
+    "genero": "Feminino",
+    "email": "sen.elizianegama@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3069",
+          "dataInicio": "2024-10-17",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2900",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2024-07-16",
+          "causaAfastamento": "AFO",
+          "descricaoCausaAfastamento": "Afastamento do exercício"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "22",
+    "nome": "Esperidião Amin",
+    "partido": "PP",
+    "uf": "SC",
+    "genero": "Masculino",
+    "email": "sen.esperidiaoamin@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2901",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5953",
+    "nome": "Fabiano Contarato",
+    "partido": "PT",
+    "uf": "ES",
+    "genero": "Masculino",
+    "email": "sen.fabianocontarato@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2902",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5917",
+    "nome": "Fernando Dueire",
+    "partido": "MDB",
+    "uf": "PE",
+    "genero": "Masculino",
+    "email": "sen.fernandodueire@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3058",
+          "dataInicio": "2023-09-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3000",
+          "dataInicio": "2022-12-07",
+          "dataFim": "2023-09-04",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6345",
+    "nome": "Fernando Farias",
+    "partido": "MDB",
+    "uf": "AL",
+    "genero": "Masculino",
+    "email": "sen.fernandofarias@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3054",
+          "dataInicio": "2023-12-21",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3040",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "345",
+    "nome": "Flávio Arns",
+    "partido": "PSB",
+    "uf": "PR",
+    "genero": "Masculino",
+    "email": "sen.flavioarns@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2903",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5894",
+    "nome": "Flávio Bolsonaro",
+    "partido": "PL",
+    "uf": "RJ",
+    "genero": "Masculino",
+    "email": "sen.flaviobolsonaro@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2904",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6008",
+    "nome": "Giordano",
+    "partido": "MDB",
+    "uf": "SP",
+    "genero": "Masculino",
+    "email": "sen.giordano@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2966",
+          "dataInicio": "2021-03-31",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6341",
+    "nome": "Hamilton Mourão",
+    "partido": "REPUBLICANOS",
+    "uf": "RS",
+    "genero": "Masculino",
+    "email": "sen.hamiltonmourao@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3033",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5008",
+    "nome": "Humberto Costa",
+    "partido": "PT",
+    "uf": "PE",
+    "genero": "Masculino",
+    "email": "sen.humbertocosta@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2907",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5385",
+    "nome": "Irajá",
+    "partido": "PSD",
+    "uf": "TO",
+    "genero": "Masculino",
+    "email": "sen.iraja@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2908",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6010",
+    "nome": "Ivete da Silveira",
+    "partido": "MDB",
+    "uf": "SC",
+    "genero": "Feminino",
+    "email": "sen.ivetedasilveira@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3074",
+          "dataInicio": "2024-11-30",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3003",
+          "dataInicio": "2022-12-30",
+          "dataFim": "2024-08-01",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "2989",
+          "dataInicio": "2022-08-24",
+          "dataFim": "2022-12-20",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "4770",
+    "nome": "Izalci Lucas",
+    "partido": "PL",
+    "uf": "DF",
+    "genero": "Masculino",
+    "email": "sen.izalcilucas@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2909",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "35",
+    "nome": "Jader Barbalho",
+    "partido": "MDB",
+    "uf": "PA",
+    "genero": "Masculino",
+    "email": "sen.jaderbarbalho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2910",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6340",
+    "nome": "Jaime Bagattoli",
+    "partido": "PL",
+    "uf": "RO",
+    "genero": "Masculino",
+    "email": "sen.jaimebagattoli@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3026",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "581",
+    "nome": "Jaques Wagner",
+    "partido": "PT",
+    "uf": "BA",
+    "genero": "Masculino",
+    "email": "sen.jaqueswagner@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2911",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "4531",
+    "nome": "Jayme Campos",
+    "partido": "UNIÃO",
+    "uf": "MT",
+    "genero": "Masculino",
+    "email": "sen.jaymecampos@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2987",
+          "dataInicio": "2022-07-30",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2913",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-04-06",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5895",
+    "nome": "Jorge Kajuru",
+    "partido": "PSB",
+    "uf": "GO",
+    "genero": "Masculino",
+    "email": "sen.jorgekajuru@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2914",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6342",
+    "nome": "Jorge Seif",
+    "partido": "PL",
+    "uf": "SC",
+    "genero": "Masculino",
+    "email": "sen.jorgeseif@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3024",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6369",
+    "nome": "Jussara Lima",
+    "partido": "PSD",
+    "uf": "PI",
+    "genero": "Feminino",
+    "email": "sen.jussaralima@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3086",
+          "dataInicio": "2025-02-03",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3053",
+          "dataInicio": "2023-12-14",
+          "dataFim": "2025-02-01",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3041",
+          "dataInicio": "2023-02-06",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "4811",
+    "nome": "Laércio Oliveira",
+    "partido": "PP",
+    "uf": "SE",
+    "genero": "Masculino",
+    "email": "sen.laerciooliveira@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3025",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5979",
+    "nome": "Leila Barros",
+    "partido": "PDT",
+    "uf": "DF",
+    "genero": "Feminino",
+    "email": "sen.leilabarros@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2918",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5926",
+    "nome": "Lucas Barreto",
+    "partido": "PSD",
+    "uf": "AP",
+    "genero": "Masculino",
+    "email": "sen.lucasbarreto@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2955",
+          "dataInicio": "2020-04-20",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2921",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2019-12-16",
+          "causaAfastamento": "LS ",
+          "descricaoCausaAfastamento": "Licença saúde"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "1186",
+    "nome": "Luis Carlos Heinze",
+    "partido": "PP",
+    "uf": "RS",
+    "genero": "Masculino",
+    "email": "sen.luiscarlosheinze@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3068",
+          "dataInicio": "2024-08-07",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2919",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2024-04-08",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "631",
+    "nome": "Magno Malta",
+    "partido": "PL",
+    "uf": "ES",
+    "genero": "Masculino",
+    "email": "sen.magnomalta@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3011",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5376",
+    "nome": "Mara Gabrilli",
+    "partido": "PSD",
+    "uf": "SP",
+    "genero": "Feminino",
+    "email": "sen.maragabrilli@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2922",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "742",
+    "nome": "Marcelo Castro",
+    "partido": "MDB",
+    "uf": "PI",
+    "genero": "Masculino",
+    "email": "sen.marcelocastro@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2923",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "285",
+    "nome": "Marcio Bittar",
+    "partido": "UNIÃO",
+    "uf": "AC",
+    "genero": "Masculino",
+    "email": "sen.marciobittar@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2994",
+          "dataInicio": "2022-10-15",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2924",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-05-31",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5422",
+    "nome": "Marcos Rogério",
+    "partido": "PL",
+    "uf": "RO",
+    "genero": "Masculino",
+    "email": "sen.marcosrogerio@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3042",
+          "dataInicio": "2023-06-12",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2926",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-12-14",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5942",
+    "nome": "Marcos do Val",
+    "partido": "PODEMOS",
+    "uf": "ES",
+    "genero": "Masculino",
+    "email": "sen.marcosdoval@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2925",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "6304",
+    "nome": "Margareth Buzetti",
+    "partido": "PSD",
+    "uf": "MT",
+    "genero": "Feminino",
+    "email": "sen.margarethbuzetti@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3085",
+          "dataInicio": "2025-02-03",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3080",
+          "dataInicio": "2024-12-23",
+          "dataFim": "2025-02-01",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3078",
+          "dataInicio": "2024-12-04",
+          "dataFim": "2024-12-18",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3055",
+          "dataInicio": "2023-12-21",
+          "dataFim": "2024-12-02",
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3047",
+          "dataInicio": "2023-11-24",
+          "dataFim": "2023-12-12",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3036",
+          "dataInicio": "2023-02-02",
+          "dataFim": "2023-11-21",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "3007",
+          "dataInicio": "2023-01-02",
+          "dataFim": "2023-01-31",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        },
+        {
+          "codigo": "2982",
+          "dataInicio": "2022-06-07",
+          "dataFim": "2022-10-05",
+          "causaAfastamento": "RET",
+          "descricaoCausaAfastamento": "Retorno do titular"
+        }
+      ],
+      "afastado": false,
+      "titular": false,
+      "suplente": true,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6027",
+    "nome": "Mecias de Jesus",
+    "partido": "REPUBLICANOS",
+    "uf": "RR",
+    "genero": "Masculino",
+    "email": "sen.meciasdejesus@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2890",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5985",
+    "nome": "Nelsinho Trad",
+    "partido": "PSD",
+    "uf": "MS",
+    "genero": "Masculino",
+    "email": "sen.nelsinhotrad@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2927",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5525",
+    "nome": "Omar Aziz",
+    "partido": "PSD",
+    "uf": "AM",
+    "genero": "Masculino",
+    "email": "sen.omaraziz@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3031",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5924",
+    "nome": "Oriovisto Guimarães",
+    "partido": "PSDB",
+    "uf": "PR",
+    "genero": "Masculino",
+    "email": "sen.oriovistoguimaraes@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2928",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5523",
+    "nome": "Otto Alencar",
+    "partido": "PSD",
+    "uf": "BA",
+    "genero": "Masculino",
+    "email": "sen.ottoalencar@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3030",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "825",
+    "nome": "Paulo Paim",
+    "partido": "PT",
+    "uf": "RS",
+    "genero": "Masculino",
+    "email": "sen.paulopaim@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2929",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5502",
+    "nome": "Plínio Valério",
+    "partido": "PSDB",
+    "uf": "AM",
+    "genero": "Masculino",
+    "email": "sen.pliniovalerio@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2906",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5386",
+    "nome": "Professora Dorinha Seabra",
+    "partido": "UNIÃO",
+    "uf": "TO",
+    "genero": "Feminino",
+    "email": "sen.professoradorinhaseabra@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3022",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5012",
+    "nome": "Randolfe Rodrigues",
+    "partido": "PT",
+    "uf": "AP",
+    "genero": "Masculino",
+    "email": "sen.randolferodrigues@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2930",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "70",
+    "nome": "Renan Calheiros",
+    "partido": "MDB",
+    "uf": "AL",
+    "genero": "Masculino",
+    "email": "sen.renancalheiros@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2992",
+          "dataInicio": "2022-10-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2917",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-06-02",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5732",
+    "nome": "Rodrigo Pacheco",
+    "partido": "PSD",
+    "uf": "MG",
+    "genero": "Masculino",
+    "email": "sen.rodrigopacheco@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2931",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "4694",
+    "nome": "Rogerio Marinho",
+    "partido": "PL",
+    "uf": "RN",
+    "genero": "Masculino",
+    "email": "sen.rogeriomarinho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3070",
+          "dataInicio": "2024-10-18",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3016",
+          "dataInicio": "2023-02-01",
+          "dataFim": "2024-06-19",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5352",
+    "nome": "Rogério Carvalho",
+    "partido": "PT",
+    "uf": "SE",
+    "genero": "Masculino",
+    "email": "sen.rogeriocarvalho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2933",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5322",
+    "nome": "Romário",
+    "partido": "PL",
+    "uf": "RJ",
+    "genero": "Masculino",
+    "email": "sen.romario@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3029",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6331",
+    "nome": "Sergio Moro",
+    "partido": "UNIÃO",
+    "uf": "PR",
+    "genero": "Masculino",
+    "email": "sen.sergiomoro@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3015",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5988",
+    "nome": "Soraya Thronicke",
+    "partido": "PODEMOS",
+    "uf": "MS",
+    "genero": "Feminino",
+    "email": "sen.sorayathronicke@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2937",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5959",
+    "nome": "Styvenson Valentim",
+    "partido": "PSDB",
+    "uf": "RN",
+    "genero": "Masculino",
+    "email": "sen.styvensonvalentim@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2899",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": true,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "4560",
+    "nome": "Sérgio Petecão",
+    "partido": "PSD",
+    "uf": "AC",
+    "genero": "Masculino",
+    "email": "sen.sergiopetecao@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2997",
+          "dataInicio": "2022-11-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2935",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-07-06",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "6338",
+    "nome": "Teresa Leitão",
+    "partido": "PT",
+    "uf": "PE",
+    "genero": "Feminino",
+    "email": "sen.teresaleitao@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3019",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5736",
+    "nome": "Tereza Cristina",
+    "partido": "PP",
+    "uf": "MS",
+    "genero": "Feminino",
+    "email": "sen.terezacristina@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3012",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5899",
+    "nome": "Vanderlan Cardoso",
+    "partido": "PSD",
+    "uf": "GO",
+    "genero": "Masculino",
+    "email": "sen.vanderlancardoso@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2938",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5748",
+    "nome": "Veneziano Vital do Rêgo",
+    "partido": "MDB",
+    "uf": "PB",
+    "genero": "Masculino",
+    "email": "sen.venezianovitaldorego@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2963",
+          "dataInicio": "2021-01-22",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2939",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2020-09-23",
+          "causaAfastamento": "LP ",
+          "descricaoCausaAfastamento": "Licença Particular"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "1173",
+    "nome": "Wellington Fagundes",
+    "partido": "PL",
+    "uf": "MT",
+    "genero": "Masculino",
+    "email": "sen.wellingtonfagundes@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3072",
+          "dataInicio": "2024-10-28",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "3045",
+          "dataInicio": "2023-11-03",
+          "dataFim": "2024-06-11",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        },
+        {
+          "codigo": "3032",
+          "dataInicio": "2023-02-01",
+          "dataFim": "2023-07-05",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5411",
+    "nome": "Weverton",
+    "partido": "PDT",
+    "uf": "MA",
+    "genero": "Masculino",
+    "email": "sen.wevertonrocha@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2995",
+          "dataInicio": "2022-11-04",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        },
+        {
+          "codigo": "2940",
+          "dataInicio": "2019-02-01",
+          "dataFim": "2022-07-06",
+          "causaAfastamento": "LCS",
+          "descricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "5070",
+    "nome": "Wilder Morais",
+    "partido": "PL",
+    "uf": "GO",
+    "genero": "Masculino",
+    "email": "sen.wildermorais@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "3023",
+          "dataInicio": "2023-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  },
+  {
+    "id": "5783",
+    "nome": "Zenaide Maia",
+    "partido": "PSD",
+    "uf": "RN",
+    "genero": "Feminino",
+    "email": "sen.zenaidemaia@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2941",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": true
+    }
+  },
+  {
+    "id": "3806",
+    "nome": "Zequinha Marinho",
+    "partido": "PODEMOS",
+    "uf": "PA",
+    "genero": "Masculino",
+    "email": "sen.zequinhamarinho@senado.leg.br",
+    "situacao": {
+      "exercicio": [
+        {
+          "codigo": "2916",
+          "dataInicio": "2019-02-01",
+          "dataFim": null,
+          "causaAfastamento": null,
+          "descricaoCausaAfastamento": null
+        }
+      ],
+      "afastado": false,
+      "titular": true,
+      "suplente": false,
+      "cargoMesa": false,
+      "cargoLideranca": false
+    }
+  }
+]

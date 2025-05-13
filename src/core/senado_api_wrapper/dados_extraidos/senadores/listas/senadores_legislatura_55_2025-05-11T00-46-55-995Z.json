@@ -1,0 +1,6282 @@
+{
+  "timestamp": "2025-05-11T00:46:55.993Z",
+  "senadores": [
+    {
+      "codigo": "5573",
+      "nome": "Abel Rebouças",
+      "nomeCompleto": "Abel Rebouças São José",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.990Z"
+    },
+    {
+      "codigo": "5154",
+      "nome": "Abiancy Cadoso Rosa",
+      "nomeCompleto": "Abiancy Cadoso Rosa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "CIDADANIA",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.990Z"
+    },
+    {
+      "codigo": "4981",
+      "nome": "Acir Gurgacz",
+      "nomeCompleto": "Acir Marcos Gurgacz",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4981.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4981",
+      "paginaParticular": "https://acirgurgacz.com.br/",
+      "email": "sen.acirgurgacz@senado.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.990Z"
+    },
+    {
+      "codigo": "5625",
+      "nome": "Adilson Silva dos Santos",
+      "nomeCompleto": "Adilson Silva dos Santos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PEN",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.990Z"
+    },
+    {
+      "codigo": "5170",
+      "nome": "Agimiro Dias da Costa",
+      "nomeCompleto": "Agimiro Dias da Costa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.990Z"
+    },
+    {
+      "codigo": "5140",
+      "nome": "Airton Sandoval",
+      "nomeCompleto": "Airton Sandoval Santana",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5140.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5140",
+      "email": "sen.airtonsandoval@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4610",
+      "nome": "Alexandre Silveira",
+      "nomeCompleto": "Alexandre Silveira de Oliveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4610.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4610",
+      "email": "sen.alexandresilveira@senado.leg.br",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "846",
+      "nome": "Aloysio Nunes Ferreira",
+      "nomeCompleto": "Aloysio Nunes Ferreira Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador846.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/846",
+      "email": "aloysionunes.ferreira@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "945",
+      "nome": "Alvaro Dias",
+      "nomeCompleto": "Alvaro Fernandes Dias",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador945.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/945",
+      "paginaParticular": "https://www.alvarodias.com.br/",
+      "email": "sen.alvarodias@senado.leg.br",
+      "partido": {
+        "sigla": "PODEMOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5607",
+      "nome": "Alzenir Porto",
+      "nomeCompleto": "Maria Alzenir Porto da Costa",
+      "genero": "Feminino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5042",
+      "nome": "Alzira Ferreira Barros",
+      "nomeCompleto": "Alzira Ferreira Barros",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PCdoB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4988",
+      "nome": "Ana Amélia",
+      "nomeCompleto": "Ana Amélia de Lemos",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4988.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4988",
+      "email": "ana.amelia@senadora.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5046",
+      "nome": "Andrelina Barbosa da Cunha",
+      "nomeCompleto": "Andrelina Barbosa da Cunha",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSOL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5529",
+      "nome": "Antonio Anastasia",
+      "nomeCompleto": "Antonio Augusto Junho Anastasia",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5529.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5529",
+      "email": "sen.antonioanastasia@senado.leg.br",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5150",
+      "nome": "Antonio Carlos Rodrigues",
+      "nomeCompleto": "Antonio Carlos Rodrigues",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5150.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5150",
+      "paginaParticular": "https://www.camara.leg.br/deputados/220638",
+      "email": "dep.antoniocarlosrodrigues@camara.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "SP",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3",
+      "nome": "Antonio Carlos Valadares",
+      "nomeCompleto": "Antonio Carlos Valadares",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3",
+      "email": "antoniocarlosvaladares@senador.leg.br",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5134",
+      "nome": "Antônio Marcos Gavazzoni",
+      "nomeCompleto": "Antônio Marcos Gavazzoni",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5032",
+      "nome": "Antônio Milton Pessoa Falcão Filho",
+      "nomeCompleto": "Antônio Milton Pessoa Falcão Filho",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5168",
+      "nome": "Aristavora de Souza Santos",
+      "nomeCompleto": "Aristavora de Souza Santos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5028",
+      "nome": "Armando José de Oliveira",
+      "nomeCompleto": "Armando José de Oliveira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSC",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "715",
+      "nome": "Armando Monteiro",
+      "nomeCompleto": "Armando de Queiroz Monteiro Neto",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador715.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/715",
+      "email": "armando.monteiro@senador.leg.br",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5164",
+      "nome": "Ataídes Oliveira",
+      "nomeCompleto": "Ataídes de Oliveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5164.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5164",
+      "email": "ataides.oliveira@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5138",
+      "nome": "Athos de Almeida Lopes",
+      "nomeCompleto": "Athos de Almeida Lopes",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5633",
+      "nome": "Atilio Francisco",
+      "nomeCompleto": "Atilio Francisco da Silva",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5631",
+      "nome": "Ayres Marchetti",
+      "nomeCompleto": "Genésio Ayres Marchetti",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "391",
+      "nome": "Aécio Neves",
+      "nomeCompleto": "Aécio Neves da Cunha",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador391.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/391",
+      "paginaParticular": "https://www.camara.leg.br/deputados/74646",
+      "email": "dep.aecioneves@camara.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "MG",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3823",
+      "nome": "Benedito de Lira",
+      "nomeCompleto": "Benedito de Lira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3823.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3823",
+      "email": "benedito.lira@senador.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5559",
+      "nome": "Bispo José",
+      "nomeCompleto": "José Afonso Teixeira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5559.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5559",
+      "email": "",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "111",
+      "nome": "Blairo Maggi",
+      "nomeCompleto": "Blairo Borges Maggi",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador111.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/111",
+      "email": "blairomaggi@senador.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5603",
+      "nome": "Carlos Augusto Costa",
+      "nomeCompleto": "Carlos Augusto Lopes da Costa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PV",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5593",
+      "nome": "Celso Dal Lago Rodrigues",
+      "nomeCompleto": "Celso Dal Lago Rodrigues",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5136",
+      "nome": "Cesar Antonio de Souza",
+      "nomeCompleto": "Cesar Antonio de Souza",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "611",
+      "nome": "Chiquinho Feitosa",
+      "nomeCompleto": "Francisco Feitosa de Albuquerque Lima",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador611.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/611",
+      "email": "sen.chiquinhofeitosa@senado.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5623",
+      "nome": "Christopher Goulart",
+      "nomeCompleto": "Christopher Belchior Goulart",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5108",
+      "nome": "Cidinho Santos",
+      "nomeCompleto": "José Aparecido dos Santos",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5108.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5108",
+      "email": "cidinho.santos@senador.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "739",
+      "nome": "Ciro Nogueira",
+      "nomeCompleto": "Ciro Nogueira Lima Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador739.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/739",
+      "paginaParticular": "http://cironogueira.com.br",
+      "email": "sen.cironogueira@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "PI",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3881",
+      "nome": "Clovis Fecury",
+      "nomeCompleto": "Clovis Antônio Chaves Fecury",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3881.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3881",
+      "email": "clovis.fecury@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5044",
+      "nome": "Clécio Luis Vilhena Vieira",
+      "nomeCompleto": "Clécio Luis Vilhena Vieira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSOL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3398",
+      "nome": "Cristovam Buarque",
+      "nomeCompleto": "Cristovam Ricardo Cavalcanti Buarque",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3398.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3398",
+      "email": "cristovam.buarque@senador.leg.br",
+      "partido": {
+        "sigla": "CIDADANIA",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "1757",
+      "nome": "Cunha Lima",
+      "nomeCompleto": "Ivandro Moura Cunha Lima",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5197",
+      "nome": "Cássio Cunha Lima",
+      "nomeCompleto": "Cássio Rodrigues da Cunha Lima",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5197.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5197",
+      "email": "cassio.cunha.lima@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5132",
+      "nome": "Dalirio Beber",
+      "nomeCompleto": "Dalírio José Beber",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5132.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5132",
+      "email": "dalirio.beber@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3830",
+      "nome": "Davi Alcolumbre",
+      "nomeCompleto": "David Samuel Alcolumbre Tobelem",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3830.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3830",
+      "email": "sen.davialcolumbre@senado.leg.br",
+      "partido": {
+        "sigla": "UNIÃO",
+        "nome": null
+      },
+      "uf": "AP",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5199",
+      "nome": "Deca",
+      "nomeCompleto": "José Gonzaga Sobrinho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5199.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5199",
+      "email": "deca@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3360",
+      "nome": "Delcídio do Amaral",
+      "nomeCompleto": "Delcídio do Amaral Gomez",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3360.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3360",
+      "email": "delcidio.amaral@senador.leg.br",
+      "partido": {
+        "sigla": "S/Partido",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3399",
+      "nome": "Demóstenes Torres",
+      "nomeCompleto": "Demóstenes Lazaro Xavier Torres",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3399.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3399",
+      "email": "demostenes.torres@senador.leg.br",
+      "partido": {
+        "sigla": "S/Partido",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5637",
+      "nome": "Donizeti Nogueira",
+      "nomeCompleto": "Divino Donizeti Borges Nogueira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5637.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5637",
+      "email": "donizeti.nogueira@senador.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5178",
+      "nome": "Douglas Cintra",
+      "nomeCompleto": "Douglas Mauricio Ramos Cintra",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5178.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5178",
+      "email": "douglas.cintra@senador.leg.br",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5565",
+      "nome": "Dr. Helder Cavalcante",
+      "nomeCompleto": "Francisco Helder Cavalcante Sousa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5537",
+      "nome": "Dário Berger",
+      "nomeCompleto": "Dário Elias Berger",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5537.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5537",
+      "paginaParticular": "https://www.darioberger.com.br/",
+      "email": "sen.darioberger@senado.leg.br",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "16",
+      "nome": "Edison Lobão",
+      "nomeCompleto": "Edison Lobão",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador16.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/16",
+      "email": "edison.lobao@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5160",
+      "nome": "Edivaldo Edilson Pantoja da Silva",
+      "nomeCompleto": "Edivaldo Edilson Pantoja da Silva",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSOL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4721",
+      "nome": "Eduardo Amorim",
+      "nomeCompleto": "Eduardo Alves do Amorim",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4721.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4721",
+      "email": "eduardo.amorim@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4994",
+      "nome": "Eduardo Braga",
+      "nomeCompleto": "Carlos Eduardo de Souza Braga",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4994.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4994",
+      "email": "sen.eduardobraga@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "AM",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4767",
+      "nome": "Eduardo Lopes",
+      "nomeCompleto": "Eduardo Benedito Lopes",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4767.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4767",
+      "email": "eduardo.lopes@senador.leg.br",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5587",
+      "nome": "Eladio Carneiro",
+      "nomeCompleto": "Eladio Barbosa Carneiro",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5146",
+      "nome": "Elaine Matozinhos Ribeiro",
+      "nomeCompleto": "Elaine Matozinhos Ribeiro",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4969",
+      "nome": "Elber Batalha",
+      "nomeCompleto": "Elber Batalha de Goes",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4969.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4969",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5605",
+      "nome": "Eliane Rodrigues",
+      "nomeCompleto": "Eliane Rodrigues de Andrade Ferreira",
+      "genero": "Feminino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5531",
+      "nome": "Elmano Férrer",
+      "nomeCompleto": "Elmano Férrer de Almeida",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5531.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5531",
+      "email": "sen.elmanoferrer@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5148",
+      "nome": "Elmiro Alves do Nascimento",
+      "nomeCompleto": "Elmiro Alves do Nascimento",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5064",
+      "nome": "Emir Simão Sader",
+      "nomeCompleto": "Emir Simão Sader",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5126",
+      "nome": "Enivaldo Euzébio dos Anjos",
+      "nomeCompleto": "Enivaldo Euzébio dos Anjos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "612",
+      "nome": "Eunício Oliveira",
+      "nomeCompleto": "Eunício Lopes de Oliveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador612.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/612",
+      "paginaParticular": "https://www.camara.leg.br/deputados/74454",
+      "email": "dep.euniciooliveira@camara.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "CE",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5581",
+      "nome": "Fadi Faraj",
+      "nomeCompleto": "Fadi Fayez Faraj",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "SOLIDARIEDADE",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5540",
+      "nome": "Fernando Bezerra Coelho",
+      "nomeCompleto": "Fernando Bezerra de Souza Coelho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5540.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5540",
+      "paginaParticular": "https://www.facebook.com/fernando.bezerracoelho?fref=ts",
+      "email": "sen.fernandobezerracoelho@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5026",
+      "nome": "Fernando Carvalho Lage",
+      "nomeCompleto": "Fernando Carvalho Lage",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4525",
+      "nome": "Fernando Collor",
+      "nomeCompleto": "Fernando Affonso Collor de Mello",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4525.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4525",
+      "paginaParticular": "http://www.fernandocollor.com.br/",
+      "email": "sen.fernandocollor@senado.leg.br",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5577",
+      "nome": "Fernando Façanha",
+      "nomeCompleto": "Fernando Antonio Mendes Façanha Filho",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "2632",
+      "nome": "Fernando Ribeiro",
+      "nomeCompleto": "Fernando de Castro Ribeiro",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador2632.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/2632",
+      "email": "fernando.ribeiro@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "4873",
+      "nome": "Fleury",
+      "nomeCompleto": "José Eduardo Fleury Fernandes Costa",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4873.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4873",
+      "email": "fleury@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "3634",
+      "nome": "Flexa Ribeiro",
+      "nomeCompleto": "Fernando de Souza Flexa Ribeiro",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3634.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3634",
+      "email": "flexa.ribeiro@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "553",
+      "nome": "Francisco Garcia",
+      "nomeCompleto": "Francisco Garcia Rodrigues",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5054",
+      "nome": "Francisco Simeão Rodrigues Neto",
+      "nomeCompleto": "Francisco Simeão Rodrigues Neto",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.991Z"
+    },
+    {
+      "codigo": "5416",
+      "nome": "Francisco Wilson Ribeiro",
+      "nomeCompleto": "Francisco Wilson Ribeiro",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5034",
+      "nome": "Fábio Luiz Araújo Lopes de Farias",
+      "nomeCompleto": "Fábio Luiz Araújo Lopes de Farias",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3713",
+      "nome": "Fátima Bezerra",
+      "nomeCompleto": "Maria de Fátima Bezerra",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3713.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3713",
+      "email": "fatima.bezerra@senadora.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5162",
+      "nome": "Félix Urano Gama de Souza",
+      "nomeCompleto": "Félix Urano Gama de Souza",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSOL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5024",
+      "nome": "Gabriel Maia Gelpke",
+      "nomeCompleto": "Gabriel Maia Gelpke",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "87",
+      "nome": "Garibaldi Alves Filho",
+      "nomeCompleto": "Garibaldi Alves Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador87.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/87",
+      "email": "garibaldi.alves@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4522",
+      "nome": "Geovani Borges",
+      "nomeCompleto": "Geovani Pinheiro Borges",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4522.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4522",
+      "email": "geovaniborges@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5088",
+      "nome": "Gilberto Corazza",
+      "nomeCompleto": "Gilberto Corazza",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5615",
+      "nome": "Gilberto Piselo",
+      "nomeCompleto": "Gilberto Piselo do Nascimento",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5615.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5615",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "30",
+      "nome": "Gilvam Borges",
+      "nomeCompleto": "Gilvam Pinheiro Borges",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador30.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/30",
+      "email": "gilvamborges@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5128",
+      "nome": "Gino Jose Ferreira",
+      "nomeCompleto": "Gino Jose Ferreira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5030",
+      "nome": "Givago Tenório",
+      "nomeCompleto": "José Givago Raposo Tenório",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5030.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5030",
+      "email": "sen.givagotenorio@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4558",
+      "nome": "Gladson Cameli",
+      "nomeCompleto": "Gladson de Lima Cameli",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4558.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4558",
+      "email": "gladson.cameli@senador.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5006",
+      "nome": "Gleisi Hoffmann",
+      "nomeCompleto": "Gleisi Helena Hoffmann",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5006.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5006",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5639",
+      "nome": "Guaracy Silveira",
+      "nomeCompleto": "Guaracy Batista da Silveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5639.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5639",
+      "email": "sen.guaracysilveira@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5008",
+      "nome": "Humberto Costa",
+      "nomeCompleto": "Humberto Sérgio Costa Lima",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5008.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5008",
+      "paginaParticular": "http://www.senadorhumberto.com.br/",
+      "email": "sen.humbertocosta@senado.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "PE",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5100",
+      "nome": "Hélio José",
+      "nomeCompleto": "Hélio José da Silva Lima",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5100.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5100",
+      "email": "heliojose@senador.leg.br",
+      "partido": {
+        "sigla": "PROS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5076",
+      "nome": "Ione Guimarães",
+      "nomeCompleto": "Ione Borges Ribeiro Guimarães",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5076.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5076",
+      "email": "",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "1754",
+      "nome": "Itamar Franco",
+      "nomeCompleto": "Itamar Augusto Cautiero Franco",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1754.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1754",
+      "email": "itamar.franco@senador.leg.br",
+      "partido": {
+        "sigla": "",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5418",
+      "nome": "Ivanci Magno",
+      "nomeCompleto": "Ivanci Magno",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5004",
+      "nome": "Ivo Cassol",
+      "nomeCompleto": "Ivo Narciso Cassol",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5004.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5004",
+      "email": "ivo.cassol@senador.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "35",
+      "nome": "Jader Barbalho",
+      "nomeCompleto": "Jader Fontenelle Barbalho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador35.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/35",
+      "paginaParticular": "http://jaderbarbalho.com.br/",
+      "email": "sen.jaderbarbalho@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "PA",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5022",
+      "nome": "Janduhy Max Freire de Andrade",
+      "nomeCompleto": "Janduhy Max Freire de Andrade",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5627",
+      "nome": "Jean-Paul Prates",
+      "nomeCompleto": "Jean Paul Terra Prates",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5627.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5627",
+      "email": "sen.jeanpaulprates@senado.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "724",
+      "nome": "Joaquim Francisco",
+      "nomeCompleto": "Joaquim Francisco de Freitas Cavalcanti",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5609",
+      "nome": "Joel Malucelli",
+      "nomeCompleto": "Joel Malucelli",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4990",
+      "nome": "Jorge Viana",
+      "nomeCompleto": "Jorge Ney Viana Macedo Neves",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4990.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4990",
+      "email": "jorge.viana@senador.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4885",
+      "nome": "Jorge Yanai",
+      "nomeCompleto": "Jorge Yoshiaki Yanai",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4885.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4885",
+      "email": "yanai@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5078",
+      "nome": "Jose Nagib da Silva Lima",
+      "nomeCompleto": "Jose Nagib da Silva Lima",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5569",
+      "nome": "Josiel",
+      "nomeCompleto": "Jose Samuel Alcolumbre Tobelem",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "UNIÃO",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "40",
+      "nome": "José Agripino",
+      "nomeCompleto": "José Agripino Maia",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador40.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/40",
+      "email": "jose.agripino@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5090",
+      "nome": "José Alberto Wenzel",
+      "nomeCompleto": "José Alberto Wenzel",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5849",
+      "nome": "José Amauri",
+      "nomeCompleto": "Jose Amauri P. de Araújo",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5849.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5849",
+      "email": "sen.joseamauri@senado.leg.br",
+      "partido": {
+        "sigla": "PODEMOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5120",
+      "nome": "José Antonio Guidoni",
+      "nomeCompleto": "José Antonio Guidoni",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "878",
+      "nome": "José Aníbal",
+      "nomeCompleto": "José Aníbal Peres de Pontes",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador878.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/878",
+      "email": "sen.joseanibal@senado.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5579",
+      "nome": "José Carlos Vasconcellos",
+      "nomeCompleto": "José Carlos de Moraes Vasconcellos Filho",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "43",
+      "nome": "José Eduardo Dutra",
+      "nomeCompleto": "José Eduardo de Barros Dutra",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador43.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/43",
+      "email": "zedutra@senado.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3361",
+      "nome": "José Maranhão",
+      "nomeCompleto": "José Targino Maranhão",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3361.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3361",
+      "email": "sen.josemaranhao@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5112",
+      "nome": "José Medeiros",
+      "nomeCompleto": "José Antônio Medeiros",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5112.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5112",
+      "email": "josemedeiros@senador.leg.br",
+      "partido": {
+        "sigla": "PODEMOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "615",
+      "nome": "José Pimentel",
+      "nomeCompleto": "José Barroso Pimentel",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador615.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/615",
+      "email": "jose.pimentel@senador.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5180",
+      "nome": "José Rodrigues da Silva",
+      "nomeCompleto": "José Rodrigues da Silva",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "90",
+      "nome": "José Serra",
+      "nomeCompleto": "José Serra",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador90.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/90",
+      "email": "sen.joseserra@senado.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5036",
+      "nome": "José de Macedo Ferreira",
+      "nomeCompleto": "José de Macedo Ferreira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "950",
+      "nome": "João Alberto Souza",
+      "nomeCompleto": "João Alberto de Souza",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador950.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/950",
+      "email": "joao.alberto.souza@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5613",
+      "nome": "João Batista Lemos",
+      "nomeCompleto": "João Batista da Rocha Lemos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PCB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3394",
+      "nome": "João Capiberibe",
+      "nomeCompleto": "João Alberto Rodrigues Capiberibe",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3394.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3394",
+      "email": "joao.capiberibe@senador.leg.br",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5186",
+      "nome": "João Claudino Fernandes",
+      "nomeCompleto": "João Claudino Fernandes",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PRTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5166",
+      "nome": "João Costa",
+      "nomeCompleto": "João Costa Ribeiro Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5166.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5166",
+      "email": "joaocosta@senador.leg.br",
+      "partido": {
+        "sigla": "PPL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3593",
+      "nome": "João Faustino",
+      "nomeCompleto": "João Faustino Ferreira Neto",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3593.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3593",
+      "email": "joaofaustino@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "916",
+      "nome": "João Ribeiro",
+      "nomeCompleto": "João Batista de Jesus Ribeiro",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador916.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/916",
+      "email": "joaoribeiro@senador.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5066",
+      "nome": "Juçara Feitosa de Oliveira",
+      "nomeCompleto": "Juçara Feitosa de Oliveira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5158",
+      "nome": "Kaká Andrade",
+      "nomeCompleto": "Antonio Carlos Porto de Andrade",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5158.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5158",
+      "email": "kaka.andrade@senador.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "1249",
+      "nome": "Kátia Abreu",
+      "nomeCompleto": "Kátia Regina de Abreu",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1249.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1249",
+      "email": "sen.katiaabreu@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "415",
+      "nome": "Lael Varella",
+      "nomeCompleto": "Lael Vieira Varella",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador415.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/415",
+      "email": "",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5533",
+      "nome": "Lasier Martins",
+      "nomeCompleto": "Lasier Costa Martins",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5533.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5533",
+      "paginaParticular": "https://www.senadorlasiermartins.com.br/",
+      "email": "sen.lasiermartins@senado.leg.br",
+      "partido": {
+        "sigla": "PODEMOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5156",
+      "nome": "Lauro Antonio",
+      "nomeCompleto": "Lauro Antonio Texeira Menezes",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5156.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5156",
+      "email": "lauroantonio@senador.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3695",
+      "nome": "Lindbergh Farias",
+      "nomeCompleto": "Luiz Lindbergh Farias Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3695.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3695",
+      "paginaParticular": "https://www.camara.leg.br/deputados/74858",
+      "email": "dep.lindberghfarias@camara.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "RJ",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5040",
+      "nome": "Lirio Albino Parisotto",
+      "nomeCompleto": "Lirio Albino Parisotto",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3579",
+      "nome": "Lobão Filho",
+      "nomeCompleto": "Edison Lobão Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3579.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3579",
+      "email": "lobaofilho@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5092",
+      "nome": "Luis Carlos Paes de Castro",
+      "nomeCompleto": "Luis Carlos Paes de Castro",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PCdoB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5104",
+      "nome": "Luis Cláudio da Costa Avelar",
+      "nomeCompleto": "Luis Cláudio da Costa Avelar",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PCdoB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5567",
+      "nome": "Luis Mitoso",
+      "nomeCompleto": "Luis Augusto Mitoso Junior",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5585",
+      "nome": "Luiz Carlos do Carmo",
+      "nomeCompleto": "Luiz Carlos do Carmo",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5585.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5585",
+      "email": "sen.luizcarlosdocarmo@senado.leg.br",
+      "partido": {
+        "sigla": "PSC",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5002",
+      "nome": "Luiz Henrique",
+      "nomeCompleto": "Luiz Henrique da Silveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5002.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5002",
+      "email": "luizhenrique@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "151",
+      "nome": "Luiz Pastore",
+      "nomeCompleto": "Luiz Osvaldo Pastore",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador151.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/151",
+      "email": "sen.luizpastore@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5058",
+      "nome": "Luís Guilherme Gomes Mussi",
+      "nomeCompleto": "Luís Guilherme Gomes Mussi",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4575",
+      "nome": "Lídice da Mata",
+      "nomeCompleto": "Lídice da Mata e Souza",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4575.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4575",
+      "paginaParticular": "https://www.camara.leg.br/deputados/139285",
+      "email": "dep.lidicedamata@camara.leg.br",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "BA",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "643",
+      "nome": "Lúcia Vânia",
+      "nomeCompleto": "Lúcia Vânia Abrão",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador643.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/643",
+      "email": "lucia.vania@senadora.leg.br",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "631",
+      "nome": "Magno Malta",
+      "nomeCompleto": "Magno Pereira Malta",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador631.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/631",
+      "email": "sen.magnomalta@senado.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "ES",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5557",
+      "nome": "Mailza Gomes",
+      "nomeCompleto": "Mailza Assis da Silva",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5557.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5557",
+      "email": "sen.mailzagomes@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4951",
+      "nome": "Manoel Angelo Chagas",
+      "nomeCompleto": "Manoel Angelo Chagas",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5591",
+      "nome": "Manoel Motta",
+      "nomeCompleto": "Manoel Francisco de Vasconcelos Motta",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PCB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3366",
+      "nome": "Marcelo Crivella",
+      "nomeCompleto": "Marcelo Bezerra Crivella",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3366.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3366",
+      "paginaParticular": "https://www.camara.leg.br/deputados/220599",
+      "email": "dep.marcelocrivella@camara.leg.br",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "RJ",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "710",
+      "nome": "Marcondes Gadelha",
+      "nomeCompleto": "Marcondes Iran Benevides Gadelha",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSC",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5124",
+      "nome": "Maria Antonieta Amorim dos Santos",
+      "nomeCompleto": "Maria Antonieta Amorim dos Santos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5190",
+      "nome": "Maria Luza de Aquino Machado",
+      "nomeCompleto": "Maria Luza de Aquino Machado",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5174",
+      "nome": "Maria de Pompeia Lins Pessoa",
+      "nomeCompleto": "Maria de Pompeia Lins Pessoa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "1023",
+      "nome": "Maria do Carmo Alves",
+      "nomeCompleto": "Maria do Carmo do Nascimento Alves",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1023.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1023",
+      "email": "sen.mariadocarmoalves@senado.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4998",
+      "nome": "Marinor Brito",
+      "nomeCompleto": "Marinor Jorge Brito",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4998.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4998",
+      "email": "marinorbrito@senadora.leg.br",
+      "partido": {
+        "sigla": "PSOL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5575",
+      "nome": "Marizete",
+      "nomeCompleto": "Marizete Lisboa Fernandes Pereira",
+      "genero": "Feminino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5571",
+      "nome": "Marquinho",
+      "nomeCompleto": "Marco Jeovano Soares Ribas",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5142",
+      "nome": "Marta Maria Freire da Costa",
+      "nomeCompleto": "Marta Maria Freire da Costa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5000",
+      "nome": "Marta Suplicy",
+      "nomeCompleto": "Marta Teresa Suplicy",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5000.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5000",
+      "email": "marta.suplicy@senadora.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "670",
+      "nome": "Mauro Fecury",
+      "nomeCompleto": "Mauro de Alencar Fecury",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador670.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/670",
+      "email": "fecury@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5086",
+      "nome": "Miguel Dias de Souza",
+      "nomeCompleto": "Miguel Dias de Souza",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5595",
+      "nome": "Moacir Kohl",
+      "nomeCompleto": "Moacir Kohl",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5094",
+      "nome": "Márcio Bergonsi Turra",
+      "nomeCompleto": "Márcio Bergonsi Turra",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5176",
+      "nome": "Nestor Duarte Guimarães Neto",
+      "nomeCompleto": "Nestor Duarte Guimarães Neto",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "380",
+      "nome": "Nicias Ribeiro",
+      "nomeCompleto": "Nicias Lopes Ribeiro",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5281",
+      "nome": "Nilda Gondim",
+      "nomeCompleto": "Ozanilda Gondim Vital do Rego",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5281.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5281",
+      "email": "sen.nildagondim@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "288",
+      "nome": "Nilson Mourão",
+      "nomeCompleto": "Nilson Moura Leite Mourão",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "64",
+      "nome": "Odacir Soares",
+      "nomeCompleto": "Odacir Soares Rodrigues",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador64.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/64",
+      "email": "odacir@senador.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5060",
+      "nome": "Olney Ribeiro Botelho",
+      "nomeCompleto": "Olney Ribeiro Botelho",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5525",
+      "nome": "Omar Aziz",
+      "nomeCompleto": "Omar José Abdel Aziz",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5525.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5525",
+      "email": "sen.omaraziz@senado.leg.br",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "AM",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5523",
+      "nome": "Otto Alencar",
+      "nomeCompleto": "Otto Roberto Mendonça de Alencar",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5523.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5523",
+      "email": "sen.ottoalencar@senado.leg.br",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "BA",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5080",
+      "nome": "Pablo Sergio Souza Bezerra",
+      "nomeCompleto": "Pablo Sergio Souza Bezerra",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "918",
+      "nome": "Pastor Amarildo",
+      "nomeCompleto": "Amarildo Martins da Silva",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSC",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5018",
+      "nome": "Pastor Bel",
+      "nomeCompleto": "Heber Waldo Silva Costa",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5018.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5018",
+      "email": "",
+      "partido": {
+        "sigla": "PRTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5599",
+      "nome": "Pastor Ibanes Taveira",
+      "nomeCompleto": "Ibanes Taveira da Silva",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5617",
+      "nome": "Pastor Valadares",
+      "nomeCompleto": "Sebastião Valadares Neto",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5617.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5617",
+      "email": "pastor.valadares@senador.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5122",
+      "nome": "Paulo Antenor de Oliveira",
+      "nomeCompleto": "Paulo Antenor de Oliveira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3741",
+      "nome": "Paulo Bauer",
+      "nomeCompleto": "Paulo Roberto Bauer",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3741.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3741",
+      "email": "paulo.bauer@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5020",
+      "nome": "Paulo Davim",
+      "nomeCompleto": "Paulo Roberto Davim",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5020.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5020",
+      "email": "paulodavim@senador.leg.br",
+      "partido": {
+        "sigla": "PV",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5152",
+      "nome": "Paulo Frateschi",
+      "nomeCompleto": "Paulo Frateschi",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "336",
+      "nome": "Paulo Gouvêa",
+      "nomeCompleto": "Paulo Gilberto Gouvêa da Costa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5589",
+      "nome": "Paulo Matos",
+      "nomeCompleto": "Paulo Henrique Campos Matos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "CIDADANIA",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "825",
+      "nome": "Paulo Paim",
+      "nomeCompleto": "Paulo Renato Paim",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador825.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/825",
+      "paginaParticular": "http://www.senadorpaim.com.br/",
+      "email": "sen.paulopaim@senado.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "RS",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5114",
+      "nome": "Paulo Pereira Fíuza Filho",
+      "nomeCompleto": "Paulo Pereira Fíuza Filho",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PV",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "374",
+      "nome": "Paulo Rocha",
+      "nomeCompleto": "Paulo Roberto Galvão da Rocha",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador374.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/374",
+      "paginaParticular": "http://senadorpaulorocha.com.br/",
+      "email": "sen.paulorocha@senado.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5116",
+      "nome": "Pedro Chaves",
+      "nomeCompleto": "Pedro Chaves dos Santos Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5116.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5116",
+      "email": "pedrochaves@senador.leg.br",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5050",
+      "nome": "Pedro Irno Tonelli",
+      "nomeCompleto": "Pedro Irno Tonelli",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5010",
+      "nome": "Pedro Taques",
+      "nomeCompleto": "José Pedro Gonçalves Taques",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5010.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5010",
+      "email": "pedrotaques@senador.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4606",
+      "nome": "Pinto Itamaraty",
+      "nomeCompleto": "José Eleonildo Soares",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4606.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4606",
+      "email": "pinto.itamaraty@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "2207",
+      "nome": "Raimundo Lira",
+      "nomeCompleto": "Raimundo Lira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador2207.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/2207",
+      "email": "raimundo.lira@senador.leg.br",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5012",
+      "nome": "Randolfe Rodrigues",
+      "nomeCompleto": "Randolph Frederich Rodrigues Alves",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5012.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5012",
+      "paginaParticular": "https://www.facebook.com/randolferodrigues",
+      "email": "sen.randolferodrigues@senado.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "AP",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5072",
+      "nome": "Reditario Cassol",
+      "nomeCompleto": "Reditario Cassol",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5072.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5072",
+      "email": "reditariocassol@senador.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5182",
+      "nome": "Regina Sousa",
+      "nomeCompleto": "Maria Regina Sousa",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5182.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5182",
+      "email": "reginasousa@senadora.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5236",
+      "nome": "Reguffe",
+      "nomeCompleto": "José Antônio Machado Reguffe",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5236.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5236",
+      "email": "sen.reguffe@senado.leg.br",
+      "partido": {
+        "sigla": "S/Partido",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "70",
+      "nome": "Renan Calheiros",
+      "nomeCompleto": "José Renan Vasconcelos Calheiros",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador70.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/70",
+      "paginaParticular": "https://www.renancalheiros.com.br/",
+      "email": "sen.renancalheiros@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "AL",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5561",
+      "nome": "Renilde Bulhões",
+      "nomeCompleto": "Renilde Silva Bulhões Barros",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5561.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5561",
+      "email": "sen.renildebulhoes@senado.leg.br",
+      "partido": {
+        "sigla": "PROS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "635",
+      "nome": "Ricardo Ferraço",
+      "nomeCompleto": "Ricardo de Rezende Ferraço",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador635.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/635",
+      "email": "ricardoferraco@senador.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5635",
+      "nome": "Ricardo Franco",
+      "nomeCompleto": "Ricardo Barreto Franco",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5635.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5635",
+      "email": "ricardo.franco@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5052",
+      "nome": "Roberto Muniz",
+      "nomeCompleto": "Roberto de Oliveira Muniz",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5052.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5052",
+      "email": "roberto.muniz@senador.leg.br",
+      "partido": {
+        "sigla": "PP",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "72",
+      "nome": "Roberto Requião",
+      "nomeCompleto": "Roberto Requião de Mello e Silva",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador72.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/72",
+      "email": "roberto.requiao@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "677",
+      "nome": "Roberto Rocha",
+      "nomeCompleto": "Roberto Coelho Rocha",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador677.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/677",
+      "email": "sen.robertorocha@senado.leg.br",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5098",
+      "nome": "Roberto Wagner Monteiro",
+      "nomeCompleto": "Roberto Wagner Monteiro",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4593",
+      "nome": "Rodrigo Rollemberg",
+      "nomeCompleto": "Rodrigo Sobral Rollemberg",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4593.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4593",
+      "email": "rollemberg@senador.leg.br",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5110",
+      "nome": "Rodrigues Palma",
+      "nomeCompleto": "Manoel Antônio Rodrigues Palma",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5110.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5110",
+      "email": "sen.rodriguespalma@senado.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "73",
+      "nome": "Romero Jucá",
+      "nomeCompleto": "Romero Jucá Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador73.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/73",
+      "email": "romero.juca@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5322",
+      "nome": "Romário",
+      "nomeCompleto": "Romario de Souza Faria",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5322.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5322",
+      "paginaParticular": "http://romario.org/",
+      "email": "sen.romario@senado.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "RJ",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "456",
+      "nome": "Ronaldo Caiado",
+      "nomeCompleto": "Ronaldo Ramos Caiado",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador456.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/456",
+      "email": "ronaldo.caiado@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5601",
+      "nome": "Roosevelt Vita",
+      "nomeCompleto": "Roosevelt Vita",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "2331",
+      "nome": "Rose de Freitas",
+      "nomeCompleto": "Rosilda de Freitas",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador2331.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/2331",
+      "paginaParticular": "https://www.senadorarosedefreitas.com.br/",
+      "email": "sen.rosedefreitas@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5621",
+      "nome": "Rudson Leite",
+      "nomeCompleto": "Rudson Leite da Silva",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5621.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5621",
+      "email": "sen.rudsonleite@senado.leg.br",
+      "partido": {
+        "sigla": "PV",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4847",
+      "nome": "Salomão Alcolumbre Júnior",
+      "nomeCompleto": "Salomão Alcolumbre Júnior",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5074",
+      "nome": "Sander Fraxe Salomao",
+      "nomeCompleto": "Sander Fraxe Salomao",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5038",
+      "nome": "Sandra Braga",
+      "nomeCompleto": "Sandra Backsmann Braga",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5038.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5038",
+      "email": "sandrabraga@senadora.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5172",
+      "nome": "Sanny Japiassú dos Santos",
+      "nomeCompleto": "Sanny Japiassú dos Santos",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5583",
+      "nome": "Schariff Moyses",
+      "nomeCompleto": "Schariff Moyses",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5048",
+      "nome": "Sergio Souza",
+      "nomeCompleto": "Sergio de Souza",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5048.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5048",
+      "paginaParticular": "https://www.camara.leg.br/deputados/178933",
+      "email": "dep.sergiosouza@camara.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "PR",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5611",
+      "nome": "Severino Araujo",
+      "nomeCompleto": "Severino Nunes de Araujo",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5563",
+      "nome": "Severino Leão",
+      "nomeCompleto": "Severino Barboza Leão",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5056",
+      "nome": "Silvia Nascimento Cardoso dos Santos Cerqueira",
+      "nomeCompleto": "Silvia Nascimento Cardoso dos Santos Cerqueira",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5527",
+      "nome": "Simone Tebet",
+      "nomeCompleto": "Simone Nassar Tebet",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5527.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5527",
+      "email": "sen.simonetebet@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "624",
+      "nome": "Sérgio Novais",
+      "nomeCompleto": "Aluísio Sérgio Novais Eleutério",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4560",
+      "nome": "Sérgio Petecão",
+      "nomeCompleto": "Sérgio de Oliveira Cunha",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4560.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4560",
+      "paginaParticular": "http://www.petecao.com.br/",
+      "email": "sen.sergiopetecao@senado.leg.br",
+      "partido": {
+        "sigla": "PSD",
+        "nome": null
+      },
+      "uf": "AC",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5106",
+      "nome": "Sérgio de Castro",
+      "nomeCompleto": "Sérgio Rogério de Castro",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5106.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5106",
+      "email": "sergiocastro@senado.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3396",
+      "nome": "Tasso Jereissati",
+      "nomeCompleto": "Tasso Ribeiro Jereissati",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3396.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3396",
+      "paginaParticular": "https://www.senadortasso.com.br/",
+      "email": "sen.tassojereissati@senado.leg.br",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5535",
+      "nome": "Telmário Mota",
+      "nomeCompleto": "Telmário Mota de Oliveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5535.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5535",
+      "paginaParticular": "http://www.telmariomota.com.br/",
+      "email": "sen.telmariomota@senado.leg.br",
+      "partido": {
+        "sigla": "PROS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5629",
+      "nome": "Theodorico Bezerra Netto",
+      "nomeCompleto": "Theodorico Bezerra Netto",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PCdoB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5619",
+      "nome": "Thieres Pinto",
+      "nomeCompleto": "Thieres Pinto de Mesquita Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5619.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5619",
+      "email": "sen.thierespinto@senado.leg.br",
+      "partido": {
+        "sigla": "PTB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "438",
+      "nome": "Tilden Santiago",
+      "nomeCompleto": "Tilden José Santiago",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4949",
+      "nome": "Tomás Correia",
+      "nomeCompleto": "Tomás Guilherme Correia",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4949.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4949",
+      "email": "tomas.correia@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5068",
+      "nome": "Tânia Cristina Magalhães Bastos e Silva",
+      "nomeCompleto": "Tânia Cristina Magalhães Bastos e Silva",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5420",
+      "nome": "Ubiraci Picanço",
+      "nomeCompleto": "Ubiraci Picanço",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "375",
+      "nome": "Valdir Ganzer",
+      "nomeCompleto": "Valdir Ganzer",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3372",
+      "nome": "Valdir Raupp",
+      "nomeCompleto": "Valdir Raupp de Matos",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3372.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3372",
+      "email": "valdir.raupp@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5130",
+      "nome": "Valério Djalma Cavalcanti Marinho",
+      "nomeCompleto": "Valério Djalma Cavalcanti Marinho",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "558",
+      "nome": "Vanessa Grazziotin",
+      "nomeCompleto": "Vanessa Grazziotin",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador558.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/558",
+      "email": "vanessa.grazziotin@senadora.leg.br",
+      "partido": {
+        "sigla": "PCdoB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5084",
+      "nome": "Veridiana Maria Tonini",
+      "nomeCompleto": "Veridiana Maria Tonini",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4763",
+      "nome": "Vicentinho Alves",
+      "nomeCompleto": "Vicente Alves de Oliveira",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4763.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4763",
+      "email": "vicentinho.alves@senador.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4786",
+      "nome": "Virginio de Carvalho",
+      "nomeCompleto": "Virginio José de Carvalho Neto",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4786.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4786",
+      "email": "virginio.carvalho@senador.leg.br",
+      "partido": {
+        "sigla": "DEM",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4645",
+      "nome": "Vital do Rêgo",
+      "nomeCompleto": "Vital do Rêgo Filho",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4645.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4645",
+      "email": "vital.rego@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "791",
+      "nome": "Vivaldo Barbosa",
+      "nomeCompleto": "Vivaldo Vieira Barbosa",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PSB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5082",
+      "nome": "Waldemir Catanho de Sena Júnior",
+      "nomeCompleto": "Waldemir Catanho de Sena Júnior",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "1176",
+      "nome": "Waldemir Moka",
+      "nomeCompleto": "Waldemir Moka Miranda de Britto",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1176.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1176",
+      "email": "waldemir.moka@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "604",
+      "nome": "Walter Pinheiro",
+      "nomeCompleto": "Walter de Freitas Pinheiro",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador604.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/604",
+      "email": "pinheiro@senador.leg.br",
+      "partido": {
+        "sigla": "S/Partido",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5016",
+      "nome": "Wellington Dias",
+      "nomeCompleto": "José Wellington Barroso de Araujo Dias",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5016.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5016",
+      "email": "wellington.dias@senador.leg.br",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "1173",
+      "nome": "Wellington Fagundes",
+      "nomeCompleto": "Wellington Antonio Fagundes",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1173.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/1173",
+      "email": "sen.wellingtonfagundes@senado.leg.br",
+      "partido": {
+        "sigla": "PL",
+        "nome": null
+      },
+      "uf": "MT",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5096",
+      "nome": "Wilmar Lacerda",
+      "nomeCompleto": "Wilmar Lacerda",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3811",
+      "nome": "Wilson Santiago",
+      "nomeCompleto": "José Wilson Santiago",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3811.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3811",
+      "paginaParticular": "https://www.camara.leg.br/deputados/74044",
+      "email": "dep.wilsonsantiago@camara.leg.br",
+      "partido": {
+        "sigla": "REPUBLICANOS",
+        "nome": null
+      },
+      "uf": "PB",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "3597",
+      "nome": "Wirlande da Luz",
+      "nomeCompleto": "Wirlande Santos da Luz",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3597.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/3597",
+      "email": "wirlande@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5144",
+      "nome": "Zeze Perrella",
+      "nomeCompleto": "José Perrella de Oliveira Costa",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5144.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5144",
+      "email": "zeze.perrella@senador.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5118",
+      "nome": "Zonir Freitas Tetila",
+      "nomeCompleto": "Zonir Freitas Tetila",
+      "genero": "Masculino",
+      "foto": "",
+      "paginaOficial": "",
+      "email": "",
+      "partido": {
+        "sigla": "PT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "5184",
+      "nome": "Zé Santana",
+      "nomeCompleto": "José Ribamar Noleto de Santana",
+      "genero": "Masculino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5184.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5184",
+      "email": "sen.zesantana@senado.leg.br",
+      "partido": {
+        "sigla": "MDB",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    },
+    {
+      "codigo": "4697",
+      "nome": "Ângela Portela",
+      "nomeCompleto": "Ângela Maria Gomes Portela",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4697.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/4697",
+      "email": "angela.portela@senadora.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "",
+      "telefones": [],
+      "situacao": {
+        "emExercicio": true,
+        "afastado": false,
+        "titular": true,
+        "suplente": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "mandatoAtual": null,
+      "atualizadoEm": "2025-05-11T00:46:55.992Z"
+    }
+  ],
+  "legislatura": 55
+}

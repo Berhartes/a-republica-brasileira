@@ -1,0 +1,126 @@
+{
+  "codigo": 15220,
+  "nome": "Liderança de Bloco na Câmara dos Deputados",
+  "sigla": "B",
+  "tipoUnidade": {
+    "codigo": 10,
+    "nome": "Liderança de Bloco na Câmara dos Deputados"
+  },
+  "tipoLideranca": {
+    "codigo": "L",
+    "nome": "Líder da Câmara dos Deputados"
+  },
+  "dataInicio": "2023-02-01",
+  "membros": [
+    {
+      "codigo": 6261,
+      "nome": "Adolfo Viana",
+      "partido": "PSDB",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2023-02-01"
+      }
+    },
+    {
+      "codigo": 6167,
+      "nome": "Talíria Petrone",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-03"
+      }
+    },
+    {
+      "codigo": 3695,
+      "nome": "Lindbergh Farias",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-03"
+      }
+    },
+    {
+      "codigo": 6114,
+      "nome": "Fernanda Melchionna",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-03-28"
+      }
+    },
+    {
+      "codigo": 6417,
+      "nome": "Célia Xakriabá",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-03"
+      }
+    },
+    {
+      "codigo": 3694,
+      "nome": "Chico Alencar",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-06"
+      }
+    },
+    {
+      "codigo": 6597,
+      "nome": "Professora Luciene Cavalcante",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-06"
+      }
+    },
+    {
+      "codigo": 6530,
+      "nome": "Erika Hilton",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6502,
+      "nome": "Pastor Henrique Vieira",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6502,
+      "nome": "Pastor Henrique Vieira",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-08"
+      }
+    }
+  ]
+}

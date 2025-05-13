@@ -1,0 +1,85 @@
+{
+  "tiposValidos": {
+    "codigo": {
+      "validos": 78,
+      "total": 78,
+      "percentual": 100
+    },
+    "sigla": {
+      "validos": 71,
+      "total": 78,
+      "percentual": 91.02564102564102
+    },
+    "nome": {
+      "validos": 71,
+      "total": 78,
+      "percentual": 91.02564102564102
+    },
+    "ativa": {
+      "validos": 78,
+      "total": 78,
+      "percentual": 100
+    },
+    "tipo": {
+      "validos": 78,
+      "total": 78,
+      "percentual": 100
+    },
+    "apelido": {
+      "validos": 0,
+      "total": 78,
+      "percentual": 0
+    },
+    "casa": {
+      "validos": 78,
+      "total": 78,
+      "percentual": 100
+    },
+    "dataCriacao": {
+      "validos": 71,
+      "total": 78,
+      "percentual": 91.02564102564102
+    },
+    "dataExtincao": {
+      "validos": 0,
+      "total": 78,
+      "percentual": 0
+    },
+    "dataInstalacao": {
+      "validos": 0,
+      "total": 78,
+      "percentual": 0
+    },
+    "finalidade": {
+      "validos": 46,
+      "total": 78,
+      "percentual": 58.97435897435898
+    },
+    "historia": {
+      "validos": 0,
+      "total": 78,
+      "percentual": 0
+    },
+    "participacao": {
+      "validos": 0,
+      "total": 78,
+      "percentual": 0
+    },
+    "composicao": {
+      "validos": 78,
+      "total": 78,
+      "percentual": 100
+    },
+    "atualizadoEm": {
+      "validos": 78,
+      "total": 78,
+      "percentual": 100
+    }
+  },
+  "dataCoerente": true,
+  "totais": {
+    "validos": 727,
+    "total": 1170,
+    "percentual": 62.136752136752136
+  }
+}

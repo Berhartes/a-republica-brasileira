@@ -1,0 +1,646 @@
+[
+  {
+    "codigo": "123",
+    "descricao": "10º SUPLENTE"
+  },
+  {
+    "codigo": "125",
+    "descricao": "11º SUPLENTE"
+  },
+  {
+    "codigo": "126",
+    "descricao": "12º SUPLENTE"
+  },
+  {
+    "codigo": "127",
+    "descricao": "13º SUPLENTE"
+  },
+  {
+    "codigo": "200",
+    "descricao": "1ª SECRETARIA"
+  },
+  {
+    "codigo": "305",
+    "descricao": "1ª SECRETÁRIA"
+  },
+  {
+    "codigo": "143",
+    "descricao": "1ª VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "43",
+    "descricao": "1º CORREGEDOR SUBSTITUTO"
+  },
+  {
+    "codigo": "6",
+    "descricao": "1º SECRETÁRIO"
+  },
+  {
+    "codigo": "101",
+    "descricao": "1º SUPLENTE"
+  },
+  {
+    "codigo": "250",
+    "descricao": "1º Suplente"
+  },
+  {
+    "codigo": "4",
+    "descricao": "1º VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "156",
+    "descricao": "2ª SECRETÁRIA"
+  },
+  {
+    "codigo": "5",
+    "descricao": "2ª VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "81",
+    "descricao": "2º CORREGEDOR SUBSTITUTO"
+  },
+  {
+    "codigo": "7",
+    "descricao": "2º SECRETÁRIO"
+  },
+  {
+    "codigo": "102",
+    "descricao": "2º SUPLENTE"
+  },
+  {
+    "codigo": "249",
+    "descricao": "2º Suplente"
+  },
+  {
+    "codigo": "145",
+    "descricao": "2º VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "184",
+    "descricao": "3ª SECRETÁRIA"
+  },
+  {
+    "codigo": "306",
+    "descricao": "3ª SECRETÁRIA"
+  },
+  {
+    "codigo": "147",
+    "descricao": "3ª SUPLENTE"
+  },
+  {
+    "codigo": "231",
+    "descricao": "3ª VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "82",
+    "descricao": "3º CORREGEDOR SUBSTITUTO"
+  },
+  {
+    "codigo": "8",
+    "descricao": "3º SECRETÁRIO"
+  },
+  {
+    "codigo": "103",
+    "descricao": "3º SUPLENTE"
+  },
+  {
+    "codigo": "111",
+    "descricao": "3º VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "9",
+    "descricao": "4ª SECRETÁRIA"
+  },
+  {
+    "codigo": "148",
+    "descricao": "4ª SUPLENTE"
+  },
+  {
+    "codigo": "307",
+    "descricao": "4ª SUPLENTE"
+  },
+  {
+    "codigo": "144",
+    "descricao": "4º SECRETÁRIO"
+  },
+  {
+    "codigo": "104",
+    "descricao": "4º SUPLENTE"
+  },
+  {
+    "codigo": "255",
+    "descricao": "4º VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "301",
+    "descricao": "5ª SECRETÁRIA"
+  },
+  {
+    "codigo": "300",
+    "descricao": "5º SECRETÁRIO"
+  },
+  {
+    "codigo": "118",
+    "descricao": "5º SUPLENTE"
+  },
+  {
+    "codigo": "119",
+    "descricao": "6º SUPLENTE"
+  },
+  {
+    "codigo": "120",
+    "descricao": "7º SUPLENTE"
+  },
+  {
+    "codigo": "121",
+    "descricao": "8º SUPLENTE"
+  },
+  {
+    "codigo": "122",
+    "descricao": "9º SUPLENTE"
+  },
+  {
+    "codigo": "116",
+    "descricao": "CHANCELER"
+  },
+  {
+    "codigo": "114",
+    "descricao": "COORDENADOR"
+  },
+  {
+    "codigo": "42",
+    "descricao": "CORREGEDOR"
+  },
+  {
+    "codigo": "150",
+    "descricao": "CORREGEDOR SUBSTITUTO"
+  },
+  {
+    "codigo": "149",
+    "descricao": "CORREGEDOR SUBSTITUTO"
+  },
+  {
+    "codigo": "151",
+    "descricao": "CORREGEDOR SUBSTITUTO"
+  },
+  {
+    "codigo": "303",
+    "descricao": "Coordenador na Câmara dos Deputados"
+  },
+  {
+    "codigo": "251",
+    "descricao": "Coordenador no Senado Federal"
+  },
+  {
+    "codigo": "252",
+    "descricao": "Coordenadora na Câmara dos Deputados"
+  },
+  {
+    "codigo": "302",
+    "descricao": "Coordenadora no Senado Federal"
+  },
+  {
+    "codigo": "117",
+    "descricao": "Coordenação"
+  },
+  {
+    "codigo": "115",
+    "descricao": "GRÃO-MESTRE"
+  },
+  {
+    "codigo": "146",
+    "descricao": "OUVIDOR-GERAL"
+  },
+  {
+    "codigo": "158",
+    "descricao": "OUVIDORA-GERAL"
+  },
+  {
+    "codigo": "1",
+    "descricao": "PRESIDENTE"
+  },
+  {
+    "codigo": "154",
+    "descricao": "PRESIDENTE (art. 88, § 3º do RISF)"
+  },
+  {
+    "codigo": "189",
+    "descricao": "PRESIDENTE DA COMISSÃO EXECUTIVA"
+  },
+  {
+    "codigo": "256",
+    "descricao": "PRESIDENTE DE HONRA"
+  },
+  {
+    "codigo": "187",
+    "descricao": "PRESIDENTE DO CONSELHO CONSULTIVO"
+  },
+  {
+    "codigo": "260",
+    "descricao": "PRESIDENTE NA REUNIÃO DE INSTALAÇÃO"
+  },
+  {
+    "codigo": "108",
+    "descricao": "PRESIDENTE NATO"
+  },
+  {
+    "codigo": "179",
+    "descricao": "PROCURADOR"
+  },
+  {
+    "codigo": "182",
+    "descricao": "PROCURADOR"
+  },
+  {
+    "codigo": "181",
+    "descricao": "PROCURADOR"
+  },
+  {
+    "codigo": "180",
+    "descricao": "PROCURADOR"
+  },
+  {
+    "codigo": "157",
+    "descricao": "PROCURADORA"
+  },
+  {
+    "codigo": "44",
+    "descricao": "PROCURADORES"
+  },
+  {
+    "codigo": "21",
+    "descricao": "RELATOR"
+  },
+  {
+    "codigo": "112",
+    "descricao": "RELATOR DA LDO"
+  },
+  {
+    "codigo": "142",
+    "descricao": "RELATOR PARCIAL - CUMPR. SENTENÇAS E EXECUÇÃO"
+  },
+  {
+    "codigo": "193",
+    "descricao": "RELATOR PARCIAL DE ASSUNTOS FISCAIS, PREV E AGRO"
+  },
+  {
+    "codigo": "191",
+    "descricao": "RELATOR PARCIAL DE CONTRATOS"
+  },
+  {
+    "codigo": "199",
+    "descricao": "RELATOR PARCIAL DE INVESTIGAÇÃO DOS VAZAMENTOS"
+  },
+  {
+    "codigo": "107",
+    "descricao": "RELATOR REVISOR"
+  },
+  {
+    "codigo": "183",
+    "descricao": "RELATOR SETORIAL"
+  },
+  {
+    "codigo": "129",
+    "descricao": "RELATOR-GERAL"
+  },
+  {
+    "codigo": "113",
+    "descricao": "RELATOR-GERAL DO ORÇAMENTO PARA O ANO DE 2005"
+  },
+  {
+    "codigo": "132",
+    "descricao": "RELATOR-PARCIAL - INQUÉRITO POLICIAL"
+  },
+  {
+    "codigo": "133",
+    "descricao": "RELATOR-PARCIAL - MEDIDAS CAUTELARES"
+  },
+  {
+    "codigo": "137",
+    "descricao": "RELATOR-PARCIAL - PARTE GERAL"
+  },
+  {
+    "codigo": "131",
+    "descricao": "RELATOR-PARCIAL - PROCEDIMENTOS"
+  },
+  {
+    "codigo": "139",
+    "descricao": "RELATOR-PARCIAL - PROCEDIMENTOS ESPECIAIS"
+  },
+  {
+    "codigo": "138",
+    "descricao": "RELATOR-PARCIAL - PROCESSO DE CONHECIMENTO"
+  },
+  {
+    "codigo": "136",
+    "descricao": "RELATOR-PARCIAL - PROCESSO ELETRÔNICO"
+  },
+  {
+    "codigo": "134",
+    "descricao": "RELATOR-PARCIAL - PROVAS"
+  },
+  {
+    "codigo": "135",
+    "descricao": "RELATOR-PARCIAL - RECURSOS"
+  },
+  {
+    "codigo": "152",
+    "descricao": "RELATORA"
+  },
+  {
+    "codigo": "159",
+    "descricao": "Rel. do Proj. de Lei de Diretrizes Orçamentárias"
+  },
+  {
+    "codigo": "213",
+    "descricao": "Relator Setorial de Agricultura, Pesca e Dsv. Agr."
+  },
+  {
+    "codigo": "216",
+    "descricao": "Relator Setorial de Ciência e Tecnologia e Com."
+  },
+  {
+    "codigo": "223",
+    "descricao": "Relator Setorial de Defesa e Justiça"
+  },
+  {
+    "codigo": "214",
+    "descricao": "Relator Setorial de Desenvolvimento Urbano"
+  },
+  {
+    "codigo": "203",
+    "descricao": "Relator Setorial de Educação e Cultura"
+  },
+  {
+    "codigo": "218",
+    "descricao": "Relator Setorial de Esporte"
+  },
+  {
+    "codigo": "220",
+    "descricao": "Relator Setorial de Fazenda e Planejamento"
+  },
+  {
+    "codigo": "221",
+    "descricao": "Relator Setorial de Indústria, Comércio e MPE"
+  },
+  {
+    "codigo": "204",
+    "descricao": "Relator Setorial de Integração Nacional"
+  },
+  {
+    "codigo": "219",
+    "descricao": "Relator Setorial de Meio Ambiente"
+  },
+  {
+    "codigo": "217",
+    "descricao": "Relator Setorial de Minas e Energia"
+  },
+  {
+    "codigo": "224",
+    "descricao": "Relator Setorial de Pres., Poder Legis, Poder Jud."
+  },
+  {
+    "codigo": "202",
+    "descricao": "Relator Setorial de Saúde"
+  },
+  {
+    "codigo": "222",
+    "descricao": "Relator Setorial de Trabalho, Prev.  e As. Social"
+  },
+  {
+    "codigo": "201",
+    "descricao": "Relator Setorial de Transporte"
+  },
+  {
+    "codigo": "215",
+    "descricao": "Relator Setorial de Turismo"
+  },
+  {
+    "codigo": "161",
+    "descricao": "Relator da Receita"
+  },
+  {
+    "codigo": "160",
+    "descricao": "Relator do Projeto de Lei Orçamentária Anual"
+  },
+  {
+    "codigo": "186",
+    "descricao": "Relator do Projeto de Plano Plurianual"
+  },
+  {
+    "codigo": "229",
+    "descricao": "Relator para o tema Processo Administrativo"
+  },
+  {
+    "codigo": "230",
+    "descricao": "Relator para o tema Processo Tributário"
+  },
+  {
+    "codigo": "153",
+    "descricao": "Relatora"
+  },
+  {
+    "codigo": "304",
+    "descricao": "SECRETÁRIA-GERAL"
+  },
+  {
+    "codigo": "109",
+    "descricao": "SECRETÁRIO-GERAL"
+  },
+  {
+    "codigo": "110",
+    "descricao": "SECRETÁRIO-GERAL ADJUNTO"
+  },
+  {
+    "codigo": "124",
+    "descricao": "SUB-RELATOR"
+  },
+  {
+    "codigo": "41",
+    "descricao": "SUPLENTE"
+  },
+  {
+    "codigo": "248",
+    "descricao": "Secretário"
+  },
+  {
+    "codigo": "128",
+    "descricao": "TITULAR"
+  },
+  {
+    "codigo": "247",
+    "descricao": "Tesoureiro"
+  },
+  {
+    "codigo": "2",
+    "descricao": "VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "155",
+    "descricao": "VICE-PRESIDENTE"
+  },
+  {
+    "codigo": "190",
+    "descricao": "VICE-PRESIDENTE DA COMISSÃO EXECUTIVA"
+  },
+  {
+    "codigo": "188",
+    "descricao": "VICE-PRESIDENTE DO CONSELHO CONSULTIVO"
+  },
+  {
+    "codigo": "228",
+    "descricao": "VICE-PRESIDENTE PELO BRASIL NO PARLASUL"
+  },
+  {
+    "codigo": "235",
+    "descricao": "Vice Presidente de Fontes Fósseis"
+  },
+  {
+    "codigo": "254",
+    "descricao": "Vice-Coordenadora na Câmara dos Deputados"
+  },
+  {
+    "codigo": "253",
+    "descricao": "Vice-Coordenadora no Senado Federal"
+  },
+  {
+    "codigo": "241",
+    "descricao": "Vice-Presid. de Meio Ambiente e Sustentabilidade"
+  },
+  {
+    "codigo": "311",
+    "descricao": "Vice-Presidente Executivo"
+  },
+  {
+    "codigo": "315",
+    "descricao": "Vice-Presidente Financeiro"
+  },
+  {
+    "codigo": "312",
+    "descricao": "Vice-Presidente Jurídico"
+  },
+  {
+    "codigo": "313",
+    "descricao": "Vice-Presidente Legislativo"
+  },
+  {
+    "codigo": "294",
+    "descricao": "Vice-Presidente de Apoio à Adoção"
+  },
+  {
+    "codigo": "314",
+    "descricao": "Vice-Presidente de Assistência Social"
+  },
+  {
+    "codigo": "297",
+    "descricao": "Vice-Presidente de Assuntos Sociais"
+  },
+  {
+    "codigo": "245",
+    "descricao": "Vice-Presidente de Assuntos Tributários"
+  },
+  {
+    "codigo": "286",
+    "descricao": "Vice-Presidente de Combate ao Abuso Sexual e Maus Tratos Infantis"
+  },
+  {
+    "codigo": "284",
+    "descricao": "Vice-Presidente de Combate ao Abuso Sexual e Maus-tratos Infantis"
+  },
+  {
+    "codigo": "263",
+    "descricao": "Vice-Presidente de Combate às Drogas"
+  },
+  {
+    "codigo": "234",
+    "descricao": "Vice-Presidente de Combustíveis e Biocombustíveis"
+  },
+  {
+    "codigo": "293",
+    "descricao": "Vice-Presidente de Defesa da Educação sem Doutrinação Ideológica"
+  },
+  {
+    "codigo": "289",
+    "descricao": "Vice-Presidente de Defesa da Liberdade Religiosa"
+  },
+  {
+    "codigo": "287",
+    "descricao": "Vice-Presidente de Defesa da Vida"
+  },
+  {
+    "codigo": "298",
+    "descricao": "Vice-Presidente de Descarbonização e Economia Verde"
+  },
+  {
+    "codigo": "239",
+    "descricao": "Vice-Presidente de Desenvolvimento Social"
+  },
+  {
+    "codigo": "261",
+    "descricao": "Vice-Presidente de Eficiência Energética"
+  },
+  {
+    "codigo": "290",
+    "descricao": "Vice-Presidente de Enfrentamento à Ideologia de Gênero"
+  },
+  {
+    "codigo": "236",
+    "descricao": "Vice-Presidente de Fontes Fósseis"
+  },
+  {
+    "codigo": "233",
+    "descricao": "Vice-Presidente de Fontes Renováveis"
+  },
+  {
+    "codigo": "296",
+    "descricao": "Vice-Presidente de Gás Natural"
+  },
+  {
+    "codigo": "242",
+    "descricao": "Vice-Presidente de Infraestrutura Energética"
+  },
+  {
+    "codigo": "237",
+    "descricao": "Vice-Presidente de Minerais Energéticos"
+  },
+  {
+    "codigo": "308",
+    "descricao": "Vice-Presidente de Pesquisa e Desenvolvimento"
+  },
+  {
+    "codigo": "295",
+    "descricao": "Vice-Presidente de Petróleo"
+  },
+  {
+    "codigo": "309",
+    "descricao": "Vice-Presidente de Política Industrial"
+  },
+  {
+    "codigo": "291",
+    "descricao": "Vice-Presidente de Prevenção ao Suicídio e Automutilação"
+  },
+  {
+    "codigo": "310",
+    "descricao": "Vice-Presidente de Proteção ao Consumidor de Energias"
+  },
+  {
+    "codigo": "299",
+    "descricao": "Vice-Presidente de Segurança Energética"
+  },
+  {
+    "codigo": "238",
+    "descricao": "Vice-Presidente de Transição Energética"
+  },
+  {
+    "codigo": "243",
+    "descricao": "Vice-Presidente pela Câmara dos Deputados"
+  },
+  {
+    "codigo": "244",
+    "descricao": "Vice-Presidente pelo Senado Federal"
+  },
+  {
+    "codigo": "259",
+    "descricao": "VlCE-PRESIDENTE"
+  }
+]

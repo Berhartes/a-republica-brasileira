@@ -1,0 +1,12 @@
+{
+  "codigo": "5008",
+  "nome": "Humberto Costa",
+  "partido": "PT",
+  "uf": "PE",
+  "cargo": {
+    "codigo": "5",
+    "descricao": "2ª VICE-PRESIDENTE",
+    "dataInicio": "",
+    "dataFim": ""
+  }
+}

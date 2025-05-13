@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-05-11T07:42:04.506Z",
+  "legislatura": 57,
+  "totalMembros": {
+    "senado": 0,
+    "congresso": 0
+  },
+  "mesas": {
+    "senado": {
+      "tipo": "senado",
+      "descricao": "Mesa Diretora do Senado Federal",
+      "membros": []
+    },
+    "congresso": {
+      "tipo": "congresso",
+      "descricao": "Mesa Diretora do Congresso Nacional",
+      "membros": []
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "335",
+    "nome": "Bloco Parlamentar da Resistência Democrática",
+    "partido": "BLPRD"
+  },
+  {
+    "id": "337",
+    "nome": "Minoria",
+    "partido": "Minoria"
+  },
+  {
+    "id": "346",
+    "nome": "Bloco Parlamentar Aliança",
+    "partido": "BLALIANÇA"
+  },
+  {
+    "id": "357",
+    "nome": "Bloco Parlamentar Vanguarda",
+    "partido": "BLVANG"
+  },
+  {
+    "id": "358",
+    "nome": "Bloco Parlamentar Democracia",
+    "partido": "BLDEM"
+  },
+  {
+    "id": "359",
+    "nome": "Bloco Parlamentar Pelo Brasil",
+    "partido": "BLPBR"
+  }
+]

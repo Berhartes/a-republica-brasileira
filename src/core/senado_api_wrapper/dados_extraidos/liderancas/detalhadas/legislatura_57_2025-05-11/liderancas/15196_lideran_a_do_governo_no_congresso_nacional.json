@@ -1,0 +1,225 @@
+{
+  "codigo": 15196,
+  "nome": "Liderança do Governo no Congresso Nacional",
+  "sigla": "G",
+  "tipoUnidade": {
+    "codigo": 6,
+    "nome": "Liderança do Governo no Congresso Nacional"
+  },
+  "tipoLideranca": {
+    "codigo": "L",
+    "nome": "Líder do Congresso Nacional"
+  },
+  "dataInicio": "2023-01-06",
+  "membros": [
+    {
+      "codigo": 5012,
+      "nome": "Randolfe Rodrigues",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder do Congresso Nacional",
+        "dataInicio": "2023-01-06"
+      }
+    },
+    {
+      "codigo": 5338,
+      "nome": "Bohn Gass",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 4729,
+      "nome": "Carlos Zarattini",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 3851,
+      "nome": "Daniel Almeida",
+      "partido": "PCdoB",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 6463,
+      "nome": "Dorinaldo Malafaia",
+      "partido": "PDT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 3695,
+      "nome": "Lindbergh Farias",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 3786,
+      "nome": "Reginaldo Lopes",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 6273,
+      "nome": "Otto Alencar Filho",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-15"
+      }
+    },
+    {
+      "codigo": 775,
+      "nome": "Laura Carneiro",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-16"
+      }
+    },
+    {
+      "codigo": 581,
+      "nome": "Jaques Wagner",
+      "partido": "PT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-28"
+      }
+    },
+    {
+      "codigo": 5979,
+      "nome": "Leila Barros",
+      "partido": "PDT",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-28"
+      }
+    },
+    {
+      "codigo": 5783,
+      "nome": "Zenaide Maia",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-28"
+      }
+    },
+    {
+      "codigo": 5525,
+      "nome": "Omar Aziz",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-02-28"
+      }
+    },
+    {
+      "codigo": 6597,
+      "nome": "Professora Luciene Cavalcante",
+      "partido": "PSOL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-04-13"
+      }
+    },
+    {
+      "codigo": 6162,
+      "nome": "Daniela do Waguinho",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2023-09-13"
+      }
+    },
+    {
+      "codigo": 5369,
+      "nome": "Jonas Donizette",
+      "partido": "PSB",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2024-02-28"
+      }
+    },
+    {
+      "codigo": 5719,
+      "nome": "Hildo Rocha",
+      "partido": "MDB",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2024-06-03"
+      }
+    },
+    {
+      "codigo": 5643,
+      "nome": "Felipe Carreras",
+      "partido": "PSB",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2025-03-27"
+      }
+    },
+    {
+      "codigo": 6100,
+      "nome": "José Nelto",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder do Congresso Nacional",
+        "dataInicio": "2025-05-06"
+      }
+    }
+  ]
+}

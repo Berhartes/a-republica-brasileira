@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-05-11T07:37:43.720Z",
+  "mesas": {
+    "senado": {
+      "tipo": "senado",
+      "descricao": "Mesa Diretora do Senado Federal",
+      "atualizadoEm": "2025-05-11T07:37:42.931Z",
+      "membros": []
+    },
+    "congresso": {
+      "tipo": "congresso",
+      "descricao": "Mesa Diretora do Congresso Nacional",
+      "atualizadoEm": "2025-05-11T07:37:43.259Z",
+      "membros": []
+    }
+  }
+}

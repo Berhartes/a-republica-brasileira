@@ -1,0 +1,84 @@
+/* Base Colors */
+:root {
+  /* Blues */
+  --color-blue-50: #e6f6ff;
+  --color-blue-100: #dbeafe;
+  --color-blue-200: #bfdbfe;
+  --color-blue-300: #93c5fd;
+  --color-blue-400: #60a5fa;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+  --color-blue-700: #1d4ed8;
+  --color-blue-800: #1e40af;
+  --color-blue-900: #1e3a8a;
+
+  /* Greens */
+  --color-green-50: #edfcf5;
+  --color-green-100: #d1fae5;
+  --color-green-200: #a7f3d0;
+  --color-green-300: #6ee7b7;
+  --color-green-400: #34d399;
+  --color-green-500: #10b981;
+  --color-green-600: #059669;
+  --color-green-700: #047857;
+  --color-green-800: #065f46;
+  --color-green-900: #064e3b;
+
+  /* Reds */
+  --color-red-50: #fff5f5;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-red-800: #991b1b;
+  --color-red-900: #7f1d1d;
+
+  /* Semantic Colors - Light Theme */
+  --color-congress-primary: var(--color-blue-600);
+  --color-congress-secondary: var(--color-blue-400);
+  --color-congress-accent: var(--color-blue-200);
+  
+  --color-assembly-primary: var(--color-green-600);
+  --color-assembly-secondary: var(--color-green-400);
+  --color-assembly-accent: var(--color-green-200);
+  
+  --color-government-primary: var(--color-red-600);
+  --color-government-secondary: var(--color-red-400);
+  --color-government-accent: var(--color-red-200);
+
+  /* Common UI Colors */
+  --color-background: #f8f9fa;
+  --color-foreground: #1a1f2b;
+  --color-border: rgba(255, 255, 255, 0.2);
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme Colors */
+.dark {
+  /* Semantic Colors - Dark Theme */
+  --color-congress-primary: var(--color-blue-500);
+  --color-congress-secondary: var(--color-blue-300);
+  --color-congress-accent: var(--color-blue-700);
+  
+  --color-assembly-primary: var(--color-green-500);
+  --color-assembly-secondary: var(--color-green-300);
+  --color-assembly-accent: var(--color-green-700);
+  
+  --color-government-primary: var(--color-red-500);
+  --color-government-secondary: var(--color-red-300);
+  --color-government-accent: var(--color-red-700);
+
+  /* Common UI Colors */
+  --color-background: #1a1f2b;
+  --color-foreground: #f8f9fa;
+  --color-border: rgba(255, 255, 255, 0.3);
+  --color-shadow: rgba(0, 0, 0, 0.2);
+}
+
+/* Utility classes for transitions */
+.color-transition {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}

@@ -1,0 +1,50 @@
+export const theme = {
+  colors: {
+    primary: 'hsl(var(--primary))',
+    primaryForeground: 'hsl(var(--primary-foreground))',
+    secondary: 'hsl(var(--secondary))',
+    secondaryForeground: 'hsl(var(--secondary-foreground))',
+    muted: 'hsl(var(--muted))',
+    mutedForeground: 'hsl(var(--muted-foreground))',
+    accent: 'hsl(var(--accent))',
+    accentForeground: 'hsl(var(--accent-foreground))',
+    destructive: 'hsl(var(--destructive))',
+    destructiveForeground: 'hsl(var(--destructive-foreground))',
+    background: 'hsl(var(--background))',
+    foreground: 'hsl(var(--foreground))',
+    card: 'hsl(var(--card))',
+    cardForeground: 'hsl(var(--card-foreground))',
+    popover: 'hsl(var(--popover))',
+    popoverForeground: 'hsl(var(--popover-foreground))',
+    border: 'hsl(var(--border))',
+    input: 'hsl(var(--input))',
+    ring: 'hsl(var(--ring))',
+  },
+  fonts: {
+    primary: 'Inter, system-ui, sans-serif',
+    mono: 'JetBrains Mono, monospace',
+  },
+  spacing: {
+    xs: '0.25rem',
+    sm: '0.5rem',
+    md: '1rem',
+    lg: '1.5rem',
+    xl: '2rem',
+    '2xl': '2.5rem',
+  },
+  breakpoints: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+    '2xl': '1536px',
+  },
+  borderRadius: {
+    sm: 'calc(var(--radius) - 4px)',
+    md: 'var(--radius)',
+    lg: 'calc(var(--radius) + 4px)',
+    full: '9999px',
+  },
+};
+
+export type Theme = typeof theme;

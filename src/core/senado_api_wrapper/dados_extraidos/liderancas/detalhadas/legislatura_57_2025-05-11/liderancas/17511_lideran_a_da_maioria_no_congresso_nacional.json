@@ -1,0 +1,313 @@
+{
+  "codigo": 17511,
+  "nome": "Liderança da Maioria no Congresso Nacional",
+  "sigla": "O",
+  "tipoUnidade": {
+    "codigo": 14,
+    "nome": "Liderança da Maioria no Congresso Nacional"
+  },
+  "tipoLideranca": {
+    "codigo": "L",
+    "nome": "Líder da Câmara dos Deputados"
+  },
+  "dataInicio": "2025-02-03",
+  "membros": [
+    {
+      "codigo": 6443,
+      "nome": "Zucco",
+      "partido": "REPUBLICANOS",
+      "uf": "",
+      "cargo": {
+        "codigo": "L",
+        "descricao": "Líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-03"
+      }
+    },
+    {
+      "codigo": 6123,
+      "nome": "Sanderson",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "1",
+        "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-02-04"
+      }
+    },
+    {
+      "codigo": 6464,
+      "nome": "Cabo Gilberto Silva",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-03-18"
+      }
+    },
+    {
+      "codigo": 6088,
+      "nome": "Coronel Chrisóstomo",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-03-26"
+      }
+    },
+    {
+      "codigo": 6458,
+      "nome": "Gustavo Gayer",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-23"
+      }
+    },
+    {
+      "codigo": 6420,
+      "nome": "Gilvan da Federal",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 5745,
+      "nome": "Joaquim Passarinho",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-04-29"
+      }
+    },
+    {
+      "codigo": 5745,
+      "nome": "Joaquim Passarinho",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6221,
+      "nome": "Junio Amaral",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6539,
+      "nome": "Delegado Paulo Bilynskyj",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 5743,
+      "nome": "Delegado Éder Mauro",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6165,
+      "nome": "Chris Tonietto",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6572,
+      "nome": "Capitão Alden",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 2410,
+      "nome": "Osmar Terra",
+      "partido": "MDB",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6413,
+      "nome": "Rodrigo Valadares",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 5706,
+      "nome": "Evair Vieira de Melo",
+      "partido": "PP",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6096,
+      "nome": "Sargento Fahur",
+      "partido": "PSD",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6418,
+      "nome": "Nikolas Ferreira",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 5986,
+      "nome": "Rodolfo Nogueira",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6449,
+      "nome": "Zé Trovão",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6469,
+      "nome": "Silvia Waiãpi",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6482,
+      "nome": "Coronel Assis",
+      "partido": "UNIÃO",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6508,
+      "nome": "Sargento Gonçalves",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6515,
+      "nome": "Mauricio do Vôlei",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6540,
+      "nome": "Mario Frias",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6551,
+      "nome": "Coronel Meira",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    },
+    {
+      "codigo": 6558,
+      "nome": "Delegado Caveira",
+      "partido": "PL",
+      "uf": "",
+      "cargo": {
+        "codigo": "V",
+        "descricao": "Vice-líder da Câmara dos Deputados",
+        "dataInicio": "2025-05-07"
+      }
+    }
+  ]
+}

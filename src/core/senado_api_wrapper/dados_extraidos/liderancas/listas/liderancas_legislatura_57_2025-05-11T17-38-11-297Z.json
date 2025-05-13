@@ -1,0 +1,3562 @@
+{
+  "timestamp": "2025-05-11T17:38:11.187Z",
+  "liderancas": [
+    {
+      "codigo": 15019,
+      "nome": "Liderança de Partido na CMO",
+      "sigla": "P",
+      "tipoUnidade": {
+        "codigo": 19,
+        "nome": "Liderança de Partido na CMO"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Congresso Nacional"
+      },
+      "dataInicio": "2022-05-19",
+      "membros": [
+        {
+          "codigo": 6109,
+          "nome": "Aline Sleutjes",
+          "partido": "PROS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2022-05-19"
+          }
+        },
+        {
+          "codigo": 742,
+          "nome": "Marcelo Castro",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 6188,
+          "nome": "Mauro Benevides Filho",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 4770,
+          "nome": "Izalci Lucas",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 6526,
+          "nome": "Rodrigo Gambale",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 5990,
+          "nome": "Carlos Viana",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 6250,
+          "nome": "AJ Albuquerque",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 22,
+          "nome": "Esperidião Amin",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 3688,
+          "nome": "Giacobo",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 6567,
+          "nome": "Paulo Litro",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 5321,
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 5231,
+          "nome": "Danilo Forte",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 5386,
+          "nome": "Professora Dorinha Seabra",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 6055,
+          "nome": "Túlio Gadêlha",
+          "partido": "REDE",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-28"
+          }
+        },
+        {
+          "codigo": 6167,
+          "nome": "Talíria Petrone",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 6027,
+          "nome": "Mecias de Jesus",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 6358,
+          "nome": "Ana Paula Lobato",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 6089,
+          "nome": "Acácio Favacho",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 3811,
+          "nome": "Wilson Santiago",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-05-06"
+          }
+        },
+        {
+          "codigo": 5012,
+          "nome": "Randolfe Rodrigues",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 5967,
+          "nome": "Angelo Coronel",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-05-07"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15194,
+      "nome": "Liderança do Governo no Senado Federal",
+      "sigla": "G",
+      "tipoUnidade": {
+        "codigo": 3,
+        "nome": "Liderança do Governo no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2023-01-06",
+      "membros": [
+        {
+          "codigo": 581,
+          "nome": "Jaques Wagner",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2023-01-06"
+          }
+        },
+        {
+          "codigo": 475,
+          "nome": "Confúcio Moura",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5998,
+          "nome": "Daniella Ribeiro",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5895,
+          "nome": "Jorge Kajuru",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5386,
+          "nome": "Professora Dorinha Seabra",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5012,
+          "nome": "Randolfe Rodrigues",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5411,
+          "nome": "Weverton",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5783,
+          "nome": "Zenaide Maia",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-03-23"
+          }
+        },
+        {
+          "codigo": 5523,
+          "nome": "Otto Alencar",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2024-10-22"
+          }
+        },
+        {
+          "codigo": 6350,
+          "nome": "Augusta Brito",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-03-13"
+          }
+        },
+        {
+          "codigo": 5979,
+          "nome": "Leila Barros",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-03-13"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15196,
+      "nome": "Liderança do Governo no Congresso Nacional",
+      "sigla": "G",
+      "tipoUnidade": {
+        "codigo": 6,
+        "nome": "Liderança do Governo no Congresso Nacional"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Congresso Nacional"
+      },
+      "dataInicio": "2023-01-06",
+      "membros": [
+        {
+          "codigo": 5012,
+          "nome": "Randolfe Rodrigues",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2023-01-06"
+          }
+        },
+        {
+          "codigo": 5338,
+          "nome": "Bohn Gass",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 4729,
+          "nome": "Carlos Zarattini",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 3851,
+          "nome": "Daniel Almeida",
+          "partido": "PCdoB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 6463,
+          "nome": "Dorinaldo Malafaia",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 3695,
+          "nome": "Lindbergh Farias",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 3786,
+          "nome": "Reginaldo Lopes",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 6273,
+          "nome": "Otto Alencar Filho",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-15"
+          }
+        },
+        {
+          "codigo": 775,
+          "nome": "Laura Carneiro",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-16"
+          }
+        },
+        {
+          "codigo": 581,
+          "nome": "Jaques Wagner",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-28"
+          }
+        },
+        {
+          "codigo": 5979,
+          "nome": "Leila Barros",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-28"
+          }
+        },
+        {
+          "codigo": 5783,
+          "nome": "Zenaide Maia",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-28"
+          }
+        },
+        {
+          "codigo": 5525,
+          "nome": "Omar Aziz",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-02-28"
+          }
+        },
+        {
+          "codigo": 6597,
+          "nome": "Professora Luciene Cavalcante",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-13"
+          }
+        },
+        {
+          "codigo": 6162,
+          "nome": "Daniela do Waguinho",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-09-13"
+          }
+        },
+        {
+          "codigo": 5369,
+          "nome": "Jonas Donizette",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2024-02-28"
+          }
+        },
+        {
+          "codigo": 5719,
+          "nome": "Hildo Rocha",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2024-06-03"
+          }
+        },
+        {
+          "codigo": 5643,
+          "nome": "Felipe Carreras",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2025-03-27"
+          }
+        },
+        {
+          "codigo": 6100,
+          "nome": "José Nelto",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2025-05-06"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15199,
+      "nome": "Liderança do Governo na Câmara dos Deputados",
+      "sigla": "G",
+      "tipoUnidade": {
+        "codigo": 11,
+        "nome": "Liderança do Governo na Câmara dos Deputados"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2023-02-01",
+      "membros": [
+        {
+          "codigo": 4588,
+          "nome": "José Guimarães",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2023-02-01"
+          }
+        },
+        {
+          "codigo": 705,
+          "nome": "Damião Feliciano",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 6403,
+          "nome": "Waldemar Oliveira",
+          "partido": "AVANTE",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 5313,
+          "nome": "Pedro Paulo",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 5722,
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 6060,
+          "nome": "Emanuel Pinheiro Neto",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 6447,
+          "nome": "Ana Paula Lima",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 6502,
+          "nome": "Pastor Henrique Vieira",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 6553,
+          "nome": "Maria Arraes",
+          "partido": "SOLIDARIEDADE",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-03-01"
+          }
+        },
+        {
+          "codigo": 769,
+          "nome": "Jandira Feghali",
+          "partido": "PCdoB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-03-13"
+          }
+        },
+        {
+          "codigo": 4575,
+          "nome": "Lídice da Mata",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-03-13"
+          }
+        },
+        {
+          "codigo": 6188,
+          "nome": "Mauro Benevides Filho",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-05-22"
+          }
+        },
+        {
+          "codigo": 6039,
+          "nome": "Márcio Jerry",
+          "partido": "PCdoB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 4738,
+          "nome": "Jilmar Tatto",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 5284,
+          "nome": "Romero Rodrigues",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 5291,
+          "nome": "Augusto Coutinho",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 5693,
+          "nome": "Mário Negromonte Jr.",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 5762,
+          "nome": "Aliel Machado",
+          "partido": "PV",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 6103,
+          "nome": "Gervásio Maia",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 6202,
+          "nome": "Alencar Santana",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "1",
+            "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        },
+        {
+          "codigo": 6260,
+          "nome": "Zé Neto",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-05"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15203,
+      "nome": "Liderança de Partido na Câmara dos Deputados",
+      "sigla": "P",
+      "tipoUnidade": {
+        "codigo": 9,
+        "nome": "Liderança de Partido na Câmara dos Deputados"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2023-02-01",
+      "membros": [
+        {
+          "codigo": 5221,
+          "nome": "Antonio Brito",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2023-02-01"
+          }
+        },
+        {
+          "codigo": 6141,
+          "nome": "Isnaldo Bulhões Jr.",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2023-02-01"
+          }
+        },
+        {
+          "codigo": 6153,
+          "nome": "Doutor Luizinho",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2023-09-12"
+          }
+        },
+        {
+          "codigo": 6195,
+          "nome": "Fred Costa",
+          "partido": "PRD",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2024-04-16"
+          }
+        },
+        {
+          "codigo": 5321,
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2023-02-01"
+          }
+        },
+        {
+          "codigo": 6552,
+          "nome": "Pedro Campos",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-01-31"
+          }
+        },
+        {
+          "codigo": 6049,
+          "nome": "Pedro Lucas Fernandes",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-01"
+          }
+        },
+        {
+          "codigo": 5781,
+          "nome": "Sóstenes Cavalcante",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-01"
+          }
+        },
+        {
+          "codigo": 6526,
+          "nome": "Rodrigo Gambale",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 3883,
+          "nome": "Mário Heringer",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-04"
+          }
+        },
+        {
+          "codigo": 6193,
+          "nome": "Gilberto Abramo",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-04"
+          }
+        },
+        {
+          "codigo": 6054,
+          "nome": "Marcel van Hattem",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "R",
+            "descricao": "Representante da Câmara dos Deputados",
+            "dataInicio": "2025-04-24"
+          }
+        },
+        {
+          "codigo": 5262,
+          "nome": "Weliton Prado",
+          "partido": "SOLIDARIEDADE",
+          "uf": "",
+          "cargo": {
+            "codigo": "1",
+            "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 5259,
+          "nome": "Zé Silva",
+          "partido": "SOLIDARIEDADE",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6585,
+          "nome": "Neto Carletto",
+          "partido": "AVANTE",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-08"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15220,
+      "nome": "Liderança de Bloco na Câmara dos Deputados",
+      "sigla": "B",
+      "tipoUnidade": {
+        "codigo": 10,
+        "nome": "Liderança de Bloco na Câmara dos Deputados"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2023-02-01",
+      "membros": [
+        {
+          "codigo": 6261,
+          "nome": "Adolfo Viana",
+          "partido": "PSDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2023-02-01"
+          }
+        },
+        {
+          "codigo": 6167,
+          "nome": "Talíria Petrone",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 3695,
+          "nome": "Lindbergh Farias",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 6114,
+          "nome": "Fernanda Melchionna",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-03-28"
+          }
+        },
+        {
+          "codigo": 6417,
+          "nome": "Célia Xakriabá",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-03"
+          }
+        },
+        {
+          "codigo": 3694,
+          "nome": "Chico Alencar",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-06"
+          }
+        },
+        {
+          "codigo": 6597,
+          "nome": "Professora Luciene Cavalcante",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-06"
+          }
+        },
+        {
+          "codigo": 6530,
+          "nome": "Erika Hilton",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6502,
+          "nome": "Pastor Henrique Vieira",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6502,
+          "nome": "Pastor Henrique Vieira",
+          "partido": "PSOL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-08"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15226,
+      "nome": "Liderança de Partido no Senado Federal",
+      "sigla": "P",
+      "tipoUnidade": {
+        "codigo": 1,
+        "nome": "Liderança de Partido no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2023-02-02",
+      "membros": [
+        {
+          "codigo": 5736,
+          "nome": "Tereza Cristina",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2023-02-02"
+          }
+        },
+        {
+          "codigo": 5976,
+          "nome": "Eduardo Girão",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2023-02-08"
+          }
+        },
+        {
+          "codigo": 6338,
+          "nome": "Teresa Leitão",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2023-05-18"
+          }
+        },
+        {
+          "codigo": 5942,
+          "nome": "Marcos do Val",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2024-02-28"
+          }
+        },
+        {
+          "codigo": 5525,
+          "nome": "Omar Aziz",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2024-10-30"
+          }
+        },
+        {
+          "codigo": 5502,
+          "nome": "Plínio Valério",
+          "partido": "PSDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-01-31"
+          }
+        },
+        {
+          "codigo": 5352,
+          "nome": "Rogério Carvalho",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-01-31"
+          }
+        },
+        {
+          "codigo": 5990,
+          "nome": "Carlos Viana",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-01-02"
+          }
+        },
+        {
+          "codigo": 4994,
+          "nome": "Eduardo Braga",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-01-28"
+          }
+        },
+        {
+          "codigo": 5411,
+          "nome": "Weverton",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-01-31"
+          }
+        },
+        {
+          "codigo": 4642,
+          "nome": "Efraim Filho",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-01"
+          }
+        },
+        {
+          "codigo": 6027,
+          "nome": "Mecias de Jesus",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-01-14"
+          }
+        },
+        {
+          "codigo": 5967,
+          "nome": "Angelo Coronel",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 5936,
+          "nome": "Carlos Portinho",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 5973,
+          "nome": "Cid Gomes",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-18"
+          }
+        },
+        {
+          "codigo": 5895,
+          "nome": "Jorge Kajuru",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-02-18"
+          }
+        },
+        {
+          "codigo": 5959,
+          "nome": "Styvenson Valentim",
+          "partido": "PSDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-03-25"
+          }
+        },
+        {
+          "codigo": 742,
+          "nome": "Marcelo Castro",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-04-02"
+          }
+        },
+        {
+          "codigo": 475,
+          "nome": "Confúcio Moura",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-04-02"
+          }
+        },
+        {
+          "codigo": 6008,
+          "nome": "Giordano",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-04-02"
+          }
+        },
+        {
+          "codigo": 22,
+          "nome": "Esperidião Amin",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-04-07"
+          }
+        },
+        {
+          "codigo": 4770,
+          "nome": "Izalci Lucas",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-05-08"
+          }
+        },
+        {
+          "codigo": 6342,
+          "nome": "Jorge Seif",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-05-08"
+          }
+        },
+        {
+          "codigo": 6340,
+          "nome": "Jaime Bagattoli",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-05-08"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15229,
+      "nome": "Liderança da Minoria no Senado Federal",
+      "sigla": "N",
+      "tipoUnidade": {
+        "codigo": 5,
+        "nome": "Liderança da Minoria no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2023-02-03",
+      "membros": [
+        {
+          "codigo": 739,
+          "nome": "Ciro Nogueira",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2023-02-03"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15582,
+      "nome": "Liderança da Minoria no Congresso Nacional",
+      "sigla": "I",
+      "tipoUnidade": {
+        "codigo": 8,
+        "nome": "Liderança da Minoria no Congresso Nacional"
+      },
+      "tipoLideranca": {
+        "codigo": "V",
+        "nome": "Vice-líder do Congresso Nacional"
+      },
+      "dataInicio": "2023-04-25",
+      "membros": [
+        {
+          "codigo": 3777,
+          "nome": "Eduardo Gomes",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 5736,
+          "nome": "Tereza Cristina",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 5976,
+          "nome": "Eduardo Girão",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6335,
+          "nome": "Damares Alves",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6084,
+          "nome": "Bia Kicis",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6158,
+          "nome": "Luiz Lima",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6075,
+          "nome": "Gilson Marques",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6054,
+          "nome": "Marcel van Hattem",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6174,
+          "nome": "José Medeiros",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 1230,
+          "nome": "Alberto Fraga",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6506,
+          "nome": "Delegado Ramagem",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6399,
+          "nome": "Ricardo Salles",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6118,
+          "nome": "Filipe Barros",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6575,
+          "nome": "Roberta Roma",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6070,
+          "nome": "Silvia Cristina",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6539,
+          "nome": "Delegado Paulo Bilynskyj",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2024-04-18"
+          }
+        },
+        {
+          "codigo": 3688,
+          "nome": "Giacobo",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-02-26"
+          }
+        },
+        {
+          "codigo": 5894,
+          "nome": "Flávio Bolsonaro",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2025-03-10"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 15621,
+      "nome": "Liderança da Maioria na Câmara dos Deputados",
+      "sigla": "A",
+      "tipoUnidade": {
+        "codigo": 12,
+        "nome": "Liderança da Maioria na Câmara dos Deputados"
+      },
+      "tipoLideranca": {
+        "codigo": "1",
+        "nome": "Primeiro vice-líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2023-04-26",
+      "membros": [
+        {
+          "codigo": 6089,
+          "nome": "Acácio Favacho",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "1",
+            "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-26"
+          }
+        },
+        {
+          "codigo": 6115,
+          "nome": "Gustinho Ribeiro",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-26"
+          }
+        },
+        {
+          "codigo": 6250,
+          "nome": "AJ Albuquerque",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-09-13"
+          }
+        },
+        {
+          "codigo": 5851,
+          "nome": "Flávio Nogueira",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-07-09"
+          }
+        },
+        {
+          "codigo": 5238,
+          "nome": "Erika Kokay",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-09-10"
+          }
+        },
+        {
+          "codigo": 5313,
+          "nome": "Pedro Paulo",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-12-19"
+          }
+        },
+        {
+          "codigo": 853,
+          "nome": "Arlindo Chinaglia",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-08"
+          }
+        },
+        {
+          "codigo": 4320,
+          "nome": "André Figueiredo",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 6103,
+          "nome": "Gervásio Maia",
+          "partido": "PSB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-06"
+          }
+        },
+        {
+          "codigo": 3727,
+          "nome": "Maria do Rosário",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 16527,
+      "nome": "Liderança da Minoria na Câmara dos Deputados",
+      "sigla": "M",
+      "tipoUnidade": {
+        "codigo": 13,
+        "nome": "Liderança da Minoria na Câmara dos Deputados"
+      },
+      "tipoLideranca": {
+        "codigo": "V",
+        "nome": "Vice-líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2024-02-20",
+      "membros": [
+        {
+          "codigo": 6229,
+          "nome": "Adriana Ventura",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-02-20"
+          }
+        },
+        {
+          "codigo": 6079,
+          "nome": "Caroline de Toni",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-05"
+          }
+        },
+        {
+          "codigo": 6163,
+          "nome": "Carlos Jordy",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "1",
+            "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-11"
+          }
+        },
+        {
+          "codigo": 6165,
+          "nome": "Chris Tonietto",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-12"
+          }
+        },
+        {
+          "codigo": 6084,
+          "nome": "Bia Kicis",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-02"
+          }
+        },
+        {
+          "codigo": 6449,
+          "nome": "Zé Trovão",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 5745,
+          "nome": "Joaquim Passarinho",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 6413,
+          "nome": "Rodrigo Valadares",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 6227,
+          "nome": "Luiz Philippe de Orleans e Bragança",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 5339,
+          "nome": "Marcon",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-30"
+          }
+        },
+        {
+          "codigo": 6464,
+          "nome": "Cabo Gilberto Silva",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-06"
+          }
+        },
+        {
+          "codigo": 6208,
+          "nome": "Carla Zambelli",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6074,
+          "nome": "Eli Borges",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6441,
+          "nome": "Mauricio Marcon",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6237,
+          "nome": "Kim Kataguiri",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-08"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 16691,
+      "nome": "Liderança da Maioria no Congresso Nacional",
+      "sigla": "O",
+      "tipoUnidade": {
+        "codigo": 7,
+        "nome": "Liderança da Maioria no Congresso Nacional"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Congresso Nacional"
+      },
+      "dataInicio": "2024-04-16",
+      "membros": [
+        {
+          "codigo": 5280,
+          "nome": "Aguinaldo Ribeiro",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2024-04-16"
+          }
+        },
+        {
+          "codigo": 5998,
+          "nome": "Daniella Ribeiro",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Congresso Nacional",
+            "dataInicio": "2024-04-17"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 16772,
+      "nome": "Liderança do Governo na CMO",
+      "sigla": "G",
+      "tipoUnidade": {
+        "codigo": 20,
+        "nome": "Liderança do Governo na CMO"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Congresso Nacional"
+      },
+      "dataInicio": "2024-05-07",
+      "membros": [
+        {
+          "codigo": 4729,
+          "nome": "Carlos Zarattini",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2024-05-07"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 16832,
+      "nome": "Liderança da Bancada Feminina no Senado Federal",
+      "sigla": "F",
+      "tipoUnidade": {
+        "codigo": 18,
+        "nome": "Liderança da Bancada Feminina no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2024-05-23",
+      "membros": [
+        {
+          "codigo": 5979,
+          "nome": "Leila Barros",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2024-05-23"
+          }
+        },
+        {
+          "codigo": 6338,
+          "nome": "Teresa Leitão",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2024-05-23"
+          }
+        },
+        {
+          "codigo": 5988,
+          "nome": "Soraya Thronicke",
+          "partido": "PODEMOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2024-05-23"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 17317,
+      "nome": "Liderança da Minoria no Congresso Nacional",
+      "sigla": "I",
+      "tipoUnidade": {
+        "codigo": 15,
+        "nome": "Liderança da Minoria no Congresso Nacional"
+      },
+      "tipoLideranca": {
+        "codigo": "V",
+        "nome": "Vice-líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2023-04-25",
+      "membros": [
+        {
+          "codigo": 1230,
+          "nome": "Alberto Fraga",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6054,
+          "nome": "Marcel van Hattem",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6070,
+          "nome": "Silvia Cristina",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6075,
+          "nome": "Gilson Marques",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6084,
+          "nome": "Bia Kicis",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6118,
+          "nome": "Filipe Barros",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6158,
+          "nome": "Luiz Lima",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6174,
+          "nome": "José Medeiros",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6506,
+          "nome": "Delegado Ramagem",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6399,
+          "nome": "Ricardo Salles",
+          "partido": "NOVO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 6539,
+          "nome": "Delegado Paulo Bilynskyj",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2024-04-18"
+          }
+        },
+        {
+          "codigo": 6575,
+          "nome": "Roberta Roma",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2023-04-25"
+          }
+        },
+        {
+          "codigo": 3688,
+          "nome": "Giacobo",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-28"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 17338,
+      "nome": "Liderança de Bloco no Senado Federal",
+      "sigla": "B",
+      "tipoUnidade": {
+        "codigo": 2,
+        "nome": "Liderança de Bloco no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2024-11-11",
+      "membros": [
+        {
+          "codigo": 5718,
+          "nome": "Eliziane Gama",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2024-11-11"
+          }
+        },
+        {
+          "codigo": 1173,
+          "nome": "Wellington Fagundes",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 5959,
+          "nome": "Styvenson Valentim",
+          "partido": "PSDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-04"
+          }
+        },
+        {
+          "codigo": 5793,
+          "nome": "Dr. Hiran",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-17"
+          }
+        },
+        {
+          "codigo": 5411,
+          "nome": "Weverton",
+          "partido": "PDT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-18"
+          }
+        },
+        {
+          "codigo": 4642,
+          "nome": "Efraim Filho",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-18"
+          }
+        },
+        {
+          "codigo": 6009,
+          "nome": "Astronauta Marcos Pontes",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder do Senado Federal",
+            "dataInicio": "2025-02-27"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 17511,
+      "nome": "Liderança da Maioria no Congresso Nacional",
+      "sigla": "O",
+      "tipoUnidade": {
+        "codigo": 14,
+        "nome": "Liderança da Maioria no Congresso Nacional"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder da Câmara dos Deputados"
+      },
+      "dataInicio": "2025-02-03",
+      "membros": [
+        {
+          "codigo": 6443,
+          "nome": "Zucco",
+          "partido": "REPUBLICANOS",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-03"
+          }
+        },
+        {
+          "codigo": 6123,
+          "nome": "Sanderson",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "1",
+            "descricao": "Primeiro vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-02-04"
+          }
+        },
+        {
+          "codigo": 6464,
+          "nome": "Cabo Gilberto Silva",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-03-18"
+          }
+        },
+        {
+          "codigo": 6088,
+          "nome": "Coronel Chrisóstomo",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-03-26"
+          }
+        },
+        {
+          "codigo": 6458,
+          "nome": "Gustavo Gayer",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-23"
+          }
+        },
+        {
+          "codigo": 6420,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 5745,
+          "nome": "Joaquim Passarinho",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-04-29"
+          }
+        },
+        {
+          "codigo": 5745,
+          "nome": "Joaquim Passarinho",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6221,
+          "nome": "Junio Amaral",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6539,
+          "nome": "Delegado Paulo Bilynskyj",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 5743,
+          "nome": "Delegado Éder Mauro",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6165,
+          "nome": "Chris Tonietto",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6572,
+          "nome": "Capitão Alden",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 2410,
+          "nome": "Osmar Terra",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6413,
+          "nome": "Rodrigo Valadares",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 5706,
+          "nome": "Evair Vieira de Melo",
+          "partido": "PP",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6096,
+          "nome": "Sargento Fahur",
+          "partido": "PSD",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6418,
+          "nome": "Nikolas Ferreira",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 5986,
+          "nome": "Rodolfo Nogueira",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6449,
+          "nome": "Zé Trovão",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6469,
+          "nome": "Silvia Waiãpi",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6482,
+          "nome": "Coronel Assis",
+          "partido": "UNIÃO",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6508,
+          "nome": "Sargento Gonçalves",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6515,
+          "nome": "Mauricio do Vôlei",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6540,
+          "nome": "Mario Frias",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6551,
+          "nome": "Coronel Meira",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        },
+        {
+          "codigo": 6558,
+          "nome": "Delegado Caveira",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "V",
+            "descricao": "Vice-líder da Câmara dos Deputados",
+            "dataInicio": "2025-05-07"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 17518,
+      "nome": "Liderança da Oposição no Senado Federal",
+      "sigla": "S",
+      "tipoUnidade": {
+        "codigo": 17,
+        "nome": "Liderança da Oposição no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2025-02-04",
+      "membros": [
+        {
+          "codigo": 4694,
+          "nome": "Rogerio Marinho",
+          "partido": "PL",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-04"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 17553,
+      "nome": "Liderança da Maioria no Senado Federal",
+      "sigla": "R",
+      "tipoUnidade": {
+        "codigo": 4,
+        "nome": "Liderança da Maioria no Senado Federal"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Senado Federal"
+      },
+      "dataInicio": "2025-02-18",
+      "membros": [
+        {
+          "codigo": 5748,
+          "nome": "Veneziano Vital do Rêgo",
+          "partido": "MDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Senado Federal",
+            "dataInicio": "2025-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": 17658,
+      "nome": "Liderança de Bloco na CMO",
+      "sigla": "B",
+      "tipoUnidade": {
+        "codigo": 23,
+        "nome": "Liderança de Bloco na CMO"
+      },
+      "tipoLideranca": {
+        "codigo": "L",
+        "nome": "Líder do Congresso Nacional"
+      },
+      "dataInicio": "2025-04-15",
+      "membros": [
+        {
+          "codigo": 5722,
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        },
+        {
+          "codigo": 4632,
+          "nome": "Dagoberto Nogueira",
+          "partido": "PSDB",
+          "uf": "",
+          "cargo": {
+            "codigo": "L",
+            "descricao": "Líder do Congresso Nacional",
+            "dataInicio": "2025-04-15"
+          }
+        }
+      ]
+    }
+  ],
+  "referencias": {
+    "tiposUnidade": [
+      {
+        "codigo": 1,
+        "nome": "Liderança de Partido no Senado Federal"
+      },
+      {
+        "codigo": 2,
+        "nome": "Liderança de Bloco no Senado Federal"
+      },
+      {
+        "codigo": 3,
+        "nome": "Liderança do Governo no Senado Federal"
+      },
+      {
+        "codigo": 4,
+        "nome": "Liderança da Maioria no Senado Federal"
+      },
+      {
+        "codigo": 5,
+        "nome": "Liderança da Minoria no Senado Federal"
+      },
+      {
+        "codigo": 6,
+        "nome": "Liderança do Governo no Congresso Nacional"
+      },
+      {
+        "codigo": 7,
+        "nome": "Liderança da Maioria no Congresso Nacional"
+      },
+      {
+        "codigo": 8,
+        "nome": "Liderança da Minoria no Congresso Nacional"
+      },
+      {
+        "codigo": 9,
+        "nome": "Liderança de Partido na Câmara dos Deputados"
+      },
+      {
+        "codigo": 10,
+        "nome": "Liderança de Bloco na Câmara dos Deputados"
+      },
+      {
+        "codigo": 11,
+        "nome": "Liderança do Governo na Câmara dos Deputados"
+      },
+      {
+        "codigo": 12,
+        "nome": "Liderança da Maioria na Câmara dos Deputados"
+      },
+      {
+        "codigo": 13,
+        "nome": "Liderança da Minoria na Câmara dos Deputados"
+      },
+      {
+        "codigo": 14,
+        "nome": "Liderança da Maioria no Congresso Nacional"
+      },
+      {
+        "codigo": 15,
+        "nome": "Liderança da Minoria no Congresso Nacional"
+      },
+      {
+        "codigo": 16,
+        "nome": "Liderança do Governo no Congresso Nacional"
+      },
+      {
+        "codigo": 17,
+        "nome": "Liderança da Oposição no Senado Federal"
+      },
+      {
+        "codigo": 18,
+        "nome": "Liderança da Bancada Feminina no Senado Federal"
+      },
+      {
+        "codigo": 19,
+        "nome": "Liderança de Partido na CMO"
+      },
+      {
+        "codigo": 20,
+        "nome": "Liderança do Governo na CMO"
+      },
+      {
+        "codigo": 21,
+        "nome": "Liderança da Minoria na CMO"
+      },
+      {
+        "codigo": 22,
+        "nome": "Liderança da Maioria na CMO"
+      },
+      {
+        "codigo": 23,
+        "nome": "Liderança de Bloco na CMO"
+      }
+    ],
+    "tiposLideranca": [
+      {
+        "codigo": 1,
+        "nome": "Líder do Senado Federal"
+      },
+      {
+        "codigo": 2,
+        "nome": "Vice-líder do Senado Federal"
+      },
+      {
+        "codigo": 3,
+        "nome": "Líder em exercício do Senado Federal"
+      },
+      {
+        "codigo": 4,
+        "nome": "Líder do Congresso Nacional"
+      },
+      {
+        "codigo": 5,
+        "nome": "Vice-líder do Congresso Nacional"
+      },
+      {
+        "codigo": 6,
+        "nome": "Líder da Câmara dos Deputados"
+      },
+      {
+        "codigo": 7,
+        "nome": "Vice-líder da Câmara dos Deputados"
+      },
+      {
+        "codigo": 8,
+        "nome": "Representante da Câmara dos Deputados"
+      },
+      {
+        "codigo": 9,
+        "nome": "Primeiro vice-líder da Câmara dos Deputados"
+      },
+      {
+        "codigo": 10,
+        "nome": "Líder em exercício da Câmara dos Deputados"
+      }
+    ],
+    "tiposCargo": [
+      {
+        "codigo": "123",
+        "descricao": "10º SUPLENTE"
+      },
+      {
+        "codigo": "125",
+        "descricao": "11º SUPLENTE"
+      },
+      {
+        "codigo": "126",
+        "descricao": "12º SUPLENTE"
+      },
+      {
+        "codigo": "127",
+        "descricao": "13º SUPLENTE"
+      },
+      {
+        "codigo": "200",
+        "descricao": "1ª SECRETARIA"
+      },
+      {
+        "codigo": "305",
+        "descricao": "1ª SECRETÁRIA"
+      },
+      {
+        "codigo": "143",
+        "descricao": "1ª VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "43",
+        "descricao": "1º CORREGEDOR SUBSTITUTO"
+      },
+      {
+        "codigo": "6",
+        "descricao": "1º SECRETÁRIO"
+      },
+      {
+        "codigo": "101",
+        "descricao": "1º SUPLENTE"
+      },
+      {
+        "codigo": "250",
+        "descricao": "1º Suplente"
+      },
+      {
+        "codigo": "4",
+        "descricao": "1º VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "156",
+        "descricao": "2ª SECRETÁRIA"
+      },
+      {
+        "codigo": "5",
+        "descricao": "2ª VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "81",
+        "descricao": "2º CORREGEDOR SUBSTITUTO"
+      },
+      {
+        "codigo": "7",
+        "descricao": "2º SECRETÁRIO"
+      },
+      {
+        "codigo": "102",
+        "descricao": "2º SUPLENTE"
+      },
+      {
+        "codigo": "249",
+        "descricao": "2º Suplente"
+      },
+      {
+        "codigo": "145",
+        "descricao": "2º VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "184",
+        "descricao": "3ª SECRETÁRIA"
+      },
+      {
+        "codigo": "306",
+        "descricao": "3ª SECRETÁRIA"
+      },
+      {
+        "codigo": "147",
+        "descricao": "3ª SUPLENTE"
+      },
+      {
+        "codigo": "231",
+        "descricao": "3ª VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "82",
+        "descricao": "3º CORREGEDOR SUBSTITUTO"
+      },
+      {
+        "codigo": "8",
+        "descricao": "3º SECRETÁRIO"
+      },
+      {
+        "codigo": "103",
+        "descricao": "3º SUPLENTE"
+      },
+      {
+        "codigo": "111",
+        "descricao": "3º VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "9",
+        "descricao": "4ª SECRETÁRIA"
+      },
+      {
+        "codigo": "148",
+        "descricao": "4ª SUPLENTE"
+      },
+      {
+        "codigo": "307",
+        "descricao": "4ª SUPLENTE"
+      },
+      {
+        "codigo": "144",
+        "descricao": "4º SECRETÁRIO"
+      },
+      {
+        "codigo": "104",
+        "descricao": "4º SUPLENTE"
+      },
+      {
+        "codigo": "255",
+        "descricao": "4º VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "301",
+        "descricao": "5ª SECRETÁRIA"
+      },
+      {
+        "codigo": "300",
+        "descricao": "5º SECRETÁRIO"
+      },
+      {
+        "codigo": "118",
+        "descricao": "5º SUPLENTE"
+      },
+      {
+        "codigo": "119",
+        "descricao": "6º SUPLENTE"
+      },
+      {
+        "codigo": "120",
+        "descricao": "7º SUPLENTE"
+      },
+      {
+        "codigo": "121",
+        "descricao": "8º SUPLENTE"
+      },
+      {
+        "codigo": "122",
+        "descricao": "9º SUPLENTE"
+      },
+      {
+        "codigo": "116",
+        "descricao": "CHANCELER"
+      },
+      {
+        "codigo": "114",
+        "descricao": "COORDENADOR"
+      },
+      {
+        "codigo": "42",
+        "descricao": "CORREGEDOR"
+      },
+      {
+        "codigo": "150",
+        "descricao": "CORREGEDOR SUBSTITUTO"
+      },
+      {
+        "codigo": "149",
+        "descricao": "CORREGEDOR SUBSTITUTO"
+      },
+      {
+        "codigo": "151",
+        "descricao": "CORREGEDOR SUBSTITUTO"
+      },
+      {
+        "codigo": "303",
+        "descricao": "Coordenador na Câmara dos Deputados"
+      },
+      {
+        "codigo": "251",
+        "descricao": "Coordenador no Senado Federal"
+      },
+      {
+        "codigo": "252",
+        "descricao": "Coordenadora na Câmara dos Deputados"
+      },
+      {
+        "codigo": "302",
+        "descricao": "Coordenadora no Senado Federal"
+      },
+      {
+        "codigo": "117",
+        "descricao": "Coordenação"
+      },
+      {
+        "codigo": "115",
+        "descricao": "GRÃO-MESTRE"
+      },
+      {
+        "codigo": "146",
+        "descricao": "OUVIDOR-GERAL"
+      },
+      {
+        "codigo": "158",
+        "descricao": "OUVIDORA-GERAL"
+      },
+      {
+        "codigo": "1",
+        "descricao": "PRESIDENTE"
+      },
+      {
+        "codigo": "154",
+        "descricao": "PRESIDENTE (art. 88, § 3º do RISF)"
+      },
+      {
+        "codigo": "189",
+        "descricao": "PRESIDENTE DA COMISSÃO EXECUTIVA"
+      },
+      {
+        "codigo": "256",
+        "descricao": "PRESIDENTE DE HONRA"
+      },
+      {
+        "codigo": "187",
+        "descricao": "PRESIDENTE DO CONSELHO CONSULTIVO"
+      },
+      {
+        "codigo": "260",
+        "descricao": "PRESIDENTE NA REUNIÃO DE INSTALAÇÃO"
+      },
+      {
+        "codigo": "108",
+        "descricao": "PRESIDENTE NATO"
+      },
+      {
+        "codigo": "179",
+        "descricao": "PROCURADOR"
+      },
+      {
+        "codigo": "182",
+        "descricao": "PROCURADOR"
+      },
+      {
+        "codigo": "181",
+        "descricao": "PROCURADOR"
+      },
+      {
+        "codigo": "180",
+        "descricao": "PROCURADOR"
+      },
+      {
+        "codigo": "157",
+        "descricao": "PROCURADORA"
+      },
+      {
+        "codigo": "44",
+        "descricao": "PROCURADORES"
+      },
+      {
+        "codigo": "21",
+        "descricao": "RELATOR"
+      },
+      {
+        "codigo": "112",
+        "descricao": "RELATOR DA LDO"
+      },
+      {
+        "codigo": "142",
+        "descricao": "RELATOR PARCIAL - CUMPR. SENTENÇAS E EXECUÇÃO"
+      },
+      {
+        "codigo": "193",
+        "descricao": "RELATOR PARCIAL DE ASSUNTOS FISCAIS, PREV E AGRO"
+      },
+      {
+        "codigo": "191",
+        "descricao": "RELATOR PARCIAL DE CONTRATOS"
+      },
+      {
+        "codigo": "199",
+        "descricao": "RELATOR PARCIAL DE INVESTIGAÇÃO DOS VAZAMENTOS"
+      },
+      {
+        "codigo": "107",
+        "descricao": "RELATOR REVISOR"
+      },
+      {
+        "codigo": "183",
+        "descricao": "RELATOR SETORIAL"
+      },
+      {
+        "codigo": "129",
+        "descricao": "RELATOR-GERAL"
+      },
+      {
+        "codigo": "113",
+        "descricao": "RELATOR-GERAL DO ORÇAMENTO PARA O ANO DE 2005"
+      },
+      {
+        "codigo": "132",
+        "descricao": "RELATOR-PARCIAL - INQUÉRITO POLICIAL"
+      },
+      {
+        "codigo": "133",
+        "descricao": "RELATOR-PARCIAL - MEDIDAS CAUTELARES"
+      },
+      {
+        "codigo": "137",
+        "descricao": "RELATOR-PARCIAL - PARTE GERAL"
+      },
+      {
+        "codigo": "131",
+        "descricao": "RELATOR-PARCIAL - PROCEDIMENTOS"
+      },
+      {
+        "codigo": "139",
+        "descricao": "RELATOR-PARCIAL - PROCEDIMENTOS ESPECIAIS"
+      },
+      {
+        "codigo": "138",
+        "descricao": "RELATOR-PARCIAL - PROCESSO DE CONHECIMENTO"
+      },
+      {
+        "codigo": "136",
+        "descricao": "RELATOR-PARCIAL - PROCESSO ELETRÔNICO"
+      },
+      {
+        "codigo": "134",
+        "descricao": "RELATOR-PARCIAL - PROVAS"
+      },
+      {
+        "codigo": "135",
+        "descricao": "RELATOR-PARCIAL - RECURSOS"
+      },
+      {
+        "codigo": "152",
+        "descricao": "RELATORA"
+      },
+      {
+        "codigo": "159",
+        "descricao": "Rel. do Proj. de Lei de Diretrizes Orçamentárias"
+      },
+      {
+        "codigo": "213",
+        "descricao": "Relator Setorial de Agricultura, Pesca e Dsv. Agr."
+      },
+      {
+        "codigo": "216",
+        "descricao": "Relator Setorial de Ciência e Tecnologia e Com."
+      },
+      {
+        "codigo": "223",
+        "descricao": "Relator Setorial de Defesa e Justiça"
+      },
+      {
+        "codigo": "214",
+        "descricao": "Relator Setorial de Desenvolvimento Urbano"
+      },
+      {
+        "codigo": "203",
+        "descricao": "Relator Setorial de Educação e Cultura"
+      },
+      {
+        "codigo": "218",
+        "descricao": "Relator Setorial de Esporte"
+      },
+      {
+        "codigo": "220",
+        "descricao": "Relator Setorial de Fazenda e Planejamento"
+      },
+      {
+        "codigo": "221",
+        "descricao": "Relator Setorial de Indústria, Comércio e MPE"
+      },
+      {
+        "codigo": "204",
+        "descricao": "Relator Setorial de Integração Nacional"
+      },
+      {
+        "codigo": "219",
+        "descricao": "Relator Setorial de Meio Ambiente"
+      },
+      {
+        "codigo": "217",
+        "descricao": "Relator Setorial de Minas e Energia"
+      },
+      {
+        "codigo": "224",
+        "descricao": "Relator Setorial de Pres., Poder Legis, Poder Jud."
+      },
+      {
+        "codigo": "202",
+        "descricao": "Relator Setorial de Saúde"
+      },
+      {
+        "codigo": "222",
+        "descricao": "Relator Setorial de Trabalho, Prev.  e As. Social"
+      },
+      {
+        "codigo": "201",
+        "descricao": "Relator Setorial de Transporte"
+      },
+      {
+        "codigo": "215",
+        "descricao": "Relator Setorial de Turismo"
+      },
+      {
+        "codigo": "161",
+        "descricao": "Relator da Receita"
+      },
+      {
+        "codigo": "160",
+        "descricao": "Relator do Projeto de Lei Orçamentária Anual"
+      },
+      {
+        "codigo": "186",
+        "descricao": "Relator do Projeto de Plano Plurianual"
+      },
+      {
+        "codigo": "229",
+        "descricao": "Relator para o tema Processo Administrativo"
+      },
+      {
+        "codigo": "230",
+        "descricao": "Relator para o tema Processo Tributário"
+      },
+      {
+        "codigo": "153",
+        "descricao": "Relatora"
+      },
+      {
+        "codigo": "304",
+        "descricao": "SECRETÁRIA-GERAL"
+      },
+      {
+        "codigo": "109",
+        "descricao": "SECRETÁRIO-GERAL"
+      },
+      {
+        "codigo": "110",
+        "descricao": "SECRETÁRIO-GERAL ADJUNTO"
+      },
+      {
+        "codigo": "124",
+        "descricao": "SUB-RELATOR"
+      },
+      {
+        "codigo": "41",
+        "descricao": "SUPLENTE"
+      },
+      {
+        "codigo": "248",
+        "descricao": "Secretário"
+      },
+      {
+        "codigo": "128",
+        "descricao": "TITULAR"
+      },
+      {
+        "codigo": "247",
+        "descricao": "Tesoureiro"
+      },
+      {
+        "codigo": "2",
+        "descricao": "VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "155",
+        "descricao": "VICE-PRESIDENTE"
+      },
+      {
+        "codigo": "190",
+        "descricao": "VICE-PRESIDENTE DA COMISSÃO EXECUTIVA"
+      },
+      {
+        "codigo": "188",
+        "descricao": "VICE-PRESIDENTE DO CONSELHO CONSULTIVO"
+      },
+      {
+        "codigo": "228",
+        "descricao": "VICE-PRESIDENTE PELO BRASIL NO PARLASUL"
+      },
+      {
+        "codigo": "235",
+        "descricao": "Vice Presidente de Fontes Fósseis"
+      },
+      {
+        "codigo": "254",
+        "descricao": "Vice-Coordenadora na Câmara dos Deputados"
+      },
+      {
+        "codigo": "253",
+        "descricao": "Vice-Coordenadora no Senado Federal"
+      },
+      {
+        "codigo": "241",
+        "descricao": "Vice-Presid. de Meio Ambiente e Sustentabilidade"
+      },
+      {
+        "codigo": "311",
+        "descricao": "Vice-Presidente Executivo"
+      },
+      {
+        "codigo": "315",
+        "descricao": "Vice-Presidente Financeiro"
+      },
+      {
+        "codigo": "312",
+        "descricao": "Vice-Presidente Jurídico"
+      },
+      {
+        "codigo": "313",
+        "descricao": "Vice-Presidente Legislativo"
+      },
+      {
+        "codigo": "294",
+        "descricao": "Vice-Presidente de Apoio à Adoção"
+      },
+      {
+        "codigo": "314",
+        "descricao": "Vice-Presidente de Assistência Social"
+      },
+      {
+        "codigo": "297",
+        "descricao": "Vice-Presidente de Assuntos Sociais"
+      },
+      {
+        "codigo": "245",
+        "descricao": "Vice-Presidente de Assuntos Tributários"
+      },
+      {
+        "codigo": "286",
+        "descricao": "Vice-Presidente de Combate ao Abuso Sexual e Maus Tratos Infantis"
+      },
+      {
+        "codigo": "284",
+        "descricao": "Vice-Presidente de Combate ao Abuso Sexual e Maus-tratos Infantis"
+      },
+      {
+        "codigo": "263",
+        "descricao": "Vice-Presidente de Combate às Drogas"
+      },
+      {
+        "codigo": "234",
+        "descricao": "Vice-Presidente de Combustíveis e Biocombustíveis"
+      },
+      {
+        "codigo": "293",
+        "descricao": "Vice-Presidente de Defesa da Educação sem Doutrinação Ideológica"
+      },
+      {
+        "codigo": "289",
+        "descricao": "Vice-Presidente de Defesa da Liberdade Religiosa"
+      },
+      {
+        "codigo": "287",
+        "descricao": "Vice-Presidente de Defesa da Vida"
+      },
+      {
+        "codigo": "298",
+        "descricao": "Vice-Presidente de Descarbonização e Economia Verde"
+      },
+      {
+        "codigo": "239",
+        "descricao": "Vice-Presidente de Desenvolvimento Social"
+      },
+      {
+        "codigo": "261",
+        "descricao": "Vice-Presidente de Eficiência Energética"
+      },
+      {
+        "codigo": "290",
+        "descricao": "Vice-Presidente de Enfrentamento à Ideologia de Gênero"
+      },
+      {
+        "codigo": "236",
+        "descricao": "Vice-Presidente de Fontes Fósseis"
+      },
+      {
+        "codigo": "233",
+        "descricao": "Vice-Presidente de Fontes Renováveis"
+      },
+      {
+        "codigo": "296",
+        "descricao": "Vice-Presidente de Gás Natural"
+      },
+      {
+        "codigo": "242",
+        "descricao": "Vice-Presidente de Infraestrutura Energética"
+      },
+      {
+        "codigo": "237",
+        "descricao": "Vice-Presidente de Minerais Energéticos"
+      },
+      {
+        "codigo": "308",
+        "descricao": "Vice-Presidente de Pesquisa e Desenvolvimento"
+      },
+      {
+        "codigo": "295",
+        "descricao": "Vice-Presidente de Petróleo"
+      },
+      {
+        "codigo": "309",
+        "descricao": "Vice-Presidente de Política Industrial"
+      },
+      {
+        "codigo": "291",
+        "descricao": "Vice-Presidente de Prevenção ao Suicídio e Automutilação"
+      },
+      {
+        "codigo": "310",
+        "descricao": "Vice-Presidente de Proteção ao Consumidor de Energias"
+      },
+      {
+        "codigo": "299",
+        "descricao": "Vice-Presidente de Segurança Energética"
+      },
+      {
+        "codigo": "238",
+        "descricao": "Vice-Presidente de Transição Energética"
+      },
+      {
+        "codigo": "243",
+        "descricao": "Vice-Presidente pela Câmara dos Deputados"
+      },
+      {
+        "codigo": "244",
+        "descricao": "Vice-Presidente pelo Senado Federal"
+      },
+      {
+        "codigo": "259",
+        "descricao": "VlCE-PRESIDENTE"
+      }
+    ]
+  }
+}

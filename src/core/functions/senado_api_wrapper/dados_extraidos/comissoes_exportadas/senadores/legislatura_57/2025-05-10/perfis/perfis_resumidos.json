@@ -1,0 +1,392 @@
+[
+  {
+    "id": "38",
+    "nome": "Comissão de Assuntos Econômicos",
+    "partido": "CAE"
+  },
+  {
+    "id": "40",
+    "nome": "Comissão de Assuntos Sociais",
+    "partido": "CAS"
+  },
+  {
+    "id": "2614",
+    "nome": "Comissão de Comunicação e Direito Digital",
+    "partido": "CCDD"
+  },
+  {
+    "id": "34",
+    "nome": "Comissão de Constituição, Justiça e Cidadania",
+    "partido": "CCJ"
+  },
+  {
+    "id": "1363",
+    "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+    "partido": "CCT"
+  },
+  {
+    "id": "2617",
+    "nome": "Comissão de Defesa da Democracia",
+    "partido": "CDD"
+  },
+  {
+    "id": "834",
+    "nome": "Comissão de Direitos Humanos e Legislação Participativa",
+    "partido": "CDH"
+  },
+  {
+    "id": "2726",
+    "nome": "Subcomissão Temporária para debater a Convenção sobre os Aspectos Civis do Sequestro Internacional de Crianças",
+    "partido": "CDHHAIA"
+  },
+  {
+    "id": "1306",
+    "nome": "Comissão de Desenvolvimento Regional e Turismo",
+    "partido": "CDR"
+  },
+  {
+    "id": "47",
+    "nome": "Comissão de Educação e Cultura",
+    "partido": "CE"
+  },
+  {
+    "id": "2615",
+    "nome": "Comissão de Esporte",
+    "partido": "CEsp"
+  },
+  {
+    "id": "59",
+    "nome": "Comissão de Serviços de Infraestrutura",
+    "partido": "CI"
+  },
+  {
+    "id": "2739",
+    "nome": "Subcomissão temporária para examinar a BR-319",
+    "partido": "CIBR319"
+  },
+  {
+    "id": "50",
+    "nome": "Comissão de Meio Ambiente",
+    "partido": "CMA"
+  },
+  {
+    "id": "446",
+    "nome": "Corregedoria Parlamentar",
+    "partido": "CORREG"
+  },
+  {
+    "id": "2703",
+    "nome": "CPI das BETS",
+    "partido": "CPIBETS"
+  },
+  {
+    "id": "2658",
+    "nome": "CPI da Violência Doméstica",
+    "partido": "CPIVD"
+  },
+  {
+    "id": "1307",
+    "nome": "Comissão de Agricultura e Reforma Agrária",
+    "partido": "CRA"
+  },
+  {
+    "id": "54",
+    "nome": "Comissão de Relações Exteriores e Defesa Nacional",
+    "partido": "CRE"
+  },
+  {
+    "id": "2429",
+    "nome": "Comissão de Segurança Pública",
+    "partido": "CSP"
+  },
+  {
+    "id": "1956",
+    "nome": "Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor",
+    "partido": "CTFC"
+  },
+  {
+    "id": "1543",
+    "nome": "Ouvidoria do Senado Federal",
+    "partido": "OUVIDSF"
+  },
+  {
+    "id": "1998",
+    "nome": "Plenário do Senado Federal",
+    "partido": "PLEN"
+  },
+  {
+    "id": "1659",
+    "nome": "Procuradoria Especial da Mulher",
+    "partido": "PROMUL"
+  },
+  {
+    "id": "448",
+    "nome": "Procuradoria Parlamentar",
+    "partido": "PROPAR"
+  },
+  {
+    "id": "2638",
+    "nome": "Subcomissão Temporária para viabilizar o surgimento dos Juizados Especiais de Crimes Cibernéticos",
+    "partido": "CCDDJECC"
+  },
+  {
+    "id": "2589",
+    "nome": "Comissão Especial para Debate de Políticas Públicas sobre Hidrogênio Verde",
+    "partido": "CEHV"
+  },
+  {
+    "id": "2724",
+    "nome": "Subcomissão Temporária para acompanhamento dos preparativos para realização da COP 30",
+    "partido": "CMACOP30"
+  },
+  {
+    "id": "2740",
+    "nome": "Comissão Temporária Externa para investigar a situação dos brasileiros na Bolívia",
+    "partido": "CTBOLÍVIA"
+  },
+  {
+    "id": "2648",
+    "nome": "Comissão Temporária Externa para verificar \"in loco\" a situação política e social do Estado Plurinacional da Bolívia",
+    "partido": "CTEBOLÍVIA"
+  },
+  {
+    "id": "2641",
+    "nome": "Comissão Temporária Interna em Comemoração aos 200 anos da Confederação do Equador",
+    "partido": "CTI200CONFEQ"
+  },
+  {
+    "id": "2745",
+    "nome": "Grupo de trabalho sobre regulamentação da mineração em terras indígenas.",
+    "partido": "GTMTI"
+  },
+  {
+    "id": "2715",
+    "nome": "Comenda Ceci Cunha",
+    "partido": "CCC"
+  },
+  {
+    "id": "770",
+    "nome": "Conselho do Diploma Bertha Lutz",
+    "partido": "CDBL"
+  },
+  {
+    "id": "1713",
+    "nome": "Conselho da Comenda Dorina de Gouvêa Nowill",
+    "partido": "CDGN"
+  },
+  {
+    "id": "1540",
+    "nome": "Conselho da Comenda de Direitos Humanos Dom Hélder Câmara",
+    "partido": "CDHC"
+  },
+  {
+    "id": "2015",
+    "nome": "Comissão Diretora do Senado Federal",
+    "partido": "CDIR"
+  },
+  {
+    "id": "2532",
+    "nome": "Conselho do Diploma Paul Singer",
+    "partido": "CDPS"
+  },
+  {
+    "id": "445",
+    "nome": "Conselho de Ética e Decoro Parlamentar",
+    "partido": "CEDP"
+  },
+  {
+    "id": "2392",
+    "nome": "Comenda de Incentivo à Caridade Chico Xavier",
+    "partido": "CICCX"
+  },
+  {
+    "id": "2192",
+    "nome": "Comenda de Incentivo à Cultura Luís da Câmara Cascudo",
+    "partido": "CICLCC"
+  },
+  {
+    "id": "2598",
+    "nome": "Comenda Missionários Daniel Berg e Gunnar Vingren",
+    "partido": "CMDG"
+  },
+  {
+    "id": "1944",
+    "nome": "Conselho da Comenda do Mérito Esportivo",
+    "partido": "CME"
+  },
+  {
+    "id": "2163",
+    "nome": "Comenda do Mérito Futebolístico Associação Chapecoense de Futebol",
+    "partido": "CMFC"
+  },
+  {
+    "id": "2090",
+    "nome": "Comenda Nise Magalhães da Silveira",
+    "partido": "CNMS"
+  },
+  {
+    "id": "2599",
+    "nome": "Comenda Rei Pelé",
+    "partido": "CRP"
+  },
+  {
+    "id": "1750",
+    "nome": "Conselho da Comenda Senador Abdias Nascimento",
+    "partido": "CSAN"
+  },
+  {
+    "id": "2427",
+    "nome": "Comenda Santa Dulce dos Pobres",
+    "partido": "CSDP"
+  },
+  {
+    "id": "2708",
+    "nome": "Conselho do Selo Zumbi dos Palmares",
+    "partido": "CSZP"
+  },
+  {
+    "id": "2145",
+    "nome": "Comenda Zilda Arns",
+    "partido": "CZA"
+  },
+  {
+    "id": "1530",
+    "nome": "Conselho do Diploma José Ermírio de Moraes",
+    "partido": "DJEM"
+  },
+  {
+    "id": "2551",
+    "nome": "Medalha de Mérito Educacional Darcy Ribeiro",
+    "partido": "MMEDR"
+  },
+  {
+    "id": "2564",
+    "nome": "Medalha Maria Quitéria",
+    "partido": "MMQ"
+  },
+  {
+    "id": "2469",
+    "nome": "Conselho do Prêmio Adoção Tardia - Gesto Redobrado de Cidadania",
+    "partido": "PAT"
+  },
+  {
+    "id": "2390",
+    "nome": "Conselho do Prêmio Chico Mendes",
+    "partido": "PCMSF"
+  },
+  {
+    "id": "2552",
+    "nome": "Prêmio de Eficiência Educacional Florestan Fernandes",
+    "partido": "PEEFF"
+  },
+  {
+    "id": "2041",
+    "nome": "Conselho do Prêmio Jovem Empreendedor",
+    "partido": "PJE"
+  },
+  {
+    "id": "1940",
+    "nome": "Conselho do Prêmio Jornalista Roberto Marinho de Mérito Jornalístico",
+    "partido": "PJRM"
+  },
+  {
+    "id": "1546",
+    "nome": "Conselho do Projeto Jovem Senador",
+    "partido": "PJS"
+  },
+  {
+    "id": "1617",
+    "nome": "Conselho do Prêmio Mérito Ambiental",
+    "partido": "PMA"
+  },
+  {
+    "id": "1943",
+    "nome": "Conselho do Prêmio Senado Federal de História do Brasil",
+    "partido": "PSFHB"
+  },
+  {
+    "id": "2643",
+    "nome": "Conselho do Prêmio Trânsito Seguro - Gesto Redobrado para o Futuro",
+    "partido": "PTS"
+  },
+  {
+    "id": "2636",
+    "nome": "Subcomissão Permanente Municipalista",
+    "partido": "CAESM"
+  },
+  {
+    "id": "2624",
+    "nome": "Subcomissão Permanente de Direitos das Pessoas com Doenças Raras",
+    "partido": "CASRARAS"
+  },
+  {
+    "id": "2660",
+    "nome": "Subcomissão Permanente para debater a desigualdade e a exclusão digital no Brasil",
+    "partido": "CCDDEX"
+  },
+  {
+    "id": "2770",
+    "nome": "Subcomissão Permanente para o Desenvolvimento Sustentável do Pantanal",
+    "partido": "CCTPANT"
+  },
+  {
+    "id": "2684",
+    "nome": "Subcomissão Permanente para acompanhar as políticas de Educação de Jovens e Adultos",
+    "partido": "CEEJA"
+  },
+  {
+    "id": "2618",
+    "nome": "Subcomissão Permanente da Alfabetização na Idade Certa",
+    "partido": "CEIDCERTA"
+  },
+  {
+    "id": "2723",
+    "nome": "Subcomissão Permanente do Bioma Cerrado",
+    "partido": "CMABIOCER"
+  },
+  {
+    "id": "2591",
+    "nome": "Subcomissão Permanente do Bioma Pantanal.",
+    "partido": "CMABIOPAN"
+  },
+  {
+    "id": "2621",
+    "nome": "Subcomissão Permanente de Defesa Cibernética",
+    "partido": "CREDC"
+  },
+  {
+    "id": "449",
+    "nome": "",
+    "partido": ""
+  },
+  {
+    "id": "1450",
+    "nome": "",
+    "partido": ""
+  },
+  {
+    "id": "1664",
+    "nome": "",
+    "partido": ""
+  },
+  {
+    "id": "1774",
+    "nome": "",
+    "partido": ""
+  },
+  {
+    "id": "1775",
+    "nome": "",
+    "partido": ""
+  },
+  {
+    "id": "2091",
+    "nome": "",
+    "partido": ""
+  },
+  {
+    "id": "2301",
+    "nome": "",
+    "partido": ""
+  }
+]
