@@ -1,6 +1,5 @@
 // src/domains/congresso/pages/HomePage.tsx
-import * as React from 'react';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { DashboardUnificadoUF } from "@/domains/congresso/components/Dashboards";
 import { ActionCards } from "@/domains/congresso/components/ActionCards";
 import { usePerfil } from "@/domains/usuario/hooks";
@@ -23,8 +22,7 @@ const HomePage: React.FC<HomePageProps> = () => {
   }, [perfil]);
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      {/* Conteúdo comentado temporariamente para focar no header
+    <div className="space-y-8">
       <header className="mb-6">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
           Bem-vindo à República Brasileira
@@ -34,10 +32,12 @@ const HomePage: React.FC<HomePageProps> = () => {
         </p>
       </header>
       
+      {/* Ações Prioritárias */}
       <section className="mb-8">
         <ActionCards />
       </section>
       
+      {/* Dashboards - usando DashboardUnificadoUF com a UF do perfil do usuário */}
       <section>
         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Dashboards</h2>
         {isLoadingPerfil ? (
@@ -50,7 +50,6 @@ const HomePage: React.FC<HomePageProps> = () => {
           </div>
         )}
       </section>
-      */}
     </div>
   );
 };
