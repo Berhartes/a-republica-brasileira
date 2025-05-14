@@ -1,12 +1,12 @@
 // src/components/senado/SenadorDetalhe.tsx
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@tanstack/react-router';
 import { senadoApi } from '../../core/utils/senado-api';
 
 type RouteParams = Record<string, string | undefined>;
 
 const SenadorDetalhe: React.FC = () => {
-  const { id } = useParams<RouteParams>();
+  const { id } = useParams({ from: '/senador/$id' });
   const [senador, setSenador] = useState<any>(null);
   const [mandatos, setMandatos] = useState<any[]>([]);
   const [comissoes, setComissoes] = useState<any[]>([]);

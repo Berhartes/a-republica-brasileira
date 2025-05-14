@@ -1,11 +1,11 @@
 import { Redis } from '@upstash/redis';
-import { CacheService } from './cache.service';
+import { CacheService } from './cache-service.ts';
 import { logger } from '@/core/monitoring';
 
 // Exportar tipos
 export * from './types';
 // Re-exportar apenas tipos não presentes em './types'
-export type { CacheService } from './cache.service';
+export type { CacheService } from './cache-service.ts';
 
 // Criar e exportar instância do Redis
 let redis: Redis;
@@ -59,6 +59,6 @@ const createMockRedis = () => {
 redis = createMockRedis();
 
 // Criar e exportar instância do serviço de cache
-export const cacheService = new CacheService();
+export const cacheService = new CacheService(redis);
 
 export default cacheService;

@@ -1,12 +1,13 @@
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
 import axios from 'axios';
+import { Response } from 'express'; // Adicionado import do Express
 
 admin.initializeApp();
 const db = admin.firestore();
 
 // Função de exemplo: busca dados do wrapper e grava no Firestore
-export const importarSenado = functions.https.onRequest(async (req, res) => {
+export const importarSenado = functions.https.onRequest(async (req: functions.https.Request, res: Response) => { // Tipo de res alterado
   try {
     // Altere a URL abaixo para o endpoint do seu wrapper local
     const response = await axios.get('http://localhost:3000/api/senado/exemplo');
@@ -21,4 +22,4 @@ export const importarSenado = functions.https.onRequest(async (req, res) => {
     const mensagem = error instanceof Error ? error.message : String(error);
     res.status(500).send({ sucesso: false, erro: mensagem });
   }
-}); 
+});

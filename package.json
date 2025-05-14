@@ -88,9 +88,11 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "fast-xml-parser": "^5.0.9",
     "firebase": "10.7.1",
     "firebase-admin": "^13.2.0",
+    "firebase-functions": "^6.3.2",
     "jotai": "^2.12.2",
     "jotai-devtools": "^0.11.0",
     "lucide-react": "^0.483.0",
@@ -118,9 +120,12 @@
     "@tanstack/query-persist-client-core": "^5.69.0",
     "@tanstack/query-sync-storage-persister": "^5.69.0",
     "@tanstack/router-devtools": "^1.114.27",
+    "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.6.1",
     "@types/axios": "^0.14.4",
+    "@types/express": "^4.17.21",
+    "@types/glob": "^8.1.0",
     "@types/node": "^22.13.10",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
@@ -131,6 +136,7 @@
     "autoprefixer": "^10.4.17",
     "concurrently": "^9.1.2",
     "eslint-plugin-storybook": "^0.11.6",
+    "glob": "^11.0.2",
     "happy-dom": "^17.4.4",
     "pino-pretty": "^13.0.0",
     "postcss": "^8.4.35",
@@ -154,4 +160,3 @@
     ]
   }
 }
-

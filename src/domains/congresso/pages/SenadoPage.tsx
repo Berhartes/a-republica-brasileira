@@ -255,7 +255,7 @@ const SenadoPage: React.FC<SenadoPageProps> = () => {
                     <div>
                       <div>Email: {senador.email || (senador.IdentificacaoParlamentar && senador.IdentificacaoParlamentar.EmailParlamentar) || 'Não disponível'}</div>
                       <Link 
-                        to={`/senado/senador/${senador.id || (senador.IdentificacaoParlamentar && senador.IdentificacaoParlamentar.CodigoParlamentar)}`}
+                        to="/senador/$id" params={{ id: String(senador.id || (senador.IdentificacaoParlamentar && senador.IdentificacaoParlamentar.CodigoParlamentar)) }}
                         className="mt-2 px-3 py-1 bg-blue-100 text-blue-700 rounded hover:bg-blue-200 transition-colors inline-block"
                       >
                         Ver detalhes

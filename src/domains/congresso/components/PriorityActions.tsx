@@ -15,12 +15,12 @@ export const PriorityActions: React.FC = () => {
                   Representantes do estado do Rio de Janeiro em exercício
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <Link 
+                  {/* <Link 
                     to="/alerj" 
                     className="bg-white text-green-700 font-medium py-2 px-6 rounded-md hover:bg-green-50 transition"
                   >
                     Ver Deputados Estaduais
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="lg:w-1/3 flex justify-center">
@@ -58,12 +58,12 @@ export const PriorityActions: React.FC = () => {
                   Gestão e administração pública
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <Link 
+                  {/* <Link 
                     to="/governo-rj" 
                     className="bg-white text-red-700 font-medium py-2 px-6 rounded-md hover:bg-red-50 transition"
                   >
                     Ver Secretarias
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="lg:w-1/3 flex justify-center">

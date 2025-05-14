@@ -19,7 +19,7 @@ const AppLayout: React.FC = () => {
   useEffect(() => {
     // Track page views and add page context
     const unsubscribe = router.subscribe('onLoad', () => {
-      const route = router.state?.currentLocation;
+      const route = router.state.location;
       
       // Only proceed if route is defined
       if (route) {

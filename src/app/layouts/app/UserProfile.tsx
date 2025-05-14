@@ -33,12 +33,12 @@ export const UserProfile: React.FC<UserProfileProps> = ({
             <Link to="/perfil" className="text-white hover:text-blue-400 transition-colors">
               Editar Perfil
             </Link>
-            <Link to="/configuracoes" className="text-white hover:text-blue-400 transition-colors">
+            {/* <Link to="/configuracoes" className="text-white hover:text-blue-400 transition-colors">
               Configurações
             </Link>
             <Link to="/logout" className="text-white hover:text-blue-400 transition-colors">
               Sair
-            </Link>
+            </Link> */}
           </nav>
         </div>
       </SheetContent>
