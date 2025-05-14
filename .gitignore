@@ -71,3 +71,13 @@ node_modules/
 *.backup
 src/**/node_modules/
 
+
+
+# Ignorar arquivos de sourcemap globalmente
+**/*.js.map
+
+# Ignorar JavaScript compilado em pastas de bibliotecas/distribuição específicas
+# Manter arquivos de declaração TypeScript (.d.ts)
+src/core/functions/firebase_functions/lib/**/*.js
+src/core/functions/senado_api_wrapper/dist/**/*.js
+
