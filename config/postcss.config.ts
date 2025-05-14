@@ -6,7 +6,7 @@ export default {
   plugins: [
     postcssImport,
     tailwindcss({
-      config: './config/theme/tailwind.config.ts'
+      config: './config/tailwind.config.ts'
     }),
     autoprefixer,
   ]
