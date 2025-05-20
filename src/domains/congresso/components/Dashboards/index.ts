@@ -1,16 +1,21 @@
-// Exportar todos os componentes do dashboard
-export { default as DashboardUnificado } from './DashboardUnificado';
-export { default as DashboardUnificadoUF } from './DashboardUnificadoUF';
-// DashboardSimples e DashboardSelector foram removidos e movidos para DashboardsBackup.tsx
+// Exportar componentes principais unificados
+export { DashboardUnificado, DashboardUnificadoUF } from './DashboardMain';
 
-export { default as DashboardCard } from './DashboardCard';
-export { default as DashboardHeader } from './DashboardHeader';
-export { default as TabSelector } from './TabSelector';
-export { default as CardDetailView } from './CardDetailView';
-export { default as ErrorMessage } from './ErrorMessage';
+// Exportar componentes estáticos (sem recarga)
+export { StaticDashboard } from './StaticDashboard';
+export { StaticDashboardContainer } from './StaticDashboardContainer';
 
-// Exportar componente de teste com novo design
-export { default as TestDashboard } from './TestDashboard';
+// Exportar componentes auxiliares
+export {
+  DashboardCard,
+  DashboardHeader,
+  TabSelector,
+  CardDetailView,
+  ErrorMessage
+} from './DashboardComponents';
+
+// Exportar componentes de depuração e teste
+export { FlagDashboardDebug, TestDashboard } from './DashboardDebug';
 
 // Exportar configurações
 export * from './dashboardConfig';

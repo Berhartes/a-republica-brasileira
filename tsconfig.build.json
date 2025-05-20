@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowUnusedLabels": true,
+    "allowUnreachableCode": true,
+    "exactOptionalPropertyTypes": false,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "src/core/functions/senado_api_wrapper/**/*",
+    "src/core/senado_api_wrapper/**/*",
+    "src/shared/stories/**/*",
+    "src/tools/scripts/**/*"
+  ]
+}

@@ -1,14 +1,14 @@
 /**
  * Script para encontrar e corrigir referências de importação após refatoração
- * 
+ *
  * Este script busca todas as importações no código fonte que apontam para diretórios obsoletos
  * e oferece opções para atualizá-las para os novos caminhos.
- * 
+ *
  * Uso: ts-node fix-imports.ts [--dry-run] [--path=./src]
  */
 
 import { promises as fs } from 'fs';
-const path = require('path');
+// const path = require('path'); // Não utilizado
 let chalk: any;
 try {
   chalk = require('chalk');
@@ -77,7 +77,7 @@ interface FileMatch {
 async function checkFile(filePath: string): Promise<FileMatch | null> {
   try {
     const content = await fs.readFile(filePath, 'utf8');
-    
+
     for (const pattern of PATH_MAPPINGS) {
       if (pattern.oldPattern.test(content)) {
         return {
@@ -88,7 +88,7 @@ async function checkFile(filePath: string): Promise<FileMatch | null> {
         };
       }
     }
-    
+
     return null;
   } catch (error) {
     console.error(`Erro ao verificar o arquivo ${filePath}:`, (error as Error).message);
@@ -114,7 +114,7 @@ async function main() {
     });
 
     const results: FileMatch[] = [];
-    
+
     for (const file of files) {
       const result = await checkFile(file);
       if (result) results.push(result);
@@ -128,7 +128,7 @@ ${result.matches.map(match => `  ${match}`).join('\n')}
 `).join('\n');
 
       await fs.writeFile(OUTPUT_FILE, output);
-      
+
       console.log(chalk.yellow(`\nEncontradas ${results.length} arquivos com importações antigas`));
       console.log(chalk.gray(`Detalhes salvos em: ${OUTPUT_FILE}`));
     } else {
@@ -143,4 +143,4 @@ ${result.matches.map(match => `  ${match}`).join('\n')}
 main().catch(error => {
   console.error(chalk.red('Erro fatal:'), error);
   process.exit(1);
-}); 
+});

@@ -1,6 +1,7 @@
 // src/components/senado/SenadoresList.tsx
 import React, { useState, useEffect } from 'react';
 import { senadoApi } from '../../core/utils/senado-api';
+import './SenadoresList.css';
 
 interface SenadorProps {
   codigo: string;
@@ -28,9 +29,14 @@ const Senador: React.FC<SenadorProps> = ({ codigo, nome, partido, uf, foto }) =>
           <span className="partido">{partido}</span>
           <span className="uf">{uf}</span>
         </p>
-        <a href={`/senador/${codigo}`} className="ver-detalhes">
-          Ver detalhes
-        </a>
+        <div className="flex gap-2">
+          <a href={`/senador/${codigo}`} className="ver-detalhes">
+            Ver detalhes
+          </a>
+          <a href={`/senador/${codigo}`} className="ver-perfil">
+            Ver perfil
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -49,21 +55,21 @@ const SenadoresList: React.FC = () => {
     const carregarDados = async () => {
       try {
         setLoading(true);
-        
+
         // Carregar senadores
         const dadosSenadores = await senadoApi.obterParlamentares(true);
         setSenadores(Array.isArray(dadosSenadores) ? dadosSenadores : []);
-        
+
         // Carregar partidos
         const dadosPartidos = await senadoApi.obterPartidos();
         setPartidos(Array.isArray(dadosPartidos) ? dadosPartidos : []);
-        
+
         // Extrair lista de UFs a partir dos senadores
         const ufsUnicas = Array.isArray(dadosSenadores)
           ? [...new Set(dadosSenadores.map((s: any) => s.UfParlamentar))]
           : [];
         setUfs((ufsUnicas as string[]).sort());
-        
+
         setError(null);
       } catch (err) {
         console.error('Erro ao carregar dados:', err);
@@ -99,13 +105,13 @@ const SenadoresList: React.FC = () => {
   return (
     <div className="senadores-container">
       <h1>Senadores em Exercício</h1>
-      
+
       <div className="filtros">
         <div className="filtro-grupo">
           <label htmlFor="filtro-partido">Partido:</label>
-          <select 
-            id="filtro-partido" 
-            value={filtroPartido} 
+          <select
+            id="filtro-partido"
+            value={filtroPartido}
             onChange={(e) => setFiltroPartido(e.target.value)}
           >
             <option value="">Todos os partidos</option>
@@ -116,12 +122,12 @@ const SenadoresList: React.FC = () => {
             ))}
           </select>
         </div>
-        
+
         <div className="filtro-grupo">
           <label htmlFor="filtro-uf">Estado:</label>
-          <select 
-            id="filtro-uf" 
-            value={filtroUF} 
+          <select
+            id="filtro-uf"
+            value={filtroUF}
             onChange={(e) => setFiltroUF(e.target.value)}
           >
             <option value="">Todos os estados</option>
@@ -130,18 +136,18 @@ const SenadoresList: React.FC = () => {
             ))}
           </select>
         </div>
-        
+
         <button onClick={handleLimparFiltros} className="limpar-filtros">
           Limpar filtros
         </button>
       </div>
-      
+
       <div className="resultados">
         <p>
           {senadoresFiltrados.length} {senadoresFiltrados.length === 1 ? 'senador encontrado' : 'senadores encontrados'}
         </p>
       </div>
-      
+
       <div className="senadores-grid">
         {senadoresFiltrados.map(senador => (
           <Senador

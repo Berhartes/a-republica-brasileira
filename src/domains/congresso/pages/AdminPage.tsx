@@ -1,5 +1,6 @@
 // src/domains/congresso/pages/AdminPage.tsx
 import React, { useState } from 'react';
+import { Link } from '@tanstack/react-router';
 
 interface Log {
   message: string;
@@ -34,19 +35,19 @@ const AdminPage: React.FC = () => {
       clearLogs();
 
       addLog('Iniciando sincronização de deputados...');
-      
+
       // Simulação de processamento
       await new Promise(resolve => setTimeout(resolve, 1500));
-      
+
       addLog('Conectando à API da Câmara...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Baixando dados dos deputados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
+
       addLog('Processando dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Salvando no banco de dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1500));
 
@@ -71,19 +72,19 @@ const AdminPage: React.FC = () => {
       clearLogs();
 
       addLog('Iniciando sincronização de legislaturas...');
-      
+
       // Simulação de processamento
       await new Promise(resolve => setTimeout(resolve, 1500));
-      
+
       addLog('Conectando à API da Câmara...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Baixando dados das legislaturas...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1500));
-      
+
       addLog('Processando dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Salvando no banco de dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -108,19 +109,19 @@ const AdminPage: React.FC = () => {
       clearLogs();
 
       addLog('Iniciando sincronização de partidos...');
-      
+
       // Simulação de processamento
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Conectando à API da Câmara...', 'info');
       await new Promise(resolve => setTimeout(resolve, 800));
-      
+
       addLog('Baixando dados dos partidos...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1200));
-      
+
       addLog('Processando dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 800));
-      
+
       addLog('Salvando no banco de dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -150,19 +151,19 @@ const AdminPage: React.FC = () => {
       clearLogs();
 
       addLog(`Iniciando sincronização de despesas do deputado ${deputadoId}...`);
-      
+
       // Simulação de processamento
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Conectando à API da Câmara...', 'info');
       await new Promise(resolve => setTimeout(resolve, 800));
-      
+
       addLog(`Baixando dados de despesas do deputado ${deputadoId}...`, 'info');
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
+
       addLog('Processando dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       addLog('Salvando no banco de dados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 1500));
 
@@ -187,22 +188,22 @@ const AdminPage: React.FC = () => {
       clearLogs();
 
       addLog('Iniciando sincronização completa de dados...');
-      
+
       // Simulação de processamento para legislaturas
       addLog('Sincronizando legislaturas...', 'info');
       await new Promise(resolve => setTimeout(resolve, 2000));
       addLog('Legislaturas sincronizadas com sucesso!', 'success');
-      
+
       // Simulação de processamento para partidos
       addLog('Sincronizando partidos...', 'info');
       await new Promise(resolve => setTimeout(resolve, 2500));
       addLog('Partidos sincronizados com sucesso!', 'success');
-      
+
       // Simulação de processamento para deputados
       addLog('Sincronizando deputados...', 'info');
       await new Promise(resolve => setTimeout(resolve, 3000));
       addLog('Deputados sincronizados com sucesso!', 'success');
-      
+
       // Simulação de processamento para despesas
       addLog('Sincronizando despesas...', 'info');
       await new Promise(resolve => setTimeout(resolve, 4000));
@@ -293,6 +294,15 @@ const AdminPage: React.FC = () => {
           </button>
         </div>
 
+        <div className="mb-6">
+          <Link
+            to="/diagnostico-senador"
+            className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-3 rounded-md font-medium flex items-center justify-center"
+          >
+            Diagnóstico de Senador
+          </Link>
+        </div>
+
         {loading && (
           <div className="text-center py-4">
             <p className="text-lg">Sincronizando dados...</p>
@@ -349,7 +359,7 @@ const AdminPage: React.FC = () => {
           )}
         </div>
       </div>
-      
+
       <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
         <h3 className="text-lg font-semibold text-yellow-800 mb-2">Funcionalidade em Desenvolvimento</h3>
         <p className="text-yellow-700">

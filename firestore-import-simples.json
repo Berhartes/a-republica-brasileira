@@ -1,0 +1,160 @@
+{
+  "estrutura_organizada__6358": {
+    "identificacao": {
+      "codigo": "6358",
+      "nome": "Ana Paula Lobato",
+      "nomeCompleto": "Ana Paula Dias Lobato Nova Alves",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+      "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6358",
+      "paginaParticular": "",
+      "email": "sen.anapaulalobato@senado.leg.br",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "MA",
+      "telefones": [
+        {
+          "numero": "(61) 3303-2967",
+          "tipo": "Telefone",
+          "ordem": 1
+        }
+      ]
+    },
+    "situacaoAtual": {
+      "emExercicio": true,
+      "titular": false,
+      "suplente": true,
+      "afastado": false,
+      "cargoMesa": false,
+      "cargoLideranca": false,
+      "motivoAfastamento": null,
+      "mandatoAtual": {
+        "codigo": "602",
+        "participacao": "1º Suplente",
+        "legislatura": "57"
+      },
+      "licencaAtual": null,
+      "ultimaLegislatura": "57"
+    },
+    "dadosPessoais": {
+      "dataNascimento": "1984-05-11",
+      "naturalidade": "Pinheiro",
+      "ufNaturalidade": "MA",
+      "enderecoParlamentar": "Senado Federal Anexo 1  16º Pavimento  "
+    },
+    "mandatos": [
+      {
+        "codigo": "",
+        "participacao": "",
+        "legislatura": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": null,
+        "uf": "MA",
+        "exercicios": [],
+        "suplentes": [],
+        "titular": null,
+        "legislaturas": {
+          "primeira": {
+            "numero": "57",
+            "dataInicio": "2023-02-01",
+            "dataFim": "2027-01-31"
+          },
+          "segunda": {
+            "numero": "57",
+            "dataInicio": "2023-02-01",
+            "dataFim": "2027-01-31"
+          }
+        }
+      },
+      {
+        "codigo": "602",
+        "participacao": "1º Suplente",
+        "legislatura": "57",
+        "dataInicio": "2023-02-01",
+        "dataFim": null,
+        "uf": "MA",
+        "exercicios": [
+          {
+            "codigo": "3057",
+            "dataInicio": "2024-02-21",
+            "dataFim": null,
+            "causaAfastamento": null,
+            "descricaoCausaAfastamento": null
+          },
+          {
+            "codigo": "3038",
+            "dataInicio": "2023-02-02",
+            "dataFim": "2024-01-31",
+            "causaAfastamento": "RET",
+            "descricaoCausaAfastamento": "Retorno do titular"
+          }
+        ],
+        "suplentes": [
+          {
+            "codigo": "6359",
+            "nome": "Lourdinha",
+            "participacao": "2º Suplente"
+          }
+        ],
+        "titular": {
+          "codigo": "4605",
+          "nome": "Flávio Dino",
+          "participacao": "Titular"
+        },
+        "legislaturas": {
+          "primeira": {
+            "numero": "57",
+            "dataInicio": "2023-02-01",
+            "dataFim": "2027-01-31"
+          },
+          "segunda": {
+            "numero": "58",
+            "dataInicio": "2027-02-01",
+            "dataFim": "2031-01-31"
+          }
+        }
+      }
+    ],
+    "metadados": {
+      "atualizadoEm": "2025-05-18T23:09:59.815Z",
+      "versaoEstrutura": "1.1",
+      "processadoPor": "exemplo_estrutura_organizada_completa"
+    }
+  },
+  "estrutura_atual__6358": {
+    "codigo": "6358",
+    "nome": "Ana Paula Lobato",
+    "nomeCompleto": "Ana Paula Dias Lobato Nova Alves",
+    "genero": "Feminino",
+    "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+    "partido": {
+      "sigla": "PDT",
+      "nome": null
+    },
+    "uf": "MA",
+    "mandatos": [
+      {
+        "codigo": "602",
+        "participacao": "1º Suplente",
+        "legislatura": "57"
+      }
+    ],
+    "comissoes": [
+      {
+        "codigo": "2657",
+        "sigla": "GPLÍBANO",
+        "nome": "Grupo Parlamentar Brasil - Líbano",
+        "casa": "CN"
+      },
+      {
+        "codigo": "1702",
+        "sigla": "CAEM",
+        "nome": "Comitê de Admissibilidade de Emendas",
+        "casa": "CN"
+      }
+    ],
+    "atualizadoEm": "2025-05-18T23:09:59.815Z"
+  }
+}

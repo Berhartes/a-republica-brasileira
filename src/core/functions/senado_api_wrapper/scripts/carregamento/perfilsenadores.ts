@@ -5,7 +5,7 @@
  */
 import { logger } from '../utils/logger';
 import { createBatchManager } from '../utils/firestore';
-import { SenadorBasicoTransformado, SenadorCompletoTransformado, ResultadoTransformacaoLista } from '../transformacao/perfilsenadores';
+import { SenadorCompletoTransformado, ResultadoTransformacaoLista } from '../transformacao/perfilsenadores';
 import { OpcoesExportacao, exportarDados } from '../utils/exportacao_avanc';
 
 /**
@@ -19,7 +19,7 @@ export class PerfilSenadoresLoader {
    * @returns Resultado da operação
    */
   async saveSenadoresLegislatura(
-    transformedData: ResultadoTransformacaoLista, 
+    transformedData: ResultadoTransformacaoLista,
     legislaturaNumero: number
   ): Promise<{
     timestamp: string;
@@ -29,13 +29,13 @@ export class PerfilSenadoresLoader {
   }> {
     try {
       logger.info(`Salvando lista de ${transformedData.senadores.length} senadores para a legislatura ${legislaturaNumero}`);
-      
+
       const batchManager = createBatchManager();
       const timestamp = new Date().toISOString();
-      
+
       // 1. Atualizar lista na estrutura da legislatura específica
       const legislaturaRef = `congressoNacional/senadoFederal/legislaturas/${legislaturaNumero}/senadores/lista`;
-      
+
       batchManager.set(legislaturaRef, {
         timestamp,
         legislatura: legislaturaNumero,
@@ -43,7 +43,7 @@ export class PerfilSenadoresLoader {
         atualizadoEm: timestamp,
         metadados: {}
       });
-      
+
       // 2. Salvar dados individuais de cada senador na coleção da legislatura
       for (const senador of transformedData.senadores) {
         // Verifica se o senador tem dados básicos
@@ -51,26 +51,26 @@ export class PerfilSenadoresLoader {
           logger.warn('Senador sem dados básicos completos, pulando...');
           continue;
         }
-        
+
         const senadorRef = `congressoNacional/senadoFederal/legislaturas/${legislaturaNumero}/senadores/${senador.codigo}`;
-        
+
         // Verificar se o senador já possui um perfil completo
         const perfilRef = `congressoNacional/senadoFederal/perfis/${senador.codigo}`;
-        
+
         const perfilExiste = await this.verificaPerfilExiste(perfilRef);
-        
+
         batchManager.set(senadorRef, {
           ...senador,
           perfilDisponivel: perfilExiste,
           atualizadoEm: timestamp
         });
       }
-      
+
       // Commit das operações
       await batchManager.commit();
-      
+
       logger.info(`Lista de senadores da legislatura ${legislaturaNumero} salva com sucesso`);
-      
+
       return {
         timestamp,
         totalSalvos: transformedData.senadores.length,
@@ -82,7 +82,7 @@ export class PerfilSenadoresLoader {
       throw error;
     }
   }
-  
+
   /**
    * Verifica se um perfil existe no Firestore (mock)
    * @param perfilRef - Referência do perfil
@@ -94,7 +94,7 @@ export class PerfilSenadoresLoader {
     logger.debug(`Verificando existência do perfil ${perfilRef}`);
     return false; // Por padrão, assume que o perfil não existe ainda
   }
-  
+
   /**
    * Salva perfil completo de um senador no Firestore
    * @param perfilData - Perfil transformado do senador
@@ -102,7 +102,7 @@ export class PerfilSenadoresLoader {
    * @returns Resultado da operação
    */
   async savePerfil(
-    perfilData: SenadorCompletoTransformado, 
+    perfilData: SenadorCompletoTransformado,
     legislaturaNumero?: number
   ): Promise<{
     timestamp: string;
@@ -119,29 +119,29 @@ export class PerfilSenadoresLoader {
           status: 'error'
         };
       }
-      
+
       logger.info(`Salvando perfil completo do senador ${perfilData.nome} (${perfilData.codigo}) ${legislaturaNumero ? `da legislatura ${legislaturaNumero}` : ''}`);
-      
+
       const timestamp = new Date().toISOString();
-      
+
       // 1. Salvar no firestore na coleção de perfis
       const perfilRef = `congressoNacional/senadoFederal/perfis/${perfilData.codigo}`;
-      
+
       const batchManager = createBatchManager();
-      
+
       batchManager.set(perfilRef, {
         ...perfilData,
         atualizadoEm: timestamp
       });
-      
+
       // 2. Atualizar referências básicas para mostrar que o perfil está disponível
       await this.updateReferenciasBasicas(perfilData, legislaturaNumero, batchManager);
-      
+
       // Commit das operações
       await batchManager.commit();
-      
+
       logger.info(`Perfil do senador ${perfilData.codigo} salvo com sucesso`);
-      
+
       return {
         timestamp,
         codigo: perfilData.codigo,
@@ -156,7 +156,7 @@ export class PerfilSenadoresLoader {
       };
     }
   }
-  
+
   /**
    * Salva múltiplos perfis de senadores em uma única operação
    * @param perfis - Lista de perfis transformados
@@ -164,7 +164,7 @@ export class PerfilSenadoresLoader {
    * @returns Resultado da operação
    */
   async saveMultiplosPerfis(
-    perfis: SenadorCompletoTransformado[], 
+    perfis: SenadorCompletoTransformado[],
     legislaturaNumero?: number
   ): Promise<{
     timestamp: string;
@@ -175,24 +175,24 @@ export class PerfilSenadoresLoader {
   }> {
     try {
       logger.info(`Salvando ${perfis.length} perfis de senadores ${legislaturaNumero ? `da legislatura ${legislaturaNumero}` : ''}`);
-      
+
       const timestamp = new Date().toISOString();
       let sucessos = 0;
       let falhas = 0;
-      
+
       // Processar em lotes para melhor performance
       const tamanhoLote = 10;
       const lotes = [];
-      
+
       for (let i = 0; i < perfis.length; i += tamanhoLote) {
         lotes.push(perfis.slice(i, i + tamanhoLote));
       }
-      
+
       for (const [indice, lote] of lotes.entries()) {
         logger.info(`Processando lote ${indice + 1}/${lotes.length} (${lote.length} perfis)`);
-        
+
         const batchManager = createBatchManager();
-        
+
         // Salvar cada perfil no lote
         for (const perfil of lote) {
           try {
@@ -202,25 +202,25 @@ export class PerfilSenadoresLoader {
               falhas++;
               continue;
             }
-            
+
             // 1. Salvar no firestore na coleção de perfis
             const perfilRef = `congressoNacional/senadoFederal/perfis/${perfil.codigo}`;
-            
+
             batchManager.set(perfilRef, {
               ...perfil,
               atualizadoEm: timestamp
             });
-            
+
             // 2. Atualizar referências básicas
             await this.updateReferenciasBasicas(perfil, legislaturaNumero, batchManager);
-            
+
             sucessos++;
           } catch (error: any) {
             logger.warn(`Erro ao processar perfil do senador ${perfil?.codigo || 'desconhecido'} no lote ${indice + 1}: ${error.message}`);
             falhas++;
           }
         }
-        
+
         // Commit das operações do lote
         try {
           await batchManager.commit();
@@ -230,15 +230,15 @@ export class PerfilSenadoresLoader {
           falhas += lote.length;
           sucessos -= lote.length;
         }
-        
+
         // Pequena pausa entre lotes para evitar sobrecarga
         if (indice < lotes.length - 1) {
           await new Promise(resolve => setTimeout(resolve, 500));
         }
       }
-      
+
       logger.info(`Salvamento de perfis concluído: ${sucessos} sucessos, ${falhas} falhas`);
-      
+
       return {
         timestamp,
         total: perfis.length,
@@ -257,7 +257,7 @@ export class PerfilSenadoresLoader {
       };
     }
   }
-  
+
   /**
    * Atualiza referências básicas para indicar que um perfil está disponível
    * @param perfil - Perfil do senador
@@ -265,7 +265,7 @@ export class PerfilSenadoresLoader {
    * @param batchManager - Gerenciador de batch (opcional)
    */
   private async updateReferenciasBasicas(
-    perfil: SenadorCompletoTransformado, 
+    perfil: SenadorCompletoTransformado,
     legislaturaNumero?: number,
     batchManager?: any
   ): Promise<void> {
@@ -274,12 +274,12 @@ export class PerfilSenadoresLoader {
       if (!perfil || !perfil.codigo) {
         return;
       }
-      
+
       const newBatchManager = batchManager || createBatchManager();
       const useExistingBatch = !!batchManager;
-      
+
       const timestamp = new Date().toISOString();
-      
+
       // Cria objeto com referência básica
       const referencia = {
         codigo: perfil.codigo,
@@ -296,29 +296,22 @@ export class PerfilSenadoresLoader {
         },
         atualizadoEm: timestamp
       };
-      
-      // Se temos uma legislatura específica, atualizamos apenas essa
+
+      // Atualizamos apenas a legislatura específica
       if (legislaturaNumero) {
         const senadorRef = `congressoNacional/senadoFederal/legislaturas/${legislaturaNumero}/senadores/${perfil.codigo}`;
-        
+
         // Na simulação, simplesmente setamos o documento
         newBatchManager.set(senadorRef, {
           ...referencia,
           legislatura: legislaturaNumero
         });
       } else {
-        // Se não especificamos legislatura, atualizamos a estrutura "atual"
-        const senadorAtualRef = `congressoNacional/senadoFederal/atual/senadores/itens/${perfil.codigo}`;
-        
-        newBatchManager.set(senadorAtualRef, {
-          ...referencia,
-          tipo: 'senador'
-        });
-        
-        // Na implementação real, buscaríamos todas as legislaturas onde o senador aparece e atualizaríamos
-        // Aqui, apenas simulamos para a estrutura atual
+        // Se não especificamos legislatura, não fazemos nada
+        // Não atualizamos mais a estrutura "atual"
+        logger.info(`Não atualizando estrutura "atual" para o senador ${perfil.codigo}`);
       }
-      
+
       // Se criamos um novo batch manager, fazemos o commit
       if (!useExistingBatch) {
         await newBatchManager.commit();
@@ -328,109 +321,11 @@ export class PerfilSenadoresLoader {
       // Não propagamos o erro para não interromper o fluxo principal
     }
   }
-  
+
   /**
-   * Salva dados de senadores atuais no Firestore
-   * @param transformedData - Dados transformados dos senadores atuais
-   * @param perfis - Lista de perfis completos transformados (opcional)
-   * @param legislaturaNumero - Número da legislatura atual
-   * @returns Resultado da operação
+   * Método saveSenadoresAtuais removido - não implementamos mais informações na pasta "atual"
    */
-  async saveSenadoresAtuais(
-    transformedData: ResultadoTransformacaoLista,
-    perfis: SenadorCompletoTransformado[] | null,
-    legislaturaNumero: number
-  ): Promise<{
-    timestamp: string;
-    totalSenadores: number;
-    totalPerfis: number;
-    legislatura: number;
-    status: string;
-  }> {
-    try {
-      logger.info(`Salvando dados de ${transformedData.senadores.length} senadores atuais na legislatura ${legislaturaNumero}`);
-      
-      const batchManager = createBatchManager();
-      const timestamp = new Date().toISOString();
-      
-      // 1. Atualizar lista na estrutura 'atual'
-      const senadoresAtualRef = `congressoNacional/senadoFederal/atual/senadores`;
-      
-      batchManager.set(senadoresAtualRef, {
-        timestamp,
-        legislatura: legislaturaNumero,
-        total: transformedData.senadores.length,
-        atualizadoEm: timestamp,
-        tipo: 'senadores',
-        descricao: 'Lista de senadores em exercício'
-      });
-      
-      // 2. Salvar dados individuais de cada senador na coleção 'atual'
-      for (const senador of transformedData.senadores) {
-        // Verifica se o senador tem dados básicos
-        if (!senador || !senador.codigo) {
-          continue;
-        }
-        
-        const senadorAtualRef = `congressoNacional/senadoFederal/atual/senadores/itens/${senador.codigo}`;
-        
-        // Verificar se o senador já possui um perfil completo
-        const temPerfil = perfis ? perfis.some(p => p.codigo === senador.codigo) : false;
-        
-        batchManager.set(senadorAtualRef, {
-          ...senador,
-          perfilCompleto: temPerfil,
-          atualizadoEm: timestamp
-        });
-      }
-      
-      // 3. Também salvar na estrutura de legislatura
-      await this.saveSenadoresLegislatura(transformedData, legislaturaNumero);
-      
-      // 4. Se temos perfis completos, salvá-los
-      if (perfis && perfis.length > 0) {
-        await this.saveMultiplosPerfis(perfis, legislaturaNumero);
-      }
-      
-      // Commit das operações pendentes
-      await batchManager.commit();
-      
-      // 5. Atualizar documento com metadados da operação
-      const metadataRef = `congressoNacional/senadoFederal/metadata/senadores`;
-      
-      const metadataBatch = createBatchManager();
-      
-      metadataBatch.set(metadataRef, {
-        legislaturaAtual: legislaturaNumero,
-        totalSenadores: transformedData.senadores.length,
-        totalPerfis: perfis ? perfis.length : 0,
-        atualizadoEm: timestamp,
-        status: 'success'
-      });
-      
-      await metadataBatch.commit();
-      
-      logger.info(`Dados de senadores atuais salvos com sucesso`);
-      
-      return {
-        timestamp,
-        totalSenadores: transformedData.senadores.length,
-        totalPerfis: perfis ? perfis.length : 0,
-        legislatura: legislaturaNumero,
-        status: 'success'
-      };
-    } catch (error: any) {
-      logger.error(`Erro ao salvar dados de senadores atuais: ${error.message}`);
-      return {
-        timestamp: new Date().toISOString(),
-        totalSenadores: 0,
-        totalPerfis: 0,
-        legislatura: legislaturaNumero,
-        status: 'error'
-      };
-    }
-  }
-  
+
   /**
    * Salva um snapshot histórico dos perfis de senadores
    * @param perfis - Lista de perfis completos transformados
@@ -438,7 +333,7 @@ export class PerfilSenadoresLoader {
    * @returns Resultado da operação
    */
   async saveHistorico(
-    perfis: SenadorCompletoTransformado[], 
+    perfis: SenadorCompletoTransformado[],
     legislaturaNumero: number
   ): Promise<{
     timestamp: string;
@@ -447,23 +342,23 @@ export class PerfilSenadoresLoader {
     status: string;
   }> {
     logger.info(`Salvando histórico de ${perfis.length} perfis de senadores da legislatura ${legislaturaNumero}`);
-    
+
     const timestamp = new Date().toISOString();
     const historicRef = `congressoNacional/senadoFederal/historico/senadores/snapshots/${legislaturaNumero}_${timestamp}`;
-    
+
     // Na versão mock, apenas logamos a operação
     logger.info(`Simulando salvamento de histórico em ${historicRef}`);
-    logger.debug('Dados do snapshot:', { 
-      timestamp, 
+    logger.debug('Dados do snapshot:', {
+      timestamp,
       legislatura: legislaturaNumero,
       totalPerfis: perfis.length
     });
-    
+
     // Simula um atraso para parecer mais realista
     await new Promise(resolve => setTimeout(resolve, 500));
-    
+
     logger.info('Histórico de perfis de senadores salvo no Firestore (mock)');
-    
+
     return {
       timestamp,
       legislatura: legislaturaNumero,
@@ -479,18 +374,18 @@ export async function carregarPerfisSenadores(
   opcoesExportacao?: OpcoesExportacao
 ): Promise<SenadorCompletoTransformado[]> {
   logger.info(`Iniciando carregamento de perfis para legislatura ${legislatura}`);
-  
+
   // Registrar tempo de início para cálculo de estatísticas
   const tempoInicio = Date.now();
-  
+
   try {
     // Simular o carregamento de dados
     // Na implementação real, esta parte seria a chamada para a API
     logger.info(`Obtendo dados de senadores da legislatura ${legislatura}`);
-    
+
     // Simular um atraso para parecer mais realista
     await new Promise(resolve => setTimeout(resolve, 1000));
-    
+
     // Gerar dados simulados para teste
     const perfisSenadores: SenadorCompletoTransformado[] = Array.from({ length: 20 }, (_, index) => ({
       codigo: `${1000 + index}`,
@@ -604,12 +499,12 @@ export async function carregarPerfisSenadores(
       },
       atualizadoEm: new Date().toISOString()
     }));
-    
+
     // Após carregar os dados, verificar se devemos exportá-los
     if (opcoesExportacao) {
       await exportarDados(perfisSenadores, legislatura, opcoesExportacao, tempoInicio);
     }
-    
+
     return perfisSenadores;
   } catch (erro: any) {
     logger.error(`Erro ao carregar perfis de senadores: ${erro.message}`);

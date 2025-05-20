@@ -1,10 +1,16 @@
 /**
  * Configuração e utilitários para o Firestore
- * (Implementação mock para desenvolvimento local)
+ * Exporta a implementação real (Firebase Admin) ou mock dependendo do ambiente
  */
 import { logger } from './logger';
+import * as firestoreMock from './firestore_mock';
+import * as firebaseAdmin from './firebase-admin-config';
 
-// Interface para operações em lote do Firestore
+// Determina se deve usar a implementação real ou mock
+const USE_REAL_FIRESTORE = true; // Altere para false para usar o mock
+// Nota: A configuração do emulador é feita no arquivo firebase-admin-config.ts
+
+// Exporta as interfaces e funções da implementação escolhida
 export interface BatchManager {
   set: (ref: string, data: any, options?: any) => void;
   update: (ref: string, data: any) => void;
@@ -12,36 +18,51 @@ export interface BatchManager {
   commit: () => Promise<void>;
 }
 
-// Classe mock para o BatchManager
-class MockBatchManager implements BatchManager {
-  private operations: Array<{ type: string; ref: string; data?: any; options?: any }> = [];
+/**
+ * Adaptador para o BatchManager do Firebase Admin
+ */
+class FirebaseAdminBatchAdapter implements BatchManager {
+  private batchManager: firebaseAdmin.FirestoreBatchManager;
+
+  constructor() {
+    this.batchManager = firebaseAdmin.createBatchManager();
+  }
 
   set(ref: string, data: any, options?: any): void {
-    this.operations.push({ type: 'set', ref, data, options });
+    const [collectionPath, documentId] = this.parseRef(ref);
+    this.batchManager.set(collectionPath, documentId, data, options);
   }
 
   update(ref: string, data: any): void {
-    this.operations.push({ type: 'update', ref, data });
+    const [collectionPath, documentId] = this.parseRef(ref);
+    this.batchManager.update(collectionPath, documentId, data);
   }
 
   delete(ref: string): void {
-    this.operations.push({ type: 'delete', ref });
+    const [collectionPath, documentId] = this.parseRef(ref);
+    this.batchManager.delete(collectionPath, documentId);
   }
 
   async commit(): Promise<void> {
-    logger.info(`Realizando commit em lote com ${this.operations.length} operações`);
-    // No ambiente real, aqui executaríamos as operações no Firestore
-    // Na versão mock, apenas logamos as operações
-    
-    logger.debug('Operações do lote:', this.operations);
-    
-    // Simula um atraso para parecer mais realista
-    await new Promise(resolve => setTimeout(resolve, 500));
-    
-    logger.info('Commit em lote concluído com sucesso (mock)');
-    
-    // Limpa as operações após o commit
-    this.operations = [];
+    await this.batchManager.commit();
+  }
+
+  private parseRef(ref: string): [string, string] {
+    const parts = ref.split('/');
+    if (parts.length < 2 || parts.length % 2 !== 0) {
+      throw new Error(`Referência inválida: ${ref}. Deve ter um número par de segmentos.`);
+    }
+
+    // Para caminhos simples como "colecao/documento"
+    if (parts.length === 2) {
+      return [parts[0], parts[1]];
+    }
+
+    // Para caminhos aninhados, precisamos adaptar para o formato do Firebase Admin
+    // Exemplo: "colecao/documento/subcolecao/subdocumento" -> ["colecao/documento/subcolecao", "subdocumento"]
+    const documentId = parts.pop() || '';
+    const collectionPath = parts.join('/');
+    return [collectionPath, documentId];
   }
 }
 
@@ -49,12 +70,17 @@ class MockBatchManager implements BatchManager {
  * Cria um novo gerenciador de lote para operações no Firestore
  */
 export function createBatchManager(): BatchManager {
-  return new MockBatchManager();
+  if (USE_REAL_FIRESTORE) {
+    logger.info('Usando implementação REAL do Firestore (Firebase Admin)');
+    return new FirebaseAdminBatchAdapter();
+  } else {
+    logger.info('Usando implementação MOCK do Firestore');
+    return firestoreMock.createBatchManager();
+  }
 }
 
 /**
  * Função helper para salvar dados no Firestore de forma organizada
- * (Implementação mock para desenvolvimento)
  */
 export async function saveToFirestore(
   collectionPath: string,
@@ -62,15 +88,9 @@ export async function saveToFirestore(
   data: any,
   options: { merge?: boolean } = {}
 ): Promise<void> {
-  const documentPath = documentId 
-    ? `${collectionPath}/${documentId}`
-    : `${collectionPath}/${Date.now().toString()}`; // Gera ID baseado no timestamp
-  
-  logger.info(`Salvando dados em ${documentPath} (mock)`);
-  logger.debug('Dados:', data);
-  
-  // Simula um atraso para parecer mais realista
-  await new Promise(resolve => setTimeout(resolve, 300));
-  
-  logger.info(`Dados salvos com sucesso em ${documentPath} (mock)`);
+  if (USE_REAL_FIRESTORE) {
+    await firebaseAdmin.saveDocument(collectionPath, documentId, data, options);
+  } else {
+    await firestoreMock.saveToFirestore(collectionPath, documentId, data, options);
+  }
 }

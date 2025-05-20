@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link, Outlet, useRouter } from '@tanstack/react-router';
 import { useMonitoring } from '@/app/monitoring';
 import { ArrowLeft, MapPin, Bell } from 'lucide-react';
 import { WelcomeModal } from '@/domains/usuario/components';
+import usePageVisibility from '@/shared/hooks/use-page-visibility';
 
 // Componentes do header
 import NavigationMenu from './NavigationMenu';
@@ -16,11 +17,119 @@ const AppLayout: React.FC = () => {
   const router = useRouter();
   const { trackAction, addPageProperties } = useMonitoring();
 
+  // Estado global da UF
+  const [uf, setUf] = useState(() => localStorage.getItem('estadoEleitoral') || 'br');
+
+  // Variável para controlar se é a primeira montagem
+  const isFirstMount = useRef(true);
+
+  // Usar o hook de visibilidade da página
+  const { isVisible } = usePageVisibility();
+
+  // Disparar evento stateChange quando a UF mudar
+  useEffect(() => {
+
+    // Encontrar a flag completa para a UF atual
+    const findFlag = () => {
+      const lowerUf = uf.toLowerCase();
+
+      // Mapeamento de códigos para nomes completos
+      const stateNames: Record<string, string> = {
+        'br': 'Brasil',
+        'rj': 'Rio de Janeiro',
+        'sp': 'São Paulo',
+        'mg': 'Minas Gerais',
+        'es': 'Espírito Santo',
+        'ac': 'Acre',
+        'al': 'Alagoas',
+        'ap': 'Amapá',
+        'am': 'Amazonas',
+        'ba': 'Bahia',
+        'ce': 'Ceará',
+        'df': 'Distrito Federal',
+        'go': 'Goiás',
+        'ma': 'Maranhão',
+        'mt': 'Mato Grosso',
+        'ms': 'Mato Grosso do Sul',
+        'pa': 'Pará',
+        'pb': 'Paraíba',
+        'pr': 'Paraná',
+        'pe': 'Pernambuco',
+        'pi': 'Piauí',
+        'rn': 'Rio Grande do Norte',
+        'rs': 'Rio Grande do Sul',
+        'ro': 'Rondônia',
+        'rr': 'Roraima',
+        'sc': 'Santa Catarina',
+        'se': 'Sergipe',
+        'to': 'Tocantins'
+      };
+
+      // Determinar a URL da bandeira com base no código do estado
+      let flagUrl = '/flags/brazil/flag_circle_brazil.png'; // Padrão para Brasil e estados sem bandeira específica
+
+      if (lowerUf === 'rj') {
+        flagUrl = '/flags/estados/rio-de-janeiro/flag_circle_rio_de_janeiro-removebg-preview.png';
+      } else if (lowerUf === 'sp') {
+        flagUrl = '/flags/estados/sao-paulo/flag_circle_sao_paulo.png';
+      } else if (lowerUf === 'mg') {
+        flagUrl = '/flags/estados/minas-gerais/flag_circle_minas_gerais.png';
+      } else if (lowerUf === 'es') {
+        flagUrl = '/flags/estados/espirito-santo/flag_circle_espírito_santo.png';
+      }
+
+      // Criar a flag com o nome correto e URL da bandeira
+      return {
+        code: lowerUf,
+        name: stateNames[lowerUf] || lowerUf.toUpperCase(),
+        flagUrl: flagUrl
+      };
+    };
+
+    // Função para disparar o evento stateChange
+    const dispatchStateChangeEvent = () => {
+      console.log(`AppLayout: Preparando evento stateChange para UF: ${uf}`);
+      const flag = findFlag();
+
+      // Disparar evento stateChange com informações completas
+      const stateChangeEvent = new CustomEvent('stateChange', {
+        detail: {
+          code: uf,
+          name: flag.name,
+          flagUrl: flag.flagUrl,
+          flag: flag, // Incluir a flag completa
+          dashboardKeys: [`cg-${uf}`, `ale-${uf}`, `gov-${uf}`] // Chaves padrão
+        }
+      });
+
+      console.log(`AppLayout: Disparando evento stateChange para UF: ${uf} com flag:`, flag);
+      window.dispatchEvent(stateChangeEvent);
+    };
+
+    // Só disparar o evento na primeira montagem ou quando a UF mudar explicitamente
+    if (isFirstMount.current) {
+      // Pequeno atraso para garantir que outros componentes já estejam montados
+      setTimeout(() => {
+        dispatchStateChangeEvent();
+      }, 200);
+      isFirstMount.current = false;
+    } else {
+      // Verificar se a página está visível antes de disparar o evento
+      // Isso evita recargas desnecessárias quando a página ganha foco após Alt+Tab
+      if (isVisible) {
+        // Se não for a primeira montagem, só dispara se a UF mudou explicitamente
+        dispatchStateChangeEvent();
+      } else {
+        console.log(`AppLayout: Evento stateChange não disparado porque a página não está visível`);
+      }
+    }
+  }, [uf]);
+
   useEffect(() => {
     // Track page views and add page context
     const unsubscribe = router.subscribe('onLoad', () => {
       const route = router.state.location;
-      
+
       // Only proceed if route is defined
       if (route) {
         // Track page view
@@ -66,46 +175,53 @@ const AppLayout: React.FC = () => {
           <div className="flex items-center">
             {/* Menu de navegação */}
             <NavigationMenu />
-            
+
             {/* Logo e título */}
             <Link to="/" className="flex items-center space-x-2">
               {/* Logo com fundo branco circular */}
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg hidden sm:flex">
-                <img 
-                  src="/images/placeholder-avatar.png"
-                  alt="Logo"
-                  className="w-6 h-6 transform hover:scale-105 transition-transform"
+              <div className="w-8 h-8 bg-white rounded-full items-center justify-center shadow-lg hidden sm:flex">
+                <img
+                  src="/logo/logo.png"
+                  alt="Logo da República Brasileira"
+                  className="w-6 h-6 object-contain transform hover:scale-105 transition-transform"
+                  onError={(e) => {
+                    console.log('Erro ao carregar a logo');
+                    (e.target as HTMLImageElement).src = '/flags/brazil/flag_circle_brazil.png';
+                  }}
                 />
               </div>
-              
+
               {/* Título da aplicação */}
               <span className="font-bold text-white">
                 A República: Política de Bolso
               </span>
             </Link>
           </div>
-          
+
           {/* Seção direita: Botões de ação */}
           <div className="flex items-center space-x-2">
             {/* Botão de voltar */}
-            <button 
+            <button
               onClick={handleBack}
               className="p-2 text-white hover:bg-congress-dark dark:hover:bg-congress-dark-accent rounded-md transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </button>
-            
+
             {/* Alternador de modo escuro/claro */}
             <DarkModeToggle />
-            
+
             {/* Botão de localização */}
             <button className="p-2 text-white hover:bg-congress-dark dark:hover:bg-congress-dark-accent rounded-md transition-colors">
               <MapPin className="h-5 w-5" />
             </button>
-            
-            {/* Seletor de estado */}
-            <StateSelector />
-            
+
+            {/* Seletor de estado vinculado ao estado global */}
+            <StateSelector onStateChange={(state: { code: string }) => {
+              setUf(state.code.toLowerCase());
+              localStorage.setItem('estadoEleitoral', state.code.toLowerCase());
+            }} />
+
             {/* Botão do Senado */}
             <Link
               to="/senado"
@@ -114,7 +230,7 @@ const AppLayout: React.FC = () => {
               <span className="hidden md:inline">Senado</span>
               <span className="inline-flex items-center justify-center w-5 h-5 text-xs font-bold rounded-full bg-blue-500 text-white">S</span>
             </Link>
-            
+
             {/* Botão para a página de teste de dashboard */}
             <Link
               to="/teste-dashboard-simples"
@@ -123,7 +239,7 @@ const AppLayout: React.FC = () => {
               <span className="hidden md:inline">Teste Dashboard</span>
               <span className="inline-flex items-center justify-center w-5 h-5 text-xs font-bold rounded-full bg-green-500 text-white">T</span>
             </Link>
-            
+
             {/* Botão para a nova página de teste de dashboard */}
             <Link
               to="/novo-teste-dashboard"
@@ -132,10 +248,19 @@ const AppLayout: React.FC = () => {
               <span className="hidden md:inline">Novo Design</span>
               <span className="inline-flex items-center justify-center w-5 h-5 text-xs font-bold rounded-full bg-purple-500 text-white">N</span>
             </Link>
-            
+
+            {/* Botão para a página de dashboards de backup */}
+            <Link
+              to="/dashbackup"
+              className="text-white hover:bg-congress-dark dark:hover:bg-congress-dark-accent rounded-md px-3 py-1.5 text-sm font-medium flex items-center gap-1 transition-colors"
+            >
+              <span className="hidden md:inline">Dashboards Backup</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 text-xs font-bold rounded-full bg-orange-500 text-white">B</span>
+            </Link>
+
             {/* Painel de busca */}
             <SearchPanel />
-            
+
             {/* Botão de notificações */}
             <div className="relative">
               <button className="p-2 text-white hover:bg-congress-dark dark:hover:bg-congress-dark-accent rounded-md transition-colors">
@@ -143,17 +268,18 @@ const AppLayout: React.FC = () => {
               </button>
               <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
             </div>
-            
+
             {/* Perfil do usuário */}
             <UserProfile />
-            
+
             {/* Configurações */}
             <SettingsPanel />
           </div>
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        {/* Renderiza as páginas filhas */}
         <Outlet />
       </main>
 

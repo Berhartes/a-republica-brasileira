@@ -2,14 +2,13 @@
  * Script para encontrar importações depreciadas no projeto
  * Este script busca por todas as importações que ainda usam o caminho antigo
  * e gera um relatório com os arquivos que precisam ser atualizados.
- * 
+ *
  * Como usar:
  * ts-node scripts/find-deprecated-imports.ts
  */
 
 import { promises as fs } from 'fs';
-import path from 'path';
-import { promisify } from 'util';
+import * as path from 'path';
 
 // Padrões de importação depreciados para buscar
 const DEPRECATED_PATTERNS = [
@@ -40,13 +39,13 @@ interface FileResult {
  */
 async function listFiles(directory: string): Promise<string[]> {
   const files: string[] = [];
-  
+
   async function walk(dir: string) {
     const entries = await fs.readdir(dir, { withFileTypes: true });
-    
+
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
-      
+
       if (entry.isDirectory()) {
         if (!IGNORE_DIRS.includes(entry.name)) {
           await walk(fullPath);
@@ -56,7 +55,7 @@ async function listFiles(directory: string): Promise<string[]> {
       }
     }
   }
-  
+
   await walk(directory);
   return files;
 }
@@ -68,7 +67,7 @@ async function checkFile(filePath: string): Promise<FileResult | null> {
   try {
     const content = await fs.readFile(filePath, 'utf8');
     const matches: string[] = [];
-    
+
     for (const pattern of DEPRECATED_PATTERNS) {
       const lines = content.split('\n');
       for (const line of lines) {
@@ -77,7 +76,7 @@ async function checkFile(filePath: string): Promise<FileResult | null> {
         }
       }
     }
-    
+
     return matches.length > 0 ? { path: filePath, matches } : null;
   } catch (error) {
     console.error(`Erro ao verificar arquivo ${filePath}:`, (error as Error).message);
@@ -91,32 +90,32 @@ async function checkFile(filePath: string): Promise<FileResult | null> {
 async function main() {
   try {
     console.log('Buscando arquivos com importações depreciadas...');
-    
+
     const files = await listFiles('.');
     const results: FileResult[] = [];
-    
+
     for (const file of files) {
       const result = await checkFile(file);
       if (result) {
         results.push(result);
       }
     }
-    
+
     if (results.length > 0) {
       const output = results.map(result => `
 Arquivo: ${result.path}
 Importações depreciadas encontradas:
 ${result.matches.map(match => `  ${match}`).join('\n')}
 `).join('\n');
-      
+
       await fs.writeFile(OUTPUT_FILE, output);
-      
+
       console.log(`\nEncontrados ${results.length} arquivos com importações depreciadas`);
       console.log(`Detalhes salvos em: ${OUTPUT_FILE}`);
     } else {
       console.log('\nNenhuma importação depreciada encontrada!');
     }
-    
+
   } catch (error) {
     console.error('Erro ao processar arquivos:', (error as Error).message);
     process.exit(1);
@@ -126,4 +125,4 @@ ${result.matches.map(match => `  ${match}`).join('\n')}
 main().catch(error => {
   console.error('Erro fatal:', error);
   process.exit(1);
-}); 
+});

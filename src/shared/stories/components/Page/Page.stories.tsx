@@ -4,11 +4,11 @@ import type { Meta, StoryObj } from '@storybook/react';
 // import { expect, userEvent, within } from '@storybook/test';
 
 // Dummy implementations
-const within = (element: HTMLElement) => ({
-  getByRole: (role: string) => document.createElement('button') // Retornando um elemento HTML real
+const within = (_element: HTMLElement) => ({
+  getByRole: (_role: string) => document.createElement('button') // Retornando um elemento HTML real
 });
-const userEvent = { click: async (element: HTMLElement) => {} };
-const expect = (obj: any) => ({ 
+const userEvent = { click: async (_element: HTMLElement) => {} };
+const expect = (_obj: unknown) => ({
   toBeInTheDocument: async () => {},
   not: { toBeInTheDocument: async () => {} }
 });
@@ -29,7 +29,7 @@ type Story = StoryObj<typeof meta>;
 export const LoggedOut: Story = {};
 
 export const LoggedIn: Story = {
-  play: async ({ canvasElement }) => {
+  play: async ({ canvasElement }: { canvasElement: HTMLElement }) => {
     const canvas = within(canvasElement);
     const loginButton = canvas.getByRole('button');
     await expect(loginButton).toBeInTheDocument();

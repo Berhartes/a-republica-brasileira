@@ -58,7 +58,6 @@
     "test:legislatura:quick": "ts-node scripts/processar_legislatura_export.ts --exportar",
     "test:legislatura:csv": "ts-node scripts/processar_legislatura_export.ts --exportar --formato csv",
     "test:legislatura:json": "ts-node scripts/processar_legislatura_export.ts --exportar --formato json",
-    
     "extract:mesas": "ts-node scripts/extracao/mesas.ts",
     "process:mesas": "ts-node scripts/processar_mesas.ts",
     "process:mesas:export": "ts-node scripts/processar_mesas_export.ts --exportar",
@@ -66,7 +65,6 @@
     "process:mesas:json": "ts-node scripts/processar_mesas_export.ts --exportar --formato json",
     "process:mesas:compressed": "ts-node scripts/processar_mesas_export.ts --exportar --comprimir",
     "test:mesas:quick": "ts-node scripts/processar_mesas_export.ts --exportar --limite 20",
-    
     "extract:liderancas": "ts-node scripts/extracao/liderancas.ts",
     "process:liderancas": "ts-node scripts/processar_liderancas.ts",
     "process:liderancas:export": "ts-node scripts/processar_liderancas_export.ts --exportar",
@@ -74,7 +72,6 @@
     "process:liderancas:json": "ts-node scripts/processar_liderancas_export.ts --exportar --formato json",
     "process:liderancas:compressed": "ts-node scripts/processar_liderancas_export.ts --exportar --comprimir",
     "test:liderancas:quick": "ts-node scripts/processar_liderancas_export.ts --exportar --limite 20",
-    
     "lint": "eslint . --ext .ts"
   },
   "keywords": [
@@ -87,7 +84,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "dotenv": "^16.5.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",

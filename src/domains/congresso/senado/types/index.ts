@@ -80,6 +80,10 @@ export interface SenadorDetalhado extends Senador {
     instagram?: string;
     site?: string;
   };
+  redeSocial?: Array<{
+    nome: string;
+    url: string;
+  }>;
 }
 
 /**

@@ -1,0 +1,21 @@
+.performance-ring {
+  background: conic-gradient(#10b981 83%, #e2e7eb 0);
+}
+
+.year-pill {
+  transition: all 0.3s ease;
+}
+
+[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  background: #374151;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  top: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}

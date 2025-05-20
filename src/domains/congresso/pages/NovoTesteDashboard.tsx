@@ -1,8 +1,7 @@
-import React from 'react';
-import TestDashboard from '../components/Dashboards/TestDashboard';
+import { TestDashboard } from '../components/Dashboards';
 import { getConfigPorUF } from '../components/Dashboards/dashboardConfig';
 
-const NovoTesteDashboard: React.FC = () => {
+const NovoTesteDashboard = () => {
   // Obter a configuração para o Rio de Janeiro
   const dashboardConfigs = getConfigPorUF('rj');
   const congessoConfig = dashboardConfigs['cg-rj'];
@@ -15,7 +14,7 @@ const NovoTesteDashboard: React.FC = () => {
           <p className="text-blue-200">Visualização do novo design estético</p>
         </div>
       </header>
-      
+
       <main className="container mx-auto py-8">
         <div className="mb-6 bg-white p-4 rounded-lg shadow">
           <h2 className="text-xl font-bold mb-2">Sobre este teste</h2>
@@ -33,11 +32,11 @@ const NovoTesteDashboard: React.FC = () => {
             <li>Gradientes mais uniformes e consistentes</li>
           </ul>
         </div>
-        
+
         {/* Renderizar o componente de teste com a configuração do Congresso */}
         <TestDashboard config={congessoConfig} isDarkMode={false} />
       </main>
-      
+
       <footer className="bg-gray-800 text-white p-4 mt-8">
         <div className="container mx-auto text-center">
           <p>© 2025 A República Brasileira. Todos os direitos reservados.</p>

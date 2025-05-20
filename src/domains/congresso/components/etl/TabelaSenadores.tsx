@@ -32,17 +32,19 @@ interface TabelaSenadoresProps {
   error?: Error | null;
   senadores: Senador[];
   onVerDetalhes?: (senadorId: string) => void;
+  onVerPerfil?: (senadorId: string) => void;
 }
 
 export const TabelaSenadores: React.FC<TabelaSenadoresProps> = ({
   isLoading,
   error,
   senadores,
-  onVerDetalhes
+  onVerDetalhes,
+  onVerPerfil
 }) => {
   const [filtro, setFiltro] = useState('');
-  
-  const senadoresFiltrados = senadores.filter(senador => 
+
+  const senadoresFiltrados = senadores.filter(senador =>
     senador.nome.toLowerCase().includes(filtro.toLowerCase()) ||
     senador.siglaPartido.toLowerCase().includes(filtro.toLowerCase()) ||
     senador.siglaUf.toLowerCase().includes(filtro.toLowerCase())
@@ -105,13 +107,23 @@ export const TabelaSenadores: React.FC<TabelaSenadoresProps> = ({
                     <TableCell>{senador.siglaUf}</TableCell>
                     <TableCell>{senador.email || 'Não disponível'}</TableCell>
                     <TableCell className="text-right">
-                      <Button 
-                        variant="outline" 
-                        size="sm"
-                        onClick={() => onVerDetalhes && onVerDetalhes(senador.id)}
-                      >
-                        Ver detalhes
-                      </Button>
+                      <div className="flex justify-end gap-2">
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          onClick={() => onVerDetalhes && onVerDetalhes(senador.id)}
+                        >
+                          Ver detalhes
+                        </Button>
+                        <Button
+                          variant="default"
+                          size="sm"
+                          className="bg-emerald-600 hover:bg-emerald-700"
+                          onClick={() => onVerPerfil && onVerPerfil(senador.id)}
+                        >
+                          Ver perfil
+                        </Button>
+                      </div>
                     </TableCell>
                   </TableRow>
                 ))}

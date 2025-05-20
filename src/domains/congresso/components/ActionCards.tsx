@@ -19,12 +19,12 @@ export const ActionCards: React.FC = () => {
             </svg>
           </Link> */}
         </div>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 - Criar Petição */}
-          <Link to="/criar-peticao" className="bg-green-600 border border-green-700 rounded-lg p-4 hover:bg-green-700 transition text-white">
-            <div className="flex flex-col h-full">
-              <div className="mb-2 p-2 bg-green-700 rounded-full w-10 h-10 flex items-center justify-center text-white">
+          <Link to="/criar-peticao" className="bg-green-600 border-l-4 border-green-400 rounded-xl p-6 hover:bg-green-700 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 text-white h-[180px] flex flex-col justify-between">
+            <div className="flex flex-col">
+              <div className="mb-4 p-3 bg-green-700 rounded-full w-12 h-12 flex items-center justify-center text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                   <circle cx="9" cy="7" r="4"></circle>
@@ -36,11 +36,11 @@ export const ActionCards: React.FC = () => {
               <p className="text-xs text-white/80">Mobilize a sociedade e promova mudanças</p>
             </div>
           </Link>
-          
+
           {/* Card 2 - Buscar Políticos */}
-          <Link to="/buscar-politicos" className="bg-blue-600 border border-blue-700 rounded-lg p-4 hover:bg-blue-700 transition text-white">
-            <div className="flex flex-col h-full">
-              <div className="mb-2 p-2 bg-blue-700 rounded-full w-10 h-10 flex items-center justify-center text-white">
+          <Link to="/buscar-politicos" className="bg-blue-600 border-l-4 border-blue-400 rounded-xl p-6 hover:bg-blue-700 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 text-white h-[180px] flex flex-col justify-between">
+            <div className="flex flex-col">
+              <div className="mb-4 p-3 bg-blue-700 rounded-full w-12 h-12 flex items-center justify-center text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="12" cy="12" r="10"></circle>
                   <line x1="2" y1="12" x2="22" y2="12"></line>
@@ -51,36 +51,36 @@ export const ActionCards: React.FC = () => {
               <p className="text-xs text-white/80">Conheça os representantes do Rio de Janeiro</p>
             </div>
           </Link>
-          
+
           {/* Card 3 - Projetos de Lei */}
-          <Link to="/projetos-de-lei" className="bg-amber-100 border border-amber-200 rounded-lg p-4 hover:bg-amber-200 transition">
-            <div className="flex flex-col h-full">
-              <div className="flex items-center mb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-600 mr-2">
+          <Link to="/projetos-de-lei" className="bg-amber-600 border-l-4 border-amber-400 rounded-xl p-6 hover:bg-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 text-white h-[180px] flex flex-col justify-between">
+            <div className="flex flex-col">
+              <div className="mb-4 p-3 bg-amber-700 rounded-full w-12 h-12 flex items-center justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                   <polyline points="14 2 14 8 20 8"></polyline>
                   <line x1="16" y1="13" x2="8" y2="13"></line>
                   <line x1="16" y1="17" x2="8" y2="17"></line>
                   <polyline points="10 9 9 9 8 9"></polyline>
                 </svg>
-                <h3 className="font-bold text-amber-800">Projetos de Lei</h3>
               </div>
-              <p className="text-xs text-amber-700">Acompanhe as propostas em tramitação</p>
+              <h3 className="font-bold mb-1">Projetos de Lei</h3>
+              <p className="text-xs text-white/80">Acompanhe as propostas em tramitação</p>
             </div>
           </Link>
-          
+
           {/* Card 4 - Mapa Político */}
-          <Link to="/mapa-politico" className="bg-purple-100 border border-purple-200 rounded-lg p-4 hover:bg-purple-200 transition">
-            <div className="flex flex-col h-full">
-              <div className="flex items-center mb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-purple-600 mr-2">
+          <Link to="/mapa-politico" className="bg-purple-600 border-l-4 border-purple-400 rounded-xl p-6 hover:bg-purple-700 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 text-white h-[180px] flex flex-col justify-between">
+            <div className="flex flex-col">
+              <div className="mb-4 p-3 bg-purple-700 rounded-full w-12 h-12 flex items-center justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
                   <line x1="8" y1="2" x2="8" y2="18"></line>
                   <line x1="16" y1="6" x2="16" y2="22"></line>
                 </svg>
-                <h3 className="font-bold text-purple-800">Mapa Político</h3>
               </div>
-              <p className="text-xs text-purple-700">Visualize as regiões e suas representações</p>
+              <h3 className="font-bold mb-1">Mapa Político</h3>
+              <p className="text-xs text-white/80">Visualize as regiões e suas representações</p>
             </div>
           </Link>
         </div>

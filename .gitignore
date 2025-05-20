@@ -64,6 +64,9 @@ node_modules/
 
 # dotenv environment variables file
 .env
+.env.local
+.env.development
+.env.production
 
 # dataconnect generated files
 .dataconnect
@@ -81,3 +84,14 @@ src/**/node_modules/
 src/core/functions/firebase_functions/lib/**/*.js
 src/core/functions/senado_api_wrapper/dist/**/*.js
 
+# Ignorar dados extraídos
+dados_extraidos/
+src/core/functions/senado_api_wrapper/dados_extraidos/
+
+# Ignorar arquivos de configuração de serviço
+config/serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp

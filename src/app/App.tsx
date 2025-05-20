@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { MonitoringProvider } from '@/app/monitoring';
 import { DarkModeProvider } from '@/app/contexts/DarkModeContext';
+import { DashboardStyleProvider } from '@/domains/congresso/contexts/DashboardStyleContext';
 import AppLayout from '@/app/layouts/app/AppLayout';
 
 // Importações das páginas do Senado
@@ -27,6 +28,10 @@ import TesteDashboard from '@/domains/congresso/pages/TesteDashboard';
 import TesteDashboardSimples from '@/domains/congresso/pages/TesteDashboardSimples';
 import NovoTesteDashboard from '@/domains/congresso/pages/NovoTesteDashboard';
 import DadosETLPage from '@/domains/congresso/pages/DadosETLPage';
+import DashBackupPage from '@/domains/congresso/pages/DashBackupPage';
+import DiagnosticoPage from '@/pages/diagnostico';
+import DiagnosticoSenadorPage from '@/pages/diagnostico-senador';
+import TesteSenadorPage from '@/pages/teste-senador';
 
 // Criar uma instância do QueryClient
 const queryClient = new QueryClient({
@@ -193,6 +198,30 @@ const dadosETLRoute = new Route({
   component: DadosETLPage,
 });
 
+const dashBackupRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: '/dashbackup',
+  component: DashBackupPage,
+});
+
+const diagnosticoRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: '/diagnostico',
+  component: DiagnosticoPage,
+});
+
+const diagnosticoSenadorRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: '/diagnostico-senador',
+  component: DiagnosticoSenadorPage,
+});
+
+const testeSenadorRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: '/teste-senador',
+  component: TesteSenadorPage,
+});
+
 const routeTree = rootRoute.addChildren([
   indexRoute,
   senadoRoute,
@@ -212,6 +241,10 @@ const routeTree = rootRoute.addChildren([
   testeDashboardSimplesRoute,
   novoTesteDashboardRoute,
   dadosETLRoute,
+  dashBackupRoute,
+  diagnosticoRoute,
+  diagnosticoSenadorRoute,
+  testeSenadorRoute,
 ]);
 
 const router = new Router({ routeTree });
@@ -226,10 +259,12 @@ const App: React.FC = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <DarkModeProvider>
-        <MonitoringProvider config={monitoringConfig}>
-          <RouterProvider router={router} />
-        </MonitoringProvider>
-        <ReactQueryDevtools initialIsOpen={false} />
+        <DashboardStyleProvider>
+          <MonitoringProvider config={monitoringConfig}>
+            <RouterProvider router={router} />
+          </MonitoringProvider>
+          <ReactQueryDevtools initialIsOpen={false} />
+        </DashboardStyleProvider>
       </DarkModeProvider>
     </QueryClientProvider>
   );

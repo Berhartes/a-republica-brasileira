@@ -1,12 +1,37 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-
+import postcssImport from 'postcss-import';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 // Get absolute path to project root
 const projectRoot = path.resolve(__dirname, '../..');
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    {
+      name: 'disable-hmr',
+      // Desativar completamente o HMR
+      handleHotUpdate() {
+        return [];
+      }
+    },
+    react({
+      // Desativar Fast Refresh para evitar recargas desnecessárias
+      fastRefresh: false
+    })
+  ],
+  css: {
+    postcss: {
+      plugins: [
+        postcssImport,
+        tailwindcss({
+          config: path.resolve(projectRoot, 'config/tailwind.config.js')
+        }),
+        autoprefixer
+      ]
+    }
+  },
   resolve: {
     alias: {
       '@': path.resolve(projectRoot, 'src'),
@@ -22,7 +47,9 @@ export default defineConfig({
   },
   server: {
     port: 5174,
-    open: true
+    open: true,
+    hmr: false, // Desativar Hot Module Replacement para evitar recargas desnecessárias
+    watch: false, // Desativar completamente o sistema de watch
   },
   build: {
     outDir: path.resolve(projectRoot, 'dist'),
@@ -44,4 +71,3 @@ export default defineConfig({
     }
   }
 });
-

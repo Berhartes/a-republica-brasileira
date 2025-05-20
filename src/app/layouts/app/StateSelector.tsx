@@ -1,127 +1,162 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { usePerfil } from "@/domains/usuario/hooks";
 import { estadoEleitoralService } from "@/domains/usuario/services";
+import { Flag } from "@/domains/congresso/models/Flag";
 
-interface StateOption {
-  code: string;
-  name: string;
-  flagUrl: string;
-}
+// Use the Flag model from our domain
+type StateOption = Flag;
 
-// Brazil option
-const BRAZIL_OPTION: StateOption = {
+// Definir opções de estado padrão
+const DEFAULT_BRAZIL_OPTION: StateOption = {
   code: 'BR',
   name: 'Brasil',
   flagUrl: '/flags/brazil/flag_circle_brazil.png',
+  dashboardKeys: ['cg-br', 'ale-br', 'gov-br']
 };
-
-// Estados do Sudeste
-const SOUTHEAST_STATES: StateOption[] = [
-  {
-    code: 'RJ',
-    name: 'Rio de Janeiro',
-    flagUrl: '/flags/estados/rio-de-janeiro/flag_circle_rio_de_janeiro-removebg-preview.png',
-  },
-  {
-    code: 'SP',
-    name: 'São Paulo',
-    flagUrl: '/flags/estados/sao-paulo/flag_circle_sao_paulo.png',
-  },
-  {
-    code: 'MG',
-    name: 'Minas Gerais',
-    flagUrl: '/flags/estados/minas-gerais/flag_circle_minas_gerais.png',
-  },
-  {
-    code: 'ES',
-    name: 'Espírito Santo',
-    flagUrl: '/flags/estados/espirito-santo/flag_circle_espirito_santo.png',
-  }
-];
-
-// Estados do Norte
-const NORTH_STATES: StateOption[] = [
-  { code: 'AC', name: 'Acre', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'AP', name: 'Amapá', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'AM', name: 'Amazonas', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'PA', name: 'Pará', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'RO', name: 'Rondônia', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'RR', name: 'Roraima', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'TO', name: 'Tocantins', flagUrl: '/flags/brazil/flag_circle_brazil.png' }
-];
-
-// Estados do Nordeste
-const NORTHEAST_STATES: StateOption[] = [
-  { code: 'AL', name: 'Alagoas', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'BA', name: 'Bahia', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'CE', name: 'Ceará', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'MA', name: 'Maranhão', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'PB', name: 'Paraíba', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'PE', name: 'Pernambuco', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'PI', name: 'Piauí', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'RN', name: 'Rio Grande do Norte', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'SE', name: 'Sergipe', flagUrl: '/flags/brazil/flag_circle_brazil.png' }
-];
-
-// Estados do Centro-Oeste
-const CENTRAL_WEST_STATES: StateOption[] = [
-  { code: 'DF', name: 'Distrito Federal', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'GO', name: 'Goiás', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'MT', name: 'Mato Grosso', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'MS', name: 'Mato Grosso do Sul', flagUrl: '/flags/brazil/flag_circle_brazil.png' }
-];
-
-// Estados do Sul
-const SOUTH_STATES: StateOption[] = [
-  { code: 'PR', name: 'Paraná', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'RS', name: 'Rio Grande do Sul', flagUrl: '/flags/brazil/flag_circle_brazil.png' },
-  { code: 'SC', name: 'Santa Catarina', flagUrl: '/flags/brazil/flag_circle_brazil.png' }
-];
 
 interface StateSelectorProps {
   onStateChange?: (state: StateOption) => void;
 }
 
-export const StateSelector: React.FC<StateSelectorProps> = ({ 
-  onStateChange 
+export const StateSelector: React.FC<StateSelectorProps> = ({
+  onStateChange
 }) => {
-  const [selectedState, setSelectedState] = useState<StateOption>(BRAZIL_OPTION);
+  const [selectedState, setSelectedState] = useState<StateOption>(DEFAULT_BRAZIL_OPTION);
   const [isOpen, setIsOpen] = useState(false);
   const [expandedRegions, setExpandedRegions] = useState<string[]>(['southeast']);
-  
+
+  // Estados para armazenar as bandeiras
+  const [brazilOption, setBrazilOption] = useState<StateOption>(DEFAULT_BRAZIL_OPTION);
+  const [southeastStates, setSoutheastStates] = useState<StateOption[]>([]);
+  const [northStates, setNorthStates] = useState<StateOption[]>([]);
+  const [northeastStates, setNortheastStates] = useState<StateOption[]>([]);
+  const [centralWestStates, setCentralWestStates] = useState<StateOption[]>([]);
+  const [southStates, setSouthStates] = useState<StateOption[]>([]);
+
+  // Inicializar as bandeiras
+  useEffect(() => {
+    // Importar o flagService
+    import('@/domains/congresso/services/FlagService').then(module => {
+      const flagService = module.flagService;
+
+      // Inicializar a bandeira do Brasil
+      const brFlag = flagService.getFlag('BR') || DEFAULT_BRAZIL_OPTION;
+      setBrazilOption(brFlag);
+
+      // Inicializar as bandeiras do Sudeste
+      const seStates = [
+        flagService.getFlag('RJ'),
+        flagService.getFlag('SP'),
+        flagService.getFlag('MG'),
+        flagService.getFlag('ES')
+      ].filter(Boolean) as StateOption[];
+      setSoutheastStates(seStates);
+
+      // Inicializar as bandeiras do Norte
+      const nStates = [
+        flagService.getFlag('AC'),
+        flagService.getFlag('AP'),
+        flagService.getFlag('AM'),
+        flagService.getFlag('PA'),
+        flagService.getFlag('RO'),
+        flagService.getFlag('RR'),
+        flagService.getFlag('TO')
+      ].filter(Boolean) as StateOption[];
+      setNorthStates(nStates);
+
+      // Inicializar as bandeiras do Nordeste
+      const neStates = [
+        flagService.getFlag('AL'),
+        flagService.getFlag('BA'),
+        flagService.getFlag('CE'),
+        flagService.getFlag('MA'),
+        flagService.getFlag('PB'),
+        flagService.getFlag('PE'),
+        flagService.getFlag('PI'),
+        flagService.getFlag('RN'),
+        flagService.getFlag('SE')
+      ].filter(Boolean) as StateOption[];
+      setNortheastStates(neStates);
+
+      // Inicializar as bandeiras do Centro-Oeste
+      const cwStates = [
+        flagService.getFlag('DF'),
+        flagService.getFlag('GO'),
+        flagService.getFlag('MT'),
+        flagService.getFlag('MS')
+      ].filter(Boolean) as StateOption[];
+      setCentralWestStates(cwStates);
+
+      // Inicializar as bandeiras do Sul
+      const sStates = [
+        flagService.getFlag('PR'),
+        flagService.getFlag('RS'),
+        flagService.getFlag('SC')
+      ].filter(Boolean) as StateOption[];
+      setSouthStates(sStates);
+
+      // Inicializar o estado selecionado
+      const localEstado = localStorage.getItem('estadoEleitoral');
+      if (localEstado) {
+        const state = findSelectedState(localEstado, brFlag, seStates, nStates, neStates, cwStates, sStates);
+        setSelectedState(state);
+      }
+    }).catch(error => {
+      console.error('Erro ao importar flagService:', error);
+    });
+  }, []);
+
   // Usar o hook usePerfil para acessar e atualizar o perfil do usuário
   const { perfil, atualizarConfiguracoes } = usePerfil();
 
   // Encontrar o estado selecionado
-  const findSelectedState = (code: string): StateOption => {
+  const findSelectedState = (
+    code: string,
+    brOption = brazilOption,
+    seStates = southeastStates,
+    nStates = northStates,
+    neStates = northeastStates,
+    cwStates = centralWestStates,
+    sStates = southStates
+  ): StateOption => {
     // Verificar primeiro nos estados do sudeste
-    const southeastState = SOUTHEAST_STATES.find(state => state.code.toLowerCase() === code.toLowerCase());
+    const southeastState = seStates.find(state => state?.code?.toLowerCase() === code.toLowerCase());
     if (southeastState) return southeastState;
-    
+
     // Verificar em todos os outros estados
     const allStates = [
-      ...NORTH_STATES,
-      ...NORTHEAST_STATES,
-      ...CENTRAL_WEST_STATES,
-      ...SOUTH_STATES
+      ...nStates,
+      ...neStates,
+      ...cwStates,
+      ...sStates
     ];
-    
-    const otherState = allStates.find(state => state.code.toLowerCase() === code.toLowerCase());
+
+    const otherState = allStates.find(state => state?.code?.toLowerCase() === code.toLowerCase());
     if (otherState) return otherState;
-    
+
     // Se não encontrar, retornar o Brasil
-    if (code.toLowerCase() === 'br') return BRAZIL_OPTION;
-    
-    // Padrão para RJ se nada for encontrado
-    return SOUTHEAST_STATES[0];
+    if (code.toLowerCase() === 'br') return brOption;
+
+    // Padrão para o primeiro estado do sudeste se nada for encontrado
+    return seStates[0] || DEFAULT_BRAZIL_OPTION;
   };
 
   // Atualizar o estado selecionado quando o selectedUF mudar
   useEffect(() => {
     const handleStateChange = (event: CustomEvent) => {
       const newCode = event.detail.code.toLowerCase();
-      setSelectedState(findSelectedState(newCode));
-      
+      console.log(`StateSelector: Recebido evento stateChange para UF: ${newCode}`);
+
+      // Se o evento incluir a flag completa, usá-la diretamente
+      if (event.detail.flag) {
+        console.log(`StateSelector: Usando flag do evento para ${newCode}`);
+        setSelectedState(event.detail.flag);
+      } else {
+        // Caso contrário, buscar a flag usando findSelectedState
+        console.log(`StateSelector: Buscando flag para ${newCode}`);
+        setSelectedState(findSelectedState(newCode));
+      }
+
       // Expandir a região do estado selecionado
       const region = getStateRegion(newCode);
       if (region && !expandedRegions.includes(region)) {
@@ -130,7 +165,7 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
     };
 
     window.addEventListener('stateChange' as any, handleStateChange as EventListener);
-    
+
     return () => {
       window.removeEventListener('stateChange' as any, handleStateChange as EventListener);
     };
@@ -139,72 +174,189 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
   // Determinar a região de um estado
   const getStateRegion = (code: string): string | null => {
     code = code.toUpperCase();
-    if (SOUTHEAST_STATES.some(state => state.code === code)) return 'southeast';
-    if (NORTH_STATES.some(state => state.code === code)) return 'north';
-    if (NORTHEAST_STATES.some(state => state.code === code)) return 'northeast';
-    if (CENTRAL_WEST_STATES.some(state => state.code === code)) return 'central-west';
-    if (SOUTH_STATES.some(state => state.code === code)) return 'south';
+    if (southeastStates.some(state => state?.code === code)) return 'southeast';
+    if (northStates.some(state => state?.code === code)) return 'north';
+    if (northeastStates.some(state => state?.code === code)) return 'northeast';
+    if (centralWestStates.some(state => state?.code === code)) return 'central-west';
+    if (southStates.some(state => state?.code === code)) return 'south';
     return null;
   };
 
   // Inicializar o estado selecionado com base no perfil do usuário ou localStorage
   useEffect(() => {
-    // Tentar obter do localStorage primeiro (para usuários não autenticados)
-    const localEstado = localStorage.getItem('estadoEleitoral');
-    
-    if (localEstado) {
-      console.log(`StateSelector: Usando estado eleitoral do localStorage: ${localEstado}`);
-      setSelectedState(findSelectedState(localEstado));
-      return;
-    }
-    
-    // Se não houver no localStorage, tentar obter do perfil
-    if (perfil && perfil.estadoEleitoral) {
-      const estadoUf = perfil.estadoEleitoral.toLowerCase();
-      console.log(`StateSelector: Usando estado eleitoral do perfil: ${estadoUf}`);
-      setSelectedState(findSelectedState(estadoUf));
-      
-      // Salvar no localStorage também
-      localStorage.setItem('estadoEleitoral', estadoUf);
-    } else {
-      // Se não houver estado eleitoral definido, usar Brasil como padrão
-      console.log('StateSelector: Nenhum estado eleitoral definido, usando Brasil como padrão');
-      setSelectedState(BRAZIL_OPTION);
-      
-      // Não salvamos 'br' no localStorage para que o modal de boas-vindas apareça
-    }
-    
-    // Disparar evento stateChange para sincronizar outros componentes
-    const stateCode = selectedState.code.toLowerCase();
-    const stateChangeEvent = new CustomEvent('stateChange', { 
-      detail: { 
-        code: stateCode,
-        name: selectedState.name
-      } 
+    // Importar o flagService
+    import('@/domains/congresso/services/FlagService').then(module => {
+      const flagService = module.flagService;
+
+      // Tentar obter do localStorage primeiro (para usuários não autenticados)
+      const localEstado = localStorage.getItem('estadoEleitoral');
+      let stateToUse: StateOption;
+
+      if (localEstado) {
+        console.log(`StateSelector: Usando estado eleitoral do localStorage: ${localEstado}`);
+        stateToUse = findSelectedState(localEstado);
+        setSelectedState(stateToUse);
+      } else if (perfil && perfil.estadoEleitoral) {
+        // Se não houver no localStorage, tentar obter do perfil
+        const estadoUf = perfil.estadoEleitoral.toLowerCase();
+        console.log(`StateSelector: Usando estado eleitoral do perfil: ${estadoUf}`);
+        stateToUse = findSelectedState(estadoUf);
+        setSelectedState(stateToUse);
+
+        // Salvar no localStorage também
+        localStorage.setItem('estadoEleitoral', estadoUf);
+      } else {
+        // Se não houver estado eleitoral definido, usar Brasil como padrão
+        console.log('StateSelector: Nenhum estado eleitoral definido, usando Brasil como padrão');
+        stateToUse = brazilOption;
+        setSelectedState(stateToUse);
+
+        // Não salvamos 'br' no localStorage para que o modal de boas-vindas apareça
+      }
+
+      // Garantir que a bandeira tenha dashboards associados
+      const stateCode = stateToUse.code.toLowerCase();
+      if (!stateToUse.dashboardKeys || stateToUse.dashboardKeys.length === 0) {
+        // Se a bandeira não tiver dashboards associados, criar uma associação explícita
+        const defaultDashboardKeys = [`cg-${stateCode}`, `ale-${stateCode}`, `gov-${stateCode}`];
+        flagService.linkFlagToDashboards(stateCode, defaultDashboardKeys);
+
+        // Atualizar o estado com a bandeira atualizada
+        const newState = flagService.getFlag(stateCode);
+        if (newState) {
+          stateToUse = newState;
+          setSelectedState(newState);
+        }
+      }
+
+      // Disparar evento stateChange para sincronizar outros componentes
+      // Usar stateToUse em vez de selectedState para garantir que estamos usando o valor mais recente
+      setTimeout(() => {
+        const dashboardKeys = stateToUse.dashboardKeys || flagService.getDashboardKeysForFlag(stateCode);
+
+        console.log(`StateSelector: Disparando evento stateChange inicial para: ${stateCode}`);
+        console.log(`StateSelector: Dashboards associados:`, dashboardKeys);
+
+        const stateChangeEvent = new CustomEvent('stateChange', {
+          detail: {
+            code: stateCode,
+            name: stateToUse.name,
+            dashboardKeys: dashboardKeys,
+            flag: stateToUse
+          }
+        });
+        window.dispatchEvent(stateChangeEvent);
+      }, 100); // Pequeno atraso para garantir que outros componentes já estejam montados
+    }).catch(error => {
+      console.error('Erro ao importar flagService:', error);
+
+      // Mesmo sem o flagService, ainda podemos inicializar o estado selecionado
+      const localEstado = localStorage.getItem('estadoEleitoral');
+      let stateToUse: StateOption;
+
+      if (localEstado) {
+        stateToUse = findSelectedState(localEstado);
+      } else if (perfil && perfil.estadoEleitoral) {
+        stateToUse = findSelectedState(perfil.estadoEleitoral.toLowerCase());
+        localStorage.setItem('estadoEleitoral', perfil.estadoEleitoral.toLowerCase());
+      } else {
+        stateToUse = brazilOption;
+      }
+
+      setSelectedState(stateToUse);
+
+      // Disparar um evento básico
+      const stateCode = stateToUse.code.toLowerCase();
+      const defaultDashboardKeys = [`cg-${stateCode}`, `ale-${stateCode}`, `gov-${stateCode}`];
+
+      const stateChangeEvent = new CustomEvent('stateChange', {
+        detail: {
+          code: stateCode,
+          name: stateToUse.name,
+          dashboardKeys: defaultDashboardKeys,
+          flag: stateToUse
+        }
+      });
+      window.dispatchEvent(stateChangeEvent);
     });
-    window.dispatchEvent(stateChangeEvent);
-  }, [perfil]);
+  }, [perfil, brazilOption]);
 
   const handleStateChange = (state: StateOption) => {
     setSelectedState(state);
     setIsOpen(false);
-    
+
     if (onStateChange) {
       onStateChange(state);
     }
-    
+
     const stateCode = state.code.toLowerCase();
-    
+
     // Usar o serviço para salvar o estado eleitoral e disparar o evento
     estadoEleitoralService.setEstadoEleitoral(stateCode);
-    
+
+    // Salvar no localStorage para persistir entre recarregamentos da página
+    localStorage.setItem('estadoEleitoral', stateCode);
+
+    // Importar o flagService para garantir que a bandeira tenha dashboards associados
+    import('@/domains/congresso/services/FlagService').then(module => {
+      const flagService = module.flagService;
+
+      let updatedState = state;
+
+      // Garantir que a bandeira tenha dashboards associados
+      if (!updatedState.dashboardKeys || updatedState.dashboardKeys.length === 0) {
+        // Se a bandeira não tiver dashboards associados, criar uma associação explícita
+        const defaultDashboardKeys = [`cg-${stateCode}`, `ale-${stateCode}`, `gov-${stateCode}`];
+        flagService.linkFlagToDashboards(stateCode, defaultDashboardKeys);
+
+        // Atualizar o estado com a bandeira atualizada
+        const newState = flagService.getFlag(stateCode);
+        if (newState) {
+          updatedState = newState;
+          setSelectedState(newState);
+        }
+      }
+
+      // Get dashboard keys for this state
+      const dashboardKeys = updatedState.dashboardKeys || flagService.getDashboardKeysForFlag(stateCode);
+
+      console.log(`StateSelector: Alterando estado para: ${stateCode}`);
+      console.log(`StateSelector: Dashboards associados:`, dashboardKeys);
+
+      // Dispatch a custom event with state and dashboard information
+      const stateChangeEvent = new CustomEvent('stateChange', {
+        detail: {
+          code: stateCode,
+          name: updatedState.name,
+          dashboardKeys: dashboardKeys,
+          flag: updatedState
+        }
+      });
+      window.dispatchEvent(stateChangeEvent);
+    }).catch(error => {
+      console.error('Erro ao importar flagService:', error);
+
+      // Mesmo sem o flagService, ainda podemos disparar um evento básico
+      const defaultDashboardKeys = [`cg-${stateCode}`, `ale-${stateCode}`, `gov-${stateCode}`];
+
+      const stateChangeEvent = new CustomEvent('stateChange', {
+        detail: {
+          code: stateCode,
+          name: state.name,
+          dashboardKeys: defaultDashboardKeys,
+          flag: state
+        }
+      });
+      window.dispatchEvent(stateChangeEvent);
+    });
+
     // Salvar o estado eleitoral no perfil do usuário
     if (atualizarConfiguracoes && stateCode !== 'br') {
       console.log(`StateSelector: Salvando estado eleitoral no perfil: ${stateCode}`);
-      
+
       // Usar o serviço para criar o objeto de configuração
       const configData = estadoEleitoralService.criarConfigAtualizacao(stateCode, perfil);
-      
+
       // Atualizar o perfil
       atualizarConfiguracoes(configData);
     }
@@ -220,17 +372,18 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
 
   // Renderizar um item de estado
   const renderStateItem = (state: StateOption) => (
-    <div 
+    <div
       key={state.code}
       className={`p-3 cursor-pointer flex items-center gap-3 hover:bg-gray-800 ${selectedState.code === state.code ? 'bg-gray-800' : ''}`}
       onClick={() => handleStateChange(state)}
     >
-      <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-700 flex-shrink-0">
-        <img 
-          src={state.flagUrl} 
+      <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-700 flex-shrink-0 flex items-center justify-center bg-white">
+        <img
+          src={state.flagUrl}
           alt={`Bandeira de ${state.name}`}
-          className="w-full h-full object-cover"
+          className="w-6 h-6 object-contain"
           onError={(e) => {
+            console.log(`Erro ao carregar imagem: ${state.flagUrl}`);
             (e.target as HTMLImageElement).src = '/images/placeholder-avatar.png';
           }}
         />
@@ -246,31 +399,35 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
 
   return (
     <div className="relative">
-      <button 
+      <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-center bg-transparent hover:bg-[#234780] rounded-full overflow-hidden border-2 border-white/30 w-8 h-8"
+        className="flex items-center justify-center bg-white hover:bg-[#f0f0f0] rounded-full overflow-hidden border-2 border-white/30 w-8 h-8"
         aria-label={`Selecionar estado: ${selectedState.name}`}
       >
-        <img 
+        <img
           src={selectedState.flagUrl}
           alt={`Bandeira de ${selectedState.name}`}
-          className="w-6 h-6 object-cover"
+          className="w-6 h-6 object-contain"
+          onError={(e) => {
+            console.log(`Erro ao carregar imagem: ${selectedState.flagUrl}`);
+            (e.target as HTMLImageElement).src = '/images/placeholder-avatar.png';
+          }}
         />
       </button>
-      
+
       {isOpen && (
         <div className="absolute right-0 mt-2 w-56 bg-gray-900 border border-gray-800 rounded-md shadow-lg z-50 max-h-[70vh] overflow-y-auto">
           <div className="py-2 px-3 bg-gray-800 text-white sticky top-0 z-10">
             <h3 className="font-medium">Selecione um estado</h3>
           </div>
-          
+
           {/* Brazil option */}
-          {renderStateItem(BRAZIL_OPTION)}
-          
+          {renderStateItem(brazilOption)}
+
           <div className="border-t border-gray-800 my-1"></div>
-          
+
           {/* Sudeste - Sempre expandido por ser a região principal */}
-          <div 
+          <div
             className="px-3 py-2 text-gray-300 text-sm sticky top-[40px] bg-gray-900 z-10 flex justify-between items-center cursor-pointer hover:bg-gray-800"
             onClick={() => toggleRegion('southeast')}
           >
@@ -279,12 +436,12 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
               {expandedRegions.includes('southeast') ? '▼' : '►'}
             </span>
           </div>
-          
-          {expandedRegions.includes('southeast') && SOUTHEAST_STATES.map(renderStateItem)}
-          
+
+          {expandedRegions.includes('southeast') && southeastStates.map(renderStateItem)}
+
           {/* Norte */}
           <div className="border-t border-gray-800 my-1"></div>
-          <div 
+          <div
             className="px-3 py-2 text-gray-300 text-sm sticky top-[40px] bg-gray-900 z-10 flex justify-between items-center cursor-pointer hover:bg-gray-800"
             onClick={() => toggleRegion('north')}
           >
@@ -293,12 +450,12 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
               {expandedRegions.includes('north') ? '▼' : '►'}
             </span>
           </div>
-          
-          {expandedRegions.includes('north') && NORTH_STATES.map(renderStateItem)}
-          
+
+          {expandedRegions.includes('north') && northStates.map(renderStateItem)}
+
           {/* Nordeste */}
           <div className="border-t border-gray-800 my-1"></div>
-          <div 
+          <div
             className="px-3 py-2 text-gray-300 text-sm sticky top-[40px] bg-gray-900 z-10 flex justify-between items-center cursor-pointer hover:bg-gray-800"
             onClick={() => toggleRegion('northeast')}
           >
@@ -307,12 +464,12 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
               {expandedRegions.includes('northeast') ? '▼' : '►'}
             </span>
           </div>
-          
-          {expandedRegions.includes('northeast') && NORTHEAST_STATES.map(renderStateItem)}
-          
+
+          {expandedRegions.includes('northeast') && northeastStates.map(renderStateItem)}
+
           {/* Centro-Oeste */}
           <div className="border-t border-gray-800 my-1"></div>
-          <div 
+          <div
             className="px-3 py-2 text-gray-300 text-sm sticky top-[40px] bg-gray-900 z-10 flex justify-between items-center cursor-pointer hover:bg-gray-800"
             onClick={() => toggleRegion('central-west')}
           >
@@ -321,12 +478,12 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
               {expandedRegions.includes('central-west') ? '▼' : '►'}
             </span>
           </div>
-          
-          {expandedRegions.includes('central-west') && CENTRAL_WEST_STATES.map(renderStateItem)}
-          
+
+          {expandedRegions.includes('central-west') && centralWestStates.map(renderStateItem)}
+
           {/* Sul */}
           <div className="border-t border-gray-800 my-1"></div>
-          <div 
+          <div
             className="px-3 py-2 text-gray-300 text-sm sticky top-[40px] bg-gray-900 z-10 flex justify-between items-center cursor-pointer hover:bg-gray-800"
             onClick={() => toggleRegion('south')}
           >
@@ -335,8 +492,8 @@ export const StateSelector: React.FC<StateSelectorProps> = ({
               {expandedRegions.includes('south') ? '▼' : '►'}
             </span>
           </div>
-          
-          {expandedRegions.includes('south') && SOUTH_STATES.map(renderStateItem)}
+
+          {expandedRegions.includes('south') && southStates.map(renderStateItem)}
         </div>
       )}
     </div>

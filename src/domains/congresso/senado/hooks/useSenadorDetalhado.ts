@@ -5,22 +5,22 @@ import { useProposicoesSenador } from './useProposicoesSenador';
 import { useVotacoesSenador } from './useVotacoesSenador';
 import { useDespesasSenador } from './useDespesasSenador';
 import { useComissoesSenador } from './useComissoesSenador';
-import { 
+import {
   type MateriaSchema,
   type VotacaoSchema,
   type ComissaoSchema,
   type SenadorSchema,
   type DespesaSchema
 } from '@/domains/congresso/senado/schemas';
-import { 
+import {
   type SenadorDetalhado,
   type Materia,
   type Votacao,
   type Despesa,
   type Comissao
 } from '@/domains/congresso/senado/types/index';
-import { 
-  normalizeSenadorDetalhado 
+import {
+  normalizeSenadorDetalhado
 } from '@/domains/congresso/senado/transformers';
 import { logger } from '@/app/monitoring/logger';
 
@@ -49,6 +49,23 @@ interface SenadorStats {
     ativas: number;
     presidencias: number;
   };
+  // Propriedades adicionais usadas no componente SenadorPerfilDetalhado
+  anosDeServico?: number;
+  presencaPercentual?: number;
+  ranking?: number;
+  processosAtivos?: number;
+  categoriasProposicoes?: {
+    principal: string;
+    percentual: number;
+  };
+  alinhamentoPartido?: number;
+  totalDiscursos?: number;
+  ultimoDiscurso?: {
+    url: string;
+  };
+  pontuacaoGeral?: number;
+  mediaPresencaPartido?: number;
+  aprovacaoPercentual?: number;
 }
 
 interface UseSenadorDetalhadoResult {
@@ -65,17 +82,17 @@ interface UseSenadorDetalhadoResult {
 
 /**
  * Hook combinado que fornece todos os dados de um senador
- * 
+ *
  * Este hook é um substituto direto para o antigo useSenadorData,
  * combinando os dados de múltiplos hooks modulares.
- * 
+ *
  * @param id ID do senador
  * @param ano Ano para filtrar dados (default: ano atual)
  * @returns Objeto com todos os dados do senador e funções auxiliares
- * 
+ *
  * @example
  * ```tsx
- * const { 
+ * const {
  *   senador,
  *   proposicoes,
  *   votacoes,
@@ -93,7 +110,7 @@ export function useSenadorDetalhado(
   ano: number = new Date().getFullYear()
 ): UseSenadorDetalhadoResult {
   // Buscar dados básicos do senador
-  const { 
+  const {
     data: senadoresResponse,
     isLoading: loadingSenador,
     error: senadorError,
@@ -108,9 +125,9 @@ export function useSenadorDetalhado(
     isLoading: loadingProposicoes,
     error: proposicoesError,
     refetch: refetchProposicoes
-  } = useProposicoesSenador({ 
+  } = useProposicoesSenador({
     id: typeof id === 'string' ? parseInt(id, 10) : id,
-    ano 
+    ano
   });
 
   // Buscar votações
@@ -120,9 +137,9 @@ export function useSenadorDetalhado(
     error: votacoesError,
     stats: votacoesStats,
     refetch: refetchVotacoes
-  } = useVotacoesSenador({ 
+  } = useVotacoesSenador({
     id: typeof id === 'string' ? parseInt(id, 10) : id,
-    ano 
+    ano
   });
 
   // Buscar despesas
@@ -132,9 +149,9 @@ export function useSenadorDetalhado(
     error: despesasError,
     stats: despesasStats,
     refetch: refetchDespesas
-  } = useDespesasSenador({ 
+  } = useDespesasSenador({
     id: typeof id === 'string' ? parseInt(id, 10) : id,
-    ano 
+    ano
   });
 
   // Buscar comissões
@@ -144,14 +161,14 @@ export function useSenadorDetalhado(
     error: comissoesError,
     stats: comissoesStats,
     refetch: refetchComissoes
-  } = useComissoesSenador({ 
+  } = useComissoesSenador({
     id: typeof id === 'string' ? parseInt(id, 10) : id
   });
 
   // Transformar dados do senador
   const senador = useMemo(() => {
     if (!senadoresResponse || !Array.isArray(senadoresResponse)) return null;
-    
+
     const senadorResponse = senadoresResponse.find(s => {
       const senadorId = typeof id === 'string' ? parseInt(id, 10) : id;
       return s.IdentificacaoParlamentar.CodigoParlamentar === senadorId;
@@ -193,11 +210,11 @@ export function useSenadorDetalhado(
   }, [proposicoes, votacoesStats, despesasStats, comissoesStats]);
 
   // Consolidar estado de carregamento
-  const loading = loadingSenador || loadingProposicoes || loadingVotacoes || 
+  const loading = loadingSenador || loadingProposicoes || loadingVotacoes ||
                  loadingDespesas || loadingComissoes;
 
   // Consolidar erros
-  const error = senadorError || proposicoesError || votacoesError || 
+  const error = senadorError || proposicoesError || votacoesError ||
                 despesasError || comissoesError;
 
   // Função para recarregar todos os dados

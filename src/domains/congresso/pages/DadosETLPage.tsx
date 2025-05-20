@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Tabs, 
-  TabsContent, 
-  TabsList, 
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
   TabsTrigger,
   Button,
-  Alert, 
-  AlertTitle, 
+  Alert,
+  AlertTitle,
   AlertDescription,
   LoadingSpinner
 } from '@/shared/components/ui/ui-components';
@@ -70,7 +70,7 @@ const DadosETLPage: React.FC = () => {
         // Aqui seria a chamada real para a API/Firestore
         // Por enquanto, apenas simulamos um delay
         await new Promise(resolve => setTimeout(resolve, 1500));
-        
+
         // Usar dados mockados por enquanto
         setData(dadosMock);
         setError(null);
@@ -90,7 +90,7 @@ const DadosETLPage: React.FC = () => {
       setIsAtualizando(true);
       // Aqui seria a chamada para executar o ETL novamente
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
+
       // Atualizar os dados após a execução
       setData({
         ...data,
@@ -99,7 +99,7 @@ const DadosETLPage: React.FC = () => {
           ultima_atualizacao: new Date()
         }
       });
-      
+
       // Mostrar mensagem de sucesso (poderia ser um toast)
       alert('Dados atualizados com sucesso!');
     } catch (err) {
@@ -115,6 +115,11 @@ const DadosETLPage: React.FC = () => {
     window.location.href = `/senador/${senadorId}`;
   };
 
+  const handleVerPerfilSenador = (senadorId: string) => {
+    // Navegar para a página de perfil do senador
+    window.location.href = `/senador/${senadorId}`;
+  };
+
   const handleVerDetalhesVotacao = (votacaoId: string) => {
     // Navegar para a página de detalhes da votação
     alert(`Detalhes da votação ${votacaoId} seriam exibidos aqui`);
@@ -124,8 +129,8 @@ const DadosETLPage: React.FC = () => {
     <div className="container mx-auto p-4">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">Dados ETL do Senado</h1>
-        <Button 
-          onClick={handleAtualizarDados} 
+        <Button
+          onClick={handleAtualizarDados}
           disabled={isLoading || isAtualizando}
         >
           {isAtualizando ? (
@@ -146,10 +151,10 @@ const DadosETLPage: React.FC = () => {
         </Alert>
       )}
 
-      <ResumoDadosETL 
-        isLoading={isLoading} 
-        error={error} 
-        metadata={data.metadata} 
+      <ResumoDadosETL
+        isLoading={isLoading}
+        error={error}
+        metadata={data.metadata}
       />
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="mb-6">
@@ -158,25 +163,26 @@ const DadosETLPage: React.FC = () => {
           <TabsTrigger value="votacoes">Votações</TabsTrigger>
           <TabsTrigger value="comissoes">Comissões</TabsTrigger>
         </TabsList>
-        
+
         <TabsContent value="senadores">
-          <TabelaSenadores 
-            isLoading={isLoading} 
-            error={error} 
-            senadores={data.senadores} 
+          <TabelaSenadores
+            isLoading={isLoading}
+            error={error}
+            senadores={data.senadores}
             onVerDetalhes={handleVerDetalhesSenador}
+            onVerPerfil={handleVerPerfilSenador}
           />
         </TabsContent>
-        
+
         <TabsContent value="votacoes">
-          <TabelaVotacoes 
-            isLoading={isLoading} 
-            error={error} 
-            votacoes={data.votacoes} 
+          <TabelaVotacoes
+            isLoading={isLoading}
+            error={error}
+            votacoes={data.votacoes}
             onVerDetalhes={handleVerDetalhesVotacao}
           />
         </TabsContent>
-        
+
         <TabsContent value="comissoes">
           <div className="text-center py-12 bg-gray-50 rounded-lg">
             <p className="text-gray-500">Dados de comissões serão implementados em breve</p>

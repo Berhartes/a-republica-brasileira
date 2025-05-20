@@ -1,0 +1,190 @@
+.senadores-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.senadores-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.filtro-grupo {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.filtro-grupo label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.filtro-grupo select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.limpar-filtros {
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.limpar-filtros:hover {
+  background-color: #d0d0d0;
+}
+
+.resultados {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.senadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.senador-card {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.senador-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.senador-foto {
+  width: 100px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.senador-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: #666;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.senador-info {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.senador-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.senador-info p {
+  margin: 0 0 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.partido, .uf {
+  font-size: 14px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.partido {
+  background-color: #e6f7ff;
+  color: #0070f3;
+}
+
+.uf {
+  background-color: #e6ffe6;
+  color: #00a000;
+}
+
+.ver-detalhes {
+  margin-top: auto;
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.ver-detalhes:hover {
+  background-color: #0060d0;
+}
+
+.ver-perfil {
+  margin-top: auto;
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #10b981;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.ver-perfil:hover {
+  background-color: #059669;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.error {
+  color: #e53e3e;
+}
+
+@media (max-width: 768px) {
+  .senadores-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filtros {
+    flex-direction: column;
+  }
+}

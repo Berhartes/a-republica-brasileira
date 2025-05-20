@@ -1,28 +1,44 @@
 // src/domains/congresso/pages/HomePage.tsx
-import React, { useEffect, useState } from "react";
-import { DashboardUnificadoUF } from "@/domains/congresso/components/Dashboards";
-import { ActionCards } from "@/domains/congresso/components/ActionCards";
-import { usePerfil } from "@/domains/usuario/hooks";
+import { useEffect, useState } from 'react';
+import { StaticDashboardContainer } from '@/domains/congresso/components/Dashboards';
+import { ActionCards } from '@/domains/congresso/components/ActionCards';
+import { usePerfil } from '@/domains/usuario/hooks';
 
-interface HomePageProps {}
+const HomePage = () => {
+  const { isLoadingPerfil } = usePerfil(); // Removida a variável perfil que não estava sendo utilizada
+  // Usar o valor do localStorage como fallback
+  const [currentUf, setCurrentUf] = useState(() => localStorage.getItem('estadoEleitoral') || 'br');
 
-const HomePage: React.FC<HomePageProps> = () => {
-  // Estado para armazenar a UF atual (padrão: Brasil)
-  const [currentUf, setCurrentUf] = useState<string>("br");
-  
-  // Obter o perfil do usuário para verificar o estado eleitoral
-  const { perfil, isLoadingPerfil } = usePerfil();
-  
-  // Atualizar a UF quando o perfil for carregado
+  // Não precisamos mais deste useEffect, pois não estamos recebendo initialUf como prop
+
+  // Ouvir eventos de mudança de estado (stateChange)
   useEffect(() => {
-    if (perfil && perfil.estadoEleitoral) {
-      console.log(`HomePage: Usando estado eleitoral do perfil: ${perfil.estadoEleitoral}`);
-      setCurrentUf(perfil.estadoEleitoral);
-    }
-  }, [perfil]);
+    console.log(`HomePage: Configurando listener para eventos stateChange`);
+
+    const handleStateChange = (event: any) => {
+      const newUf = event.detail.code.toLowerCase();
+      console.log(`HomePage: Evento stateChange recebido para UF: ${newUf}`);
+
+      // Atualizar o estado local apenas se for diferente do atual
+      if (newUf !== currentUf) {
+        setCurrentUf(newUf);
+
+        // Atualizar o localStorage para garantir consistência
+        localStorage.setItem('estadoEleitoral', newUf);
+      }
+    };
+
+    // Adicionar o listener
+    window.addEventListener('stateChange', handleStateChange);
+
+    // Remover o listener quando o componente for desmontado
+    return () => {
+      window.removeEventListener('stateChange', handleStateChange);
+    };
+  }, [currentUf]);
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-4 max-w-6xl mx-auto">
       <header className="mb-6">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
           Bem-vindo à República Brasileira
@@ -31,13 +47,11 @@ const HomePage: React.FC<HomePageProps> = () => {
           Página inicial com dashboards e ações prioritárias.
         </p>
       </header>
-      
       {/* Ações Prioritárias */}
-      <section className="mb-8">
+      <section className="mb-4">
         <ActionCards />
       </section>
-      
-      {/* Dashboards - usando DashboardUnificadoUF com a UF do perfil do usuário */}
+      {/* Dashboards - usando DashboardUnificadoUF com a UF recebida do header */}
       <section>
         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Dashboards</h2>
         {isLoadingPerfil ? (
@@ -45,8 +59,8 @@ const HomePage: React.FC<HomePageProps> = () => {
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-congress-primary"></div>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <DashboardUnificadoUF uf={currentUf} />
+          <div className="w-full">
+            <StaticDashboardContainer uf={currentUf} />
           </div>
         )}
       </section>

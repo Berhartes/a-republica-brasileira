@@ -4,7 +4,7 @@
 
 export const endpoints = {
   BASE_URL: 'https://legis.senado.leg.br/dadosabertos',
-  
+
   // Informações sobre Legislatura
   LEGISLATURA: {
     POR_DATA: {
@@ -16,7 +16,7 @@ export const endpoints = {
       PARAMS: { v: 3, format: 'json' }
     }
   },
-  
+
   // Blocos Parlamentares, Partidos, Mesas e Lideranças
   COMPOSICAO: {
     // Blocos Parlamentares
@@ -30,7 +30,7 @@ export const endpoints = {
         PARAMS: { v: 1, format: 'json' }
       }
     },
-    
+
     // Partidos Políticos
     PARTIDOS: {
       LISTA: {
@@ -38,7 +38,7 @@ export const endpoints = {
         PARAMS: { v: 1, format: 'json' }
       }
     },
-    
+
     // Mesas Diretoras
     MESAS: {
       SENADO: {
@@ -50,7 +50,7 @@ export const endpoints = {
         PARAMS: { v: 1, format: 'json' }
       }
     },
-    
+
     // Lideranças
     LIDERANCAS: {
       LISTA: {
@@ -71,7 +71,7 @@ export const endpoints = {
       }
     }
   },
-  
+
   // Comissões
   COMISSOES: {
     TIPOS: {
@@ -107,7 +107,7 @@ export const endpoints = {
       PARAMS: { v: 3, format: 'json' }
     }
   },
-  
+
   // Senadores
   SENADORES: {
     LISTA_ATUAL: {
@@ -153,12 +153,46 @@ export const endpoints = {
     APARTES: {
       PATH: '/senador/{codigo}/apartes',
       PARAMS: { v: 5, format: 'json' }
+    },
+    DISCURSOS: {
+      PATH: '/senador/{codigo}/discursos',
+      PARAMS: { v: 5, format: 'json' }
+    },
+    VOTACOES: {
+      PATH: '/senador/{codigo}/votacoes',
+      PARAMS: { v: 7, format: 'json' }
+    },
+    // O endpoint /senador/{codigo}/liderancas está marcado como DEPRECATED
+    // Vamos usar o endpoint de composição/lideranca com filtro por parlamentar
+    LIDERANCAS: {
+      PATH: '/composicao/lideranca',
+      PARAMS: { v: 1, format: 'json' }
     }
   },
-  
+
+  // Matérias Legislativas e Processos
+  PROCESSO: {
+    AUTORIAS: {
+      PATH: '/processo',
+      PARAMS: { v: 1, format: 'json' }
+    },
+    RELATORIAS: {
+      PATH: '/processo/relatoria',
+      PARAMS: { v: 1, format: 'json' }
+    },
+    DETALHES: {
+      PATH: '/materia/{codigo}',
+      PARAMS: { v: 1, format: 'json' }
+    },
+    TRAMITACAO: {
+      PATH: '/materia/{codigo}/tramitacao',
+      PARAMS: { v: 1, format: 'json' }
+    }
+  },
+
   // Configurações para formatos de resposta
   FORMAT: 'json',  // Usado nos endpoints que não têm extensão .json explicitamente
-  
+
   // Configurações de requisição
   REQUEST: {
     TIMEOUT: 45000,  // 45 segundos

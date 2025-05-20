@@ -1,0 +1,73 @@
+{
+  "estrutura_organizada": {
+    "6358": {
+      "identificacao": {
+        "codigo": "6358",
+        "nome": "Ana Paula Lobato",
+        "nomeCompleto": "Ana Paula Dias Lobato Nova Alves",
+        "genero": "Feminino",
+        "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+        "paginaOficial": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6358",
+        "paginaParticular": "",
+        "email": "sen.anapaulalobato@senado.leg.br",
+        "partido": {
+          "sigla": "PDT",
+          "nome": null
+        },
+        "uf": "MA",
+        "telefones": [
+          {
+            "numero": "(61) 3303-2967",
+            "tipo": "Telefone",
+            "ordem": 1
+          }
+        ]
+      },
+      "situacaoAtual": {
+        "emExercicio": true,
+        "titular": false,
+        "suplente": true,
+        "afastado": false,
+        "cargoMesa": false,
+        "cargoLideranca": false,
+        "motivoAfastamento": null,
+        "mandatoAtual": {
+          "codigo": "602",
+          "participacao": "1º Suplente",
+          "legislatura": "57"
+        },
+        "licencaAtual": null,
+        "ultimaLegislatura": "57"
+      },
+      "dadosPessoais": {
+        "dataNascimento": "1984-05-11",
+        "naturalidade": "Pinheiro",
+        "ufNaturalidade": "MA",
+        "enderecoParlamentar": "Senado Federal Anexo 1  16º Pavimento  "
+      }
+    }
+  },
+  "estrutura_atual": {
+    "6358": {
+      "codigo": "6358",
+      "nome": "Ana Paula Lobato",
+      "nomeCompleto": "Ana Paula Dias Lobato Nova Alves",
+      "genero": "Feminino",
+      "foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+      "partido": {
+        "sigla": "PDT",
+        "nome": null
+      },
+      "uf": "MA",
+      "situacaoAtual": {
+        "emExercicio": true,
+        "titular": false,
+        "suplente": true,
+        "afastado": false,
+        "cargoMesa": false,
+        "cargoLideranca": false
+      },
+      "atualizadoEm": "2025-05-18T23:09:59.815Z"
+    }
+  }
+}

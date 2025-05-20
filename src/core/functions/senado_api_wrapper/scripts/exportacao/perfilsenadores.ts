@@ -5,7 +5,7 @@
 import * as path from 'path';
 import { logger } from '../utils/logger';
 import { exportToJson, exportItemsAsIndividualFiles } from '../utils/file_exporter';
-import { SenadorBasicoTransformado, SenadorCompletoTransformado, ResultadoTransformacaoLista } from '../transformacao/perfilsenadores';
+import { SenadorCompletoTransformado, ResultadoTransformacaoLista, perfilSenadoresTransformer } from '../transformacao/perfilsenadores';
 
 /**
  * Classe para exportar dados de perfis de senadores para arquivos
@@ -18,30 +18,30 @@ export class PerfilSenadoresExporter {
    * @returns Caminho do arquivo gerado
    */
   async exportSenadoresLegislatura(
-    senadoresTransformados: ResultadoTransformacaoLista, 
+    senadoresTransformados: ResultadoTransformacaoLista,
     legislaturaNumero: number
   ): Promise<string> {
     try {
       logger.info(`Exportando lista de ${senadoresTransformados.senadores.length} senadores da legislatura ${legislaturaNumero}`);
-      
+
       // Criar nome de arquivo baseado na data
       const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
       const fileName = `senadores_legislatura_${legislaturaNumero}_${timestamp}.json`;
       const filePath = path.join('senadores', 'listas', fileName);
-      
+
       // Exportar para JSON
       exportToJson(senadoresTransformados, filePath);
       const fullPath = path.join(process.cwd(), 'dados_extraidos', filePath);
-      
+
       logger.info(`Lista de senadores da legislatura ${legislaturaNumero} exportada para: ${fullPath}`);
-      
+
       return fullPath;
     } catch (error: any) {
       logger.error(`Erro ao exportar lista de senadores da legislatura ${legislaturaNumero}: ${error.message}`);
       throw error;
     }
   }
-  
+
   /**
    * Exporta perfis completos de senadores para arquivos JSON individuais
    * @param perfisTransformados - Perfis transformados dos senadores
@@ -49,27 +49,38 @@ export class PerfilSenadoresExporter {
    * @returns Diretório onde os perfis foram exportados
    */
   async exportPerfisSenadores(
-    perfisTransformados: SenadorCompletoTransformado[], 
+    perfisTransformados: SenadorCompletoTransformado[],
     legislaturaNumero?: number
   ): Promise<string> {
     try {
       logger.info(`Exportando ${perfisTransformados.length} perfis completos de senadores ${legislaturaNumero ? `da legislatura ${legislaturaNumero}` : ''}`);
-      
+      logger.info('Usando estrutura organizada para exportação');
+
       // Criar pasta baseada na data e legislatura
       const timestamp = new Date().toISOString().split('T')[0];
-      const folderName = legislaturaNumero 
-        ? `legislatura_${legislaturaNumero}_${timestamp}` 
+      const folderName = legislaturaNumero
+        ? `legislatura_${legislaturaNumero}_${timestamp}`
         : `perfis_${timestamp}`;
-      
+
       const baseFolder = path.join('senadores', 'perfis', folderName);
-      
+
+      // Transformar para estrutura organizada
+      const perfisParaExportar = perfisTransformados.map(perfil =>
+        perfilSenadoresTransformer.transformPerfilCompletoOrganizado(perfil)
+      );
+
       // Exportar perfis e criar índice
       exportItemsAsIndividualFiles(
-        perfisTransformados,
+        perfisParaExportar,
         baseFolder,
-        (perfil: SenadorCompletoTransformado) => `${perfil.codigo}_${perfil.nome.toLowerCase().replace(/[^a-z0-9]/g, '_')}`
+        (perfil: any) => {
+          // Extrair código e nome do perfil (pode estar em estrutura organizada ou original)
+          const codigo = perfil.codigo || perfil.identificacao?.codigo || 'desconhecido';
+          const nome = perfil.nome || perfil.identificacao?.nome || 'desconhecido';
+          return `${codigo}_${nome.toLowerCase().replace(/[^a-z0-9]/g, '_')}`;
+        }
       );
-      
+
       // Exportar sumário
       const sumario = {
         timestamp: new Date().toISOString(),
@@ -77,20 +88,22 @@ export class PerfilSenadoresExporter {
         totalSenadores: perfisTransformados.length,
         distribuicaoPartidos: this.calcularDistribuicaoPartidos(perfisTransformados),
         distribuicaoUF: this.calcularDistribuicaoUF(perfisTransformados),
-        distribuicaoGenero: this.calcularDistribuicaoGenero(perfisTransformados)
+        distribuicaoGenero: this.calcularDistribuicaoGenero(perfisTransformados),
+        estrutura: 'organizada',
+        versaoEstrutura: '1.1'
       };
-      
+
       exportToJson(sumario, `${baseFolder}/sumario.json`);
-      
+
       logger.info(`Perfis exportados para a pasta: ${baseFolder}`);
-      
+
       return baseFolder;
     } catch (error: any) {
       logger.error(`Erro ao exportar perfis de senadores: ${error.message}`);
       throw error;
     }
   }
-  
+
   /**
    * Exporta um único perfil de senador
    * @param perfil - Perfil do senador
@@ -101,22 +114,26 @@ export class PerfilSenadoresExporter {
   ): Promise<string> {
     try {
       logger.info(`Exportando perfil do senador ${perfil.nome} (${perfil.codigo})`);
-      
+      logger.info('Usando estrutura organizada para exportação');
+
       const fileName = `${perfil.codigo}_${perfil.nome.toLowerCase().replace(/[^a-z0-9]/g, '_')}.json`;
       const filePath = path.join('senadores', 'individuais', fileName);
-      
-      exportToJson(perfil, filePath);
+
+      // Transformar para estrutura organizada
+      const perfilOrganizado = perfilSenadoresTransformer.transformPerfilCompletoOrganizado(perfil);
+      exportToJson(perfilOrganizado, filePath);
+
       const fullPath = path.join(process.cwd(), 'dados_extraidos', filePath);
-      
+
       logger.info(`Perfil do senador exportado para: ${fullPath}`);
-      
+
       return fullPath;
     } catch (error: any) {
       logger.error(`Erro ao exportar perfil do senador ${perfil.codigo}: ${error.message}`);
       throw error;
     }
   }
-  
+
   /**
    * Exporta um snapshot histórico de perfis
    * @param perfisTransformados - Perfis transformados
@@ -124,16 +141,16 @@ export class PerfilSenadoresExporter {
    * @returns Caminho do arquivo
    */
   async exportHistorico(
-    perfisTransformados: SenadorCompletoTransformado[], 
+    perfisTransformados: SenadorCompletoTransformado[],
     legislaturaNumero: number
   ): Promise<string> {
     try {
       logger.info(`Exportando histórico de ${perfisTransformados.length} perfis da legislatura ${legislaturaNumero}`);
-      
+
       const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
       const fileName = `historico_legislatura_${legislaturaNumero}_${timestamp}.json`;
       const filePath = path.join('senadores', 'historico', fileName);
-      
+
       // Exportar versão resumida para economizar espaço
       const perfilResumido = perfisTransformados.map(perfil => ({
         codigo: perfil.codigo,
@@ -145,19 +162,19 @@ export class PerfilSenadoresExporter {
         mandatoAtual: perfil.mandatoAtual,
         ultimaAtualizacao: perfil.atualizadoEm
       }));
-      
+
       exportToJson(perfilResumido, filePath);
       const fullPath = path.join(process.cwd(), 'dados_extraidos', filePath);
-      
+
       logger.info(`Histórico exportado para: ${fullPath}`);
-      
+
       return fullPath;
     } catch (error: any) {
       logger.error(`Erro ao exportar histórico de perfis da legislatura ${legislaturaNumero}: ${error.message}`);
       throw error;
     }
   }
-  
+
   /**
    * Calcula a distribuição de senadores por partido
    * @param perfis - Perfis de senadores
@@ -165,15 +182,15 @@ export class PerfilSenadoresExporter {
    */
   private calcularDistribuicaoPartidos(perfis: SenadorCompletoTransformado[]): Record<string, number> {
     const distribuicao: Record<string, number> = {};
-    
+
     perfis.forEach(perfil => {
       const siglaPartido = perfil.partido.sigla || 'Sem Partido';
       distribuicao[siglaPartido] = (distribuicao[siglaPartido] || 0) + 1;
     });
-    
+
     return distribuicao;
   }
-  
+
   /**
    * Calcula a distribuição de senadores por UF
    * @param perfis - Perfis de senadores
@@ -181,15 +198,15 @@ export class PerfilSenadoresExporter {
    */
   private calcularDistribuicaoUF(perfis: SenadorCompletoTransformado[]): Record<string, number> {
     const distribuicao: Record<string, number> = {};
-    
+
     perfis.forEach(perfil => {
       const uf = perfil.uf || 'Não Informado';
       distribuicao[uf] = (distribuicao[uf] || 0) + 1;
     });
-    
+
     return distribuicao;
   }
-  
+
   /**
    * Calcula a distribuição de senadores por gênero
    * @param perfis - Perfis de senadores
@@ -201,10 +218,10 @@ export class PerfilSenadoresExporter {
       Feminino: 0,
       'Não Informado': 0
     };
-    
+
     perfis.forEach(perfil => {
       const genero = perfil.genero.toLowerCase();
-      
+
       if (genero === 'masculino' || genero === 'm') {
         distribuicao.Masculino += 1;
       } else if (genero === 'feminino' || genero === 'f') {
@@ -213,7 +230,7 @@ export class PerfilSenadoresExporter {
         distribuicao['Não Informado'] += 1;
       }
     });
-    
+
     return distribuicao;
   }
 }
