@@ -1,22 +1,55 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "CommonJS",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "./dist",
+    "rootDir": ".",
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": true,
+    "removeComments": false,
+    "noEmit": false,
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "importHelpers": true,
+    "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@domains/*": ["src/domains/*"],
       "@shared/*": ["src/shared/*"],
-      "@core/*": ["src/core/*"],
-      "@services/*": ["src/services/*"],
-      "@constants/*": ["src/constants/*"]
-    }
+      "@senadoScripts/*": ["src/core/functions/senado_api_wrapper/scripts/*"]
+    },
+    "types": ["node"]
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "./src/core/functions/senado_api_wrapper/scripts/**/*",
+    "./src/core/functions/camara_api_wrapper/scripts/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true
+    }
+  }
 }

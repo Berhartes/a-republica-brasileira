@@ -1,13 +1,16 @@
 import * as functions from 'firebase-functions';
-import * as admin from 'firebase-admin';
+import admin from 'firebase-admin'; // Importar o admin default
+// import { initializeAppCheck } from 'firebase-admin/app-check'; // App Check não é usado aqui
+import { initializeFirebaseAdmin } from '../../../../config/firebase/firebase-admin-init'; // Corrigido o nome da função
 import axios from 'axios';
-import { Response } from 'express'; // Adicionado import do Express
+import { Response } from 'express'; 
 
-admin.initializeApp();
+// Inicializar o Firebase Admin SDK usando a função centralizada
+initializeFirebaseAdmin();
 const db = admin.firestore();
 
 // Função de exemplo: busca dados do wrapper e grava no Firestore
-export const importarSenado = functions.https.onRequest(async (req: functions.https.Request, res: Response) => { // Tipo de res alterado
+export const importarSenado = functions.https.onRequest(async (req: functions.https.Request, res: Response) => {
   try {
     // Altere a URL abaixo para o endpoint do seu wrapper local
     const response = await axios.get('http://localhost:3000/api/senado/exemplo');

@@ -1,0 +1,53 @@
+{
+  "name": "senado-api-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper para a API de Dados Abertos do Senado Federal",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "extract:blocos": "ts-node -P tsconfig.scripts.json scripts/extracao/blocos.ts",
+    "extract:senadores": "ts-node -P tsconfig.scripts.json scripts/extracao/senadores.ts",
+    "extract:perfilsenadores": "ts-node -P tsconfig.scripts.json scripts/extracao/perfilsenadores.ts",
+    "extract:comissoes": "ts-node -P tsconfig.scripts.json scripts/extracao/comissoes.ts",
+    "extract:mesas": "ts-node -P tsconfig.scripts.json scripts/extracao/mesas.ts",
+    "extract:liderancas": "ts-node -P tsconfig.scripts.json scripts/extracao/liderancas.ts",
+    "extract:materias": "ts-node -P tsconfig.scripts.json scripts/extracao/materias.ts",
+    "extract:votacoes": "ts-node -P tsconfig.scripts.json scripts/extracao/votacoes.ts",
+    "process:blocos": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_blocos.ts",
+    "process:senadores": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_senadores.ts",
+    "process:perfilsenadores": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_perfilsenadores.ts",
+    "process:discursos": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_discursos.ts",
+    "process:mesas": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_mesas.ts",
+    "process:materias": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_senadomateria.ts",
+    "process:blocos:pc": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_blocos.ts --pc",
+    "process:senadores:pc": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_senadores.ts --pc",
+    "process:perfilsenadores:pc": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_perfilsenadores.ts --pc",
+    "process:discursos:pc": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_discursos.ts --pc",
+    "process:mesas:pc": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_mesas.ts --pc",
+    "process:materias:pc": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_senadomateria.ts --pc",
+    "process:perfilsenadores:limite": "ts-node -P tsconfig.scripts.json scripts/initiators/processar_perfilsenadores.ts --limite",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "senado",
+    "api",
+    "wrapper",
+    "dados abertos",
+    "brasil"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

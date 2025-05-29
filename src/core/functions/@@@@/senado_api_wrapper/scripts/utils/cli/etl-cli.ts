@@ -1,0 +1,330 @@
+/**
+ * Parser CLI unificado e profissional para o sistema ETL
+ * 
+ * Este módulo fornece uma interface consistente para parsing
+ * de argumentos de linha de comando em todos os scripts ETL.
+ */
+
+import { ETLOptions } from '../../types/etl.types';
+import { logger, LogLevel } from '../logging';
+import { etlConfig } from '../../config/etl.config';
+
+/**
+ * Parser de linha de comando para scripts ETL
+ */
+export class ETLCommandParser {
+  private scriptName: string;
+  private description: string;
+  private args: string[];
+  private customOptions: Map<string, any> = new Map();
+
+  constructor(scriptName: string, description: string) {
+    this.scriptName = scriptName;
+    this.description = description;
+    this.args = process.argv.slice(2);
+  }
+
+  /**
+   * Adiciona uma opção customizada
+   */
+  addCustomOption(name: string, parser?: (value: string) => any): this {
+    this.customOptions.set(name, parser);
+    return this;
+  }
+
+  /**
+   * Faz o parse dos argumentos e retorna as opções
+   */
+  parse(): ETLOptions {
+    // Verificar se deve exibir ajuda
+    if (this.shouldShowHelp()) {
+      this.showHelp();
+      process.exit(0);
+    }
+
+    const options: Partial<ETLOptions> = {};
+    
+    // Parse dos argumentos
+    for (let i = 0; i < this.args.length; i++) {
+      const arg = this.args[i];
+      const nextArg = this.args[i + 1];
+
+      // Opções de legislatura
+      if (this.isLegislaturaShortcut(arg)) {
+        options.legislatura = this.parseLegislaturaShortcut(arg);
+      }
+      else if (arg === '--legislatura' || arg === '-l') {
+        options.legislatura = this.parseNumber(nextArg, 'legislatura');
+        i++;
+      }
+      
+      // Limite
+      else if (arg === '--limite') {
+        options.limite = this.parseNumber(nextArg, 'limite');
+        i++;
+      }
+      
+      // Senador específico
+      else if (arg === '--senador' || arg === '-s') {
+        options.senador = nextArg;
+        i++;
+      }
+      
+      // Destino
+      else if (arg === '--firestore') {
+        this.validateDestino(options.destino);
+        options.destino = 'firestore';
+      }
+      else if (arg === '--emulator') {
+        this.validateDestino(options.destino);
+        options.destino = 'emulator';
+      }
+      else if (arg === '--pc' || arg === '--local') {
+        this.validateDestino(options.destino);
+        options.destino = 'pc';
+      }
+      
+      // Opções de execução
+      else if (arg === '--verbose' || arg === '-v') {
+        options.verbose = true;
+      }
+      else if (arg === '--dry-run') {
+        options.dryRun = true;
+      }
+      else if (arg === '--force') {
+        options.forceUpdate = true;
+      }
+      
+      // Filtros de data
+      else if (arg === '--data-inicio') {
+        options.dataInicio = this.parseDate(nextArg, 'data de início');
+        i++;
+      }
+      else if (arg === '--data-fim') {
+        options.dataFim = this.parseDate(nextArg, 'data de fim');
+        i++;
+      }
+      
+      // Outros filtros
+      else if (arg === '--partido') {
+        options.partido = nextArg?.toUpperCase();
+        i++;
+      }
+      else if (arg === '--uf') {
+        options.uf = nextArg?.toUpperCase();
+        i++;
+      }
+      
+      // Opções customizadas
+      else if (this.customOptions.has(arg)) {
+        const parser = this.customOptions.get(arg);
+        if (parser && nextArg) {
+          options[arg.replace('--', '')] = parser(nextArg);
+          i++;
+        } else {
+          options[arg.replace('--', '')] = true;
+        }
+      }
+      
+      // Primeiro argumento numérico como legislatura
+      else if (i === 0 && !isNaN(parseInt(arg, 10))) {
+        options.legislatura = this.parseNumber(arg, 'legislatura');
+      }
+    }
+
+    // Validações finais
+    this.validateOptions(options);
+    
+    // Aplicar defaults
+    const finalOptions: ETLOptions = {
+      destino: options.destino || 'firestore',
+      ...options
+    };
+
+    // Configurar logger se verbose
+    if (finalOptions.verbose) {
+      logger.setLevel(LogLevel.DEBUG);
+    }
+
+    return finalOptions;
+  }
+
+  /**
+   * Verifica se deve exibir ajuda
+   */
+  private shouldShowHelp(): boolean {
+    return this.args.includes('--help') || 
+           this.args.includes('-h') || 
+           this.args.includes('--ajuda');
+  }
+
+  /**
+   * Exibe a mensagem de ajuda
+   */
+  showHelp(): void {
+    console.log(`
+${this.description}
+
+USO:
+  npm run ${this.scriptName} [legislatura] [opções]
+
+ARGUMENTOS:
+  [legislatura]              Número da legislatura (1-${etlConfig.senado.legislatura.max})
+                            Se não informado, usa a legislatura atual
+
+OPÇÕES DE DESTINO (escolha apenas uma):
+  --firestore               Salva no Firestore (produção) - PADRÃO
+  --emulator                Usa o Firestore Emulator
+  --pc, --local            Salva localmente no PC
+
+FILTROS:
+  --limite <número>         Limita o processamento a N itens
+  --senador, -s <código>    Processa apenas o senador especificado
+  --partido <sigla>         Filtra por partido (ex: PT, PSDB)
+  --uf <sigla>             Filtra por estado (ex: SP, RJ)
+  --data-inicio <data>      Data de início (YYYY-MM-DD)
+  --data-fim <data>         Data de fim (YYYY-MM-DD)
+
+ATALHOS DE LEGISLATURA:
+  --57                      Atalho para legislatura 57
+  --58                      Atalho para legislatura 58
+
+OPÇÕES DE EXECUÇÃO:
+  --verbose, -v             Modo verboso com logs detalhados
+  --dry-run                 Simula execução sem salvar dados
+  --force                   Força atualização mesmo se já processado
+  --help, -h, --ajuda       Exibe esta mensagem de ajuda
+
+VARIÁVEIS DE AMBIENTE:
+  SENADO_CONCURRENCY        Requisições simultâneas (padrão: ${etlConfig.senado.concurrency})
+  SENADO_MAX_RETRIES        Tentativas máximas (padrão: ${etlConfig.senado.maxRetries})
+  SENADO_TIMEOUT            Timeout em ms (padrão: ${etlConfig.senado.timeout})
+  FIRESTORE_EMULATOR_HOST   Host do emulator (padrão: ${etlConfig.firestore.emulatorHost})
+  LOG_LEVEL                 Nível de log: error, warn, info, debug (padrão: ${etlConfig.logging.level})
+
+EXEMPLOS:
+  # Processar legislatura atual
+  npm run ${this.scriptName}
+
+  # Processar legislatura 57 com limite
+  npm run ${this.scriptName} -- 57 --limite 10
+
+  # Salvar no PC local
+  npm run ${this.scriptName} -- --pc --verbose
+
+  # Usar emulador com filtros
+  npm run ${this.scriptName} -- --emulator --partido PT --uf SP
+
+  # Modo dry-run para teste
+  npm run ${this.scriptName} -- --dry-run --limite 5
+`);
+  }
+
+  /**
+   * Verifica se é um atalho de legislatura
+   */
+  private isLegislaturaShortcut(arg: string): boolean {
+    return /^--\d{1,2}$/.test(arg);
+  }
+
+  /**
+   * Faz parse de atalho de legislatura
+   */
+  private parseLegislaturaShortcut(arg: string): number {
+    const num = parseInt(arg.replace('--', ''), 10);
+    if (num < etlConfig.senado.legislatura.min || num > etlConfig.senado.legislatura.max) {
+      throw new Error(`Legislatura inválida: ${num}. Deve estar entre ${etlConfig.senado.legislatura.min} e ${etlConfig.senado.legislatura.max}`);
+    }
+    return num;
+  }
+
+  /**
+   * Faz parse de número com validação
+   */
+  private parseNumber(value: string | undefined, campo: string): number {
+    if (!value) {
+      throw new Error(`Valor não fornecido para ${campo}`);
+    }
+    
+    const num = parseInt(value, 10);
+    if (isNaN(num)) {
+      throw new Error(`Valor inválido para ${campo}: ${value}. Deve ser um número.`);
+    }
+    
+    if (campo === 'legislatura') {
+      if (num < etlConfig.senado.legislatura.min || num > etlConfig.senado.legislatura.max) {
+        throw new Error(`Legislatura inválida: ${num}. Deve estar entre ${etlConfig.senado.legislatura.min} e ${etlConfig.senado.legislatura.max}`);
+      }
+    }
+    
+    if (campo === 'limite' && num <= 0) {
+      throw new Error(`Limite inválido: ${num}. Deve ser maior que zero.`);
+    }
+    
+    return num;
+  }
+
+  /**
+   * Faz parse de data com validação
+   */
+  private parseDate(value: string | undefined, campo: string): string {
+    if (!value) {
+      throw new Error(`Data não fornecida para ${campo}`);
+    }
+    
+    // Validar formato YYYY-MM-DD
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+      throw new Error(`Formato de data inválido para ${campo}: ${value}. Use YYYY-MM-DD`);
+    }
+    
+    // Validar se é uma data válida
+    const date = new Date(value);
+    if (isNaN(date.getTime())) {
+      throw new Error(`Data inválida para ${campo}: ${value}`);
+    }
+    
+    return value;
+  }
+
+  /**
+   * Valida se apenas um destino foi escolhido
+   */
+  private validateDestino(destino: string | undefined): void {
+    if (destino) {
+      throw new Error('Especifique apenas um destino: --firestore, --emulator ou --pc');
+    }
+  }
+
+  /**
+   * Valida as opções parseadas
+   */
+  private validateOptions(options: Partial<ETLOptions>): void {
+    // Validar datas se ambas foram fornecidas
+    if (options.dataInicio && options.dataFim) {
+      const inicio = new Date(options.dataInicio);
+      const fim = new Date(options.dataFim);
+      
+      if (inicio > fim) {
+        throw new Error('Data de início não pode ser posterior à data de fim');
+      }
+    }
+    
+    // Validar UF se fornecido
+    if (options.uf) {
+      const ufsValidas = ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 
+                         'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 
+                         'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'];
+      
+      if (!ufsValidas.includes(options.uf)) {
+        throw new Error(`UF inválida: ${options.uf}. Use uma sigla válida de estado brasileiro.`);
+      }
+    }
+  }
+}
+
+/**
+ * Função helper para criar parser com configurações padrão
+ */
+export function createETLParser(scriptName: string, description: string): ETLCommandParser {
+  return new ETLCommandParser(scriptName, description);
+}
