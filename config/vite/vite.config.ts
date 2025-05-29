@@ -50,6 +50,7 @@ export default defineConfig({
     open: true,
     hmr: false, // Desativar Hot Module Replacement para evitar recargas desnecessárias
     watch: false, // Desativar completamente o sistema de watch
+    allowedHosts: ['adebc0bd-7930-4289-a352-0640fab1f28e-00-3j28n56fvzj05.worf.replit.dev'],
   },
   build: {
     outDir: path.resolve(projectRoot, 'dist'),
