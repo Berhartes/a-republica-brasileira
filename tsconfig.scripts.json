@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Scripts são executados em ambiente Node.js, então CommonJS é o ideal.
+    "module": "commonjs",
+    // Permite a iteração em objetos como URLSearchParams em ambientes mais antigos.
+    "downlevelIteration": true
+  },
+  "include": [
+    // Inclui todos os scripts relevantes para evitar conflitos.
+    "src/core/functions/camara_api_wrapper/scripts/**/*.ts",
+    "src/core/functions/senado_api_wrapper/scripts/**/*.ts",
+    "tools/scripts/**/*.ts",
+    "backend-scripts/**/*.ts"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "ignores": [
+    "vite-tsconfig-paths",
+    "tsconfig-paths",
+    "@shared/utils",
+    "@domains/republica",
+    "@shared/types"
+  ],
+  "ignoreMatches": [],
+  "specials": [
+    "bin",
+    "depcheck",
+    "eslint",
+    "jest",
+    "lint-staged",
+    "prettier",
+    "storybook",
+    "ts-node",
+    "tsx",
+    "vite",
+    "vitest"
+  ],
+  "parsers": {
+    "**/*.ts": "typescript",
+    "**/*.tsx": "typescript"
+  },
+  "parserOptions": {
+    "typescript": {
+      "project": "config/typescript/tsconfig.json"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Ignore artifacts:
+build
+dist
+node_modules
+coverage
+
+# Ignore configuration files:
+*.config.js
+*.config.ts
+
+# Ignore auto-generated files:
+*.min.*
+*.d.ts
+
+# Ignore specific files:
+package-lock.json
+yarn.lock

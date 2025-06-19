@@ -1,0 +1,51 @@
+{
+  "legislatura": 57,
+  "totalDeputadosProcessados": 2,
+  "deputados": [
+    {
+      "id": "220593",
+      "nome": "ABILIO JACQUES BRUNINI MOUMER",
+      "siglaPartido": "PL",
+      "siglaUf": "MT",
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg"
+    },
+    {
+      "id": "204379",
+      "nome": "ACÁCIO DA SILVA FAVACHO NETO",
+      "siglaPartido": "MDB",
+      "siglaUf": "AP",
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg"
+    }
+  ],
+  "estatisticasGerais": {
+    "totalPerfis": 2,
+    "comMandatos": 2,
+    "comFiliacoes": 2,
+    "comFotos": 2
+  },
+  "ultimaAtualizacao": "2025-06-01T12:37:51.223Z",
+  "processamento": {
+    "dataExecucao": "2025-06-01T12:37:51.224Z",
+    "versaoETL": "2.0",
+    "opcoes": {
+      "destino": [
+        "pc"
+      ],
+      "legislatura": 57,
+      "limite": 2
+    }
+  },
+  "indices": {
+    "porPartido": {
+      "PL": 1,
+      "MDB": 1
+    },
+    "porUF": {
+      "MT": 1,
+      "AP": 1
+    },
+    "porSituacao": {
+      "ATIVO": 2
+    }
+  }
+}

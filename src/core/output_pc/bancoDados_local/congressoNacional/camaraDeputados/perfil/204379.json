@@ -1,0 +1,1389 @@
+{
+  "id": 204379,
+  "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+  "nomeCivil": "ACÁCIO DA SILVA FAVACHO NETO",
+  "ultimoStatus": {
+    "id": 204379,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+    "nome": "Acácio Favacho",
+    "siglaPartido": "MDB",
+    "uriPartido": null,
+    "siglaUf": "AP",
+    "idLegislatura": 57,
+    "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+    "email": null,
+    "data": "2023-02-01",
+    "nomeEleitoral": "Acácio Favacho",
+    "gabinete": {
+      "nome": "414",
+      "predio": "4",
+      "sala": "414",
+      "andar": "4",
+      "telefone": "3215-5414",
+      "email": "dep.acaciofavacho@camara.leg.br"
+    },
+    "situacao": "Exercício",
+    "condicaoEleitoral": "Titular",
+    "descricaoStatus": null
+  },
+  "cpf": "74287028287",
+  "sexo": "M",
+  "urlWebsite": null,
+  "redeSocial": [
+    "https://twitter.com/acaciofavacho",
+    "https://www.facebook.com/deputadofederalacaciofavacho",
+    "https://youtube.com/channel/UCWNbptIjAriL2pt8H3W6CGw"
+  ],
+  "dataNascimento": "1983-09-28",
+  "dataFalecimento": null,
+  "ufNascimento": "AP",
+  "municipioNascimento": "Macapá",
+  "escolaridade": "Superior",
+  "orgaos": [
+    {
+      "idOrgao": 5971,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/5971",
+      "siglaOrgao": "COETICA",
+      "nomeOrgao": "Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados",
+      "nomePublicacao": "Conselho de Ética e Decoro Parlamentar",
+      "titulo": "Suplente",
+      "codTitulo": "102",
+      "dataInicio": "2024-02-07T00:00",
+      "dataFim": null
+    },
+    {
+      "idOrgao": 537480,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537480",
+      "siglaOrgao": "CPD",
+      "nomeOrgao": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+      "nomePublicacao": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+      "titulo": "Titular",
+      "codTitulo": "101",
+      "dataInicio": "2025-04-02T00:00",
+      "dataFim": null
+    },
+    {
+      "idOrgao": 6855,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6855",
+      "siglaOrgao": "CMO",
+      "nomeOrgao": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização",
+      "nomePublicacao": "Comissão Mista de Orçamento",
+      "titulo": "Titular",
+      "codTitulo": "101",
+      "dataInicio": "2025-04-08T00:00",
+      "dataFim": null
+    },
+    {
+      "idOrgao": 537507,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537507",
+      "siglaOrgao": "GTCL",
+      "nomeOrgao": "Grupo de Trabalho de Consolidação das Leis",
+      "nomePublicacao": "Grupo de Trabalho para Consolidação da Legislação Brasileira",
+      "titulo": "Titular",
+      "codTitulo": "101",
+      "dataInicio": "2025-04-30T00:00",
+      "dataFim": null
+    }
+  ],
+  "frentes": [
+    {
+      "id": 55649,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55649",
+      "titulo": "Frente Parlamentar Mista pela Valorização do Serviço Social",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55653,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55653",
+      "titulo": "Frente Parlamentar Mista dos Correspondentes Bancários",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55667,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55667",
+      "titulo": "Frente Parlamentar de Representação dos Importadores e Comércio Internacional",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55669,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55669",
+      "titulo": "Frente Parlamentar Mista do Jogo Responsável",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55651,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55651",
+      "titulo": "Frente Parlamentar ESG na prática do Congresso Nacional (FPESG)",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55628,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55628",
+      "titulo": "Frente Parlamentar em Defesa das Vítimas de Acidentes de Trânsito",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55614,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55614",
+      "titulo": "Frente Parlamentar Mista em Defesa e Apoio aos Despachantes Documentalistas do Brasil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55607,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55607",
+      "titulo": "Frente Parlamentar da Neurodiversidade",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54486,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54486",
+      "titulo": "Frente Parlamentar da Mineração e Construção Civil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55594,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55594",
+      "titulo": "Frente Parlamentar Mista de Fiscalização, Integridade e Transparência - FIT",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54561,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54561",
+      "titulo": "Frente Parlamentar Mista em Defesa do Serviço Público",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55601,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55601",
+      "titulo": "Frente Parlamentar Mista em Defesa da Propriedade Intelectual e Combate à Pirataria",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55587,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55587",
+      "titulo": "Frente Parlamentar Mista em Defesa da Exploração de Petróleo na Margem Equatorial do Brasil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55597,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55597",
+      "titulo": "Frente Parlamentar da Longevidade",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55598,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55598",
+      "titulo": "Frente Parlamentar em prol dos Jogos Eletrônicos e Games",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55599,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55599",
+      "titulo": "Frente Parlamentar por Doenças Crônicas de Pele",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55588,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55588",
+      "titulo": "Frente Parlamentar em Defesa da Soberania Nacional",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55573,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55573",
+      "titulo": "Frente Parlamentar em Defesa da Arte e Cultura Periférica",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55583,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55583",
+      "titulo": "Frente Parlamentar Mista dos Estados da Amazônia Legal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55584,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55584",
+      "titulo": "Frente Parlamentar Mista da Hotelaria Brasileira",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55580,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55580",
+      "titulo": "Frente Parlamentar Mista pelo Combate às Desigualdades",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55586,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55586",
+      "titulo": "Frente Parlamentar em Defesa dos Conselheiros Tutelares",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54537,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54537",
+      "titulo": "Frente Parlamentar Mista de Combate às Drogas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54558,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54558",
+      "titulo": "Frente Parlamentar Mista em Apoio aos Objetivos de Desenvolvimento Sustentável da ONU - ODS",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55566,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55566",
+      "titulo": "Frente Parlamentar Mista em Defesa da Polícia Rodoviária Federal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55569,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55569",
+      "titulo": "Frente Parlamentar da Economia Popular e Solidária",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55572,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55572",
+      "titulo": "Frente Parlamentar Mista da Mulher Catadora",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54507,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54507",
+      "titulo": "Frente Parlamentar da Endometriose",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54545,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54545",
+      "titulo": "Frente Parlamentar Mista da Economia Verde",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54562,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54562",
+      "titulo": "Frente Parlamentar em Defesa dos Municípios da Amazônia Legal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 55570,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/55570",
+      "titulo": "Frente Parlamentar do Desporto Escolar",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54550,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54550",
+      "titulo": "Frente Parlamentar Mista Brasil - Portugal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54542,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54542",
+      "titulo": "Frente Parlamentar pelo Desenvolvimento da Agroecologia e Produção Orgânica",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54543,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54543",
+      "titulo": "Frente Parlamentar Mista pela Educação no Campo - FPMEDOC",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54544,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54544",
+      "titulo": "Frente Parlamentar Mista do Artesão e Apoio do Artesanato Brasileiro",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54540,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54540",
+      "titulo": "Frente Parlamentar Mista para o Desenvolvimento da Navegação Interior",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54521,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54521",
+      "titulo": "Frente Parlamentar Mista em Defesa da Amazônia",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54522,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54522",
+      "titulo": "Frente Parlamentar Mista Brasil - Itália",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54523,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54523",
+      "titulo": "Frente Parlamentar Mista da Optometria",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54532,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54532",
+      "titulo": "Frente Parlamentar em Defesa da Carnaúba",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54533,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54533",
+      "titulo": "Frente Parlamentar Mista Brasil-África com participação Popular de Enfrentamento ao Racismo",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54534,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54534",
+      "titulo": "Frente Parlamentar Mista dos Técnicos Agrícolas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54531,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54531",
+      "titulo": "Frente Parlamentar Mista PROSUL",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54501,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54501",
+      "titulo": "Frente Parlamentar do Cooperativismo (Frencoop)",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54508,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54508",
+      "titulo": "Frente Parlamentar em Defesa da Duplicação da BR - 235",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54514,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54514",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Direitos da População em Situação de Rua",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54528,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54528",
+      "titulo": "Frente Parlamentar do Norte",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54529,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54529",
+      "titulo": "Frente Parlamentar em Defesa do Ciclista",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54402,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54402",
+      "titulo": "Frente Parlamentar Mista Cristã e em Defesa da Religião",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54497,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54497",
+      "titulo": "Frente Parlamentar Mista em Apoio ao Bambu - Frente do Bambu",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54499,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54499",
+      "titulo": "Frente Parlamentar em Defesa dos Lotéricos",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54500,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54500",
+      "titulo": "Frente Parlamentar em Defesa do Sistema de Modelagem da Informação da Construção (FPBIM)",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54516,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54516",
+      "titulo": "Frente Parlamentar em Defesa das Guardas Municipais",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54519,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54519",
+      "titulo": "Frente Parlamentar Mista pela Transparência Pública",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54459,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54459",
+      "titulo": "Frente Parlamentar do Serviço Notarial e Registral",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54465,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54465",
+      "titulo": "Frente Parlamentar Mista para o Fortalecimento da Gestão Pública",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54467,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54467",
+      "titulo": "Frente Parlamentar Mista em Defesa e Valorização dos Servidores da Segurança Pública Civil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54469,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54469",
+      "titulo": "Frente Parlamentar de Cuidado das Mães de Crianças e Adolescentes com Deficiência, Autismo e Doenças Raras",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54471,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54471",
+      "titulo": "Frente Parlamentar Mista em Defesa do Trânsito Seguro",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54473,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54473",
+      "titulo": "Frente Parlamentar para o Fortalecimento do Nordeste",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54475,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54475",
+      "titulo": "Frente Parlamentar em Defesa e Proteção das Crianças e Adolescentes durante as Festas Populares e Grandes Eventos",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54476,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54476",
+      "titulo": "Frente Parlamentar da Odontologia",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54412,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54412",
+      "titulo": "Frente Parlamentar em Defesa da Cirurgia Reparadora de Pessoas com Fissura Labiopalatina",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54426,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54426",
+      "titulo": "Frente Parlamentar Mista do Novo Pacto Federativo em Defesa dos Municípios Brasileiros",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54431,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54431",
+      "titulo": "Frente Parlamentar em Defesa do Pantanal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54432,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54432",
+      "titulo": "Frente Parlamentar Mista em Defesa da Advocacia Pública - FPAP",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54440,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54440",
+      "titulo": "Frente Parlamentar Mista em Defesa das Práticas Integrativas e Complementares em Saúde e da Felicidade – Frente Holística",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54444,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54444",
+      "titulo": "Frente Parlamentar Mista Municipalista",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54445,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54445",
+      "titulo": "Frente Parlamentar da Conectividade Rural",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54452,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54452",
+      "titulo": "Frente Parlamentar em Defesa do Secretário Parlamentar e Cargos de Natureza Especiais",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54453,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54453",
+      "titulo": "Frente Parlamentar em Defesa da Segurança nas Escolas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54454,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54454",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Serviços de Saúde",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54477,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54477",
+      "titulo": "Frente Parlamentar Evangélica do Congresso Nacional",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54479,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54479",
+      "titulo": "Frente Parlamentar Mista para Garantia do Direito à Identidade",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54480,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54480",
+      "titulo": "Frente Parlamentar Mista pela Inovação na Bioeconomia - FPBioeconomia",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54483,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54483",
+      "titulo": "Frente Parlamentar de Luta contra a Tuberculose",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54489,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54489",
+      "titulo": "Frente Parlamentar Mista em Defesa da Escola Pública",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54490,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54490",
+      "titulo": "Frente Parlamentar Brasil - Coréia do Sul",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54409,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54409",
+      "titulo": "Frente Parlamentar em Defesa da Regularização Fundiária Rural no Brasil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54418,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54418",
+      "titulo": "Frente Parlamentar contra os Juros Abusivos",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54421,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54421",
+      "titulo": "Frente Parlamentar Mista em Defesa da Transição Climática Justa",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54422,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54422",
+      "titulo": "Frente Parlamentar em Defesa da Polícia Judiciária (Civil)",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54348,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54348",
+      "titulo": "Frente Parlamentar Mista da Agricultura Familiar",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54385,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54385",
+      "titulo": "Frente Parlamentar Mista em Defesa do Ensino Técnico e Profissionalizante - Frente do Ensino Técnico",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54386,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54386",
+      "titulo": "Frente Parlamentar Mista dos Lojistas e Lojistas de Shoppings Centers",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54388,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54388",
+      "titulo": "Frente Parlamentar Mista em Defesa da Indústria e Comércio de Moto Peças",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54391,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54391",
+      "titulo": "Frente Parlamentar de Infraestrutura Logística",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54378,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54378",
+      "titulo": "Frente Parlamentar de Apoio ao Empreendedorismo do Jovem Aprendiz",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54442,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54442",
+      "titulo": "Frente Parlamentar de Prevenção de Desastres e Apoio Humanitário",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54449,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54449",
+      "titulo": "Frente Parlamentar Mista da Saúde",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54401,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54401",
+      "titulo": "Frente Parlamentar em Defesa da Radiodifusão",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54423,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54423",
+      "titulo": "Frente Parlamentar Mista de Logística e Infraestrutura – Frenlogi",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54450,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54450",
+      "titulo": "Frente Parlamentar da Vacina - FPV",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54371,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54371",
+      "titulo": "Frente Parlamentar Brasil Singapura",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54373,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54373",
+      "titulo": "Frente Parlamentar em Defesa dos Usuários do Sistema Único de Saúde",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54380,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54380",
+      "titulo": "Frente Parlamentar da Ciência, Tecnologia, Pesquisa e Inovação",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54384,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54384",
+      "titulo": "Frente Parlamentar para o Fortalecimento da COP-30 no Brasil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54322,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54322",
+      "titulo": "Frente Parlamentar Mista em Defesa da Mulher Vítima de Violência Doméstica",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54347,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54347",
+      "titulo": "Frente Parlamentar Mista de Defesa da Pesca Artesanal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54370,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54370",
+      "titulo": "Frente Parlamentar Mista da Tecnologia e Atividades Nucleares (FPN)",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54375,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54375",
+      "titulo": "Frente Parlamentar Mista em Defesa da Produção Cultural e Entretenimento",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54359,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54359",
+      "titulo": "Frente Parlamentar Contra o Abuso e Exploração Sexual de Crianças e Adolescentes",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54361,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54361",
+      "titulo": "Frente Parlamentar Mista da Mineração Sustentável",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54364,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54364",
+      "titulo": "Frente Parlamentar Mista da Indústria",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54367,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54367",
+      "titulo": "Frente Parlamentar em Defesa das Comunidades Terapêuticas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54334,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54334",
+      "titulo": "Frente Parlamentar Mista em Prol da Saúde 4.0 e do Acesso e Uso Racional de Equipamentos e Dispositivos Médicos - FPMedTEC",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54340,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54340",
+      "titulo": "Frente Parlamentar Mista do Biodiesel - FPBio",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54342,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54342",
+      "titulo": "Frente Parlamentar para o Fortalecimento da Mulher",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54345,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54345",
+      "titulo": "Frente Parlamentar Parlamentar para a Modernização do Futebol Brasileiro",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54349,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54349",
+      "titulo": "Frente Parlamentar em Defesa da Vacina - FPDV",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54354,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54354",
+      "titulo": "Frente Parlamentar de Apoio às Santas Casas, Hospitais e Entidades Filantrópicas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54357,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54357",
+      "titulo": "Frente Parlamentar de Proteção às Pessoas com Transtorno do Espectro Autista",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54360,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54360",
+      "titulo": "Frente Parlamentar Mista da Saúde Digital",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54368,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54368",
+      "titulo": "Frente Parlamentar de Gestão de Riscos e Desastres",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54323,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54323",
+      "titulo": "Frente Parlamentar da Agropecuária - FPA",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54318,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54318",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Direitos dos Povos Indígenas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54295,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54295",
+      "titulo": "Frente Parlamentar Mista da Inovação e Tecnologias em Saúde para Doenças Raras",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54362,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54362",
+      "titulo": "Frente Parlamentar em Defesa dos Animais",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54317,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54317",
+      "titulo": "Frente Parlamentar da Segurança Pública",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54309,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54309",
+      "titulo": "Frente Parlamentar para o Desenvolvimento Sustentável do Petróleo e Energias Renováveis (FREPER)",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54320,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54320",
+      "titulo": "Frente Parlamentar Mista de Combate à Corrupção",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54326,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54326",
+      "titulo": "Frente Parlamentar Católica Apostólica Romana",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54327,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54327",
+      "titulo": "Frente Parlamentar dos Portos Nacionais e Transportes Aquaviários",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54330,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54330",
+      "titulo": "Frente Parlamentar em Defesa da Polícia Federal",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54335,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54335",
+      "titulo": "Frente Parlamentar Mista para a Prevenção, Diagnóstico e Tratamento de Diabetes",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54336,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54336",
+      "titulo": "Frente Parlamentar Mista em Prol do Combate às Doenças Cardiovasculares",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54337,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54337",
+      "titulo": "Frente Parlamentar Mista em Prol da Luta Contra o Câncer",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54307,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54307",
+      "titulo": "Frente Parlamentar Mista do Transporte Público",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54308,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54308",
+      "titulo": "Frente Parlamentar Brasil-China",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54310,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54310",
+      "titulo": "Frente Parlamentar do Congresso Nacional BRICS",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54312,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54312",
+      "titulo": "Frente Parlamentar Mista em Defesa do Gerenciamento e Gestão Integrada de Resíduos Sólidos",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54316,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54316",
+      "titulo": "Frente Parlamentar de Combate ao Câncer Infantil",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54321,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54321",
+      "titulo": "Frente Parlamentar Mista da Ligação Seca Santos-Guarujá",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54291,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54291",
+      "titulo": "Frente Parlamentar Mista em Defesa do Saneamento Básico",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54292,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54292",
+      "titulo": "Frente Parlamentar Mista em Apoio à Regularização Fundiária, Desenvolvimento Habitacional e Desenvolvimento Urbano Sustentável - FPDUS",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54296,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54296",
+      "titulo": "Frente Parlamentar em Defesa do Comércio e Serviços - FCS",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54297,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54297",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Aposentados e Pensionistas",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54299,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54299",
+      "titulo": "Frente Parlamentar em Defesa dos Direitos dos Idosos",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54302,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54302",
+      "titulo": "Frente Parlamentar da Juventude",
+      "idLegislatura": 57
+    },
+    {
+      "id": 54280,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54280",
+      "titulo": "Frente Parlamentar em Defesa dos Técnicos Agrícolas",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54266,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54266",
+      "titulo": "Frente Parlamentar dos Transplantes",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54226,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54226",
+      "titulo": "Frente Parlamentar Mista Pela Causa da Prematuridade",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54250,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54250",
+      "titulo": "Frente Parlamentar em Apoio ao Ecoturismo - ECOFPAR",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54245,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54245",
+      "titulo": "Frente Parlamentar Mista em Defesa da Indústria do Mobiliário (FREMOB)",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54220,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54220",
+      "titulo": "Frente Parlamentar Mista em Defesa da FINEP, do Desenvolvimento da Ciência, da Pesquisa e da Inovação",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54196,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54196",
+      "titulo": "Frente Parlamentar Mista pelo Pacto Nacional contra as Fake News (divulgação de notícias falsas)",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54214,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54214",
+      "titulo": "Frente Parlamentar Mista em Defesa da Vida dos Agentes de Segurança Pública",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54213,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54213",
+      "titulo": "Frente Parlamentar pela Defesa e Valorização dos Profissionais da Segurança Pública e da Segurança Privada",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54194,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54194",
+      "titulo": "Frente Parlamentar Mista em Defesa da Prevenção de Queimaduras e Atenção Global ao Paciente Queimado",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54211,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54211",
+      "titulo": "Frente Parlamentar em prol dos Jogos Eletrônicos e Games",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54195,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54195",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Criadores de Animais de Estimação",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54201,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54201",
+      "titulo": "Frente Parlamentar das Hortaliças, Flores e Frutas",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54204,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54204",
+      "titulo": "Frente Parlamentar dos Asilos e Orfanatos",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54178,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54178",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Serviços de Ambulância",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54185,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54185",
+      "titulo": "Frente Parlamentar BRASIL-EUA",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54181,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54181",
+      "titulo": "Frente Parlamentar da Baixada Fluminense do Rio de Janeiro",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54170,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54170",
+      "titulo": "Frente Parlamentar em Defesa da Região dos Lagos no Rio de Janeiro",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54182,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54182",
+      "titulo": "Frente Parlamentar em Defesa das Pessoas Desaparecidas",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54167,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54167",
+      "titulo": "Frente Parlamentar Mista em Defesa da Soberania Nacional",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54160,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54160",
+      "titulo": "Frente Parlamentar Mista em Defesa do Comércio Internacional e do Investimento - Frencomex",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54158,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54158",
+      "titulo": "Frente Parlamentar em Defesa do Patrimônio Histórico Nacional",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54136,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54136",
+      "titulo": "Frente Parlamentar Mista do Agronegócio e Agricultura Familiar - FAAF",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54149,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54149",
+      "titulo": "Frente Parlamentar pela Formação dos Agentes Comunitários de Saúde - ACS",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54126,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54126",
+      "titulo": "Frente Parlamentar Mista em Defesa da Distribuição de Veículos Automotores e a Mobilidade - FREMOB",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54132,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54132",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Portos do Norte do Brasil",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54120,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54120",
+      "titulo": "Frente Parlamentar Mista dos Lojistas e Lojistas de Shoppings Centers",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54121,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54121",
+      "titulo": "Frente Parlamentar em Defesa dos Agentes Comunitários de Saúde",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54113,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54113",
+      "titulo": "Frente Parlamentar Mista em Defesa da Pessoa com Epilepsia",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54116,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54116",
+      "titulo": "Frente Parlamentar Mista de Combate ao Trabalho Infantil e de estímulo à Aprendizagem",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54104,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54104",
+      "titulo": "Frente Parlamentar Mista em Defesa do Caminhoneiro Autônomo e Celetista",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54102,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54102",
+      "titulo": "Frente Parlamentar Mista em Defesa da Tradição e Cultura Gaúcha",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54100,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54100",
+      "titulo": "Frente Parlamentar de Incentivo à Adoção de Crianças",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54077,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54077",
+      "titulo": "Frente Parlamentar Mista Católica Apostólica Romana",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54080,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54080",
+      "titulo": "Frente Parlamentar Mista da Mineração",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54047,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54047",
+      "titulo": "Frente Parlamentar Mista de Apoio ao Jovem Aprendiz",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54048,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54048",
+      "titulo": "Frente Parlamentar Mista em Defesa das Práticas Integrativas e Complementares em Saúde e da Felicidade - Frente Holística",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54018,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54018",
+      "titulo": "Frente Parlamentar Mista pela Juventude",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54031,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54031",
+      "titulo": "Frente Parlamentar Mista em Defesa do Nióbio das Pedras Preciosas, Semipreciosas e Grafeno - Frente do Nióbio/Grafeno",
+      "idLegislatura": 56
+    },
+    {
+      "id": 54013,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/54013",
+      "titulo": "Frente Parlamentar em Defesa da Amazônia",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53985,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53985",
+      "titulo": "Frente Parlamentar Mista em Defesa do Ensino Técnico e Profissionalizante - Frente do Ensino Técnico",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53982,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53982",
+      "titulo": "Frente Parlamentar Mista da Juventude",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53946,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53946",
+      "titulo": "Frente Parlamentar Mista da Economia e Cidadania Digital",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53956,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53956",
+      "titulo": "Frente Parlamentar Mista em Defesa da Indústria Marítima Brasileira",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53967,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53967",
+      "titulo": "Frente Parlamentar para Modernização do Centro de Lançamento de Alcântara, no Estado do Maranhão",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53950,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53950",
+      "titulo": "Frente Parlamentar Mista de Apoio a Produção e Industrialização de Pescado",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53939,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53939",
+      "titulo": "Frente Parlamentar Mista em Defesa das Comunidades Terapêuticas e APAC'S",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53966,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53966",
+      "titulo": "Frente Parlamentar Mista pela Reforma Política",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53958,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53958",
+      "titulo": "Frente Parlamentar em Defesa dos Direitos dos Idosos",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53961,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53961",
+      "titulo": "Frente Parlamentar em Defesa da Educação Básica e Alfabetização no Brasil",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53975,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53975",
+      "titulo": "Frente Parlamentar em Defesa dos Institutos Federais de Educação, Ciência e Tecnologia",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53929,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53929",
+      "titulo": "Frente Parlamentar da Justiça Notarial e Registral",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53909,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53909",
+      "titulo": "Frente Parlamentar de Doenças Raras",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53901,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53901",
+      "titulo": "Frente Parlamentar em Defesa do Esporte",
+      "idLegislatura": 56
+    },
+    {
+      "id": 53889,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/frentes/53889",
+      "titulo": "Frente Parlamentar Mista em Defesa dos Direitos Animais",
+      "idLegislatura": 56
+    }
+  ],
+  "ocupacoes": [
+    {
+      "titulo": null,
+      "entidade": null,
+      "entidadeUF": null,
+      "entidadePais": null,
+      "anoInicio": null,
+      "anoFim": null
+    }
+  ],
+  "mandatosExternos": [
+    {
+      "cargo": "Vereador(a)",
+      "siglaUf": "AP",
+      "municipio": "Macapá",
+      "anoInicio": "2009",
+      "anoFim": "2016",
+      "siglaPartidoEleicao": "PMDB",
+      "uriPartidoEleicao": "https://dadosabertos.camara.leg.br/api/v2/partidos/36800"
+    },
+    {
+      "cargo": "Vereador(a)",
+      "siglaUf": "AP",
+      "municipio": "Macapá",
+      "anoInicio": "2017",
+      "anoFim": "2019",
+      "siglaPartidoEleicao": "PROS",
+      "uriPartidoEleicao": "https://dadosabertos.camara.leg.br/api/v2/partidos/36763"
+    }
+  ],
+  "historico": [
+    {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nome": "Acácio Favacho",
+      "nomeEleitoral": "Acácio Favacho",
+      "siglaPartido": "PROS",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36763",
+      "siglaUf": "AP",
+      "idLegislatura": 56,
+      "email": null,
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+      "dataHora": "2019-02-01T00:00",
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "descricaoStatus": "Nome no início da legislatura / Partido no início da legislatura"
+    },
+    {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nome": "Acácio Favacho",
+      "nomeEleitoral": "Acácio Favacho",
+      "siglaPartido": "PROS",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36763",
+      "siglaUf": "AP",
+      "idLegislatura": 56,
+      "email": null,
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+      "dataHora": "2019-02-01T11:45",
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "descricaoStatus": "Entrada - Posse de Eleito Titular - Posse na Sessão Preparatória"
+    },
+    {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nome": "Acácio Favacho",
+      "nomeEleitoral": "Acácio Favacho",
+      "siglaPartido": "MDB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899",
+      "siglaUf": "AP",
+      "idLegislatura": 56,
+      "email": null,
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+      "dataHora": "2022-04-11T15:52",
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "descricaoStatus": "Alteração de partido"
+    },
+    {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nome": "Acácio Favacho",
+      "nomeEleitoral": "Acácio Favacho",
+      "siglaPartido": "MDB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899",
+      "siglaUf": "AP",
+      "idLegislatura": 56,
+      "email": null,
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+      "dataHora": "2023-01-31T23:59",
+      "situacao": "Fim de Mandato",
+      "condicaoEleitoral": "Titular",
+      "descricaoStatus": "Saída - Afastamento definitivo - Término da Legislatura"
+    },
+    {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nome": "Acácio Favacho",
+      "nomeEleitoral": "Acácio Favacho",
+      "siglaPartido": "MDB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899",
+      "siglaUf": "AP",
+      "idLegislatura": 57,
+      "email": null,
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+      "dataHora": "2023-02-01T00:00",
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "descricaoStatus": "Nome no início da legislatura / Partido no início da legislatura"
+    },
+    {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nome": "Acácio Favacho",
+      "nomeEleitoral": "Acácio Favacho",
+      "siglaPartido": "MDB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899",
+      "siglaUf": "AP",
+      "idLegislatura": 57,
+      "email": null,
+      "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+      "dataHora": "2023-02-01T12:05",
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "descricaoStatus": "Entrada - Posse de Eleito Titular - Posse na Sessão Preparatória"
+    }
+  ],
+  "profissoes": [
+    {
+      "dataHora": null,
+      "codTipoProfissao": null,
+      "titulo": null
+    }
+  ]
+}

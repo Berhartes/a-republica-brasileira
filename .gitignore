@@ -1,0 +1,136 @@
+# =============================================================================
+# Arquivo .gitignore Aprimorado para o Projeto "A República Brasileira"
+#
+# Este arquivo especifica arquivos e pastas que o Git deve ignorar.
+# É crucial para manter o repositório limpo, seguro e livre de arquivos
+# desnecessários ou que contenham informações sensíveis.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Arquivos de Credenciais e Chaves de API
+# NUNCA versione chaves de API, segredos ou arquivos de configuração de serviços.
+# -----------------------------------------------------------------------------
+# Chave de serviço do Firebase Admin
+**/serviceAccountKey.json
+config/serviceAccountKey.json.BAK_SEGURANCA
+
+# Arquivos de ambiente (dotenv)
+# Contêm segredos e configurações específicas do ambiente de desenvolvimento.
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Exceção para arquivos de exemplo. Eles são seguros e devem ser versionados.
+!*.example
+!**/*.example.json
+
+# -----------------------------------------------------------------------------
+# Dependências de Projeto
+# Pastas de pacotes gerenciados por npm, yarn, pnpm, bower, etc.
+# -----------------------------------------------------------------------------
+node_modules/
+bower_components/
+jspm_packages/
+
+# Regra de segurança para garantir que nenhum node_modules aninhado seja incluído.
+src/**/node_modules/
+
+# -----------------------------------------------------------------------------
+# Arquivos de Build e Distribuição
+# Arquivos gerados pelo processo de compilação/transpilação.
+# -----------------------------------------------------------------------------
+build/
+dist/
+.out/
+.next/
+coverage/
+lib-cov/
+.nyc_output/
+
+# -----------------------------------------------------------------------------
+# Logs e Arquivos de Depuração
+# -----------------------------------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# -----------------------------------------------------------------------------
+# Caches de Ferramentas de Desenvolvimento
+# -----------------------------------------------------------------------------
+.npm/
+.eslintcache
+.stylelintcache
+.prettiercache
+.vite/
+.parcel-cache/
+.svelte-kit/
+
+# -----------------------------------------------------------------------------
+# Arquivos de Configuração de IDEs e Editores
+# Evita conflitos de configuração de ambiente entre desenvolvedores.
+# -----------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# -----------------------------------------------------------------------------
+# Arquivos de Sistema Operacional
+# Arquivos gerados automaticamente pelo Windows, macOS e Linux.
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -----------------------------------------------------------------------------
+# Arquivos Gerados e Temporários
+# -----------------------------------------------------------------------------
+*.tmp
+*.temp
+*.backup
+*.swp
+# Output do 'npm pack'
+*.tgz
+# Arquivos gerados pelo dataconnect
+.dataconnect/
+
+# -----------------------------------------------------------------------------
+# Específico do Firebase
+# -----------------------------------------------------------------------------
+# Cache do Firebase
+.firebase/
+# Exceção para o .firebaserc, que pode ser útil para equipes.
+# Se cada membro usar um projeto diferente, descomente a linha abaixo.
+# .firebaserc
+
+# -----------------------------------------------------------------------------
+# Específico do Projeto (A República Brasileira)
+# -----------------------------------------------------------------------------
+# Ignorar arquivos de sourcemap globalmente
+**/*.js.map
+
+# Ignorar JavaScript compilado em pastas de bibliotecas/distribuição específicas
+# Manter arquivos de declaração TypeScript (.d.ts)
+src/core/functions/firebase_functions/lib/**/*.js
+src/core/functions/senado_api_wrapper/dist/**/*.js
+
+# Ignorar dados extraídos
+dados_extraidos/
+src/core/functions/senado_api_wrapper/dados_extraidos/

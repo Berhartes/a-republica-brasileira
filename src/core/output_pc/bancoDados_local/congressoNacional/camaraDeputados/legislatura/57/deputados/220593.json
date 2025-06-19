@@ -1,0 +1,32 @@
+{
+  "id": "220593",
+  "nome": "ABILIO JACQUES BRUNINI MOUMER",
+  "nomeCivil": "ABILIO JACQUES BRUNINI MOUMER",
+  "siglaPartido": "PL",
+  "siglaUf": "MT",
+  "idLegislatura": 57,
+  "cpf": "99770962104",
+  "sexo": "M",
+  "dataNascimento": "1984-01-31",
+  "dataFalecimento": null,
+  "municipioNascimento": "Cuiabá",
+  "ufNascimento": "MT",
+  "escolaridade": "Superior",
+  "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg",
+  "dataUltimaAtualizacao": "2025-01-01",
+  "dataExtracao": "2025-06-01T12:37:51.184Z",
+  "mandatos": [
+    {
+      "idLegislatura": 57,
+      "siglaPartido": "PL",
+      "siglaUf": "MT",
+      "condicaoEleitoral": "Titular",
+      "situacao": "Vacância"
+    }
+  ],
+  "filiacoes": [
+    {
+      "siglaPartido": "PL"
+    }
+  ]
+}

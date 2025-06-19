@@ -1,0 +1,169 @@
+import { vi } from 'vitest';
+import type { MockOptions, TestFixture } from '../vitest';
+
+/**
+ * Cria um mock tipado para uma função
+ */
+export function createMock<T extends (...args: any[]) => any>(
+  implementation?: T,
+  options: MockOptions = {}
+): jest.Mock<ReturnType<T>, Parameters<T>> {
+  return vi.fn(implementation);
+}
+
+/**
+ * Cria um mock tipado para um objeto
+ */
+export function createObjectMock<T extends object>(
+  implementation: Partial<T> = {},
+  options: MockOptions = {}
+): jest.Mocked<T> {
+  const mock = {} as jest.Mocked<T>;
+  for (const key of Object.keys(implementation)) {
+    const value = implementation[key as keyof T];
+    if (typeof value === 'function') {
+      mock[key as keyof T] = vi.fn(value) as any;
+    } else {
+      mock[key as keyof T] = value as any;
+    }
+  }
+  return mock;
+}
+
+/**
+ * Cria uma fixture de teste tipada
+ */
+export function createFixture<T>(fixture: TestFixture<T>): TestFixture<T> {
+  return fixture;
+}
+
+/**
+ * Mock para ResizeObserver
+ */
+export const mockResizeObserver = (): void => {
+  window.ResizeObserver = class ResizeObserver {
+    constructor(private callback: ResizeObserverCallback) {}
+    observe = vi.fn();
+    unobserve = vi.fn();
+    disconnect = vi.fn();
+  };
+};
+
+/**
+ * Mock para IntersectionObserver
+ */
+export const mockIntersectionObserver = (): void => {
+  window.IntersectionObserver = class IntersectionObserver {
+    constructor(
+      private callback: IntersectionObserverCallback,
+      private options: IntersectionObserverInit = {}
+    ) {}
+    readonly root: Element | null = null;
+    readonly rootMargin: string = '0px';
+    readonly thresholds: ReadonlyArray<number> = [0];
+    observe = vi.fn();
+    unobserve = vi.fn();
+    disconnect = vi.fn();
+    takeRecords = vi.fn(() => []);
+  };
+};
+
+/**
+ * Mock para matchMedia
+ */
+export const mockMatchMedia = (): void => {
+  window.matchMedia = vi.fn().mockImplementation(query => ({
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: vi.fn(),
+    removeListener: vi.fn(),
+    addEventListener: vi.fn(),
+    removeEventListener: vi.fn(),
+    dispatchEvent: vi.fn(),
+  }));
+};
+
+/**
+ * Cria um mock para uma resposta da API
+ */
+export function createApiResponse<T>(data: T, status = 200): Response {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
+/**
+ * Cria um mock para um erro da API
+ */
+export function createApiError(
+  status = 500,
+  message = 'Internal Server Error'
+): Response {
+  return new Response(
+    JSON.stringify({ error: message }),
+    {
+      status,
+      headers: { 'Content-Type': 'application/json' },
+    }
+  );
+}
+
+/**
+ * Utilitário para esperar por atualizações assíncronas
+ */
+export const waitForAsync = async (): Promise<void> => {
+  await new Promise(resolve => setTimeout(resolve, 0));
+};
+
+/**
+ * Utilitário para limpar todos os mocks
+ */
+export const clearAllMocks = (): void => {
+  vi.clearAllMocks();
+  vi.clearAllTimers();
+};
+
+/**
+ * Mock para localStorage
+ */
+export const mockLocalStorage = (): void => {
+  const store: Record<string, string> = {};
+  
+  Object.defineProperty(window, 'localStorage', {
+    value: {
+      getItem: vi.fn((key: string) => store[key] || null),
+      setItem: vi.fn((key: string, value: string) => {
+        store[key] = value.toString();
+      }),
+      removeItem: vi.fn((key: string) => {
+        delete store[key];
+      }),
+      clear: vi.fn(() => {
+        Object.keys(store).forEach(key => delete store[key]);
+      }),
+      key: vi.fn((index: number) => Object.keys(store)[index] || null),
+      length: Object.keys(store).length,
+    },
+    writable: true,
+  });
+};
+
+/**
+ * Mock para fetch
+ */
+export const mockFetch = (response: Response): void => {
+  global.fetch = vi.fn().mockResolvedValue(response);
+};
+
+/**
+ * Restaura todos os mocks
+ */
+export const restoreAllMocks = (): void => {
+  vi.restoreAllMocks();
+  delete window.ResizeObserver;
+  delete window.IntersectionObserver;
+  delete (window as any).localStorage;
+  global.fetch = undefined as any;
+};

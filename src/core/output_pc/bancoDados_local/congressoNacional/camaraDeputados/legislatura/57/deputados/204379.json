@@ -1,0 +1,32 @@
+{
+  "id": "204379",
+  "nome": "ACÁCIO DA SILVA FAVACHO NETO",
+  "nomeCivil": "ACÁCIO DA SILVA FAVACHO NETO",
+  "siglaPartido": "MDB",
+  "siglaUf": "AP",
+  "idLegislatura": 57,
+  "cpf": "74287028287",
+  "sexo": "M",
+  "dataNascimento": "1983-09-28",
+  "dataFalecimento": null,
+  "municipioNascimento": "Macapá",
+  "ufNascimento": "AP",
+  "escolaridade": "Superior",
+  "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+  "dataUltimaAtualizacao": "2023-02-01",
+  "dataExtracao": "2025-06-01T12:37:51.185Z",
+  "mandatos": [
+    {
+      "idLegislatura": 57,
+      "siglaPartido": "MDB",
+      "siglaUf": "AP",
+      "condicaoEleitoral": "Titular",
+      "situacao": "Exercício"
+    }
+  ],
+  "filiacoes": [
+    {
+      "siglaPartido": "MDB"
+    }
+  ]
+}
