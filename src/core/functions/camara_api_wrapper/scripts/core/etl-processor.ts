@@ -186,6 +186,7 @@ export abstract class ETLProcessor<TExtracted, TTransformed> implements IETLProc
         avisos: this.context.stats.avisos,
         tempoProcessamento: (Date.now() - this.context.stats.inicio) / 1000,
         destino: this.context.options.destino.join(', '),
+        legislatura: this.context.options.legislatura ?? 0, // Adicionado para satisfazer ETLResult
         erros: [{
           codigo: 'ETL_ERROR',
           mensagem: error.message,
@@ -210,6 +211,7 @@ export abstract class ETLProcessor<TExtracted, TTransformed> implements IETLProc
       tempoExtracao: tempoExtracao / 1000,
       tempoTransformacao: tempoTransformacao / 1000,
       destino: 'dry-run',
+      legislatura: this.context.options.legislatura ?? 0, // Adicionado para satisfazer ETLResult
       detalhes: {
         mensagem: 'Execução em modo dry-run, nenhum dado foi salvo'
       }
@@ -236,7 +238,7 @@ export abstract class ETLProcessor<TExtracted, TTransformed> implements IETLProc
       tempoTransformacao: tempoTransformacao / 1000,
       tempoCarregamento: tempoCarregamento / 1000,
       destino: this.context.options.destino.join(', '),
-      legislatura: this.context.options.legislatura,
+      legislatura: this.context.options.legislatura ?? 0, // Usar nullish coalescing para garantir number
       detalhes: loadResult
     };
   }
@@ -264,6 +266,19 @@ export abstract class ETLProcessor<TExtracted, TTransformed> implements IETLProc
 
     if (resultado.legislatura) {
       this.context.logger.info(`🏛️  Legislatura: ${resultado.legislatura}`);
+    }
+
+    // Adicionar log de detalhes específicos do processador
+    if (resultado.detalhes) {
+      if (resultado.detalhes.deputadosSalvos !== undefined) {
+        this.context.logger.info(`👥 Deputados salvos: ${resultado.detalhes.deputadosSalvos}`);
+      }
+      if (resultado.detalhes.despesasSalvas !== undefined) {
+        this.context.logger.info(`💰 Despesas salvas: ${resultado.detalhes.despesasSalvas}`);
+      }
+      if (resultado.detalhes.mensagem) {
+        this.context.logger.info(`ℹ️  Detalhes: ${resultado.detalhes.mensagem}`);
+      }
     }
 
     this.context.logger.info('='.repeat(60));

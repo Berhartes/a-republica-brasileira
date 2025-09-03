@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2024,
+  "mes": 6,
+  "anoMes": "2024-06",
+  "tipoDespesa": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+  "valorLiquido": 4000,
+  "dataDocumento": {
+    "_seconds": 1719284400,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "Radio Primavera FM Comunicação Ltda",
+  "fornecedorCnpj": "21309213000170",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

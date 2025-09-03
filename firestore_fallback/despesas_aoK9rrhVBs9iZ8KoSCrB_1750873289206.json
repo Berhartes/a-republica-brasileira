@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2024,
+  "mes": 2,
+  "anoMes": "2024-02",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 167.86,
+  "dataDocumento": {
+    "_seconds": 1708619547,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "JOAO EUSTAQUIO CORDEIRO - O GOIANO",
+  "fornecedorCnpj": "08109587000183",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

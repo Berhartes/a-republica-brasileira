@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2023,
+  "mes": 11,
+  "anoMes": "2023-11",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 352.85,
+  "dataDocumento": {
+    "_seconds": 1699412400,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "POSTO ARCO IRIS COMBUSTIVEIS LTDA",
+  "fornecedorCnpj": "10928767000139",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

@@ -1,0 +1,13 @@
+{
+  "cnpj": "78.905.353/0007-13",
+  "nome": "AUTO POSTO H TREVISAN LTDA",
+  "totalRecebido": 0,
+  "numeroTransacoes": 0,
+  "numeroDeputados": 0,
+  "scoreInvestigativo": 0,
+  "categoriaRisco": "NORMAL",
+  "ultimaAtualizacao": {
+    "_seconds": 1750877710,
+    "_nanoseconds": 600000000
+  }
+}

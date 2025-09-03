@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2023,
+  "mes": 12,
+  "anoMes": "2023-12",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 100,
+  "dataDocumento": {
+    "_seconds": 1703127600,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "POSTO APIPUCOS LTDA",
+  "fornecedorCnpj": "08986176000338",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

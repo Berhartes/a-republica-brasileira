@@ -179,7 +179,7 @@ const DeputadosPage: React.FC = () => {
             return 0;
           })
           .map(deputado => (
-            <DeputadoCard key={deputado.id} deputado={deputado} />
+            <DeputadoCard key={deputado.id} deputado={deputado} isFavorite={false} />
         ))}
       </div>
     </div>

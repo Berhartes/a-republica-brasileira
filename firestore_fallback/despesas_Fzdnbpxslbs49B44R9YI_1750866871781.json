@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2025,
+  "mes": 1,
+  "anoMes": "2025-01",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 276.8,
+  "dataDocumento": {
+    "_seconds": 1737456669,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "POSTO DISLUB INTERNACIONAL LTDA",
+  "fornecedorCnpj": "45721950000143",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

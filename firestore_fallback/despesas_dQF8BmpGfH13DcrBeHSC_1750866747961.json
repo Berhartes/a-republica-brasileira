@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2025,
+  "mes": 2,
+  "anoMes": "2025-02",
+  "tipoDespesa": "PASSAGEM AÉREA - SIGEPA",
+  "valorLiquido": -1497.89,
+  "dataDocumento": {
+    "_seconds": 1738940400,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "TAM",
+  "fornecedorCnpj": null,
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

@@ -1,0 +1,13 @@
+{
+  "cnpj": "09.967.852/0116-76",
+  "nome": "HOTELARIA ARCO BRASIL S/A",
+  "totalRecebido": 0,
+  "numeroTransacoes": 0,
+  "numeroDeputados": 0,
+  "scoreInvestigativo": 0,
+  "categoriaRisco": "NORMAL",
+  "ultimaAtualizacao": {
+    "_seconds": 1750877710,
+    "_nanoseconds": 600000000
+  }
+}

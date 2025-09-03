@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2024,
+  "mes": 10,
+  "anoMes": "2024-10",
+  "tipoDespesa": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+  "valorLiquido": 987.95,
+  "dataDocumento": {
+    "_seconds": 1728529200,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "ENEL - COMPANHIA DE ENERGIA ELÉTRICA",
+  "fornecedorCnpj": "01543032000104",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

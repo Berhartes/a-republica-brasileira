@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2024,
+  "mes": 3,
+  "anoMes": "2024-03",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 160,
+  "dataDocumento": {
+    "_seconds": 1711292133,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "Pasadena Combustiveis Ltda",
+  "fornecedorCnpj": "47377960000139",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

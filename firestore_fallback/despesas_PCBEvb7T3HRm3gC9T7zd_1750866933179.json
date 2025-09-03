@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2023,
+  "mes": 8,
+  "anoMes": "2023-08",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 261.48,
+  "dataDocumento": {
+    "_seconds": 1691204400,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "J A D ARAUJO & CIA LTDA",
+  "fornecedorCnpj": "08072308000669",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

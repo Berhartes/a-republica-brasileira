@@ -8,7 +8,7 @@
     "dev": "vite --config config/vite/vite.config.ts",
     "build": "npx tsc --project \"./config/typescript/tsconfig.build.json\" && npx vite build --config \"config/vite/vite.config.ts\"",
     "preview": "vite preview",
-    "emulators": "tsx src/tools/scripts/kill-emulators.ts && firebase emulators:start --config=firebase.json",
+    "emulators": "tsx ./src/tools/scripts/kill-emulators.ts && firebase emulators:start --config=firebase.json",
     "deploy": "firebase deploy --config=firebase.json",
     "deploy:functions": "firebase deploy --only functions --config=firebase.json",
     "start": "tsx src/main.ts",

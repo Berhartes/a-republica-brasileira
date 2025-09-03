@@ -202,7 +202,7 @@ export const DashboardCard = ({
             id={`card-desc-${card.title.replace(/\s+/g, '-')}`}
             className={textColors.description}
           >
-            {card.description}
+            {card.details.description}
           </p>
           <p className={`${textColors.subtitle} hidden sm:block`}>
             Próxima eleição: 2026
@@ -215,7 +215,6 @@ export const DashboardCard = ({
           <div className="flex items-center gap-1 mt-1">
             <i className={`fas fa-star ${textColors.icon} text-xs`}></i>
             <span className={textColors.badge}>
-              {card.badge}
             </span>
           </div>
         </div>
@@ -269,7 +268,7 @@ export const DashboardHeader = ({
       const card = config.dadosCartoes[selectedCard.index];
       return {
         title: card.title,
-        subtitle: card.description || '',
+        subtitle: card.details.description || '',
         icon: card.icon
       };
     }
@@ -541,7 +540,7 @@ export const CardDetailView = ({
   const isRankingAtividades = cardData?.title?.toLowerCase().includes("ranking de atividades");
   const isRankingCard =
     cardData?.title?.toLowerCase().includes("ranking") &&
-    (cardData?.icon === "fas fa-trophy" || cardData?.description?.toLowerCase().includes("deputados mais ativos"));
+    (cardData?.icon === "fas fa-trophy" || cardData?.details.description?.toLowerCase().includes("deputados mais ativos"));
   const shouldShowRanking = isRankingAtividades || isRankingCard;
 
   if (!config || !cardData) {
@@ -717,8 +716,6 @@ export const CardDetailView = ({
           ufEstado={ufEstado}
           style={style}
           textColors={calculatedTextColors}
-          parlamentarCount={parlamentarCount}
-          onParlamentarCountChange={handleParlamentarCountChange}
           contentStyle={getContentStyle()}
         />
       </div>
@@ -889,7 +886,7 @@ export const CardDetailView = ({
 
         <div className={style === 'colorido' ? "p-4 bg-white/10 rounded-lg mb-4" : "p-4 bg-gray-50 rounded-lg mb-4"}>
           <p className={calculatedTextColors.description}>
-            {cardData.description}
+            {cardData.details.description}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">

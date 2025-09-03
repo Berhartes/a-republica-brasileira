@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2023,
+  "mes": 3,
+  "anoMes": "2023-03",
+  "tipoDespesa": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+  "valorLiquido": 150,
+  "dataDocumento": {
+    "_seconds": 1678935600,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "SARNAGLIA POUSADA",
+  "fornecedorCnpj": "31875466000164",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

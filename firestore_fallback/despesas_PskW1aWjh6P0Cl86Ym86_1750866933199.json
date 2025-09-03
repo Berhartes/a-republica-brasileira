@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2024,
+  "mes": 8,
+  "anoMes": "2024-08",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 389.21,
+  "dataDocumento": {
+    "_seconds": 1723028194,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "M E COMERCIO DE COMBUSTIVEIS LTDA",
+  "fornecedorCnpj": "52259621000198",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

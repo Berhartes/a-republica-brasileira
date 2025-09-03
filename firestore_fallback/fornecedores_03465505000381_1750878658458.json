@@ -1,0 +1,13 @@
+{
+  "cnpj": "03.465.505/0003-81",
+  "nome": "AUTO POSTO FLORENSE EIRELI LTDA",
+  "totalRecebido": 0,
+  "numeroTransacoes": 0,
+  "numeroDeputados": 0,
+  "scoreInvestigativo": 0,
+  "categoriaRisco": "NORMAL",
+  "ultimaAtualizacao": {
+    "_seconds": 1750877710,
+    "_nanoseconds": 600000000
+  }
+}

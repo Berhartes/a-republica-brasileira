@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2025,
+  "mes": 5,
+  "anoMes": "2025-05",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 135.38,
+  "dataDocumento": {
+    "_seconds": 1748055600,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "AUTO POSTO SAO LUIS LTDA - MARAJO",
+  "fornecedorCnpj": "73824732000170",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

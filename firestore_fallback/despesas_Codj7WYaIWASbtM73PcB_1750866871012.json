@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2023,
+  "mes": 10,
+  "anoMes": "2023-10",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 222.03,
+  "dataDocumento": {
+    "_seconds": 1696129200,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "LIG COMBUSTIVEIS E SERVICOS LTDA",
+  "fornecedorCnpj": "18080586000107",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

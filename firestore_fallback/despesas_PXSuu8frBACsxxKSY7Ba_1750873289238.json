@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2023,
+  "mes": 2,
+  "anoMes": "2023-02",
+  "tipoDespesa": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+  "valorLiquido": 450,
+  "dataDocumento": {
+    "_seconds": 1677726000,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "Conde & Dell Aringa - Des de Softwares",
+  "fornecedorCnpj": "09613772000173",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

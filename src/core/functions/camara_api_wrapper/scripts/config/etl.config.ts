@@ -99,8 +99,8 @@ export const etlConfig: ETLConfig = {
     }
   },
   firestore: {
-    batchSize: parseInt(process.env.FIRESTORE_BATCH_SIZE || '10', 10),
-    pauseBetweenBatches: parseInt(process.env.FIRESTORE_PAUSE_BETWEEN_BATCHES || '500', 10),
+    batchSize: parseInt(process.env.FIRESTORE_BATCH_SIZE || '5', 10),
+    pauseBetweenBatches: parseInt(process.env.FIRESTORE_PAUSE_BETWEEN_BATCHES || '7000', 10),
     emulatorHost: process.env.FIRESTORE_EMULATOR_HOST || '127.0.0.1:8000'
   },
   export: {

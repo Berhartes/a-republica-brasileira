@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2023,
+  "mes": 9,
+  "anoMes": "2023-09",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 291.61,
+  "dataDocumento": {
+    "_seconds": 1693796400,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "JAD ARAUJO CIA LTDA - POSTO CRUZEIRO IV",
+  "fornecedorCnpj": "08072308000316",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

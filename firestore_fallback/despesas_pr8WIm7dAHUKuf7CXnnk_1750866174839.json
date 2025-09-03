@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2024,
+  "mes": 1,
+  "anoMes": "2024-01",
+  "tipoDespesa": "PASSAGEM AÉREA - REEMBOLSO",
+  "valorLiquido": 986.12,
+  "dataDocumento": {
+    "_seconds": 1705374000,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "Latam Linhas Aéreas S.A",
+  "fornecedorCnpj": "02012862000160",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

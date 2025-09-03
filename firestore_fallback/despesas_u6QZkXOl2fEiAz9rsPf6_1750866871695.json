@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2024,
+  "mes": 11,
+  "anoMes": "2024-11",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 196.79,
+  "dataDocumento": {
+    "_seconds": 1730680621,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "SV COMERCIO DE PETROLEO EIRELI",
+  "fornecedorCnpj": "10821115000109",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

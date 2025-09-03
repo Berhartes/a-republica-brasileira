@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2023,
+  "mes": 3,
+  "anoMes": "2023-03",
+  "tipoDespesa": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+  "valorLiquido": 350,
+  "dataDocumento": {
+    "_seconds": 1681786800,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "M. A. SANTOS DA SILVA ME",
+  "fornecedorCnpj": "14133290000237",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

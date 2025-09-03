@@ -1,11 +1,7 @@
-import * as admin from 'firebase-admin';
+import admin from 'firebase-admin';
 import * as path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
 // Determina o diretório base do projeto para encontrar o service account
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 const projectRoot = path.resolve(__dirname, '../../'); // Ajustado para a nova localização
 
 let firebaseAdminApp: admin.app.App | null = null;
@@ -62,5 +58,3 @@ export function getFirestoreAdminDb(): admin.firestore.Firestore {
 
   return firestoreAdminDb;
 }
-
-export { admin }; // Reexporta o módulo admin para tipos e outras funcionalidades

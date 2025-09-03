@@ -1,0 +1,16 @@
+{
+  "deputadoId": "204426",
+  "ano": 2024,
+  "mes": 6,
+  "anoMes": "2024-06",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 291.01,
+  "dataDocumento": {
+    "_seconds": 1717416353,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "P. BEZERRA PALMEIRA LTDA",
+  "fornecedorCnpj": "04833594000172",
+  "partidoDeputado": "PT",
+  "ufDeputado": "PE"
+}

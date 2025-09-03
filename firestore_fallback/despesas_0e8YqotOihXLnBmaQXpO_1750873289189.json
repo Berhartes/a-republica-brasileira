@@ -1,0 +1,16 @@
+{
+  "deputadoId": "121948",
+  "ano": 2023,
+  "mes": 7,
+  "anoMes": "2023-07",
+  "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+  "valorLiquido": 135.09,
+  "dataDocumento": {
+    "_seconds": 1690254000,
+    "_nanoseconds": 0
+  },
+  "fornecedorNome": "POSTO ABOBRAO RIO DOCE LTDA ME",
+  "fornecedorCnpj": "04201944000188",
+  "partidoDeputado": "PP",
+  "ufDeputado": "GO"
+}

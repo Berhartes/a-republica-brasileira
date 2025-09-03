@@ -83,7 +83,7 @@ export interface ETLResult {
 
   // Identificação
   destino: string;
-  legislatura?: number;
+  legislatura: number;
 
   // Detalhes
   detalhes?: any; // Flexibilizado para aceitar diferentes estruturas de detalhes
